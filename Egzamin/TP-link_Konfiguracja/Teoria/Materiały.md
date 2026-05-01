@@ -11,7 +11,7 @@ część GUI ,CLI zawiera następujące zagadnienia
 - włączenie 802.1q
 - włączenie trybu access
 - przypisanie ostatniego możliwego adresu z podsieci
-
+- ( dodać rzeczy z 2026 zima )
 
 ### GUI  
 
