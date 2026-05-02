@@ -154,6 +154,7 @@ Po Wpisaniu Adresu MAC do sekcji MAC Address możemy kliknąć Apply , OK co spr
 <img width="374" height="423" alt="image" src="https://github.com/user-attachments/assets/e1a7fbe7-d8e6-494c-ab83-41b01bc777c7" />
 
 Ethernet adapter Karta-USB:
+
    IPv4 Address. . . . . . . . . . . : 172.16.10.105(Preferred)
    
    Subnet Mask . . . . . . . . . . . : 255.255.255.128
