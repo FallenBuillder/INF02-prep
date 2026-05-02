@@ -155,7 +155,9 @@ Po Wpisaniu Adresu MAC do sekcji MAC Address możemy kliknąć Apply , OK co spr
 
 Ethernet adapter Karta-USB:
    IPv4 Address. . . . . . . . . . . : 172.16.10.105(Preferred)
+   
    Subnet Mask . . . . . . . . . . . : 255.255.255.128
+   
 Jak widać Server DHCP działa poprawnie 
 
 
