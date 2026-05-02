@@ -451,29 +451,28 @@ TL-SG3424(config)# ip default-gateway 192.168.0.2                     - ta komen
 
 TL-SG3424# configure terminal
 
-TL-SG3424(config)# vlan 100                                     wejście do konfiguracji vlana o ID 100
+TL-SG3424(config)# vlan 100                                     --- wejście do konfiguracji vlana o ID 100
 
-TL-SG3424(config-vlan)# name VLAN100                            nadanie mu nazwy ( description w GUI )
+TL-SG3424(config-vlan)# name VLAN100                            --- nadanie mu nazwy ( description w GUI )
 
 TL-SG3424(config-vlan)# exit                                    
 
-TL-SG3424(config)# interface range fastEthernet 0/1-3           Wejście do intefejsów który będziemy zarządzać tutaj może być np.    interface range GigabitEthernet 0/1-3 jeśli porty są gigabitowe
+TL-SG3424(config)# interface range fastEthernet 0/1-3           --- Wejście do intefejsów który będziemy zarządzać tutaj może być np.    interface range GigabitEthernet 0/1-3 jeśli porty są gigabitowe
 
-> TL-SG3424(config)# interface fastEthernet 0/1                 Jeśli konfigurujemy jeden interfejs
-> 
+> TL-SG3424(config)# interface fastEthernet 0/1                 --- Jeśli konfigurujemy jeden interfejs
 
-TL-SG3424(config-if-range)# switchport mode access              Nadanie im trybu zarządzania na access
+TL-SG3424(config-if-range)# switchport mode access              --- Nadanie im trybu zarządzania na access
 
-TL-SG3424(config-if-range)# switchport access vlan 100          połączenie portów z VLANem o ID 100 
+TL-SG3424(config-if-range)# switchport access vlan 100          --- połączenie portów z VLANem o ID 100 
 
 TL-SG3424(config-if-range)# exit
 
 TL-SG3424(config)# exit
 
-TL-SG3424# copy running-config startup-config                   Zapisanie postępów 
+TL-SG3424# copy running-config startup-config                   --- Zapisanie postępów 
 
 
-Tutaj mamy konfigurację tego samego co do góry ale tym razem z włączonym tagowaniem na wszystkich trzech portach 
+### Tutaj mamy konfigurację tego samego co do góry ale tym razem z włączonym tagowaniem na wszystkich trzech portach 
 
 
 TL-SG3424# configure terminal
