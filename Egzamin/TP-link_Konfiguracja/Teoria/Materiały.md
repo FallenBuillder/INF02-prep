@@ -194,6 +194,11 @@ Po kliknięciu na dropdowna i wybraniu, że chcemy tagować podane przez nas por
 
 
 
+## Wyłączenie portu z użytku 
+może się na egzaminie pojawić pytanie aby np. wyłączyc pozostałe porty ,których nie uzywamy aby to zrobić należy
+
+
+
 
  
 
