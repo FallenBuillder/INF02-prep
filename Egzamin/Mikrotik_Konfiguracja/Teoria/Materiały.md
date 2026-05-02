@@ -8,7 +8,7 @@ W tej sekcji skupimy się na routerze Mikrotikowym i metodami dzięki którymi m
 Zagadnienia 
 
 - jak się połączyć ? && Resetowanie Routera
-- Podstawowe ustawienia konfiguracjne w każdym arkuszu
+- Podstawowy przykład konfiguracji na podstawie najprostszego egzaminu
 - Konfiguracja Wszystkiego przez Quick Seta ( łatwa metoda zdająca się tylko jak serwer DHCP jest wyłączony )
 - Konfiguracja serwera DHCP
 - Podstawy Sieci
@@ -63,6 +63,7 @@ Jesteśmy teraz zalogowani do routera i możemy zacząć jego konfigurację
 > UWAGA: Możemy zignorować monit o zmianie hasła ponieważ tylko nam przeszkodzi jeśli je zmienimy a następnie zapomnimy ( no chyba, że w arkuszu jest napisane, że mamy je zmienić ( co się jescze nigdy nie stało ))
 
 
+### Podstaw
 
 
 
