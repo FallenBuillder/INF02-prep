@@ -111,6 +111,8 @@ Narazie wszystko było dosyć prostę i zrozumiałe ponieważ wystarczyło przep
 Tak samo jak wcześniej Konfiguracja Servera DHCP będzie przedstawiona przez konfigurowanie zadania z egzaminu praktycznego.
 czyli:
 <img width="983" height="348" alt="image" src="https://github.com/user-attachments/assets/138e191e-9f9d-419a-954b-9f2dd11f8659" />
+pierwsze trzy podpunkty możemy pomimac ponieważ można je swobodnie zrobić przez Quick Seta tak jak w poprzednim przykłądzie a resztę będziemy konfigurować w innej zakładce.
+
 
 
 
