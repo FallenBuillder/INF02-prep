@@ -147,7 +147,9 @@ W tym okienku zmienamy pole Address na adres który chcemy dać komputerowi któ
 
 W moim przypadku Adres MAC mojej stacji roboczej widnieje na tym obrazku to wpisaniu komendy 'ipconfig /all' w terminalu Windows
 <img width="758" height="310" alt="image" src="https://github.com/user-attachments/assets/223333a1-6bb0-44d4-81f9-f722bfd54fbd" />
-Po Wpisaniu Adresu MAC 
+Po Wpisaniu Adresu MAC do sekcji MAC Address możemy kliknąć Apply , OK co sprawi ,że zmiany się zapiszą 
+<img width="374" height="423" alt="image" src="https://github.com/user-attachments/assets/e1a7fbe7-d8e6-494c-ab83-41b01bc777c7" />
+
 
 
 
