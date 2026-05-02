@@ -19,9 +19,9 @@ oznacza to ,że nasz adres IP na karcie sieciowej która jest podłączona .do j
 czy to jesteśmy na Windowsie czy na Linuxie , adres IP trzbea zmienić 
 wszystkie switche na egzaminie powinny mieć adres IP 192.168.0.1/24 - oznacza to ,że abyśmy byli w tej samej podsieci musimy nasz adres IP zmienić na np, 192.168.0.19/24 ( ostatnia liczba nie ma zabardzo znaczenia wystarczy poprostu ,że ostatni oktet nie jest taki sam jak u switcha - czyli poprostu nie mogą mieć takich samych adresów IP ) 
 
-krok 1. 
+## krok 1. 
 
-Zmiana adresu IP w windowsie 
+### Zmiana adresu IP w windowsie 
 
 aby zmienić adres IP na windowsie wystarczy kliknąć przycisk start ( ikonka windowsa ) a następnie wpisać 'sieciowe' i powinno wyskoczyć okienko 'Wyświetl połączenia sieciowe' po kliknięciu w to okienko pojawia się nam takie okienko:
 <img width="1120" height="297" alt="image" src="https://github.com/user-attachments/assets/5be86496-d09c-4294-be3f-6a8f02298d68" />
@@ -41,7 +41,9 @@ Po zakończeniu klikamy wszędzie przycisk ok aby opcje się zapisał i wychodzi
 
 
 
-Zmiana adresu IP w linuxie 
+### Zmiana adresu IP w linuxie 
+
+
 Jest mała szansa ,że na egzaminie dostaniemy i linux server, linux client wtedy najlepiej skonfigurować switcha przez GUI. 
 Jeśli chodzi o linuxa to wszystkie kroki są dokładnie takie same z wyjątkiem zmiany adresu IP na kliencie
 analogicznie jak w przypadku Windosa będziemy chcieli zrobić to samo. Czyli zmienić nasz adres IP na 192.168.0.X/24 ( gdzie X to dowolna liczba oprócz tej która jest przypisana do switcha i nie jest adresem sieci ani rozgłoszeniowym a /24 to maska o wartości 255.255.255.0 
@@ -85,16 +87,16 @@ Na koniec kliamy guzik apply w prawym górnym rogu i adresacja się zapiszę
 
 
 
-krok 2.
+## krok 2.
 
 - należy podłaczyć się do pierwszego portu w switchu
 
-krok 3.
+## krok 3.
 
 - Należy wejść do przeglądarki i wpisać adres IP naszego switcha - czyli jeśli łączymy się na egzaminie do niego po raz pierwszy w przeglądarce wpisujemy '192.168.0.1'
 <img width="1246" height="25" alt="image" src="https://github.com/user-attachments/assets/1615345a-6dad-4b7f-a0cc-7a7bde4180fa" />
 
-krok 4.
+## krok 4.
 
 - Powinniśmy teraz dostać monit o zalogowanie się na switchach na egzaminie jeśli hasło nie ani użytkownik nie są wcześniej podane wpisujemy poprostu
 User Name: admin
