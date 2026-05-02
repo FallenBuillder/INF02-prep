@@ -173,19 +173,23 @@ Na koniec klikamy Apply i nasz VLAN jest gotowy.
 ### Włączenie tagowania
 jeśli na egzaminie jest gdzieś napisane ,że mamy włączyć tagowanie dla VLANu do w takim razie będziemy musieli użyć drugiej karty ' Port Config ' 
 <img width="616" height="493" alt="image" src="https://github.com/user-attachments/assets/b4d41215-5ac7-4cbf-8ce7-dacbcce94395" />
-W tej karcie możemy zmienić tryb porty na jeden z trzech 
+W tej karcie możemy zmienić tryb konfiguracji portów na jeden z trzech 
 - Trunk ( będzie omówiony zachwilę )
-- Access ( to jest defaultowy tryb w każdym VLANie który nie pozwala nam na zmienienie Tagowania ) 
+- Access ( to jest defaultowy tryb w każdym VLANie który nie pozwala nam na zmienienie tagowania ) 
 - General ( ten tryb pozwoli nam na włączenie tagowania )
 <img width="585" height="208" alt="image" src="https://github.com/user-attachments/assets/ba2ab60a-b91a-4835-beed-2afdbe8519c0" />
-dla przykładu, gdyby było na egzaminie żeby włączyć tagowanie na portach 1,2,3 ( najpewniej przy zadaniu z trunkiem )
+dla przykładu, gdyby było na egzaminie żeby włączyć tagowanie na portach 1,2,3 
 Musimy najpierw wybrać wszystkie porty ,które chcemy skonfigurować a następnie z Dropdowna wybrać Link Type General
 <img width="589" height="429" alt="image" src="https://github.com/user-attachments/assets/08a02b9d-bb21-4109-bc43-ae1d89d9d6a1" />
 po kliknięciu guzika apply ta opcja sprawi ,że będziemy mogli teraz w pierwszym menu 'VLAN Config' wybrać czy chcemy tagować czy nietagowac porty
 <img width="610" height="158" alt="image" src="https://github.com/user-attachments/assets/ebf42dc7-e971-48a0-93d9-44d229d058c9" />
-Po kliknięciu na dropdowna , wybraniu ,że chcemy tagować ustawienie będzie zrobione i możemy kliknąć apply
+Po kliknięciu na dropdowna i wybraniu, że chcemy tagować podane przez nas porty ustawienie tagowanie jest skończone i możemy kliknąć apply aby zapisać nasze ustawienia.
 <img width="62" height="21" alt="image" src="https://github.com/user-attachments/assets/398f0c41-c44a-4874-a61c-345b19771a7f" />
 <img width="602" height="395" alt="image" src="https://github.com/user-attachments/assets/fed68e2b-d45f-4fff-bdae-c4c3f1e1c945" />
+
+
+
+
 
 
 
