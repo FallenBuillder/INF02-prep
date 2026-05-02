@@ -63,7 +63,22 @@ Jesteśmy teraz zalogowani do routera i możemy zacząć jego konfigurację
 > UWAGA: Możemy zignorować monit o zmianie hasła ponieważ tylko nam przeszkodzi jeśli je zmienimy a następnie zapomnimy ( no chyba, że w arkuszu jest napisane, że mamy je zmienić ( co się jescze nigdy nie stało ))
 
 
-### Podstaw
+### Podstawowy przykład konfiguracji
+Aby zapoznać się lepiej z Mikrotikiem przed wchodzeniem do Serwera DHCP , trunków możemy się trochę z nim zapoznać poprzez zrobienie najprostszego zadania jakie jest na arkuszach INF02 związanego z skonfigurowaniem mikrotika:
+<img width="975" height="306" alt="image" src="https://github.com/user-attachments/assets/aff9e637-e090-4ff9-aadd-4ed72c490e8e" />
+Całe to zadanie może zostać wykonane przez Quick Seta - Quick Set to przyjazny interfejs dzięki któremu możemy ustawić podstawowe opcję związane z routerem.
+<img width="135" height="510" alt="image" src="https://github.com/user-attachments/assets/9034456e-6136-4be0-b826-cee41f90a738" />
+Jak widać na zamieszczonym obrazku Quick Seta możemy znaleść na samej górze wszytkich Ustawień w mikrotiku.
+<img width="835" height="701" alt="image" src="https://github.com/user-attachments/assets/79a5f7a2-7787-4703-abdd-69372f45846f" />
+po kliknięciu w ten guzik pojawia się nam okienko w którym możemy rozpocząć konfiguracje ale najpierw wybierzemy Typ naszego Routera z dropdowana w lewym górnym rogu.
+<img width="128" height="130" alt="image" src="https://github.com/user-attachments/assets/c71947c1-9d5a-41ea-a362-72be4036ddc7" />
+Radze zawsze wybierać opcję Home AP ponieważ jest najlepsza do wszystkich ustawień na tym urządzeniu.
+<img width="168" height="129" alt="image" src="https://github.com/user-attachments/assets/a693cec1-c5a8-408c-99e6-afb833df5ee8" />
+
+
+
+
+
 
 
 
