@@ -195,7 +195,13 @@ Po kliknięciu na dropdowna i wybraniu, że chcemy tagować podane przez nas por
 
 
 ## Wyłączenie portu z użytku 
-może się na egzaminie pojawić pytanie aby np. wyłączyc pozostałe porty ,których nie uzywamy aby to zrobić należy
+może się na egzaminie pojawić pytanie aby np. wyłączyc pozostałe porty ,których nie używamy, aby to zrobić należy najpierw wejść do zakładki Switching i ją rozwinąć a następnie wybrać opcje 'Port'
+<img width="127" height="382" alt="image" src="https://github.com/user-attachments/assets/f204f635-af8c-4af6-8e60-9103e6ac3505" />
+Następnie w pierwszej zakładce należy kliknąć na jakiś port i z dropdowna status wybrać Disable
+<img width="792" height="574" alt="image" src="https://github.com/user-attachments/assets/680ddda5-b31c-4d57-be99-f4da51827de6" />
+
+
+
 
 
 
