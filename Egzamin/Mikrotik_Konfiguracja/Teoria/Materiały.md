@@ -134,6 +134,20 @@ W tej zakładce wybieramy Servery DNS które będziemy używać w naszym serverz
 <img width="272" height="171" alt="image" src="https://github.com/user-attachments/assets/7ca76384-74c4-4726-9155-411dd2a7f6fd" />
 Lease Time oznacza ile minut dany komputer ma trzymać adres IP przed pobraniem nowego - w tym przypadku zostawiamy to pole tak jak jest bo nikt nie powiedział ,że mamy je zmienić
 <img width="273" height="171" alt="image" src="https://github.com/user-attachments/assets/45d6aea0-190d-45b6-b914-b2a2c499d74b" />
+Pomyślnie skonfigurowaliśmy Router!
+<img width="191" height="102" alt="image" src="https://github.com/user-attachments/assets/95563bbe-cc20-431e-aca2-c87f2ac37203" />
+
+
+Następnie aby stworzyć Lease ( zarezerwować jakiś adres IP danemu komputerowi po adresie MAC ) należy:
+Wrócić do zakładki DHCP Server , wejśc w Leases.
+<img width="593" height="374" alt="image" src="https://github.com/user-attachments/assets/2251a6b9-ebed-423e-b1bc-917f2aa46347" />
+Turaj klikamy guzik + i pojawia się nam to okienko.
+<img width="377" height="422" alt="image" src="https://github.com/user-attachments/assets/306b9979-e7e6-4948-8ad6-8f9ccc8cc335" />
+W tym okienku zmienamy pole Address na adres który chcemy dać komputerowi który go rezerwuje a w pole MAC Address wpisujemy Adres MAC tego komputera który możemy znaleśc przez wpisanie na windowsie komendy 'ipconfig /all' w terminalu i znaleznie adresu MAC przypisanego do interfejsu połączonego do Routera lub na Linuxie w terminalu wpisaniem komendy 'ip a' ,która także pokaże nam adres MAC interfejsu połączonego do Routera ,który następnie wpiszemy w nasze pole.
+
+W moim przypadku Adres MAC mojej stacji roboczej widnieje na tym obrazku to wpisaniu komendy 'ipconfig /all' w terminalu Windows
+<img width="758" height="310" alt="image" src="https://github.com/user-attachments/assets/223333a1-6bb0-44d4-81f9-f722bfd54fbd" />
+Po Wpisaniu Adresu MAC 
 
 
 
