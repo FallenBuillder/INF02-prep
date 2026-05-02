@@ -443,7 +443,35 @@ TL-SG3424(config-if)# exit                                            - wychodzi
 TL-SG3424(config)# ip default-gateway 192.168.0.2                     - ta komenda pozwala nam ustawić brame domyślną switcha na dany adres 
 
 ### konfiguracja VLANów 
+<img width="906" height="71" alt="image" src="https://github.com/user-attachments/assets/6e98fc91-4471-4124-989e-4ba71fa23004" />
+( zrobimy to samo zadanie co wcześniej )
 
+TL-SG3424# configure terminal
+TL-SG3424(config)# vlan 100                                     wejście do konfiguracji vlana o ID 100
+TL-SG3424(config-vlan)# name VLAN100                            nadanie mu nazwy ( description w GUI )
+TL-SG3424(config-vlan)# exit                                    
+TL-SG3424(config)# interface range fastEthernet 0/1-3           Wejście do intefejsów który będziemy zarządzać tutaj może być np.    interface range GigabitEthernet 0/1-3 jeśli porty są gigabitowe
+> TL-SG3424(config)# interface fastEthernet 0/1                 Jeśli konfigurujemy jeden interfejs 
+
+TL-SG3424(config-if-range)# switchport mode access              Nadanie im trybu zarządzania na access
+TL-SG3424(config-if-range)# switchport access vlan 100          połączenie portów z VLANem o ID 100 
+TL-SG3424(config-if-range)# exit
+TL-SG3424(config)# exit
+TL-SG3424# copy running-config startup-config                   Zapisanie postępów 
+
+Tutaj mamy konfigurację tego samego co do góry ale tym razem z włączonym tagowaniem na wszystkich trzech portach 
+
+TL-SG3424# configure terminal
+TL-SG3424(config)# vlan 100                                     wejście do konfiguracji vlana o ID 100
+TL-SG3424(config-vlan)# name VLAN100                            nadanie mu nazwy ( description w GUI )
+TL-SG3424(config-vlan)# exit
+TL-SG3424(config)# interface range fastEthernet 0/1-3           Wejście do intefejsów którymi będziemy zarządzać
+TL-SG3424(config-if-range)# switchport mode general             Nadanie trybu zarządzanie na general ( aby było obsługiwane tagowanie )
+TL-SG3424(config-if-range)# switchport general allowed vlan 100 tagged        połączenie portow z VLANem o ID 100 , włączenie tagowania
+TL-SG3424(config-if-range)# exit
+TL-SG3424(config)# exit
+TL-SG3424# copy running-config startup-config                   Zapisanie postępów 
+ 
 
 
 
