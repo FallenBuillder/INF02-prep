@@ -437,13 +437,13 @@ tutaj mamy już większą swobode , możemy zacząć konfigurować interfejsy , 
 
 ### konfiguracja adresu IP , maski podsieci , bramy domyślnej
 
-TL-SG3424(config)# interface vlan 1                                   - to pozwoli nam wejść do konfiguracji VLANu który zawiera adres IP ( default vlan 1 )
+TL-SG3424(config)# interface vlan 1                              --- to pozwoli nam wejść do konfiguracji VLANu który zawiera adres IP ( default vlan 1 )
 
-TL-SG3424(config-if)# ip address 192.168.0.1 255.255.255.0            - ta komenda pozwoli nam przypsać adres IP - pierwsze pole , maske sieciową - drugie pole do switcha
+TL-SG3424(config-if)# ip address 192.168.0.1 255.255.255.0       --- ta komenda pozwoli nam przypsać adres IP - pierwsze pole , maske sieciową - drugie pole do switcha
 
-TL-SG3424(config-if)# exit                                            - wychodzimy do ogólnej konfiguracji
+TL-SG3424(config-if)# exit                                       --- wychodzimy do ogólnej konfiguracji
 
-TL-SG3424(config)# ip default-gateway 192.168.0.2                     - ta komenda pozwala nam ustawić brame domyślną switcha na dany adres 
+TL-SG3424(config)# ip default-gateway 192.168.0.2                --- ta komenda pozwala nam ustawić brame domyślną switcha na dany adres 
 
 ### konfiguracja VLANów 
 <img width="906" height="71" alt="image" src="https://github.com/user-attachments/assets/6e98fc91-4471-4124-989e-4ba71fa23004" />
@@ -477,28 +477,27 @@ TL-SG3424# copy running-config startup-config                   --- Zapisanie po
 
 TL-SG3424# configure terminal
 
-TL-SG3424(config)# vlan 100                                     wejście do konfiguracji vlana o ID 100
+TL-SG3424(config)# vlan 100                                     --- wejście do konfiguracji vlana o ID 100
 
-TL-SG3424(config-vlan)# name VLAN100                            nadanie mu nazwy ( description w GUI )
+TL-SG3424(config-vlan)# name VLAN100                            --- nadanie mu nazwy ( description w GUI )
 
 TL-SG3424(config-vlan)# exit
 
-TL-SG3424(config)# interface range fastEthernet 0/1-3           Wejście do intefejsów którymi będziemy zarządzać
+TL-SG3424(config)# interface range fastEthernet 0/1-3           --- Wejście do intefejsów którymi będziemy zarządzać
 
-TL-SG3424(config-if-range)# switchport mode general             Nadanie trybu zarządzanie na general ( aby było obsługiwane tagowanie )
+TL-SG3424(config-if-range)# switchport mode general             --- Nadanie trybu zarządzanie na general ( aby było obsługiwane tagowanie )
 
-TL-SG3424(config-if-range)# switchport general allowed vlan 100 tagged        połączenie portow z VLANem o ID 100 , włączenie tagowania
+TL-SG3424(config-if-range)# switchport general allowed vlan 100 tagged        --- połączenie portow z VLANem o ID 100 , włączenie tagowania
 
 TL-SG3424(config-if-range)# exit
 
 TL-SG3424(config)# exit
 
-TL-SG3424# copy running-config startup-config                   Zapisanie postępów 
+TL-SG3424# copy running-config startup-config                   --- Zapisanie postępów 
+
+
  
-
-
-
-
+> Szybka powtórka z masek podsieci bo czemu nie
 
 <img width="83" height="195" alt="image" src="https://github.com/user-attachments/assets/6fb1f550-db2b-408e-95f0-4709c99e8fa5" />
 
