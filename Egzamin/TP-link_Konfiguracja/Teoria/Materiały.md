@@ -126,15 +126,21 @@ Nie mozna oczywiście zapomniąć żeby na końcu zawszę kliknąć guzik który
 <img width="64" height="26" alt="image" src="https://github.com/user-attachments/assets/3d56dddd-f6eb-49ff-bedd-ff552a939fe2" />
 
 
+
+
+
+
+
+
+
 ## Konfiguracja VLANów (tworzenie, nadawanie ID, ustawianie tagowania, przypisywanie portów)
-Skonfigurowanie VLANów przez GUI jest dosyć proste i wszystkie ustawienia które trzeba poprawnie skonfigurować są dosyć intuicyje a wiec nie powinno być z tym jakiegoś większego problemu.
+Skonfigurowanie VLANów przez GUI jest dosyć proste i wszystkie ustawienia które trzeba skonfigurować są dosyć intuicyje a więc nie powinno być z tym jakiegoś większego problemu.
 
 Tym razem z naszego panelu zakładek klikamy VLAN i pokazują nam się następujące opcję 
 <img width="170" height="492" alt="image" src="https://github.com/user-attachments/assets/9543cffe-a2e2-4538-b9eb-676e419e57f5" />
-<img width="161" height="109" alt="image" src="https://github.com/user-attachments/assets/65d0b159-39f3-473b-b8d1-d88b170d8c9f" />
-
 klikamy w pierwszą opcje '802.1Q VLAN' - jest to jedyna opcja która nam się tutaj przyda.
-
+<img width="161" height="109" alt="image" src="https://github.com/user-attachments/assets/65d0b159-39f3-473b-b8d1-d88b170d8c9f" />
+Od wejścia zakładka wygląda tak
 <img width="902" height="222" alt="image" src="https://github.com/user-attachments/assets/3de77f27-8491-439d-9622-3475a552104b" />
 
 po wejściu do tej zakładki możemy zauważyć dwie nowe w których będziemy głównie operować:
