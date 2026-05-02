@@ -515,9 +515,9 @@ TL-SG3424(config-if-range)# shutdown                            --- wyłączy po
 
 ### UWAGA
 
-to zależy od switcha ale na jednych switchach jest szansa ,że jak przez CLI wybieramy interfejsy to będziemy musieli wpisać przed numerem interfejsu jedynkę aby wybrać 'Numer switcha w stosie'
+to zależy od switcha ale na jednych switchach jest szansa ,że jak przez CLI wybieramy interfejsy to będziemy musieli wpisać przed numerem interfejsu jedynkę aby wybrać 'Numer switcha w stosie' - Nie trzeba tego wiedzieć na egzamin tylko trzeba poprostu wiedzieć ,że takie coś istnieje i można dostać z tym model.
 
-to oznacza ,że przy wybieraniu interfejsu mamy 2 typy nazewnictwa portów zależących od modelu switcha 
+przy wybieraniu interfejsu mamy 2 typy nazewnictwa portów zależących od modelu switcha 
 
 - 1/0/1
 lub
