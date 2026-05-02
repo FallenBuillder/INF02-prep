@@ -127,6 +127,21 @@ Nie mozna oczywiście zapomniąć żeby na końcu zawszę kliknąć guzik który
 
 
 ## Konfiguracja VLANów (tworzenie, nadawanie ID, ustawianie tagowania, przypisywanie portów)
+Skonfigurowanie VLANów przez GUI jest dosyć proste i wszystkie ustawienia które trzeba poprawnie skonfigurować są dosyć intuicyje a wiec nie powinno być z tym jakiegoś większego problemu.
+
+Tym razem z naszego panelu zakładek klikamy VLAN i pokazują nam się następujące opcję 
+<img width="170" height="492" alt="image" src="https://github.com/user-attachments/assets/9543cffe-a2e2-4538-b9eb-676e419e57f5" />
+<img width="161" height="109" alt="image" src="https://github.com/user-attachments/assets/65d0b159-39f3-473b-b8d1-d88b170d8c9f" />
+
+klikamy w pierwszą opcje '802.1Q VLAN' - jest to jedyna opcja która nam się tutaj przyda.
+
+<img width="902" height="222" alt="image" src="https://github.com/user-attachments/assets/3de77f27-8491-439d-9622-3475a552104b" />
+
+po wejściu do tej zakładki dostajemy 2 nowe w których będziemy głównie operować - czyli zakładki 
+- VLAN config ( w tej zakładce będziemy dodawać VLANY , przypisywać im nazwy , id , porty )
+- Port Config ( w tej zakładce będziemy zmieniać mode ( tryb ) portów )
+
+
 
 
 
