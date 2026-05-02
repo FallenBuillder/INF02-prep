@@ -83,6 +83,18 @@ W sekcji Local Network konfigurujemy domyślnie Port drugi lecz jeśli chcemy to
 W sekcji Wireless narazie nic nie będziemy robic ale przyda nam się potem 
 <img width="366" height="277" alt="image" src="https://github.com/user-attachments/assets/e0de1f35-08a6-41f7-be3f-2bad6dd28755" />
 
+Następnie wypełniamy Pola zgodnie z poleceniem zadania 
+
+<img width="366" height="384" alt="image" src="https://github.com/user-attachments/assets/80c227b0-49dd-44f9-9726-51014e2e76a0" />
+
+i w taki sposób wykonaliśmy całe zadanie dotyczące Routera używając Quick Seta 
+
+Na koniec nie można zapomnieć aby kliknąć przycisk Apply aby zmiany się zapisały.
+<img width="88" height="25" alt="image" src="https://github.com/user-attachments/assets/093ff231-da61-4588-90c2-d96184b8e75c" />
+
+
+
+
 
 
 
