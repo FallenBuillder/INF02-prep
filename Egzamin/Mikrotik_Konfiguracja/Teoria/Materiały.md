@@ -39,6 +39,28 @@ Trzeba się upewnić ,że
 - że karta sieciowe do której wpieliśmy mikrotika jest włączona
 
 ## krok 3.
-Następnie należy włączyć program WinBox w wersji 
+Następnie należy włączyć program WinBox w wersji v.3.41 lub v.3.43 ( byle nie v0.4 ponieważ ta wersja jeszcze nie jest wymagana do egzaminu na rok 2026-czerwiec ) 
+> na egzaminie nie będzie zabardzo wyboru wersji - będzie tylko ta starsza.
+<img width="1181" height="744" alt="image" src="https://github.com/user-attachments/assets/ef34a139-fdd4-43e2-8e3b-8b08a5ae1e19" />
+Interfejs Winboxa
+
+## krok 4.
+na egzaminie INF02 kiedy połączamy się do jakiegoś routera którego świeżo co dopiero zresetowaliśmy pojawi się on w zakładce 'Neighbours' jako pierwszy jeśli wszystko dobrze podłączyliśmy i będzie wyglądał tak: 
+<img width="1150" height="60" alt="image" src="https://github.com/user-attachments/assets/15cb7651-74ca-4001-94b8-5dd59ae3177f" />
+> UWAGA: Router nie pojawi się odrazu po zresetowaniu. ponieważ trzeba odczekać pewien czas żeby się przygotował - w więkoszości przypadków około 30 sekund wystarczy aby się pojawił
+
+Następnie aby połączyć się z Mikrotikiem musimy w programie Winbox albo wpisać jego adres MAC , Defaultowy login jako admin i kliknąć guzik Connect
+<img width="1263" height="113" alt="image" src="https://github.com/user-attachments/assets/4ec2c46c-b668-4ef9-bda5-f3f7bd05d035" />
+
+Albo możemy poprostu dwukrotnie kliknąć na adres MAC routera co nas automatycznie do niego połączy.
+<img width="209" height="60" alt="image" src="https://github.com/user-attachments/assets/ed7a0437-f7ad-4f2f-ace2-afb5e4d41e59" />
+> UWAGA: Jeśli po zresetowaniu mikrotika pojawi się nam okienko z monitem o usunięciu konfiguracji po zresetowaniu - Klikamy guzik Remove Configuration co sprawi ,że stracimy na chwilę połączenie z mikrotikiem a następnie automatycznie połączymy się z nim a cała konfiguracja będzie zresetowana.
+
+
+
+
+
+
+
 
 
