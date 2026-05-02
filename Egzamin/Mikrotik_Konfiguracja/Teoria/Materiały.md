@@ -8,8 +8,7 @@ W tej sekcji skupimy się na routerze Mikrotikowym i metodami dzięki którymi m
 Zagadnienia 
 
 - jak się połączyć ? && Resetowanie Routera
-- Podstawowy przykład konfiguracji na podstawie najprostszego egzaminu
-- Konfiguracja Wszystkiego przez Quick Seta ( łatwa metoda zdająca się tylko jak serwer DHCP jest wyłączony )
+- Podstawowy przykład konfiguracji na podstawie najprostszego egzaminu ( Quick set )
 - Konfiguracja serwera DHCP
 - Podstawy Sieci
 - Konfiguracja Wi-FI
@@ -65,6 +64,7 @@ Jesteśmy teraz zalogowani do routera i możemy zacząć jego konfigurację
 
 ### Podstawowy przykład konfiguracji
 
+
 Aby zapoznać się lepiej z Mikrotikiem przed wchodzeniem do Serwera DHCP , trunków możemy się trochę z nim zapoznać poprzez zrobienie najprostszego zadania jakie jest na arkuszach INF02 związanego z skonfigurowaniem mikrotika:
 <img width="975" height="306" alt="image" src="https://github.com/user-attachments/assets/aff9e637-e090-4ff9-aadd-4ed72c490e8e" />
 Całe to zadanie może zostać wykonane przez Quick Seta - Quick Set to przyjazny interfejs dzięki któremu możemy ustawić podstawowe opcję związane z routerem.
@@ -103,6 +103,39 @@ Zakładka Local Network
 
 Na koniec nie można zapomnieć aby kliknąć przycisk Apply aby zmiany się zapisały.
 <img width="88" height="25" alt="image" src="https://github.com/user-attachments/assets/093ff231-da61-4588-90c2-d96184b8e75c" />
+
+
+### konfiguracja Servera DHCP 
+Narazie wszystko było dosyć prostę i zrozumiałe ponieważ wystarczyło przepisywać wartości z arkusza do quickseta jeśli chodzi o server DHCP to tutaj mamy minilanie trudniejsze zadanie ale nadal nie jest to nic złego.
+
+Tak samo jak wcześniej Konfiguracja Servera DHCP będzie przedstawiona przez konfigurowanie zadania z egzaminu praktycznego.
+czyli:
+<img width="983" height="348" alt="image" src="https://github.com/user-attachments/assets/138e191e-9f9d-419a-954b-9f2dd11f8659" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+do Wi-Fi
+<img width="991" height="547" alt="image" src="https://github.com/user-attachments/assets/baf35985-9bdf-4d3b-a05a-2c7130d92479" />
+
+
+
 
 
 
