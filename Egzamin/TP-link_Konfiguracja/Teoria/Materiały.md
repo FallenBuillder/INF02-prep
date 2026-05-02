@@ -7,7 +7,7 @@ część GUI ,CLI zawiera następujące zagadnienia
 - Konfiguracja adresu IP, maski podsieci, bramy domyślnej
 - Konfiguracja VLANów (tworzenie, nadawanie ID, ustawianie tagowania, przypisywanie portów)
 - wyłączenie portu na switchu
-- Konfiguracja trunków ( tutaj egzamin2023-Styczeń-zad.03,04 , egzamin2023-Czerwiec-zad.-02 , egzamin2024-czerwiec-zad.01)
+- Konfiguracja trunków
 - przypisanie ostatniego możliwego adresu z podsieci ( Mikrotik_Konfiguracja )
 - ( dodać rzeczy z 2026 zima )
 
@@ -177,6 +177,7 @@ Konfiguracja tego zadania wyglądałaby Następująco
 Na koniec klikamy Apply i nasz VLAN jest gotowy.
 <img width="64" height="27" alt="image" src="https://github.com/user-attachments/assets/eed2eea7-8283-4d90-b3f6-9610e60a437f" />
 
+
 ### Włączenie tagowania
 jeśli na egzaminie jest gdzieś napisane ,że mamy włączyć tagowanie dla VLANu do w takim razie będziemy musieli użyć drugiej karty ' Port Config ' 
 <img width="616" height="493" alt="image" src="https://github.com/user-attachments/assets/b4d41215-5ac7-4cbf-8ce7-dacbcce94395" />
@@ -203,13 +204,6 @@ kliknąć przycisk 'Edit' i następnie sprawić ,że wybrane są tylko te porty 
 > Alternatywnie na Switchach typu L3 można jeszcze to zrobić inaczej ( Arkusz 2 zima 2026 ) ale to już trzeba by było sprawdzić samemu  - tam w nawiasie jest napisane '(dla przełącznika L3 adres IP przypisany do VLAN o ID = 2)' lecz jest to trochę dziwne patrząc na fakt ,że nie kojarze żeby ktoś miał na egzaminie switcha L3
 
 
-
-
-
-
-
-
-
 ## Wyłączenie portu z użytku 
 może się na egzaminie pojawić pytanie aby np. wyłączyc pozostałe porty ,których nie używamy, aby to zrobić należy najpierw wejść do zakładki Switching i ją rozwinąć a następnie wybrać opcje 'Port'
 <img width="127" height="382" alt="image" src="https://github.com/user-attachments/assets/f204f635-af8c-4af6-8e60-9103e6ac3505" />
@@ -219,14 +213,20 @@ Jak widać po kliknięciu Apply port został wyłączony
 <img width="698" height="23" alt="image" src="https://github.com/user-attachments/assets/9aa3d800-2129-4924-bc56-4b6ed80356cc" />
 
 
-
-
-
-
-
 ## Skonfigurowanie Trunka
 Trunk w kontekście egzaminu praktycznego jest najtrudniejszym elementem jeśli chodzi o switcha.
-Naszczęście jest dosyć rzadki , był tylko na 4 egzaminach 
+Naszczęście jest dosyć rzadki , ponieważ był tylko na 4 egzaminach praktycznych i jak już jest to odejmuje się wtedy raczej jedno zadanie z egzaminu na jego rzecz lub reszta egzaminy jest trochę łatwiejsza.
+Trunk był na tych egzaminach:
+- egzamin2023-Styczeń-zad.03,04 
+- egzamin2023-Czerwiec-zad.02 
+- egzamin2024-czerwiec-zad.01
+Tutaj niestety jak dostanie się trunka to będzie trzeba wtedy skonfigurować ustawienia z nim związane i na routerze i na switchu.
+<img width="1054" height="474" alt="image" src="https://github.com/user-attachments/assets/4c2dc1ff-b3cf-4d4e-9582-b76b09f6b7f2" />
+<img width="1057" height="743" alt="image" src="https://github.com/user-attachments/assets/0b2fa7f9-3152-4583-82e9-74b6e79d6c43" />
+
+
+
+
 
 
 
