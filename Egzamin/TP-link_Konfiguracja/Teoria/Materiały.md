@@ -39,7 +39,51 @@ i możemy skonfigurować nasz adres IP czyli:
 - zmieniamy sekcje Adres IP: na jakiś z podsieci w której jest fabrycznie nasz switch , w masce podsieci wpisujemy maske /24 ( taka jest defaultowo ) czyli: 255.255.255.0
 Po zakończeniu klikamy wszędzie przycisk ok aby opcje się zapisał i wychodzimi z połączeń sieciowych
 
+
+
 Zmiana adresu IP w linuxie 
+Jest mała szansa ,że na egzaminie dostaniemy i linux server, linux client wtedy najlepiej skonfigurować switcha przez GUI. 
+Jeśli chodzi o linuxa to wszystkie kroki są dokładnie takie same z wyjątkiem zmiany adresu IP na kliencie
+analogicznie jak w przypadku Windosa będziemy chcieli zrobić to samo. Czyli zmienić nasz adres IP na 192.168.0.X/24 ( gdzie X to dowolna liczba oprócz tej która jest przypisana do switcha i nie jest adresem sieci ani rozgłoszeniowym a /24 to maska o wartości 255.255.255.0 
+
+
+<img width="405" height="275" alt="image" src="https://github.com/user-attachments/assets/69671c07-fa5c-4a6a-94b1-51c4553c00f5" />
+Na początku lokalizujemy ikonki w prawym górnym rogu ekranu i klikamy na nie 
+
+<img width="61" height="48" alt="image" src="https://github.com/user-attachments/assets/faec98ed-ecfd-4077-83e2-8530f14dd414" />
+Następnie klikamy w ustawienia
+
+<img width="989" height="652" alt="image" src="https://github.com/user-attachments/assets/2ba05665-1800-46eb-b509-45e7b174aa37" />
+Następnie ponownie klikamy w guzik z ustawieniami w prawym górnym rogu 
+
+<img width="755" height="589" alt="image" src="https://github.com/user-attachments/assets/42061ffb-7372-4378-a276-a7900358fae8" />
+Następnie w nowym okienku wchodzimy do zakładki IPv4
+
+<img width="661" height="107" alt="image" src="https://github.com/user-attachments/assets/4e0720c4-7a5a-47e3-8ba6-a94d16e7a342" />
+klikamy opcje Manual
+
+<img width="717" height="99" alt="image" src="https://github.com/user-attachments/assets/a424bec3-adf3-4e7a-a8af-7eee2c51f4b0" />
+Następnie wpisujemy tutaj nasz adres IP , maske podsieci 
+
+<img width="717" height="123" alt="image" src="https://github.com/user-attachments/assets/ac931750-4933-4048-ac7c-db7ab1ce7092" />
+<img width="91" height="43" alt="image" src="https://github.com/user-attachments/assets/6acc1523-61a8-4597-a086-c8701878139a" />
+Na koniec kliamy guzik apply w prawym górnym rogu i adresacja się zapiszę 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 krok 2.
 
