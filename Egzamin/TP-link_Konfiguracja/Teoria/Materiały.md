@@ -1,4 +1,4 @@
-<img width="621" height="625" alt="image" src="https://github.com/user-attachments/assets/70dd69c1-eb74-4005-a30b-de75c16c86fe" />W każdym egzaminie praktycznym pojawia się konfiguracja switcha , czasami jest łatwa bo wystarczy zrobić jedną rzecz i można iść dalej a czasami może się zdażyć że spotkamy się z nieco trudniejszym zadaniem typu np. stworzenie trunka , naszczęście switch jest jedną z najprostszych rzeczy na egzaminie a więc nauczenie się dosłownie paru zagadnień może dać nam łatwe punkty
+W każdym egzaminie praktycznym pojawia się konfiguracja switcha , czasami jest łatwa bo wystarczy zrobić jedną rzecz i można iść dalej a czasami może się zdażyć że spotkamy się z nieco trudniejszym zadaniem typu np. stworzenie trunka , naszczęście switch jest jedną z najprostszych rzeczy na egzaminie a więc nauczenie się dosłownie paru zagadnień może dać nam łatwe punkty
 
 
 ta sekcja jest podzielona na dwie części GUI, CLI - Naszczęście na egzaminie mamy wybór przezc co chcemy konfigurować naszego switcha dlatego radzę zawsze robić przez GUI żeby sobie nie pokomplikować ale można też przez CLI jeśli się czuje pewnym 
@@ -160,6 +160,46 @@ Do podłączenia się z switchem przez konsole na egzaminie użyjemy programu Pu
 - Wybraniu Typu połączenia 
 
 Jeśli na egzaminie porgram Putty nie jest zainstalowany należy podłączyć dysk USB o nazwie PROGRAMY do naszego komputera i znaleść tam a następnie przeciągnąć z niego instalator tego programu i do niego wejść.
+
+Po wejściu do programu pojawi się następujące Menu
+
+<img width="444" height="435" alt="image" src="https://github.com/user-attachments/assets/9f76322c-052f-4e52-b281-a28002e8c1bd" />
+
+W tym Menu należy wybrać zakładke Serial a następnie wpisać port COM który jest podłączony do naszego switcha , szybkość z którą będzie przesyłany sygnał.
+- Wpisujemy port COM który znaleźliśmy w poprzednim kroku do zakładki Serial line
+- Wpisujemy szybkość którą można znaleść w Dokumentacji danego Switcha która będzie na dysku USB na egzaminie.
+Przykład Znalezienia Szybkości w dokumentacji:
+<img width="792" height="1127" alt="image" src="https://github.com/user-attachments/assets/03fbcef6-eb4d-43a9-8082-7ef5961b15a4" />
+Po wejściu do dokumentacji należy znaleść temat który brzmi w stylu jak "Accessing the CLI" albo "Connecting to the switch"
+<img width="710" height="100" alt="image" src="https://github.com/user-attachments/assets/f7e59f1a-5919-43f5-8823-67d5dc3123f4" />
+<img width="670" height="964" alt="image" src="https://github.com/user-attachments/assets/46e4e0f5-e5cc-474a-993f-4243c13ed5fa" />
+Jak widać na jednej z pierwszych stron dokumentacji Switcha - Dotyczącej CLI widnieje napis Baud rate 38400 bps
+<img width="588" height="96" alt="image" src="https://github.com/user-attachments/assets/2ce9f4f2-dc47-411d-a3bd-960ef3e88c24" />
+Oznacza to ,że szybkość którą musimy wpisać to analogicznie 38400
+
+czyli finalne ustawienia PuTTY wyglądałby następująco:
+<img width="444" height="439" alt="image" src="https://github.com/user-attachments/assets/98f7c97f-0efd-46e7-9d74-73dfc6652395" />
+
+Na koniec należy kliknąć Open
+<img width="85" height="33" alt="image" src="https://github.com/user-attachments/assets/bdd37006-db80-4f13-b5c1-6a4a12bc941d" />
+i połączymy się do Switcha.
+
+Insert Connected to switch image 
+
+
+
+Błędy
+<img width="385" height="166" alt="image" src="https://github.com/user-attachments/assets/1f17e8ba-4562-402e-9086-39e7c8a30e66" />
+
+
+
+
+
+
+
+
+
+
 
 
 
