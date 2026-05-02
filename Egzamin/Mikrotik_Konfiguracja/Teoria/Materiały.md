@@ -49,6 +49,8 @@ na egzaminie INF02 kiedy połączamy się do jakiegoś routera którego świeżo
 <img width="1150" height="60" alt="image" src="https://github.com/user-attachments/assets/15cb7651-74ca-4001-94b8-5dd59ae3177f" />
 > UWAGA: Router nie pojawi się odrazu po zresetowaniu. ponieważ trzeba odczekać pewien czas żeby się przygotował - w więkoszości przypadków około 30 sekund wystarczy aby się pojawił
 
+> UWAGA: Z tego co testowałem to nie da połączyć się z routerem jeśli mamy na karcie siecowej Adres APIPA - co to jest? adres APIPA taki jak np. 169.254.31.184 z maską 255.255.0.0 jeśli mamy taki adres oznacza to ,że komputer nie porbrał adresu IP od np. Routera czyli server DHCP nie działa.
+
 Następnie aby połączyć się z Mikrotikiem musimy w programie Winbox albo wpisać jego adres MAC , Defaultowy login jako admin i kliknąć guzik Connect
 <img width="1263" height="113" alt="image" src="https://github.com/user-attachments/assets/4ec2c46c-b668-4ef9-bda5-f3f7bd05d035" />
 
