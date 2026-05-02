@@ -1,4 +1,4 @@
-W każdym egzaminie praktycznym pojawia się konfiguracja switcha , czasami jest łatwa bo wystarczy zrobić jedną rzecz i można iść dalej a czasami może się zdażyć że spotkamy się z nieco trudniejszym zadaniem typu np. stworzenie trunka , naszczęście switch jest jedną z najprostszych rzeczy na egzaminie a więc nauczenie się dosłownie paru zagadnień może dać nam łatwe punkty
+<img width="621" height="625" alt="image" src="https://github.com/user-attachments/assets/70dd69c1-eb74-4005-a30b-de75c16c86fe" />W każdym egzaminie praktycznym pojawia się konfiguracja switcha , czasami jest łatwa bo wystarczy zrobić jedną rzecz i można iść dalej a czasami może się zdażyć że spotkamy się z nieco trudniejszym zadaniem typu np. stworzenie trunka , naszczęście switch jest jedną z najprostszych rzeczy na egzaminie a więc nauczenie się dosłownie paru zagadnień może dać nam łatwe punkty
 
 
 ta sekcja jest podzielona na dwie części GUI, CLI - Naszczęście na egzaminie mamy wybór przezc co chcemy konfigurować naszego switcha dlatego radzę zawsze robić przez GUI żeby sobie nie pokomplikować ale można też przez CLI jeśli się czuje pewnym 
@@ -117,6 +117,50 @@ Jak widać połączyliśmy się do switcha
 
 
 ### CLI - Jak się połączyć z switchem 
+
+Jeśli ktoś ma ochotę skonfigurować switcha przez CLI lub jest napisane tak w arkuszu ( co wątpie no nigdy jeszcze tak nie było ) to trzeba przejśc przez 3 podstawowe kroki.
+
+## krok 1
+
+- Na początek należy zlokalizowac przewód Consolowy który sprawi ,że dzięki niemu będziemy mogli połaczyć się z switchem przez CLI. Wygląda on jak coś w tym stylu.
+<img width="621" height="625" alt="image" src="https://github.com/user-attachments/assets/deeba806-70d6-4670-a3b0-7a2b4123b3a1" />
+> kolor nie ma znaczenia
+
+kiedy połączamy się przez konsole musimy włączyć przewód Ethernet do specjalnego portu Konsolowego zlokalizowanego na tyle lub na przodzie Switcha - będzie on wyglądać tak: 
+<img width="1863" height="522" alt="image" src="https://github.com/user-attachments/assets/f93ef74c-6617-49e7-920d-20ff3f463678" />
+<img width="141" height="143" alt="image" src="https://github.com/user-attachments/assets/5bb54c63-f5df-4ad7-ac53-750fb8c33e71" />
+Po wpięciu naszego przewodu konsolowego do switcha następnie jego drugi koniec podłączyć do interfejsy Serial naszego komputera. 
+<img width="115" height="84" alt="image" src="https://github.com/user-attachments/assets/15851750-e6fa-4858-a803-8e4e3b1ded50" /> 
+> jest szansa ,że na egzaminie będzie przejściówka do USB to wtedy z niej skorzystamy , podłączymy się do interfejsy USB w komputerze.
+
+## krok 2
+
+Następnie klikamy   Windows + r   i wpisujemy devmgmt.msc albo wpisujemy w menu start 'Menedżer urządzeń' i do niego wchodzimi 
+<img width="472" height="91" alt="image" src="https://github.com/user-attachments/assets/0deeb0b0-10f7-4708-89a9-6e3e93cccefd" />
+Po wejsciu do menedżera urządzeń lokalizujemy zakładke 'Porty (COM i LPT)' , ją rozwijamy 
+
+W tej zakładce widać jakie porty COM mamy w naszym komputerze.
+
+na przykładzie pokazanym powyżej jest podłączony Adapter PL2303HXA - który w tym przypadku odpowiada przejściówce z Serial na USB - jeśli na egzaminie będzie jakaś przejściówka oznacza to ,że pewnie pokaże się jakaś wyjątkowa tego typu nazwa.
+
+Jeśli na egzaminie port Serial jest wbudowany w płyte główną oznacza to ,że trzeba albo wypróbować wszystkie opcje albo na logikę zobaczyć ,że tutaj np. port COM3 , COM4 są tylko wirtualnymi portami które używa interfejs bluetooth a COM1 jest portem wbudowanym w płyte a PL2303HXA to adapter. 
+
+Jeśli mamy Adapter to musimy w niego wejść i po kliknięciu na niego 2 razy pojawi się nam do jakiego portu COM należy.
+
+<img width="404" height="451" alt="image" src="https://github.com/user-attachments/assets/8a6923b3-60ea-4187-9d66-df3e705839ce" />
+
+
+## krok 3
+
+z nowo znalezioną wiedzą możemy teraz przejść do faktycznego połączenia się z Switchem.
+
+Do podłączenia się z switchem przez konsole na egzaminie użyjemy programu PuTTY - który pozwoli nam na 
+- Wybranie szybkości
+- Wybranie portu COM
+- Wybraniu Typu połączenia 
+
+Jeśli na egzaminie porgram Putty nie jest zainstalowany należy podłączyć dysk USB o nazwie PROGRAMY do naszego komputera i znaleść tam a następnie przeciągnąć z niego instalator tego programu i do niego wejść.
+
 
 
 
