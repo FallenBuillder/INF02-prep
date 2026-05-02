@@ -13,7 +13,9 @@ część GUI ,CLI zawiera następujące zagadnienia
 - przypisanie ostatniego możliwego adresu z podsieci
 - ( dodać rzeczy z 2026 zima )
 
-### GUI  
+
+
+### GUI  - Jak się połączyć z switchem 
 w przypadku połączenia się do switcha przez GUI ( Graphical User Interface ) chcemy abyśmy byli switchem w tej samej podsieci abyśmy mogli z nim rozmawiać.
 oznacza to ,że nasz adres IP na karcie sieciowej która jest podłączona .do jednego z interfejsów switcha ( zazwyczaj najlepiej przy konfiguracji podłaczać się do pierwszego portu ponieważ wiemy wtedy ,że się połączymy a podłączenie urządzeń jest i tak najczęściej w dalszych etapach egzaminu ) 
 czy to jesteśmy na Windowsie czy na Linuxie , adres IP trzbea zmienić 
@@ -93,12 +95,12 @@ Na koniec kliamy guzik apply w prawym górnym rogu i adresacja się zapiszę
 
 ## krok 3.
 
-- Należy wejść do przeglądarki i wpisać adres IP naszego switcha - czyli jeśli łączymy się na egzaminie do niego po raz pierwszy w przeglądarce wpisujemy '192.168.0.1'
+- Następnie należy wejść do przeglądarki naszego wyboru i wpisać adres IP naszego switcha - oznacza to ,że jeśli łączymy się na egzaminie do niego po raz pierwszy to w przeglądarce wpisujemy '192.168.0.1'
 <img width="1246" height="25" alt="image" src="https://github.com/user-attachments/assets/1615345a-6dad-4b7f-a0cc-7a7bde4180fa" />
 
 ## krok 4.
 
-- Powinniśmy teraz dostać monit o zalogowanie się na switchach na egzaminie jeśli hasło nie ani użytkownik nie są wcześniej podane wpisujemy poprostu
+- Powinniśmy teraz dostać monit o zalogowanie się na switcha. Na egzaminie jeśli ani hasło ani użytkownik nie są wcześniej podane wpisujemy poprostu
 User Name: admin
 Password: admin
 
@@ -109,7 +111,23 @@ i na koniec klikamy guzik login
 Jak widać połączyliśmy się do switcha 
 
 
+# GUI - Konfiguracja Switcha 
 
 
-### CLI 
+
+
+### CLI - Jak się połączyć z switchem 
+
+
+
+# CLI - Konfiguracja Switcha
+
+
+
+
+
+
+
+
+
 	
