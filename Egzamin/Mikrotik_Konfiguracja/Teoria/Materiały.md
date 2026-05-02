@@ -64,6 +64,7 @@ Jesteśmy teraz zalogowani do routera i możemy zacząć jego konfigurację
 
 
 ### Podstawowy przykład konfiguracji
+
 Aby zapoznać się lepiej z Mikrotikiem przed wchodzeniem do Serwera DHCP , trunków możemy się trochę z nim zapoznać poprzez zrobienie najprostszego zadania jakie jest na arkuszach INF02 związanego z skonfigurowaniem mikrotika:
 <img width="975" height="306" alt="image" src="https://github.com/user-attachments/assets/aff9e637-e090-4ff9-aadd-4ed72c490e8e" />
 Całe to zadanie może zostać wykonane przez Quick Seta - Quick Set to przyjazny interfejs dzięki któremu możemy ustawić podstawowe opcję związane z routerem.
@@ -73,6 +74,16 @@ Jak widać na zamieszczonym obrazku Quick Seta możemy znaleść na samej górze
 po kliknięciu w ten guzik pojawia się nam okienko w którym możemy rozpocząć konfiguracje ale najpierw wybierzemy Typ naszego Routera z dropdowana w lewym górnym rogu.
 <img width="168" height="129" alt="image" src="https://github.com/user-attachments/assets/a693cec1-c5a8-408c-99e6-afb833df5ee8" />
 Radze zawsze wybierać opcję Home AP ponieważ jest najlepsza do ustawienia więkoszości ustawień na tym urządzeniu.
+
+
+W sekcji internet konfigurujemy nasz interfejs WAN - czyli ether1 właśnie ten interfejs łączy router z innymi sieciami
+<img width="365" height="189" alt="image" src="https://github.com/user-attachments/assets/cd906655-b450-48d8-b57c-c5ed12f1a459" />
+W sekcji Local Network konfigurujemy domyślnie Port drugi lecz jeśli chcemy to możemy wybrać opcję Bridge All LAN Ports i wtedy wszystkie interfejsy naszego Routera będą miały tą samą brame domyślną którą ustawimy za chwilę 
+<img width="360" height="161" alt="image" src="https://github.com/user-attachments/assets/c06b4648-7559-4105-ae9c-8e7cde3ef945" />
+W sekcji Wireless narazie nic nie będziemy robic ale przyda nam się potem 
+<img width="366" height="277" alt="image" src="https://github.com/user-attachments/assets/e0de1f35-08a6-41f7-be3f-2bad6dd28755" />
+
+
 
 
 
