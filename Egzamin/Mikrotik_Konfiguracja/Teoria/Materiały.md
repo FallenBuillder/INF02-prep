@@ -11,6 +11,7 @@ Zagadnienia
 - Podstawowe ustawienia konfiguracjne w każdym arkuszu
 - Konfiguracja Wszystkiego przez Quick Seta ( łatwa metoda zdająca się tylko jak serwer DHCP jest wyłączony )
 - Konfiguracja serwera DHCP
+- Podstawy Sieci
 - Konfiguracja Wi-FI
 - Konfiguracja Router-on-a-stick - zarządzanie trunkami
   
@@ -54,7 +55,13 @@ Następnie aby połączyć się z Mikrotikiem musimy w programie Winbox albo wpi
 
 Albo możemy poprostu dwukrotnie kliknąć na adres MAC routera co nas automatycznie do niego połączy.
 <img width="209" height="60" alt="image" src="https://github.com/user-attachments/assets/ed7a0437-f7ad-4f2f-ace2-afb5e4d41e59" />
-> UWAGA: Jeśli po zresetowaniu mikrotika pojawi się nam okienko z monitem o usunięciu konfiguracji po zresetowaniu - Klikamy guzik Remove Configuration co sprawi ,że stracimy na chwilę połączenie z mikrotikiem a następnie automatycznie połączymy się z nim a cała konfiguracja będzie zresetowana.
+> UWAGA: Jeśli po zresetowaniu mikrotika pojawi się nam okienko z monitem o usunięciu konfiguracji nie można go zignorować - Klikamy wtedy w nim guzik 'Remove Configuration' co sprawi ,że stracimy na chwilę połączenie z mikrotikiem a następnie automatycznie się z nim połączymy tym samym resetując konfiguracje.
+
+<img width="1651" height="945" alt="image" src="https://github.com/user-attachments/assets/1b9b9e90-f7bd-465f-9df4-7399e04e3b47" />
+Jesteśmy teraz zalogowani do routera i możemy zacząć jego konfigurację
+> UWAGA: Możemy zignorowac monit o Zmianie hasła ponieważ tylko nam przeszkodzi jeśli je zmienimy a następnie zapomnimy ( no chyba ,że w arkuszu jest napisane ,że mamy je zmienić ( co się jescze nigdy nie stało ))
+
+
 
 
 
