@@ -1,4 +1,4 @@
-W każdym egzaminie praktycznym pojawia się konfiguracja switcha , czasami jest łatwa bo wystarczy zrobić jedną rzecz i można iść dalej a czasami może się zdażyć że spotkamy się z nieco trudniejszym zadaniem typu np. stworzenie trunka , naszczęście switch jest jedną z najprostszych rzeczy na egzaminie a więc nauczenie się dosłownie paru zagadnień może dać nam łatwe punkty
+<img width="622" height="109" alt="image" src="https://github.com/user-attachments/assets/5d0cf2f2-d85e-49f6-8360-c429f8886998" />W każdym egzaminie praktycznym pojawia się konfiguracja switcha , czasami jest łatwa bo wystarczy zrobić jedną rzecz i można iść dalej a czasami może się zdażyć że spotkamy się z nieco trudniejszym zadaniem typu np. stworzenie trunka , naszczęście switch jest jedną z najprostszych rzeczy na egzaminie a więc nauczenie się dosłownie paru zagadnień może dać nam łatwe punkty
 
 
 ta sekcja jest podzielona na dwie części GUI, CLI - Naszczęście na egzaminie mamy wybór przezc co chcemy konfigurować naszego switcha dlatego radzę zawsze robić przez GUI żeby sobie nie pokomplikować ale można też przez CLI jeśli się czuje pewnym 
@@ -15,7 +15,7 @@ część GUI ,CLI zawiera następujące zagadnienia
 
 
 
-### GUI  - Jak się połączyć z switchem 
+### GUI  - Jak połączyć się z switchem 
 w przypadku połączenia się do switcha przez GUI ( Graphical User Interface ) chcemy abyśmy byli switchem w tej samej podsieci abyśmy mogli z nim rozmawiać.
 oznacza to ,że nasz adres IP na karcie sieciowej która jest podłączona .do jednego z interfejsów switcha ( zazwyczaj najlepiej przy konfiguracji podłaczać się do pierwszego portu ponieważ wiemy wtedy ,że się połączymy a podłączenie urządzeń jest i tak najczęściej w dalszych etapach egzaminu ) 
 czy to jesteśmy na Windowsie czy na Linuxie , adres IP trzbea zmienić 
@@ -74,21 +74,6 @@ Następnie wpisujemy tutaj nasz adres IP , maske podsieci
 Na koniec kliamy guzik apply w prawym górnym rogu i adresacja się zapiszę 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## krok 2.
 
 - należy podłaczyć się do pierwszego portu w naszym switchu ( powinno się jeszcze sprawdzić czy napewno podłączamy się dobrą kartą sieciową )
@@ -113,10 +98,67 @@ Jak widać połączyliśmy się do switcha
 
 # GUI - Konfiguracja Switcha 
 
+## Konfiguracja adresu IP, maski podsieci, bramy domyślnej 
+
+Konfiguracja adresu IP , maski podsieci , bramy domyślnej jest najprostszą rzeczą do zrobienia jeśli chodzi o switcha i dużą część egzaminów posiada tylko do zrobienia właśnie to.
+Żeby zmienić adres IP switcha wystarczy przejść do zakładki System -> System Info 
+<img width="170" height="40" alt="image" src="https://github.com/user-attachments/assets/4a6ecd1c-301c-44e5-a2f3-8f65047ab79d" />
+Następnie należy przejść do zakłądki System IP 
+<img width="662" height="308" alt="image" src="https://github.com/user-attachments/assets/4c4323e5-5715-48e2-bd98-ffdfe842b927" />
+i na przykładzie egzaminu INF.02 : 2024 - czerwiec - zad. 04 możemy teraz skonfigurować tego switcha
+<img width="622" height="109" alt="image" src="https://github.com/user-attachments/assets/ca4bdd99-6817-43d6-bd30-b68144c4e1af" />
+Nastepnie aby zmienić Adres IP , Maske , Brame domyślną wystarczy wpisać podanę nam w egzaminie wartości do korespondujących do nich komórek czyli tych:
+<img width="374" height="76" alt="image" src="https://github.com/user-attachments/assets/3709f927-9ae3-4df5-92ac-6e4679bc5ba8" />
+Zakładając teraz ,że adresem bramy domyślnej routera jest 192.168.10.1 wpisujemy dane:
+
+Maska /28 w zapisie binarym to porostu napisanie jedynek w czterach oktetach od lewej strony. - czyli maska /28 to:
+11111111 11111111 11111111 11110000
+Następnie tą maske trzeba przekonwertować na wartość dziesiętną czyli dodajemy do siebie wartości potęgi dwójki w przy każdej jedynce w każdym oktecie co nam da:
+
+255.255.255.(128+64+32+16)
+255.255.255.240
+
+Dokładne obliczanie adresów siecowych , rozgłoszeniowych , podsieci , masek itd jest zrobiony w pliku 'Materiały' w Folderze 'Mikrotik_Konfiguracja'
+<img width="405" height="638" alt="image" src="https://github.com/user-attachments/assets/0b426e5e-e27c-43ed-8dba-390b1597e1d6" />
+
+Finalny Wynik powinien wyglądać tak:
+<img width="659" height="307" alt="image" src="https://github.com/user-attachments/assets/794292f6-c6c2-4f44-ae2b-689b16236e8e" />
+
+Nie mozna oczywiście zapomniąć żeby na końcu zawszę kliknąć guzik który pozwoli nam zapisać naszę zmiany - w tym przypadku Apply 
+<img width="64" height="26" alt="image" src="https://github.com/user-attachments/assets/3d56dddd-f6eb-49ff-bedd-ff552a939fe2" />
+
+
+## Konfiguracja VLANów (tworzenie, nadawanie ID, ustawianie tagowania, przypisywanie portów)
 
 
 
-### CLI - Jak się połączyć z switchem 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### CLI - Jak połączyć się z switchem 
 
 Jeśli ktoś ma ochotę skonfigurować switcha przez CLI lub jest napisane tak w arkuszu ( co wątpie no nigdy jeszcze tak nie było ) to trzeba przejśc przez 3 podstawowe kroki.
 
