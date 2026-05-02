@@ -181,17 +181,23 @@ Oznacza to ,że szybkość którą musimy wpisać to analogicznie 38400
 czyli finalne ustawienia PuTTY wyglądałby następująco:
 <img width="444" height="439" alt="image" src="https://github.com/user-attachments/assets/98f7c97f-0efd-46e7-9d74-73dfc6652395" />
 
-Na koniec należy kliknąć Open
+Na koniec należy kliknąć przycisk Open - co sprawi ,że połączymy się do switcha 
 <img width="85" height="33" alt="image" src="https://github.com/user-attachments/assets/bdd37006-db80-4f13-b5c1-6a4a12bc941d" />
-i połączymy się do Switcha.
 
-Insert Connected to switch image 
+<img width="662" height="420" alt="image" src="https://github.com/user-attachments/assets/5b16f206-3392-41b0-a2f4-eed30f10d988" />
+Kiedy pojawi się nowe okienko - wystarczy kliknąć guzik Enter i widzimi ,że możemy teraz wpisywać komendy 
 
 
+## Troubleshooting
 
-Błędy
+
 <img width="385" height="166" alt="image" src="https://github.com/user-attachments/assets/1f17e8ba-4562-402e-9086-39e7c8a30e66" />
 
+Jeśli dostaniemy taki błąd oznacza to ,że port COM który wybraliśmy jest nie poprawny i nie die się nim połączyć do Switcha aby naprawić ten błąd należy połączyć się urzywając dobrego portu COM podłączonego do interfejsu Consolowego Switcha , do portu Serial komputera 
+
+<img width="666" height="414" alt="image" src="https://github.com/user-attachments/assets/f9697636-13b8-45a5-aef3-4959c50aea58" />
+
+Jeśli po podłączeniu się do switcha , kliknięciu Enter dostajemy za każdym razem takie artyfakty - oznacza to ,że szybkość przez nas wpisana jest niepoprawna i należy ją zmienić.
 
 
 
