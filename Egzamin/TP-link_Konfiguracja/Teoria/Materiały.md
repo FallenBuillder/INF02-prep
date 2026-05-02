@@ -56,7 +56,7 @@ Na początku lokalizujemy ikonki w prawym górnym rogu ekranu i klikamy na nie
 Następnie klikamy w ustawienia
 
 <img width="989" height="652" alt="image" src="https://github.com/user-attachments/assets/2ba05665-1800-46eb-b509-45e7b174aa37" />
-Następnie ponownie klikamy w guzik z ustawieniami w prawym górnym rogu 
+Następnie ponownie klikamy w guzik z ustawieniami w prawym górnym rogu ( w zakłądce wired ten na górze )
 
 <img width="755" height="589" alt="image" src="https://github.com/user-attachments/assets/42061ffb-7372-4378-a276-a7900358fae8" />
 Następnie w nowym okienku wchodzimy do zakładki IPv4
