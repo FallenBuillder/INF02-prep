@@ -137,9 +137,20 @@ klikamy w pierwszą opcje '802.1Q VLAN' - jest to jedyna opcja która nam się t
 
 <img width="902" height="222" alt="image" src="https://github.com/user-attachments/assets/3de77f27-8491-439d-9622-3475a552104b" />
 
-po wejściu do tej zakładki dostajemy 2 nowe w których będziemy głównie operować - czyli zakładki 
+po wejściu do tej zakładki możemy zauważyć dwie nowe w których będziemy głównie operować:
 - VLAN config ( w tej zakładce będziemy dodawać VLANY , przypisywać im nazwy , id , porty )
 - Port Config ( w tej zakładce będziemy zmieniać mode ( tryb ) portów )
+
+
+Zaczynając od zakładki VLAN config 
+<img width="731" height="213" alt="image" src="https://github.com/user-attachments/assets/eb561a2b-3374-4f91-8ffc-f59a50629c30" />
+
+Aby stworzyć nowego VLANa należy kliknąć guzik 'Create'
+Następnie wyskoczy nam okienko w którym będziemy dodawać VLAN 
+Moge wytłumaczyć poszczególne opcje które tutaj się znajdują poprzez wykonanie zadania z egzaminu.
+<img width="1805" height="147" alt="image" src="https://github.com/user-attachments/assets/31853aa4-4cc2-4ace-8c2a-82795e151b29" />
+<img width="628" height="622" alt="image" src="https://github.com/user-attachments/assets/de6af861-b646-4eca-b278-15b5af36fa14" />
+
 
 
 
