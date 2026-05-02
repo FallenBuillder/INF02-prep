@@ -137,8 +137,9 @@ Lease Time oznacza ile minut dany komputer ma trzymać adres IP przed pobraniem 
 Pomyślnie skonfigurowaliśmy Router!
 <img width="191" height="102" alt="image" src="https://github.com/user-attachments/assets/95563bbe-cc20-431e-aca2-c87f2ac37203" />
 
+### Stworzenie Dzierżawy ( Leaase )
 
-Następnie aby stworzyć Lease ( zarezerwować jakiś adres IP danemu komputerowi po adresie MAC ) należy:
+aby stworzyć Lease ( zarezerwować jakiś adres IP danemu komputerowi po adresie MAC ) należy:
 Wrócić do zakładki DHCP Server , wejśc w Leases.
 <img width="593" height="374" alt="image" src="https://github.com/user-attachments/assets/2251a6b9-ebed-423e-b1bc-917f2aa46347" />
 Turaj klikamy guzik + i pojawia się nam to okienko.
