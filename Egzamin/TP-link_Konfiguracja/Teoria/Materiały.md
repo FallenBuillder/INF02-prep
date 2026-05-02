@@ -195,6 +195,15 @@ Po kliknięciu na dropdowna i wybraniu, że chcemy tagować podane przez nas por
 <img width="602" height="395" alt="image" src="https://github.com/user-attachments/assets/fed68e2b-d45f-4fff-bdae-c4c3f1e1c945" />
 
 
+### przypisanie SVI do danego VLANa
+jeśli na egzaminie jest napisane ,że mamy konfigurować switcha tylko przez np. VLAN100 to trzeba wtedy wejść w konfiguracje 'Default VLAN'
+<img width="694" height="39" alt="image" src="https://github.com/user-attachments/assets/653418b8-cb35-45a9-963e-934615fa11bc" />
+kliknąć przycisk 'Edit' i następnie sprawić ,że wybrane są tylko te porty które należą do VLANa o którym mowa czyli np. wybieramy tutaj wszystkie porty VLANA100 i klikamy Apply 
+<img width="629" height="617" alt="image" src="https://github.com/user-attachments/assets/364b2bdc-84cd-460c-8cf9-0c436599475a" />
+> Alternatywnie na Switchach typu L3 można jeszcze to zrobić inaczej ( Arkusz 2 zima 2026 ) ale to już trzeba by było sprawdzić samemu  - tam w nawiasie jest napisane '(dla przełącznika L3 adres IP przypisany do VLAN o ID = 2)' lecz jest to trochę dziwne patrząc na fakt ,że nie kojarze żeby ktoś miał na egzaminie switcha L3
+
+
+
 
 
 
@@ -217,6 +226,17 @@ Jak widać po kliknięciu Apply port został wyłączony
 
 ## Skonfigurowanie Trunka
 Trunk w kontekście egzaminu praktycznego jest najtrudniejszym elementem jeśli chodzi o switcha.
+Naszczęście jest dosyć rzadki , był tylko na 4 egzaminach 
+
+
+
+
+
+
+
+
+
+
 
 
 
