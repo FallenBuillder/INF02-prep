@@ -153,9 +153,28 @@ Zaczynając od zakładki VLAN config
 
 Aby stworzyć nowego VLANa należy kliknąć guzik 'Create'
 Następnie wyskoczy nam okienko w którym będziemy dodawać VLAN 
-Moge wytłumaczyć poszczególne opcje które tutaj się znajdują poprzez wykonanie zadania z egzaminu.
-<img width="1805" height="147" alt="image" src="https://github.com/user-attachments/assets/31853aa4-4cc2-4ace-8c2a-82795e151b29" />
+Mogę wytłumaczyć poszczególne opcje które tutaj się znajdują poprzez wykonanie zadania z egzaminu.
 <img width="628" height="622" alt="image" src="https://github.com/user-attachments/assets/de6af861-b646-4eca-b278-15b5af36fa14" />
+<img width="1805" height="147" alt="image" src="https://github.com/user-attachments/assets/31853aa4-4cc2-4ace-8c2a-82795e151b29" />
+Z polecenia wynika ,że mamy skonfigurować VLAN który ma:
+- ID = 100
+- nazwa = VLAN100
+- 3 porty = 1, 2, 3 ( które nie są tagowane )
+Konfiguracja tego zadania wyglądałaby Następująco 
+<img width="611" height="610" alt="image" src="https://github.com/user-attachments/assets/4a341f7d-e69a-41a6-a93c-345e3f656c42" />
+> do tego zadanie nie potrzebowaliśmy tym razem drugiej zakładki ponieważ wszystkie porty są defaultowo nie tagowane
+Na koniec klikamy Apply i nasz VLAN jest gotowy.
+<img width="64" height="27" alt="image" src="https://github.com/user-attachments/assets/eed2eea7-8283-4d90-b3f6-9610e60a437f" />
+
+
+
+
+
+
+
+
+
+
 
 
 
