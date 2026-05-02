@@ -166,6 +166,7 @@ Oznacza to ,że do pola description dajemy nazwe VLANa , do pola ID dajemy jego 
 Konfiguracja tego zadania wyglądałaby Następująco 
 <img width="611" height="610" alt="image" src="https://github.com/user-attachments/assets/4a341f7d-e69a-41a6-a93c-345e3f656c42" />
 > do tego zadanie nie potrzebowaliśmy tym razem drugiej zakładki ponieważ wszystkie porty są defaultowo nie tagowane
+
 Na koniec klikamy Apply i nasz VLAN jest gotowy.
 <img width="64" height="27" alt="image" src="https://github.com/user-attachments/assets/eed2eea7-8283-4d90-b3f6-9610e60a437f" />
 
