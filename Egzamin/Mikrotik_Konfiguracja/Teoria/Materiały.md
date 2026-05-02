@@ -114,6 +114,34 @@ czyli:
 pierwsze trzy podpunkty możemy pomimac ponieważ można je swobodnie zrobić przez Quick Seta tak jak w poprzednim przykłądzie a resztę będziemy konfigurować w innej zakładce.
 
 
+Aby skonfigurować adres Server DHCP należy wejść do zakładki IP 
+<img width="116" height="19" alt="image" src="https://github.com/user-attachments/assets/f9ea893a-829d-4f3a-84d6-cf1492df2422" />
+Następnie z Dropdowna wybrać opcje 'DHCP Server'
+<img width="251" height="525" alt="image" src="https://github.com/user-attachments/assets/d32615bb-72a9-4629-94dc-d77cc6aa311b" />
+Menu wygląda następująco
+<img width="598" height="377" alt="image" src="https://github.com/user-attachments/assets/91694e2d-9fb5-4b4e-9b3f-40d5517860fc" />
+Następnie klikamy guzik DHCP Setup aby rozpocząć konfigurację.
+<img width="80" height="24" alt="image" src="https://github.com/user-attachments/assets/71683035-a902-4d3c-be46-8d1a2f9dd9c8" />
+W pierwszym okienku wybieramy ether2 ponieważ nasz server DHCP będzie rozdawał adresy IP właśnie na tym interfejscie.
+<img width="272" height="173" alt="image" src="https://github.com/user-attachments/assets/4900abe7-3d01-439e-bb60-ba6042c0ab0f" />
+Sieć skonfiguruje się automatycznie możemy przejśc dalej 
+<img width="272" height="171" alt="image" src="https://github.com/user-attachments/assets/8e0acd29-e6bd-47cf-8e86-526bc63eb8ef" />
+Brama domyślna też skonfiguruje się sama, możemy  przejść dalej
+<img width="272" height="173" alt="image" src="https://github.com/user-attachments/assets/5712a1e9-6ad6-4349-9e26-c54c8b2e1282" />
+W Adresses to Give Out: Tutaj wybieramy właśnie tą pule adresów którą będzie używał nasz server DHCP i z której podłączone do niego komputery mogą brać adresy IP - zmieniamy tutaj domyślne wartości na takie które dostaliśmy w arkuszu czyli 172.16.10.100 ÷ 172.16.10.110
+<img width="272" height="170" alt="image" src="https://github.com/user-attachments/assets/f8ae2282-3fbb-426f-bfde-e00a35b99e14" />
+W tej zakładce wybieramy Servery DNS które będziemy używać w naszym serverze DHCP - może być napisane w arkuszu ,że servery DNS mają byc inne dla interfejsy WAN i dla interfejsy Servera DHCP ale nie powinno tak być a więc zostawiamy te które ustawilismy.
+<img width="272" height="171" alt="image" src="https://github.com/user-attachments/assets/7ca76384-74c4-4726-9155-411dd2a7f6fd" />
+Lease Time oznacza ile minut dany komputer ma trzymać adres IP przed pobraniem nowego - w tym przypadku zostawiamy to pole tak jak jest bo nikt nie powiedział ,że mamy je zmienić
+<img width="273" height="171" alt="image" src="https://github.com/user-attachments/assets/45d6aea0-190d-45b6-b914-b2a2c499d74b" />
+
+
+
+
+
+
+
+
 
 
 
