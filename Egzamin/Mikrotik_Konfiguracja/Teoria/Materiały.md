@@ -60,7 +60,7 @@ Albo możemy poprostu dwukrotnie kliknąć na adres MAC routera co nas automatyc
 <img width="1651" height="945" alt="image" src="https://github.com/user-attachments/assets/1b9b9e90-f7bd-465f-9df4-7399e04e3b47" />
 Jesteśmy teraz zalogowani do routera i możemy zacząć jego konfigurację
 
-> UWAGA: Możemy zignorowac monit o Zmianie hasła ponieważ tylko nam przeszkodzi jeśli je zmienimy a następnie zapomnimy ( no chyba ,że w arkuszu jest napisane ,że mamy je zmienić ( co się jescze nigdy nie stało ))
+> UWAGA: Możemy zignorować monit o zmianie hasła ponieważ tylko nam przeszkodzi jeśli je zmienimy a następnie zapomnimy ( no chyba, że w arkuszu jest napisane, że mamy je zmienić ( co się jescze nigdy nie stało ))
 
 
 
