@@ -49,7 +49,7 @@ na egzaminie INF02 kiedy połączamy się do jakiegoś routera którego świeżo
 <img width="1150" height="60" alt="image" src="https://github.com/user-attachments/assets/15cb7651-74ca-4001-94b8-5dd59ae3177f" />
 > UWAGA: Router nie pojawi się odrazu po zresetowaniu. ponieważ trzeba odczekać pewien czas żeby się przygotował - w więkoszości przypadków około 30 sekund wystarczy aby się pojawił
 
-> UWAGA: Z tego co testowałem to nie da połączyć się z routerem jeśli mamy na karcie siecowej Adres APIPA - co to jest? adres APIPA taki jak np. 169.254.31.184 z maską 255.255.0.0 jeśli mamy taki adres oznacza to ,że komputer nie porbrał adresu IP od np. Routera czyli server DHCP nie działa.
+> ( jednak tak nie jest ) UWAGA: Z tego co testowałem to nie da połączyć się z routerem jeśli mamy na karcie siecowej Adres APIPA - co to jest? adres APIPA taki jak np. 169.254.31.184 z maską 255.255.0.0 jeśli mamy taki adres oznacza to ,że komputer nie porbrał adresu IP od np. Routera czyli server DHCP nie działa.
 
 Następnie aby połączyć się z Mikrotikiem musimy w programie Winbox albo wpisać jego adres MAC , Defaultowy login jako admin i kliknąć guzik Connect
 <img width="1263" height="113" alt="image" src="https://github.com/user-attachments/assets/4ec2c46c-b668-4ef9-bda5-f3f7bd05d035" />
@@ -153,15 +153,20 @@ W moim przypadku Adres MAC mojej stacji roboczej widnieje na tym obrazku po wpis
 Po Wpisaniu Adresu MAC do sekcji MAC Address możemy kliknąć Apply , OK co sprawi ,że zmiany się zapiszą 
 <img width="374" height="423" alt="image" src="https://github.com/user-attachments/assets/e1a7fbe7-d8e6-494c-ab83-41b01bc777c7" />
 
-
-
 Ethernet adapter Karta-USB:
-
    IPv4 Address. . . . . . . . . . . : 172.16.10.105(Preferred)
-   
    Subnet Mask . . . . . . . . . . . : 255.255.255.128
+Jak widać Server DHCP działa poprawnie 
 
-Jak widać adres IP został nadany przez Lease
+
+### Troubleshooting 
+
+Jeśli źle się wpisało Pool adresów do servera DHCP to nie trzeba usuwać całego Serwera DHCP i zaczynać od początku. Wystarczy wejśc do zakłądki IP > Pool
+<img width="255" height="523" alt="image" src="https://github.com/user-attachments/assets/2bb6b9db-e03a-47f7-9c97-7c0baa3af6d8" />
+a następnie w tej zakłądce klikamy na źle utworzony Pool
+<img width="428" height="373" alt="image" src="https://github.com/user-attachments/assets/51002420-7d2b-4d13-be5a-5dec51889ebf" />
+i zmieniamy jego zakres i klikamy Apply , OK
+<img width="303" height="202" alt="image" src="https://github.com/user-attachments/assets/9217e650-8703-4b99-820b-6984e3e1429d" />
 
 
 
