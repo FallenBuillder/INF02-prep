@@ -213,6 +213,15 @@ Jak widać po kliknięciu Apply port został wyłączony
 <img width="698" height="23" alt="image" src="https://github.com/user-attachments/assets/9aa3d800-2129-4924-bc56-4b6ed80356cc" />
 
 
+## Zapisywanie 
+Zawsze przed wyjściem z Switcha należy zapisać to co już zrobiliśmy - lecz nie chodzi mi tu o guzik 'Apply' w różnych zakład lecz chodzi mi tutaj o zaznaczenie opcji 'Save Config' na samym dole menu z zakładkami.
+<img width="168" height="483" alt="image" src="https://github.com/user-attachments/assets/d3230cbc-c655-4947-92a1-7aef6d88916d" />
+Wygląda tak
+<img width="130" height="26" alt="image" src="https://github.com/user-attachments/assets/19faa240-fe93-4bf2-bd48-ac954308a463" />
+Po kliknięciu Przycisku , zaakceptowaniu monitu przez kliknięcie guzika Ok mamy teraz 100% pewność ,że zapisaliśmy nasz progress
+
+
+
 ## Skonfigurowanie Trunka
 Trunk w kontekście egzaminu praktycznego jest najtrudniejszym elementem jeśli chodzi o switcha.
 Naszczęście jest dosyć rzadki , ponieważ był tylko na 4 egzaminach praktycznych i jak już jest to odejmuje się wtedy raczej jedno zadanie z egzaminu na jego rzecz lub reszta egzaminy jest trochę łatwiejsza.
@@ -223,6 +232,8 @@ Trunk był na tych egzaminach:
 Tutaj niestety jak dostanie się trunka to będzie trzeba wtedy skonfigurować ustawienia z nim związane i na routerze i na switchu.
 <img width="1054" height="474" alt="image" src="https://github.com/user-attachments/assets/4c2dc1ff-b3cf-4d4e-9582-b76b09f6b7f2" />
 <img width="1057" height="743" alt="image" src="https://github.com/user-attachments/assets/0b2fa7f9-3152-4583-82e9-74b6e79d6c43" />
+
+BEFORE MAKING THE GUIDE ON THE TRUNK FIRST DO THE ROUTER AND THEN JUST DO THE TRUNK PART HERE AND RIDERECT PEOPLE TO THE 'Mikrotik_Konfiguracja' FOLDER
 
 
 
@@ -377,17 +388,18 @@ Jeśli po podłączeniu się do switcha , kliknięciu Enter dostajemy za każdym
 
 
 
-
-
-
-
-
-
-
-
-
-
 # CLI - Konfiguracja Switcha
+Konfigurowanie przez CLI jest dosyć proste ponieważ mamy wsumie tylko 2 główne tryby w których operujemy a tak pozatym to nic zabardzo specjalnego tutaj nie ma ( oprócz zapamiętania na pamięc komend oczywiście ) 
+Po podłączeniu się do Switcha pierwsze co widzimy na egzaminie to tryb nieuprzywilejowany - oznacza to ,że nic zabardzo nic możemy w nim robić - aby z niego wyjść należy wpisać komende 'enable'
+<img width="164" height="60" alt="image" src="https://github.com/user-attachments/assets/80a66b01-7e93-4036-88db-ac541421965b" />
+po wykonaniu tej komendy wchodzimy w tryb uprzywilejowany w którym możemy zacząć już robić.
+
+mianiowicie możemy wydać komende 
+show running-config która wyświetli obecną konfigurację 
+<img width="650" height="425" alt="image" src="https://github.com/user-attachments/assets/e74663dc-afa1-4e23-80d0-0e2724bca252" />
+
+
+
 
 
 
