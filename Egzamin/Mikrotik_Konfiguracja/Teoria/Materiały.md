@@ -89,12 +89,16 @@ Następnie wypełniamy Pola zgodnie z poleceniem zadania
 i w taki sposób wykonaliśmy całe zadanie dotyczące Routera używając Quick Seta 
 
 Wyjaśnienie:
+
 Zakładka Internet
+
 - Adres IP interfejsu WAN to jest poprostu inaczej adres IP ether1 a jeszcze inaczej adres służący do połączenia się do 'internetu' a więc przy wpisywaniu danych z tabelki poprostu musimy je przepisać zgodnie z tym co jest napisane na arkuszu do zakłądki Internet.
 - tak samo robimy z Bramą sieciową gdzie wpisujemy poprostu taką bramę jaką nam podali
 - i podobnie robimy z Maską podsieci gdzie w zakłądce 'Netmask' wybieramy /28 z dropdowna
 - Następnie wpisujemy adresy serverów DNS - 4.4.4.4 i 7.7.7.7 ( aby dodać drugi server DNS należy kliknąć strzałke w dół obok zakładki DNS Servers )
+  
 Zakładka Local Network
+
 - w zakładce 'Local Network' jedyne co musimy zrobić to musimy wpisać adres IP bramy domyślnej naszego routera w dobrze oznaczone pole. jeśli maska byłaby inna analogicznie zmieniamy ją w opcji pod adresem IP.
 
 Na koniec nie można zapomnieć aby kliknąć przycisk Apply aby zmiany się zapisały.
