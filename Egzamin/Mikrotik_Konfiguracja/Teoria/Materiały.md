@@ -1,3 +1,8 @@
-Teoria 
+# Teoria 
 
-Na egzaminie Praktycznym INF02 router ( jak i switch ) pojawiają się w każdym arkuszu jaki napotkamy. Czasami zadania z nich są trudn
+Na egzaminie Praktycznym INF02 router ( jak i switch ) pojawiają się w każdym arkuszu jaki napotkamy. Czasami zadania z nim związane są dosyć łatwe a czasami trochę bardziej bogmatwane
+
+W tej sekcji skupimy się na routerze Mikrotikowym i metodami dzięki którymi możemy go skonfigurować przez GUI 
+> Konfiguracja Mikrotika przez CLI jest bardzo trudna i wymagałaby dużej znajomości dokumentacji a więc nie ma jej tutaj.
+
+Zagadnienia 
