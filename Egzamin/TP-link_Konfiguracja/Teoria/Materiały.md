@@ -389,14 +389,74 @@ Jeśli po podłączeniu się do switcha , kliknięciu Enter dostajemy za każdym
 
 
 # CLI - Konfiguracja Switcha
+
+## Podstawowe komendy
 Konfigurowanie przez CLI jest dosyć proste ponieważ mamy wsumie tylko 2 główne tryby w których operujemy a tak pozatym to nic zabardzo specjalnego tutaj nie ma ( oprócz zapamiętania na pamięc komend oczywiście ) 
 Po podłączeniu się do Switcha pierwsze co widzimy na egzaminie to tryb nieuprzywilejowany - oznacza to ,że nic zabardzo nic możemy w nim robić - aby z niego wyjść należy wpisać komende 'enable'
 <img width="164" height="60" alt="image" src="https://github.com/user-attachments/assets/80a66b01-7e93-4036-88db-ac541421965b" />
-po wykonaniu tej komendy wchodzimy w tryb uprzywilejowany w którym możemy zacząć już robić.
+po wykonaniu tej komendy wchodzimy w tryb uprzywilejowany w którym możemy zacząć już coś robić.
 
-mianiowicie możemy wydać komende 
-show running-config która wyświetli obecną konfigurację 
+mianiowicie możemy tutaj wydać komendy takie jak:
+
+show running-config                     wyświetli obecną konfigurację 
 <img width="650" height="425" alt="image" src="https://github.com/user-attachments/assets/e74663dc-afa1-4e23-80d0-0e2724bca252" />
+show startup-config                     wyświetli konfigurację która automatycznie ładuje się przy starcie 
+show vlan brief                         pokaże obecną konfiguracje VLANów - który port jest przypisany do czego
+<img width="626" height="172" alt="image" src="https://github.com/user-attachments/assets/89fd7853-d66f-4113-a2f4-2a3b2da35fd1" />
+show interfaces status                  pokaże obecny stan każdych interfejsów 
+<img width="534" height="406" alt="image" src="https://github.com/user-attachments/assets/c3f1afed-84da-484e-aaa2-d294ba99a317" />
+ping [adres_IP]                         wykona test komunikacji ( ta sama składnia jak na więkoszości urządzeń ) 
+show interfaces trunk                   pokaże nam informację o trunkach w CLI                                                         ( jeszcze sprawdzić bo mój model nie obsługuje tej komendy ) 
+< aby wyjść z jakiegoś trybu uprzywilejowania do tego pod nami należy to wykonać komendą 'exit'
+<img width="199" height="52" alt="image" src="https://github.com/user-attachments/assets/3aa31d8b-927b-4f99-9b2e-1e6ac0fc5497" />
+
+< aby usuwać w konsoli tekst jak coś źle wpisaliśmy powinniśmy przy usuwaniu słów trzymać SHIFT 
+
+jeśli chcemy zobaczyć jakie komendy można wpisać do konsoli powinno się poprostu w nią wpisać znak zapytania - '?'
+
+albo wpisać znak zapytania '?' po jakiejś komendzie aby otzymać informację o dopełnieniu jej czyli np.
+<img width="508" height="76" alt="image" src="https://github.com/user-attachments/assets/5dd383f1-df72-4fb0-b9c9-712bac4686cc" />
+
+
+
+
+### Zapisanie informacji 
+Zpisać informacje możemy dzięki tym dwóm komendom 
+- copy running-config startup-config ( w skrócie 'copy run start' )
+- write ( w skrócie 'wr' )
+obydwie te komendy robią dokładnie to samo i zapisują konfigurację tak ,że jak wyjdziemy z konsoli , wejdziemy do niej zpowrotem nasz progress się zapiszę.
+
+
+
+## Konfiguracja Switcha 
+Aby pójść krok dalej i zacząć konfigurować te rzeczy ,które są na egzaminie musimy wpisać komendę:
+
+configure terminal ( w skrócie conf t )
+<img width="244" height="25" alt="image" src="https://github.com/user-attachments/assets/e2787f0b-75c1-45ca-a97a-d3494b766189" />
+tutaj mamy już większą swobode , możemy zacząć konfigurować interfejsy , Adresy IP , VLANy , trunki itd..
+
+### konfiguracja adresu IP , maski podsieci , bramy domyślnej
+
+TL-SG3424(config)# interface vlan 1                                   - to pozwoli nam wejść do konfiguracji VLANu który zawiera adres IP ( default vlan 1 )
+TL-SG3424(config-if)# ip address 192.168.0.1 255.255.255.0            - ta komenda pozwoli nam przypsać adres IP - pierwsze pole , maske sieciową - drugie pole do switcha
+TL-SG3424(config-if)# exit                                            - wychodzimy do ogólnej konfiguracji
+TL-SG3424(config)# ip default-gateway 192.168.0.2                     - ta komenda pozwala nam ustawić brame domyślną switcha na dany adres 
+
+### konfiguracja VLANów 
+
+
+
+
+
+
+<img width="83" height="195" alt="image" src="https://github.com/user-attachments/assets/6fb1f550-db2b-408e-95f0-4709c99e8fa5" />
+
+
+
+
+
+
+
 
 
 
