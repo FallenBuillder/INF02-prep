@@ -89,7 +89,7 @@ Na koniec kliamy guzik apply w prawym górnym rogu i adresacja się zapiszę
 
 ## krok 2.
 
-- należy podłaczyć się do pierwszego portu w switchu
+- należy podłaczyć się do pierwszego portu w naszym switchu ( powinno się jeszcze sprawdzić czy napewno podłączamy się dobrą kartą sieciową )
 
 ## krok 3.
 
