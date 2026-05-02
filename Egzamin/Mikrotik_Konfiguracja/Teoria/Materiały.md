@@ -173,6 +173,8 @@ i zmieniamy jego zakres i klikamy Apply , OK
 
 
 
+# Przypomnienie z podstaw sieci 
+
 
 
 
