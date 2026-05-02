@@ -8,9 +8,7 @@ część GUI ,CLI zawiera następujące zagadnienia
 - Konfiguracja VLANów (tworzenie, nadawanie ID, ustawianie tagowania, przypisywanie portów)
 - wyłączenie portu na switchu
 - Konfiguracja trunków ( tutaj egzamin2023-Styczeń-zad.03,04 , egzamin2023-Czerwiec-zad.-02 , egzamin2024-czerwiec-zad.01)
-- włączenie 802.1q
-- włączenie trybu access
-- przypisanie ostatniego możliwego adresu z podsieci
+- przypisanie ostatniego możliwego adresu z podsieci ( Mikrotik_Konfiguracja )
 - ( dodać rzeczy z 2026 zima )
 
 
