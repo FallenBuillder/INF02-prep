@@ -71,9 +71,11 @@ Całe to zadanie może zostać wykonane przez Quick Seta - Quick Set to przyjazn
 Jak widać na zamieszczonym obrazku Quick Seta możemy znaleść na samej górze wszytkich Ustawień w mikrotiku.
 <img width="835" height="701" alt="image" src="https://github.com/user-attachments/assets/79a5f7a2-7787-4703-abdd-69372f45846f" />
 po kliknięciu w ten guzik pojawia się nam okienko w którym możemy rozpocząć konfiguracje ale najpierw wybierzemy Typ naszego Routera z dropdowana w lewym górnym rogu.
-<img width="128" height="130" alt="image" src="https://github.com/user-attachments/assets/c71947c1-9d5a-41ea-a362-72be4036ddc7" />
-Radze zawsze wybierać opcję Home AP ponieważ jest najlepsza do wszystkich ustawień na tym urządzeniu.
 <img width="168" height="129" alt="image" src="https://github.com/user-attachments/assets/a693cec1-c5a8-408c-99e6-afb833df5ee8" />
+Radze zawsze wybierać opcję Home AP ponieważ jest najlepsza do ustawienia więkoszości ustawień na tym urządzeniu.
+
+
+
 
 
 
