@@ -160,6 +160,9 @@ Z polecenia wynika ,że mamy skonfigurować VLAN który ma:
 - ID = 100
 - nazwa = VLAN100
 - 3 porty = 1, 2, 3 ( które nie są tagowane )
+
+Oznacza to ,że do pola description dajemy nazwe VLANa , do pola ID dajemy jego ID a następnie wybieramy porty do których ma należeć poprzez wybieranie checkboxów
+
 Konfiguracja tego zadania wyglądałaby Następująco 
 <img width="611" height="610" alt="image" src="https://github.com/user-attachments/assets/4a341f7d-e69a-41a6-a93c-345e3f656c42" />
 > do tego zadanie nie potrzebowaliśmy tym razem drugiej zakładki ponieważ wszystkie porty są defaultowo nie tagowane
