@@ -7,9 +7,14 @@ W tej sekcji skupimy się na routerze Mikrotikowym i metodami dzięki którymi m
 
 Zagadnienia 
 
+- Resetowanie Routera
 - Podstawowe ustawienia konfiguracjne w każdym arkuszu
 - Konfiguracja Wszystkiego przez Quick Seta ( łatwa metoda zdająca się tylko jak serwer DHCP jest wyłączony )
 - Konfiguracja serwera DHCP
 - Konfiguracja Wi-FI
 - Konfiguracja Router-on-a-stick - zarządzanie trunkami
   
+
+### GUI - jak połączyć się z Routerem 
+Aby połączyć się z routerem Mikrotikowym potrzebny jest nam program WinBox. Program ten będzie na egzaminie albo już zainstalowany na naszym komputerze albo będziemy musieli go doinstalować uruchamiając instalator który znajduję się na Pendrivie USB opisanym PROGRAMY.
+
