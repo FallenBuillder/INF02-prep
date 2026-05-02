@@ -6,3 +6,10 @@ W tej sekcji skupimy się na routerze Mikrotikowym i metodami dzięki którymi m
 > Konfiguracja Mikrotika przez CLI jest bardzo trudna i wymagałaby dużej znajomości dokumentacji a więc nie ma jej tutaj.
 
 Zagadnienia 
+
+- Podstawowe ustawienia konfiguracjne w każdym arkuszu
+- Konfiguracja Wszystkiego przez Quick Seta ( łatwa metoda zdająca się tylko jak serwer DHCP jest wyłączony )
+- Konfiguracja serwera DHCP
+- Konfiguracja Wi-FI
+- Konfiguracja Router-on-a-stick - zarządzanie trunkami
+  
