@@ -465,6 +465,8 @@ TL-SG3424(config-if-range)# switchport mode access              --- Nadanie im t
 
 TL-SG3424(config-if-range)# switchport access vlan 100          --- połączenie portów z VLANem o ID 100 
 
+TL-SG3424(config-if-range)# no shutdown                         --- sprawienie że porty są napewno włączone
+
 TL-SG3424(config-if-range)# exit
 
 TL-SG3424(config)# exit
@@ -489,18 +491,47 @@ TL-SG3424(config-if-range)# switchport mode general             --- Nadanie tryb
 
 TL-SG3424(config-if-range)# switchport general allowed vlan 100 tagged        --- połączenie portow z VLANem o ID 100 , włączenie tagowania
 
+TL-SG3424(config-if-range)# no shutdown                         --- sprawienie że porty są napewno włączone
+
 TL-SG3424(config-if-range)# exit
 
 TL-SG3424(config)# exit
 
 TL-SG3424# copy running-config startup-config                   --- Zapisanie postępów 
-
-
  
 > Szybka powtórka z masek podsieci bo czemu nie
 
 <img width="83" height="195" alt="image" src="https://github.com/user-attachments/assets/6fb1f550-db2b-408e-95f0-4709c99e8fa5" />
 
+
+### wyłączenie portów
+Aby wyłączyć port wystarczy wpisać w komendy 
+
+TL-SG3424# configure terminal
+
+TL-SG3424(config)# interface fastEthernet 0/1                   --- Wejście do intefejsów którymi będziemy zarządzać
+
+TL-SG3424(config-if-range)# shutdown                            --- wyłączy port 
+
+### UWAGA
+
+to zależy od switcha ale na jednych switchach jest szansa ,że jak przez CLI wybieramy interfejsy to będziemy musieli wpisać przez numerem interfejsu 
+
+- 1/0/1
+lub
+- 0/1
+
+no chyba że robimy zakres to wtedy 
+
+- 1/0/1-3
+lub
+- 0/1-3
+
+żeby sprawdzić jakie nazwenictwo mają naszę porty należy wykonać ponownie komendę 'show interface status' w trybie uprzywilejowanym
+<img width="536" height="405" alt="image" src="https://github.com/user-attachments/assets/11d423e2-8f18-46ba-b63b-3a3a3bfd6000" />
+z obrazka dokładnie widać ,że w tym switchu stosuje się nazwenictwo z 1 na tyle czyli:
+
+ Gi1/0/1
 
 
 
