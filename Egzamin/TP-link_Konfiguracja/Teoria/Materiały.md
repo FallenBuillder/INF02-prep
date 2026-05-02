@@ -172,7 +172,7 @@ Przykład Znalezienia Szybkości w dokumentacji:
 <img width="792" height="1127" alt="image" src="https://github.com/user-attachments/assets/03fbcef6-eb4d-43a9-8082-7ef5961b15a4" />
 Po wejściu do dokumentacji należy znaleść temat który brzmi w stylu jak "Accessing the CLI" albo "Connecting to the switch"
 <img width="710" height="100" alt="image" src="https://github.com/user-attachments/assets/f7e59f1a-5919-43f5-8823-67d5dc3123f4" />
-
+Jak widać istnieje taki dział - a więc idziemy do niego w dokumentacji 
 <img width="670" height="964" alt="image" src="https://github.com/user-attachments/assets/46e4e0f5-e5cc-474a-993f-4243c13ed5fa" />
 Jak widać na jednej z pierwszych stron dokumentacji Switcha - Dotyczącej CLI widnieje napis Baud rate 38400 bps
 <img width="588" height="96" alt="image" src="https://github.com/user-attachments/assets/2ce9f4f2-dc47-411d-a3bd-960ef3e88c24" />
