@@ -75,7 +75,11 @@ Server WWW posiada ustawienia takie jak:
 - Plik domyślny - oznacza jaką ma może mieć główny plik .html strony internetowej, który ładuje się jako pierwszy przy ładowaniu strony
 - Miejsce w, którym znajduję się plik domyślny - określa gdzie ma znajdować się plik domyślny.
 
-<strong>Server SAMBA</strong> - Server SAMBA inaczej 
+<strong>Server SAMBA</strong> - Server SAMBA to server, którego głównym celem jest udostępnianie folderów w sieci lokalnej lub w internecie do, których potem użytkownicy końcowi mogą zapisywac dane w zależności od ich uprawnień do danego folderu. 
+
+<strong>Server SSH</strong> - Server SSH pozwala nam na zdalne szyfrowane połączenie się z serverem, który go hostuje aby następnie można było go zdalnie skonfigurować,
+
+<strong>Server FTP</strong> - Server FTP pozwala nam na pobieranie oraz uploadowanie danych. Działa na podstawie uprawinień, posiada konta do, których można się zalogować i można z nich wykonywać operacje na plikach. 
 
 
 
