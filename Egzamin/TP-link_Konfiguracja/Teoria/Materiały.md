@@ -11,7 +11,7 @@ część GUI ,CLI zawiera następujące zagadnienia
 - Konfiguracja VLANów (tworzenie, nadawanie ID, ustawianie tagowania, przypisywanie portów)
 - wyłączenie portu na switchu
 - Konfiguracja trunków
-- przypisanie ostatniego możliwego adresu z podsieci ( było kiedyś takie zadanie na egzaminie ,że trzeba było jeszcze przypisać Adres IP bazując na obecnej konfiguracji sieciowej i wybrać ostatni adres IP z danej sieci więcej o tym w ( Mikrotik_Konfiguracja ))
+- przypisanie ostatniego możliwego adresu z podsieci ( było kiedyś takie zadanie na egzaminie ,że trzeba było jeszcze przypisać Adres IP bazując na obecnej konfiguracji sieciowej i wybrać ostatni adres IP z danej sieci więcej o tym w folderze 'Sieci')
 
 
 ### GUI  - Jak połączyć się z switchem 
