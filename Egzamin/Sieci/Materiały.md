@@ -60,7 +60,7 @@ Mamy wiele różnych typów serverów i omówienie wszystkich zajeło by bardzo 
 
 <strong>Server DHCP</strong> - server DHCP służy jako usługa, której zadaniem jest rozdawanie adresów IP komputerom, które są podłączone do tej samej sieci co on i mają ustawione w swoich kartach sieciowych pozyskiwanie adresów przez właśnie przez ten server. 
 Server DHCP posiada parę ustawień mianowicie można w nim ustawić:
-- Pula adresó - to ustawienie mówi serverowi ile i jakie adresy IP ma rozdawać swoim klientom
+- Pula adresów - to ustawienie mówi serverowi ile i jakie adresy IP ma rozdawać swoim klientom
 - Lease time ( czas dzierżawy ) - to ustawienie oznacza ilość czasu, który ma upłynąć przed tym jak klient ma dostać nowy adres
 - Rezerwacja adresów - to ustawienie pozwala serverowi zarezerwowac konkretny adres IP dla konkretnej karty sieciowej urządzenia końcowego ,które chce otrzymać od niego adres ( dostanie zawsze ten sam )
 
@@ -82,6 +82,11 @@ Server WWW posiada ustawienia takie jak:
 <strong>Server FTP</strong> - Server FTP pozwala nam na pobieranie oraz uploadowanie danych. Działa na podstawie uprawinień, posiada konta do, których można się zalogować i można z nich wykonywać operacje na plikach. 
 
 
+## Klienci - co potzebują i jak działają ?
+
+Każde urządzenie jest z definicji klientem ponieważ każde urządzenie wysyła rządanie o jakieś dane a następnie przetwarza odpowiedzi, które dostało z tych właśnie rządań. 
+
+Aby klient ( na egzaminie kompter w Windowsem 10 albo Ubuntu Desktopem ) mógł komunikować się z serverem albo jakiegoś typu urządzeniem sieciowym <strong><em>musi być z tym urządzeniem w tej samej podsieci</strong></em>
 
 
 
