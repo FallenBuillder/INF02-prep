@@ -49,5 +49,10 @@ jego głownym celem jest tłumaczenie zwięzłych i trudnych do zapamiętania ad
 
 czyli w skrócie aders IP to jest nasz identyfikator, który pozwala komunikowac się z innymi urządzeniami, maska podsieci to jest nasz wyznacznik do której sieci należym, brama domyślna to jest router albo urządzenie do którego chcemy rozmawiać aby nasza informacja poszła dalej w świat do innego urządzenia , DNS jest usługą która pozwala nam tłumaczyć nazwy domenowe na adresy IP i odwrotnie , LAN i WAN to są pojęcia określające złożonośc sieci i gdzie ta sieć się znajduje w tym przypadku LAN jest naszą siecią lokalną czyli czymś małym a WAN jest już większą siecią która łączy wiele innych sieci pozwalając na komunikacje między nimi.
 
+***
+
+
+
+
 
 
