@@ -7,12 +7,12 @@ W tej sekcji skupimy się na routerze Mikrotikowym i metodami dzięki którymi m
 
 Zagadnienia 
 
-- jak się połączyć ? && Resetowanie Routera
-- Podstawowy przykład konfiguracji na podstawie najprostszego egzaminu ( Quick set )
-- Konfiguracja serwera DHCP
-- Podstawy Sieci
-- Konfiguracja Wi-FI
-- Konfiguracja Router-on-a-stick - zarządzanie trunkami
+- jak się połączyć ? && Resetowanie Routera ✅
+- Podstawowy przykład konfiguracji na podstawie najprostszego egzaminu ( Quick set ) ✅
+- Konfiguracja serwera DHCP ✅
+- Podstawy Sieci ❌
+- Konfiguracja Wi-FI ❌
+- Konfiguracja Router-on-a-stick - zarządzanie trunkami ❌
   
 
 ### GUI - jak połączyć się z Routerem 
