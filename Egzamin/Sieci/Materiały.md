@@ -34,16 +34,16 @@ jego najpopularniejsza wersja czyli wersja 4 ( IPv4 ) jest obecnie najbardziej p
 adres IPv4 składa się z 4 oktetów liczb od 0-255 zapisywanych w systemie dziesiętnym.
 np. 192.168.0.1 lub 244.31.172.12
 
-Maska podsieci - jest liczbą służącą do wyodrębnienia w adresie IP części będącej adresem podsieci i części, która jest adresem hosta w tej podsieci. ( więcej o niej w części o dzieleniu sieci na podsieci )
+<strong>Maska podsieci</strong> - jest liczbą służącą do wyodrębnienia w adresie IP części będącej adresem podsieci i części, która jest adresem hosta w tej podsieci. ( więcej o niej w części o dzieleniu sieci na podsieci )
 
-Brama domyślna - oznacza router, do którego komputery sieci lokalnej mają wysyłać pakiety, o ile nie powinny być one kierowane w sieć lokalną lub do innych, znanych im routerów.
+<strong>Brama domyślna</strong> - oznacza router, do którego komputery sieci lokalnej mają wysyłać pakiety, o ile nie powinny być one kierowane w sieć lokalną lub do innych, znanych im routerów.
 
-DNS - (Domain Name System ) - hierarchiczny rozproszony system nazw, który umożliwia identyfikację usług i zasobów internetowych, pozwalając urządzeniom użytkowników końcowych na korzystanie z usług routingu internetowego i usług łączności w celu dotarcia do tych usług i zasobów
+<strong>DNS</strong> - (Domain Name System ) - hierarchiczny rozproszony system nazw, który umożliwia identyfikację usług i zasobów internetowych, pozwalając urządzeniom użytkowników końcowych na korzystanie z usług routingu internetowego i usług łączności w celu dotarcia do tych usług i zasobów
 jego głownym celem jest tłumaczenie zwięzłych i trudnych do zapamiętania adresów IP na domeny(i odwrotnie), które są łatwo przez nas odczytywane, używane 
 
-LAN - (Local Area Network) - sieć komputerowa łącząca komputery na określonym obszarze
+<strong>LAN</strong> - (Local Area Network) - sieć komputerowa łącząca komputery na określonym obszarze
 
-WAN - (Wide Area Network) - – sieć komputerowa znajdująca się na obszarze wykraczającym poza miasto, kraj lub kontynent
+<strong>WAN</strong> - (Wide Area Network) - – sieć komputerowa znajdująca się na obszarze wykraczającym poza miasto, kraj lub kontynent
 
 
 
