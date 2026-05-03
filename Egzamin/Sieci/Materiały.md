@@ -19,8 +19,18 @@ każde z wyżej wymienionych urządzeń ma swoję zastosowania i pełni inną ro
 
 Ważną Umiejętnością więc jest wiedza co robią poszczególne elementy, które związane są z konfigurowaniem wyżej wymienionych urządzeń.
 
+> UWAGA: materiał, który jest tutaj przedstawiony ma na celu tylko powtórke z sieci i jak działają do egzaminu <strong>PRAKTYCZNEGO</strong> bardziej rozwinięty i zaawansowane wyjaśnienie poniższych tematów będzie wytłumaczone w osobnym repozytorium przygotowywującym nas do egzaminy Teoretycznego 
 
-### Podstawy Sieci
+### Czym jest Sieć ?
 Zanim przejdziemy do omówienia głównego wątku musimy się cofnąć i odpowiedzieć na pytanie co umożliwia nam sieć kpmputerowa ? - według [definicji](https://pl.wikipedia.org/wiki/Sie%C4%87_komputerowa) <em>'sieć umożliwia łatwy i szybki dostęp do – jak również otwiera techniczną możliwość tworzenia i korzystania ze – wspólnych zasobów informacji i zasobów danych.'</em>
 
 Oznacza to, głównym zadaniem, Celem Sieci komputerowej jest <strong>wymiana informacji</strong>
+
+### Jak urządzenia komunikują się z sobą w sieci ?
+Aby zrozumieć jak urządzenia się z sobą komunikują musimy najpierw zrozumiec parę definicni związanych z sieciami.
+adres IP - 
+Maska sieciowa - 
+Brama domyślna -
+server DNS - 
+LAN - 
+WAN - 
