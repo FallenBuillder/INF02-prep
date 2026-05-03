@@ -21,5 +21,5 @@ Ważną Umiejętnością więc jest wiedza co robią poszczególne elementy, kt�
 
 
 ### Podstawy Sieci
-Zanim przejdziemy do omówienia wątku sieci musimy się cofnąć i zapytać czym jest sama 'sieć' 
+Zanim przejdziemy do omówienia głównego wątku musimy się cofnąć i odpowiedzieć na pytanie co umożliwia nam sieć kpmputerowa ? - według [definicji](https://pl.wikipedia.org/wiki/Sie%C4%87_komputerowa) <em>'sieć umożliwia łatwy i szybki dostęp do – jak również otwiera techniczną możliwość tworzenia i korzystania ze – wspólnych zasobów informacji i zasobów danych.'</em>
 
