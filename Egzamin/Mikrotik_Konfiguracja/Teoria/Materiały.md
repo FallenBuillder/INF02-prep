@@ -173,29 +173,6 @@ i zmieniamy jego zakres i klikamy Apply , OK
 
 
 
-# Przypomnienie z podstaw sieci 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 do Wi-Fi
 <img width="991" height="547" alt="image" src="https://github.com/user-attachments/assets/baf35985-9bdf-4d3b-a05a-2c7130d92479" />
