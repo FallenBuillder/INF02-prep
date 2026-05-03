@@ -90,8 +90,9 @@ Aby klient ( czyli na egzaminie kompter z Windowsem 10 albo z Ubuntu Desktopem )
 > [!CAUTION]
 > <strong><em>musi być z tym urządzeniem w tej samej podsieci</strong></em>
 Jeśli Klient, który jest podłączony do switcha będzie chciał rozmawiać z Serverem, który jest także podłączony do tego same switcha ale Server jest w INNEJ podsieci niż klient to te dwa urządzenia się z sobą nie będą w stanie komunikować. Dlaczego ?
->
-> 
+
+
+123
 
 
 
