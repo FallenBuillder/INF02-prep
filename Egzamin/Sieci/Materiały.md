@@ -58,7 +58,25 @@ Znamy już podstawowe pojęcia związane z sieciami a resztę z nich poznamy w n
 Mamy wiele różnych typów serverów i omówienie wszystkich zajeło by bardzo długi czas a więc skupimy się narazie na tym jakie usługi świadczą servery Windows , Linux ( Ubuntu ) i co one faktycznie robią.
 > Nie będziemy wchodzić w szczegóły w jaki sposób urządzenia wykrywają dane usługi lub jakie pakiety , jakiej wielkości i jakie zasady są związane z ich transmisją ponieważ celem jest tutaj zrozumienie czym dana rzecz jest a następnie można rozwinąć swoją wiedze bazując na innych działach w których dana usługa jest konfigurowana lub w nadchodzącym repozytorium z teorii
 
-server DHCP - 
+<strong>Server DHCP</strong> - server DHCP służy jako usługa, której zadaniem jest rozdawanie adresów IP komputerom, które są podłączone do tej samej sieci co on i mają ustawione w swoich kartach sieciowych pozyskiwanie adresów przez właśnie przez ten server. 
+Server DHCP posiada parę ustawień mianowicie można w nim ustawić:
+- Pula adresó - to ustawienie mówi serverowi ile i jakie adresy IP ma rozdawać swoim klientom
+- Lease time ( czas dzierżawy ) - to ustawienie oznacza ilość czasu, który ma upłynąć przed tym jak klient ma dostać nowy adres
+- Rezerwacja adresów - to ustawienie pozwala serverowi zarezerwowac konkretny adres IP dla konkretnej karty sieciowej urządzenia końcowego ,które chce otrzymać od niego adres ( dostanie zawsze ten sam )
+
+<trong>Routing</strong> - usługa routingu oznacza ,że server będzie przekazywał naszę dane dalej w świat abyśmy mogli połączyć sięz urządzeniami w innych sieciach.S
+
+<strong>Server DNS</strong> - zadaniem servera DNS jest to aby tłumaczyć nazwy domenowe na adresy IP i odwrotnie bardziej szczegółowe wytłumaczenie jak to robi i na jakiej podstawie można znaleść w folderze "Windows-Server" , "Linux-Server" - gdzie poszczególne rekordy oraz poszczególne parametry , ustawienia tego servera są wytłumaczone
+
+<strong>Server WWW</strong> - zadaniem servera WWW jest to aby hostować stronę internetową z, której może następnie korzystać użytkownik jeśli wpiszę jej adres IP w przeglądarce 
+Server WWW posiada ustawienia takie jak:
+- Port - na jakim porcie na danym serverze ma być wystwawiona jaka strona ( może być wystawione wiele stron na jednym adresie IP ale pod innym portem )
+> o portach można myśleć jak o oknach w domu , im więcej okien jest otwarte to tym bardziej taki dom jest 'otwarty na świat' bo można przez te porty dotrzeć do różnych usług ( każdy port ma swój numer i zastosowanie i jest przeznaczony do danej usługi np. 67 DHCP albo 443 HTTPS - więcej o portach będzie powiadziane w innej sekcji )
+- Plik domyślny - oznacza jaką ma może mieć główny plik .html strony internetowej, który ładuje się jako pierwszy przy ładowaniu strony
+- Miejsce w, którym znajduję się plik domyślny - określa gdzie ma znajdować się plik domyślny.
+
+<strong>Server SAMBA</strong> - Server SAMBA inaczej 
+
 
 
 
