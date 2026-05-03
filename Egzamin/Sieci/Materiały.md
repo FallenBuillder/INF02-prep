@@ -51,6 +51,44 @@ czyli w skrócie aders IP to jest nasz identyfikator, który pozwala komunikowac
 
 ***
 
+Znamy już podstawowe pojęcia związane z sieciami a resztę z nich poznamy w następnych tematach odwoływujących się już do specyfistycznych urządzeń i definicji, które są z nimi związane 
+
+
+## Servery i definicje z nimi związane 
+Mamy wiele różnych typów serverów i omówienie wszystkich zajeło by bardzo długi czas a więc skupimy się narazie na tym jakie usługi świadczą servery Windows , Linux ( Ubuntu ) i co one faktycznie robią.
+> Nie będziemy wchodzić w szczegóły w jaki sposób urządzenia wykrywają dane usługi lub jakie pakiety , jakiej wielkości i jakie zasady są związane z ich transmisją ponieważ celem jest tutaj zrozumienie czym dana rzecz jest a następnie można rozwinąć swoją wiedze bazując na innych działach w których dana usługa jest konfigurowana lub w nadchodzącym repozytorium z teorii
+
+server DHCP - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
