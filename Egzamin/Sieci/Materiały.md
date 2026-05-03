@@ -86,10 +86,9 @@ Server WWW posiada ustawienia takie jak:
 
 Każde urządzenie jest z definicji klientem ponieważ każde urządzenie wysyła rządanie o jakieś dane a następnie przetwarza odpowiedzi, które dostało z tych właśnie rządań. 
 
-Aby klient ( na egzaminie kompter w Windowsem 10 albo Ubuntu Desktopem ) mógł komunikować się z serverem albo jakiegoś typu urządzeniem sieciowym <span style="color:red"><strong><em>musi być z tym urządzeniem w tej samej podsieci</strong></em></span> jest to jedna z najważniejszych zasad 
-
-
-
+Aby klient ( na egzaminie kompter w Windowsem 10 albo Ubuntu Desktopem ) mógł komunikować się z serverem albo jakiegoś typu urządzeniem sieciowym.
+> [!CAUTION]
+> <strong><em>musi być z tym urządzeniem w tej samej podsieci</strong></em>
 
 
 
