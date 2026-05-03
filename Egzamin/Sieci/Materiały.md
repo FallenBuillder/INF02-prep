@@ -29,7 +29,7 @@ Oznacza to, głównym zadaniem, Celem Sieci komputerowej jest <strong>wymiana in
 ### Jak urządzenia komunikują się z sobą w sieci ?
 Aby zrozumieć jak urządzenia się z sobą komunikują musimy najpierw zrozumieć parę definicni związanych z sieciami.
 
-adres IP - jest to liczbowy identyfikator nadawany interfejsowi sieciowemu bądź całej sieci komputerowej w protokole IP, służący identyfikacji elementów sieci w warstwie trzeciej modelu OSI – w obrębie sieci lokalnej oraz poza nią (tzw. adres publiczny).
+<strong>adres IP</strong> - jest to liczbowy identyfikator nadawany interfejsowi sieciowemu bądź całej sieci komputerowej w protokole IP, służący identyfikacji elementów sieci w warstwie trzeciej modelu OSI – w obrębie sieci lokalnej oraz poza nią (tzw. adres publiczny).
 jego najpopularniejsza wersja czyli wersja 4 ( IPv4 ) jest obecnie najbardziej powszechnie używana. 
 adres IPv4 składa się z 4 oktetów liczb od 0-255 zapisywanych w systemie dziesiętnym.
 np. 192.168.0.1 lub 244.31.172.12
@@ -44,6 +44,8 @@ jego głownym celem jest tłumaczenie zwięzłych i trudnych do zapamiętania ad
 <strong>LAN</strong> - (Local Area Network) - sieć komputerowa łącząca komputery na określonym obszarze
 
 <strong>WAN</strong> - (Wide Area Network) - – sieć komputerowa znajdująca się na obszarze wykraczającym poza miasto, kraj lub kontynent
+
+
 
 
 
