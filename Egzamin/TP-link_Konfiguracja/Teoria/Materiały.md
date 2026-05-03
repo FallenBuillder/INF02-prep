@@ -124,7 +124,7 @@ Następnie tą maske trzeba przekonwertować na wartość dziesiętną czyli dod
 255.255.255.(128+64+32+16)
 255.255.255.240
 
-Dokładne obliczanie adresów siecowych , rozgłoszeniowych , podsieci , masek itd jest zrobiony w pliku 'Materiały' w Folderze 'Mikrotik_Konfiguracja'
+Dokładne obliczanie adresów siecowych , rozgłoszeniowych , podsieci , masek itd jest zrobiony w pliku 'Materiały' w Folderze 'Sieci'
 <img width="405" height="638" alt="image" src="https://github.com/user-attachments/assets/0b426e5e-e27c-43ed-8dba-390b1597e1d6" />
 
 Finalny Wynik powinien wyglądać tak:
