@@ -139,11 +139,9 @@ jeśli w danym oktecie jest jedynka na jednej z 8 pozycji to zamieniamy tą jedy
 
 <img width="534" height="65" alt="image" src="https://github.com/user-attachments/assets/b8403e39-7fb0-4be7-b427-597b35e282cf" />
 
+następnym krokiem jest spotęgowanie dwójek tylko tam gdzie nad nimi jest jedynka i dodanie tej wartości do siebie.
 
 
-
-
-Następnie konwertujemy otrzymaną wartość binarną na liczbę dziesiętną.
 
 255.255.255.196 
 
