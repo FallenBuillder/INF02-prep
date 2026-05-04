@@ -1,2 +1,2 @@
 > [!WARNING]
-> <strong>W pliku Materiały.md załączonego do tej sekcji znajdują się bardzo podstawowe konecepty sieciowe a więc jak się wie co robią poszczególne rzeczy ale nie wie poprostu jak je skonfigurować nie powinno się czytać tej sekcji.</strong>
+> <strong>W pliku Materiały.md załączonego do tej sekcji znajdują się bardzo podstawowe konecepty sieciowe a więc jak się wie co robią podstawowe rzeczy związane z sieciami czyli np. adresy IP, maski podsieci, bramy domyślne itd... nie powinno czytać się tej sekcji.</strong>
