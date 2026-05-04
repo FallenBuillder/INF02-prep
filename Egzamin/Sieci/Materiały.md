@@ -137,9 +137,7 @@ teraz jak mamy już naszą maskę podsieci to konwertujemy ją na wartość bina
 
 jeśli w danym oktecie jest jedynka na jednej z 8 pozycji to zamieniamy tą jedynkę na potęgę dwójki bazując na tym gdzie ta jedynka się znajduję. Dla przykładu:
 
-
- 1      1      1      0      1     0      0      0 
-2^7    2^6    2^5    2^4    2^3   2^2    2^1    2^0
+<img width="534" height="65" alt="image" src="https://github.com/user-attachments/assets/b8403e39-7fb0-4be7-b427-597b35e282cf" />
 
 
 
