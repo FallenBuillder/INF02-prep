@@ -81,6 +81,7 @@ Server WWW posiada ustawienia takie jak:
 
 <strong>Server FTP</strong> - Server FTP pozwala nam na pobieranie oraz uploadowanie danych. Działa na podstawie uprawinień, posiada konta do, których można się zalogować i można z nich wykonywać operacje na plikach. 
 
+<strong>Server Wydruku</strong> - Server wyrduku pozwala nam udostępniać, zarządzać drukarką w sieci tak aby można było przeznaczyć do niej prawa innym użytkownikom w domenie active directory 
 
 ## Klienci - co potzebują i jak działają ?
 
@@ -186,6 +187,25 @@ Czy urządzenie w innych podsieciach mogą sie komunikować ? - Tak, mogą ale t
 ## Drukarki 
 
 Drukarki na egzaminach INF02 pojawiają się relatywnie często i jak już się pojawiają to głównie razem z Serverem Wydruku , Active Directory na windows Serverze. 
+
+Myśle ,że każdy wie co to jest drukarka i tego nie trzeba wytłumaczać, jedyną rzeczą, którą trzeba doprecyzować jest to, co się wiąże z faktem, że mamy drukarke na egzaminie.
+
+Kiedy dostajemy drukarkę na egzaminie to dostajemy jej Adres IP ponieważ bez niego nie moglibyśmy jej wykryć po adresie IP kiedy próbujemy ją znaleść podczas konfiguracji servera wydruku na windows serverze.
+
+<img width="761" height="342" alt="image" src="https://github.com/user-attachments/assets/7343df6a-f816-47a9-98c6-5a4a0b56806f" />
+
+Jak widać na tym fragmencie z egzaminu drukarke będziemy szukać po adresie IP, sterowniki do drukarki powinny być już wgrane w Active Directory jako jedne z tych domyślnych aby nie trzeba było ich pobierać.
+
+Drukarka wydaję się być trochę straszna kiedy dostajemy ją na egzaminie ale tak naprawdę nie jest dużym problemem kiedy zrozumie się działanie servera wydruku ( folder 'Windows_Server' )
+
+### Routery
+
+Routery to urządzenia sieciowe, które pozwalają nam na dostęp do internetu i rozmawianie z innymi sieciami, podsieciami czy to w internecie czy to w naszej sieci lokalnej. Pozatym dzięki routerą ( dokładnie Acess Pointom wbudowanym w Router ) jesteśmy też w stanie mieć dostęp do Wi-Fi
+
+Na egzaminie praktycznym podczas konfiguracji Routera trzeba zrozumieć parę pojęć, które będą nam potrzebne aby zrozumieć co konfigurujemy i co dane ustawienie robi:
+
+
+
 
 
 
