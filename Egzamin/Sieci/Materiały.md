@@ -86,10 +86,12 @@ Server WWW posiada ustawienia takie jak:
 
 Każde urządzenie jest z definicji klientem ponieważ każde urządzenie wysyła rządanie o jakieś dane a następnie przetwarza odpowiedzi, które dostało z tych właśnie rządań. 
 
-Aby klient ( czyli na egzaminie kompter z Windowsem 10 albo z Ubuntu Desktopem ) mógł komunikować się z serverem albo jakiegoś typu urządzeniem sieciowym.
+Aby klient ( czyli na egzaminie komputer z Windowsem 10 albo z Ubuntu Desktopem ) mógł komunikować się z serverem albo jakiegoś typu urządzeniem sieciowym.
 > [!CAUTION]
-> <strong><em>musi być z tym urządzeniem w tej samej podsieci</strong></em>
+> <strong><em>musi być z tym urządzeniem w tej samej podsieci </strong></em>
 Jeśli Klient, który jest podłączony do switcha będzie chciał rozmawiać z Serverem, który jest także podłączony do tego same switcha ale Server jest w INNEJ podsieci niż klient to te dwa urządzenia się z sobą nie będą w stanie komunikować.
+
+Wyjątek pojawia się wtedy kiedy podsieci są połączone routerem ,wtedy router może tak routować pakiety przez warstę trzecią ,że komputery się dogadają. ale jeśli urządzenie są w innych podsieciach i jedynym medium połączenia jest warstwa druga ( łącza danych ) połączenia nie będzie 
 
 
 ### Obliczanie podsieci 
@@ -114,7 +116,7 @@ Naszym zadaniem będzie policzenie
 
 ### krok1. obliczenie maski podsieci
 
-Aby obliczyć maskę podsieci należy znaleść <strong>Najmniejszą</strong> potęge dwójki, nie większą od liczby podsieci które finalie chcemy mieć
+Aby obliczyć maskę podsieci należy znaleść <strong>nie mniejsza</strong> potęge dwójki, nie większą od liczby podsieci które finalie chcemy mieć
 
 Korzystamy z wzoru      <strong> 2^n >= 4 </strong>         
 
@@ -137,17 +139,44 @@ teraz jak mamy już naszą maskę podsieci to konwertujemy ją na wartość bina
 
 jeśli w danym oktecie jest jedynka na jednej z 8 pozycji to zamieniamy tą jedynkę na potęgę dwójki bazując na tym gdzie ta jedynka się znajduję. Dla przykładu:
 
-
+***
 <img width="331" height="53" alt="image" src="https://github.com/user-attachments/assets/d9336375-1cda-4d41-a1dc-7b3787dbc8dc" />
-
+***
 
 następnym krokiem jest spotęgowanie dwójek tylko tam gdzie nad nimi jest jedynka i dodanie tej wartości do siebie.
 
-2^7 + 2^6 + 2^5 + 2^3 = 128 + 64 + 32 + 8 = 230
+2^7 + 2^6 = 128 + 64 = 192
 
 teraz odejmujemy wartość którą dostaliśmy od liczby 256 i dostaniemy liczbę hostów na każdą podsieć
 
-256 - 230 = 26
+256 - 192 = 64 
+
+żeby obliczyć faktyczną liczbę hostów dla każdej z podsieci wystarczy usunąć od wartości, którą otrzymaliśmy 2 ( ponieważ odejmujemy adres sieciowy , adres rozgłoszeniowy ) 
+
+czyli:
+
+64 - 2 = 62
+
+czyli każda podsieć będzie miała 62 hostów.
+
+
+### krok3. obliczenie zakresów , podsieci
+
+Następnym krokiem będzie wyznaczenie adresów sieciowych , adresów rozgłoszeniowych i zakresów 
+
+adres sieciowy - jest pierwszym adresem w sieci.
+adres rozgłoszeniowy - jest ostatnim adresem w sieci.
+zakresy - zakresy podsieci są zakresami, które mówią nam od jakiego do jakiego adresu IP jest nowa sieć  
+
+Oznacza to ,że podzielenie na podsieci będzie wyglądało następująco
+
+<img width="1089" height="396" alt="image" src="https://github.com/user-attachments/assets/29dbcd28-16cd-4585-a52a-59ff90733f25" />
+
+Po co dzielimy sieci na podsieci ? - sieci dzielimy na mniejsze części z względów Bezpieczeństwa , wydajności , porządku aby np. dany wydział w firmie był w osobnej podsieci.
+
+Czy urządzenie w innych podsieciach mogą sie komunikować ? - Tak, mogą ale tylko wtedy jak te podsieci przechodzą przez router który dzieli je na częsci 
+
+
 
 
 
