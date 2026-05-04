@@ -214,6 +214,31 @@ W normalnej konfiguracji gdzie docelowo mamy mieć dostęp do internetu adres IP
 Jeśli router jest częścią większej sieci to adresem IP przypisanym do interfejsu WAN byłby adres w tej samej podsieci jak intefejs LAN routera, który jest szczebel wyżej nad omawianym routerze.
 <br> 
 
+Brama domyslna intefejsu WAN w tym zadaniu oznacza adres IP konkretnego interfejsu LAN routera, który jest routerem który konfigurujemy. 
+
+Servery DNS w tym kontekscie oznaczają servery DNS z, których nasz router będzie pobierał adresy IP.
+
+<br>
+<br>
+
+Wzmianka o 'Adresie IP intefejsu LAN' odwołuje się do przypisania jakiemukolwiek portowi na routerze ( w quicksecie defaultowo drugiemu ) adresu IP oraz maskę podsieci taką aby ten intefejs routera był w tej samej sieci co inne urządzenia żeby mógł się z nimi komunikować.
+
+> reszta definicji, pojęć odwołujących się do routera są wytłumaczone w folderze 'Mikrotik_Konfiguracja'
+
+
+### Switche
+
+Switche są najbardziej podstawowymi urządzeniami na egzaminie zawodowym. Ich jedynym celem jest to aby połączyć wszystkie urządzenia w sieci takie jak Hosty lub servery tak aby mogły się z sobą komunikować i żeby nie trzeba było ich połączać bezpośrednio do siebie co by było nie efektywne. Nie ma w nim za dużo konfiguracji a jak już jest to nie jest zbytnio trudna.
+Switch zawiera pare konfigurowalnych ustawień, które pojawiają się na egzaminie. 
+- Adres IP, brama domyślna, Maska Podsieci - kiedy musimy skonfigurować te ustawienia na naszym Switchu oznacza to, że ustawiamy je tylko do tego aby switch był zdalnie zarządzalny przez SSH lub SNMP. Naszczęście na egzaminie nie musimy zdalnie zarządzać Switchem korzystając z tych usług i musimy tylko wiedzieć jak sprawić, że switch będzie je oferował przez to, że ma adres IP
+- VLANy - głównym zadaniem VLANów na egzaminie zawodowym jest to aby rozdzielić sieć na parę części tak aby jedne urządzenia nie moglby się komunikować z drugimi. Zrobione to jest przez przypisywanie poszczególnych intefejsów do określonego VLANa co sprawia ,że jeśli dwa urzązenie nie są w jednym VLANie - nie mogą się z sobą komunikować
+- Trunki (porty trunk) tworzy się, aby przesyłać ruch z wielu różnych sieci wirtualnych (VLAN) przez jeden fizyczny kabel łączący dwa urządzenia sieciowe. Służą one do oszczędzania portów i okablowania, eliminując konieczność prowadzenia osobnego przewodu dla każdego VLAN-u z osobna
+
+
+
+
+
+
 
 
 
