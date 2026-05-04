@@ -137,13 +137,17 @@ teraz jak mamy już naszą maskę podsieci to konwertujemy ją na wartość bina
 
 jeśli w danym oktecie jest jedynka na jednej z 8 pozycji to zamieniamy tą jedynkę na potęgę dwójki bazując na tym gdzie ta jedynka się znajduję. Dla przykładu:
 
-<img width="534" height="65" alt="image" src="https://github.com/user-attachments/assets/b8403e39-7fb0-4be7-b427-597b35e282cf" />
+
+<img width="331" height="53" alt="image" src="https://github.com/user-attachments/assets/d9336375-1cda-4d41-a1dc-7b3787dbc8dc" />
+
 
 następnym krokiem jest spotęgowanie dwójek tylko tam gdzie nad nimi jest jedynka i dodanie tej wartości do siebie.
 
+2^7 + 2^6 + 2^5 + 2^3 = 128 + 64 + 32 + 8 = 230
 
+teraz odejmujemy wartość którą dostaliśmy od liczby 256 i dostaniemy liczbę hostów na każdą podsieć
 
-255.255.255.196 
+256 - 230 = 26
 
 
 
