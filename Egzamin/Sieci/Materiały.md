@@ -5,10 +5,10 @@ ta sekcja jest podzielona na pare tematów gdzie każdy z nich będzie odwoływa
 
 na egzaminie zawodowym urządzenie te są podzielone na:
 - Servery
-- Klienci *inaczej hosty lub Stacje robocze
+- Klienci *hosty lub Stacje robocze
 - Drukarki
 - Routery
-- Przełączniki *inaczej switche
+- Przełączniki *switche
 
 każde z wyżej wymienionych urządzeń ma swoję zastosowania i pełni inną role na egzaminie np. 
 - Servery mają za zadanie hostować usługi klientom aby klienci mieli dostęp do określonych przez servery zasobów, obiektów lub usług.
