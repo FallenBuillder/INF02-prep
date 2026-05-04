@@ -183,6 +183,14 @@ Czy urządzenie w innych podsieciach mogą sie komunikować ? - Tak, mogą ale t
 
 
 
+## Drukarki 
+
+Drukarki na egzaminach INF02 pojawiają się relatywnie często i jak już się pojawiają to głównie razem z Serverem Wydruku , Active Directory na windows Serverze. 
+
+
+
+
+
 
 
 
