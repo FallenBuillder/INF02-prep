@@ -89,7 +89,82 @@ Każde urządzenie jest z definicji klientem ponieważ każde urządzenie wysył
 Aby klient ( czyli na egzaminie kompter z Windowsem 10 albo z Ubuntu Desktopem ) mógł komunikować się z serverem albo jakiegoś typu urządzeniem sieciowym.
 > [!CAUTION]
 > <strong><em>musi być z tym urządzeniem w tej samej podsieci</strong></em>
-Jeśli Klient, który jest podłączony do switcha będzie chciał rozmawiać z Serverem, który jest także podłączony do tego same switcha ale Server jest w INNEJ podsieci niż klient to te dwa urządzenia się z sobą nie będą w stanie komunikować. Dlaczego ?
+Jeśli Klient, który jest podłączony do switcha będzie chciał rozmawiać z Serverem, który jest także podłączony do tego same switcha ale Server jest w INNEJ podsieci niż klient to te dwa urządzenia się z sobą nie będą w stanie komunikować.
+
+
+### Obliczanie podsieci 
+
+Jak już wcześniej wspomniałem aby urządzenia mogły się z sobą komunikować ,muszą być z sobą w tej samej podsieci.
+
+żeby zrozumieć jak działają podsieci musimy najpierw się nauczyć jak się je oblicza.
+
+załóżmy, że mamy do podzielenia sieć 192.168.1.0/24 i chcemy ją podzielić na 4 podsieci.
+
+pierwszym krokiem, który powinniśmy wykonać jest wypisanie informacji, które dostaliśmy czyli:
+- ma być 4 podsieci
+- adres sieci to 192.168.1.0
+- maska podsieci ( przed podziałem ) to /24 czyli 255.255.255.0
+
+Naszym zadaniem będzie policzenie
+- nowej maski podsieci
+- liczby hostów w każdej podsieci
+- adresów sieciowych , rozgłoszeniowych każdej podsieci
+- zakresów każdej podsieci
+
+
+### krok1. obliczenie maski podsieci
+
+Aby obliczyć maskę podsieci należy znaleść <strong>Najmniejszą</strong> potęge dwójki, nie większą od liczby podsieci które finalie chcemy mieć
+
+Korzystamy z wzoru      <strong> 2^n >= 4 </strong>         
+
+metodą prób i błędów dochodzimy do wniosku, że aby równanie było prawdziwe największa liczba jaką możemy podstawić to 2 bo:
+2^2 >= 4 
+4 >= 4 - co jest prawdą
+
+teraz dodajemy liczbę bitów, która nam wyszła w równaniu do maski podsieci czyli:
+24 + 2 = 26
+
+Co oznacza ,że nasza maska podsieci to będzie /26
+
+### krok2. obliczenie liczby hostów , liczby użytecznych hostów w każdej podsieci.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
