@@ -127,7 +127,30 @@ teraz dodajemy liczbę bitów, która nam wyszła w równaniu do maski podsieci 
 
 Co oznacza ,że nasza maska podsieci to będzie /26
 
-### krok2. obliczenie liczby hostów , liczby użytecznych hostów w każdej podsieci.
+### krok2. obliczenie liczby hostów, liczby użytecznych hostów w każdej podsieci.
+
+teraz jak mamy już naszą maskę podsieci to konwertujemy ją na wartość binarną.
+
+/26 = 11111111 11111111 11111111 11000000
+
+> każdy osobny oktet czyli np. 11111111 jest osobną liczbą, każdy oktet jest liczony osobno.
+
+jeśli w danym oktecie jest jedynka na jednej z 8 pozycji to zamieniamy tą jedynkę na potęgę dwójki bazując na tym gdzie ta jedynka się znajduję. Dla przykładu:
+
+
+ 1      1      1      0      1     0      0      0 
+2^7    2^6    2^5    2^4    2^3   2^2    2^1    2^0
+
+
+
+
+
+Następnie konwertujemy otrzymaną wartość binarną na liczbę dziesiętną.
+
+255.255.255.196 
+
+
+
 
 
 
