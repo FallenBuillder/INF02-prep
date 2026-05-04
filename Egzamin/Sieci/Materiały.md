@@ -200,9 +200,22 @@ Drukarka wydaję się być trochę straszna kiedy dostajemy ją na egzaminie ale
 
 ### Routery
 
-Routery to urządzenia sieciowe, które pozwalają nam na dostęp do internetu i rozmawianie z innymi sieciami, podsieciami czy to w internecie czy to w naszej sieci lokalnej. Pozatym dzięki routerą ( dokładnie Acess Pointom wbudowanym w Router ) jesteśmy też w stanie mieć dostęp do Wi-Fi
+Routery to urządzenia sieciowe, które pozwalają nam na dostęp do internetu i rozmawianie z innymi sieciami, podsieciami czy to w internecie czy to w naszej sieci lokalnej. Pozatym dzięki routerom ( dokładnie to Access Pointom wbudowanym w Routery ) jesteśmy też w stanie mieć dostęp do Wi-Fi
 
 Na egzaminie praktycznym podczas konfiguracji Routera trzeba zrozumieć parę pojęć, które będą nam potrzebne aby zrozumieć co konfigurujemy i co dane ustawienie robi:
+
+
+Najważniejszym zagadnieniem powiązanym z routerami są dwie rzeczy, które zostały już wcześniej omówione czyli WAN, LAN. W kontekscie routerów WANem będzie 'Internet' czyli miejsce z, którego powinniśmy dostawać internet. Na egzaminie interfejsowi WAN są przypisywane przykładowe wartości ponieważ nie możemy się faktycznie na nim połączyć do internetu. 
+<img width="1243" height="773" alt="image" src="https://github.com/user-attachments/assets/6cf4bf23-6bd9-48e8-be9f-a78af4e177a4" />
+Na powyższym przykładzie jest przedstawione przykładowe zadanie z jednego z arkuszy INF02
+
+W normalnej konfiguracji gdzie docelowo mamy mieć dostęp do internetu adres IP dla interfejsu WAN byłby statyczny albo byłby dynamiczny ( zależy od umowy z naszym ISP )
+<br>
+Jeśli router jest częścią większej sieci to adresem IP przypisanym do interfejsu WAN byłby adres w tej samej podsieci jak intefejs LAN routera, który jest szczebel wyżej nad omawianym routerze.
+<br> 
+
+
+
 
 
 
