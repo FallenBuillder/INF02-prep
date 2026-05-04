@@ -20,7 +20,7 @@ Lista rzeczy do zrobienia:
 - Konfiguracja Clienta-Linux 0%
 - Konfiguracja Servera-Windows 0%
 - Konfiguracja Servera-Linux 0%
-- Zagadnienia powtórkowe związane z sieciami 50%
+- Zagadnienia powtórkowe, podstawowe związane z sieciami 100%
 - Sekcja skupiona na przewodzikach, zadaniach praktycznych/fizycznych 0%
 
 
