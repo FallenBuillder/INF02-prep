@@ -110,4 +110,18 @@ Edytujemy plik3.bat
 Aby uruchomić ten skrypt należy go dwukrotnie klikąć
 
 <img width="1191" height="441" alt="image" src="https://github.com/user-attachments/assets/59ca4c35-8ed2-4aa7-bc16-d3496447aab5" />
+Rozwiązanie:
+<br>
+Tworzymy plik systemowy powitanie.bat bezpośrednio na dysku C:\
 
+***
+Edytujemy plik powitanie.bat
+
+    @echo off
+    cls
+    set /p imie="Podaj imie: "
+    echo Witaj %imie%
+    pause
+***
+
+Aby wykonać plik powitanie.bat należy na niego dwukrotnie kliknąć
