@@ -63,6 +63,14 @@ W bashu można normalnie używać wszystkich komend, których używałoby się w
 
 > Oczywiście aby plik .sh się wywołał trzeba dodać mu uprawnienia wykonania czyli:   chmod +x plik.sh
     
+W Bashu można także tworzyć zmienne a następnie je wywoływać poprzez znak $ 
+
+    #!/bin/bash
+    # Assign a value to a variable
+    name="World"
+    echo "Hello, $name!"
+
+
 
 
 
