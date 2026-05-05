@@ -79,29 +79,35 @@ sudo ./konta.sh uczen 3TI
 Rozwiązanie:
 <br>
 Tworzymy folder C:\Wsadowe a następnie kopiujemy do tego folderu foldery archiwum1, archiwum2, dane 
+
 Następnie tworzymy 3 pliki wsadowe
 - plik1.bat
 - plik2.bat
 - plik3.bat
 
-Edytujemy plik1.bat
 ***
+Edytujemy plik1.bat
+
     @echo off
     copy C:\Wsadowe\dane\*.* C:\Wsadowe\archiwum1\
 ***
 <br>
 Aby uruchomić ten skrypt należy go dwukrotnie kliknąć
 
-Edytujemy plik2.bat
+
 ***
+Edytujemy plik2.bat
+
     @echo off
     copy C:\Wsadowe\dane\*.%1 C:\Wsadowe\archiwum2\
 ***
 <br>
 Aby go uruchomić należy wpisać w cmd 'plik2.bat txt'
 
-Edytujemy plik3.bat
+
 ***
+Edytujemy plik3.bat
+
     @echo off
     echo Nowy wpis w dniu: >> C:\Wsadowe\dane\informacje.txt
     date /t >> C:\Wsadowe\dane\informacje.txt
