@@ -4,11 +4,18 @@ w ostatnich latach na egzaminach INF02 coraz częściej pojawiają się skrypty 
 
 nie ma zauważalnej różnicy między plikami .bat a plikami .cmd, istnieją wyłącznie małe różnice, których na egzaminie nie będziemt musieli rozróżnić ani się do nich dopasować.
 
-pliki .cmd i pliki .bat pojawią się wtedy kiedy będziemy mieli stworzyć skrypty na Windows 10 albo na Windows Server 
+pliki .cmd i pliki .bat pojawią się wtedy kiedy będziemy mieli stworzyć skrypty na Windows 10 / 11 albo na Windows Server 
 pliki .sh (shellowe) pojawią się za to kiedy będziemy mieli stworzyć skrypty na Ubuntu Desktopie albo na Ubuntu Serverze
 
 
-# pliki .bat .cmd
+# pliki .bat / .cmd
+
+### Teoria 
+
+jak już wcześniej wspomniałem pliki .bat i pliki .cmd to praktycznie to samo a więc jedyną różnicą przy ich tworzeniu / wywoywaniu będzie zmiana rozszerzenia z .bat na .cmd i odwrotnie.
+<br>
+
+
 
 
 
