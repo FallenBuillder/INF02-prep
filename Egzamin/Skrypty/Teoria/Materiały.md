@@ -33,6 +33,7 @@ sudo ./konfiguracja.sh
 > tar -cvf konfiguracja.tar konfiguracja.sh - dodatkowo jeszcze jest tutaj utworzenie archiwum. ( Komendy tego typu będą znajdować się w pliku 'Windows-Client','Windows-Server'
 
 <img width="674" height="180" alt="image" src="https://github.com/user-attachments/assets/00699952-3a05-4725-a9ab-6df479a2ee68" />
+Rozwiązanie:
 
 tworzymy na pulpicie plik .bat o nazwie konto.bat ( przez stworzenie pliku tekstowego i zmienienie rozszerzenia )
 ***
@@ -47,15 +48,23 @@ net localgroup testerzy tester /add
 ***
 <br>
 Aby otworzyć plik należy zrobić na niego prawoklik i kliknąć 'Uruchom jako administrator'
-
-
-
-
-
-
+<br>
 <img width="677" height="135" alt="image" src="https://github.com/user-attachments/assets/0c5ae09f-ace7-4cef-bf42-aa7047aea66a" />
 
+Rowzwiązanie:
 
+Utwórz na pulpicie plik student.txt a następnie zmień jego rozszerzenie na student.cmd. Następnie go zedytuj
+
+***
+@echo off
+
+FOR /L %%i IN (1, 1, 5) DO (
+
+    net user student_%%i /add
+    
+)
+
+***
 Skryprt z 2026 roku
 <img width="896" height="330" alt="image" src="https://github.com/user-attachments/assets/518f74e5-a41a-4860-a8cf-3741d242d72c" />
 <img width="777" height="455" alt="image" src="https://github.com/user-attachments/assets/370a6132-a0cb-4237-9b8d-f0c4682ed9dd" />
