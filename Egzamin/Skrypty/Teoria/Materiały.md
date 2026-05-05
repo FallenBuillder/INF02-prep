@@ -16,13 +16,10 @@ Rozwiązanie:
 nano konfiguracja.sh
 *** 
 
-#!/bin/bash
-
-groupadd informatycy
-
-usermod -aG informatycy administrator
-
-groupmod -g 1111 informatycy
+    #!/bin/bash
+    groupadd informatycy
+    usermod -aG informatycy administrator
+    groupmod -g 1111 informatycy
 
 ***
 <br>
@@ -37,13 +34,11 @@ Rozwiązanie:
 
 tworzymy na pulpicie plik .bat o nazwie konto.bat ( przez stworzenie pliku tekstowego i zmienienie rozszerzenia )
 ***
-@echo off
 
-net user tester /add
-
-net localgroup testerzy /add
-
-net localgroup testerzy tester /add
+    @echo off
+    net user tester /add
+    net localgroup testerzy /add
+    net localgroup testerzy tester /add
 
 ***
 <br>
