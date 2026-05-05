@@ -7,6 +7,10 @@ nie ma zauważalnej różnicy między plikami .bat a plikami .cmd, istnieją wy�
 pliki .cmd i pliki .bat pojawią się wtedy kiedy będziemy mieli stworzyć skrypty na Windows 10 / 11 albo na Windows Server 
 pliki .sh (shellowe) pojawią się za to kiedy będziemy mieli stworzyć skrypty na Ubuntu Desktopie albo na Ubuntu Serverze
 
+zagadnienia:
+- podstawy skryptów wsadowych
+- podstaway skryptów shellowych
+- Omówienie wszystkich skryptów z egzaminów INF02
 
 # pliki .bat / .cmd
 
