@@ -107,7 +107,7 @@ Występują także struktury klucz:wartość
     echo ${colors[apple]} # red
     echo ${colors[grape]} # purple
 
-## In bash we also have a lot of operators
+## mamy w bashu także wiele operatorów
 <img width="244" height="152" alt="image" src="https://github.com/user-attachments/assets/373253e6-baac-4c2a-bad1-15d55b4f6c15" />
 <img width="338" height="101" alt="image" src="https://github.com/user-attachments/assets/edd99cbc-fbc5-4cd8-8d90-72a2ca821db0" />
 <img width="417" height="153" alt="image" src="https://github.com/user-attachments/assets/78177186-ce91-430e-851d-a75623bc2d87" />
