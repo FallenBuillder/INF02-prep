@@ -467,7 +467,9 @@ Utwórz na pulpicie plik student.txt a następnie zmień jego rozszerzenie na st
 ***
 <br>
 <img width="301" height="166" alt="image" src="https://github.com/user-attachments/assets/bb308e85-8cbf-4e69-b77d-38967e008aba" />
+
 > Zapomniałem tego dodać to szybki prompcik do chata wleciał
+
 
 
 <br>
