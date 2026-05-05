@@ -61,6 +61,16 @@ Utwórz na pulpicie plik student.txt a następnie zmień jego rozszerzenie na st
 <img width="896" height="330" alt="image" src="https://github.com/user-attachments/assets/518f74e5-a41a-4860-a8cf-3741d242d72c" />
 Rozwiązanie:
 
+nano konta.sh
+
+***
+
+    #!/bin/bash
+    for i in {1..5}; do
+        useradd -m -d /home/$2$i $1$i
+    done
+
+***
 
 <img width="777" height="455" alt="image" src="https://github.com/user-attachments/assets/370a6132-a0cb-4237-9b8d-f0c4682ed9dd" />
 <img width="1191" height="441" alt="image" src="https://github.com/user-attachments/assets/59ca4c35-8ed2-4aa7-bc16-d3496447aab5" />
