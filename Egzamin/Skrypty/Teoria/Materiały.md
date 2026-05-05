@@ -54,11 +54,14 @@ W bashu można normalnie używać wszystkich komend, których używałoby się w
     # This is a bash script
     mkdir Folder
     cd Folder
-    touch plik.txt 
+    touch plik.txt
     echo "Hello World!" >> plik.txt
     cat plik.txt
     rm -rf plik.txt
+    cd ..
+    rm -rf Folder
 
+> Oczywiście aby plik .sh się wywołał trzeba dodać mu uprawnienia wykonania czyli:   chmod +x plik.sh
     
 
 
