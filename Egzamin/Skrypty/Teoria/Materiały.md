@@ -33,14 +33,165 @@ aby stworzyc taki plik można stworzyć poprostu dokument tekstowy i zamienić r
 
 ***
 
+Plik wsadowy to zwykły plik tekstowy z rozszerzeniem .bat, zawierający polecenia wykonywane kolejno przez interpreter systemu MS-DOS. Każde polecenie musi znajdować się w osobnej linii.
 
+***
 
+    @ECHO OFF
+    ECHO Witaj w pliku wsadowym!
+    PAUSE
 
+***
 
+Polecenie ECHO służy do wyświetlania tekstu na ekranie oraz sterowania wyświetlaniem komend (ON/OFF). @ECHO OFF ukrywa wykonywane polecenia, pokazując tylko wynik.
 
+***
 
+    @ECHO OFF
+    ECHO To jest komunikat
 
+***
+
+Instrukcja IF EXIST pozwala wykonać polecenie tylko wtedy, gdy plik istnieje. IF NOT EXIST działa odwrotnie.
+
+***
+
+    @ECHO OFF
+    IF EXIST test.txt ECHO Plik istnieje
     
+***
+
+Etykiety (:nazwa) służą jako punkty w kodzie, do których można przeskoczyć za pomocą GOTO. Umożliwia to sterowanie przebiegiem programu.
+
+***
+    @ECHO OFF
+    GOTO Start
+
+    :Start
+    ECHO Początek programu
+
+***
+
+Argumenty przekazywane przy uruchomieniu pliku są dostępne jako %1, %2, itd. Jeśli argument nie istnieje, jego wartość jest pusta.
+
+***
+
+    @ECHO OFF
+    ECHO Podany argument to: %1
+
+***
+
+Instrukcja IF "tekst1" == "tekst2" sprawdza, czy dwa napisy są identyczne. Jest często używana do sprawdzania argumentów.
+
+***
+
+    @ECHO OFF
+    IF "%1" == "test" ECHO Podano slowo test
+
+***
+
+Polecenie CALL pozwala uruchomić inny plik wsadowy i wrócić do bieżącego po jego zakończeniu. Bez CALL wykonanie przechodzi do drugiego pliku i nie wraca.
+
+***
+    @ECHO OFF
+    CALL drugi.bat
+    ECHO Wrocilem do pierwszego pliku
+
+***
+
+IF ERRORLEVEL sprawdza kod zakończenia ostatniego programu (np. CHOICE). Warunek jest spełniony, gdy kod jest większy lub równy podanej wartości.
+
+***
+
+    @ECHO OFF
+    CHOICE /C:TN
+    IF ERRORLEVEL 2 ECHO Wybrano N
+
+***
+
+Pętla FOR wykonuje polecenie dla każdego elementu z listy. Zmienna (np. %%A) przyjmuje kolejne wartości z listy.
+
+***
+
+    @ECHO OFF
+    FOR %%A IN (1 2 3) DO ECHO Liczba: %%A
+    
+***
+
+Polecenie SHIFT przesuwa argumenty (%1 → %2, itd.), umożliwiając przetwarzanie wielu argumentów w pętli. Po przesunięciu pierwszy argument zostaje utracony.
+
+***
+    @ECHO OFF
+    ECHO %1
+    SHIFT
+    ECHO %1
+
+***
+
+Pętle można tworzyć ręcznie za pomocą etykiety i GOTO. Ważne jest zapewnienie warunku zakończenia, aby uniknąć nieskończonej pętli.
+
+***
+
+    @ECHO OFF
+    :Start
+    ECHO Petla dziala
+    GOTO Start
+    
+***
+
+CHOICE pozwala pobrać wybór użytkownika z klawiatury i zwraca numer odpowiedzi jako kod wyjścia. Jest używane razem z IF ERRORLEVEL.
+
+
+***
+    @ECHO OFF
+    CHOICE /C:12
+    IF ERRORLEVEL 2 ECHO Wybrano 2
+    
+***
+
+Pliki wsadowe tak samo jak pliki shellowe są w stanie także wykonywać polcenia systemowe
+
+***
+
+    #!/bin/bash
+
+    echo "=== Informacje o systemie ==="
+    uname -a
+
+    echo ""
+    echo "=== Zawartość katalogu ==="
+    ls -l
+
+    echo ""
+    echo "=== Argument ==="
+
+    if [ "$1" == "" ]; then
+        echo "Nie podano argumentu"
+    else
+        echo "Podany argument to: $1"
+    fi
+
+***
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # pliki .sh 
 
