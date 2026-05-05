@@ -70,10 +70,113 @@ W Bashu można także tworzyć zmienne a następnie je wywoływać poprzez znak 
     name="World"
     echo "Hello, $name!"
 
+W Bashu można także wywoływać operacje arytmetyczne i na słowach
+
+    #!/bin/bash
+    
+    greeting="Hello, "
+    name="World"
+    echo "$greeting$name"
+
+    # Arithmetic
+    num1=5
+    num2=10
+    sum=$((num1 + num2))
+    echo "The sum is $sum"
+
+W bashu mamy także Listy
+
+    #!/bin/bash
+    fruits=("apple" "banana" "cherry")
+    for fruit in "${fruits[@]}"; do
+      echo $fruit
+    done
+
+    echo ${fruits[0]} # wypiszę 1 element w liscie
+    fruits[1]="Mango" # nadpiszę wartość
+    
+
+Występują także struktury klucz:wartość
+
+    #!/bin/bash
+    declare -A colors
+    colors[apple]="red"
+    colors[banana]="yellow"
+    colors[grape]="purple"
+    unset colors[banana]
+    echo ${colors[apple]} # red
+    echo ${colors[grape]} # purple
+
+## In bash we also have a lot of operators
+<img width="244" height="152" alt="image" src="https://github.com/user-attachments/assets/373253e6-baac-4c2a-bad1-15d55b4f6c15" />
+<img width="338" height="101" alt="image" src="https://github.com/user-attachments/assets/edd99cbc-fbc5-4cd8-8d90-72a2ca821db0" />
+<img width="417" height="153" alt="image" src="https://github.com/user-attachments/assets/78177186-ce91-430e-851d-a75623bc2d87" />
+<img width="148" height="75" alt="image" src="https://github.com/user-attachments/assets/d5313ea1-7962-448a-9e0e-1208fbc7841f" />
+<img width="273" height="98" alt="image" src="https://github.com/user-attachments/assets/963aeeab-aa4e-4ee5-8834-3ad9ac28ab5f" />
 
 
+mamy także w bashu if ,else ,elifstatmenty
 
+    #!/bin/bash
+    num=10
+    if [ $num -gt 10 ]; then
+      echo "Number is greater than 10"
+    elif [ $num -eq 10 ]; then
+      echo "Number is exactly 10"
+    else
+      echo "Number is less than 10"
+    fi
 
+mamy także w bashu pętle for
+
+    for i in {1..5}; do
+      echo "Iteration $i"
+    done
+
+mamy także pętle while
+
+    count=1
+    while [ $count -le 5 ]; do
+      echo "Count is $count"
+      ((count++))
+    done
+
+mamy także pętle Until ( podobne do while ale kończą się jak condition w nawiasach kwadratowych jest prawdziwy )
+
+    count=1
+    until [ $count -gt 5 ]; do
+      echo "Count is $count"
+      ((count++))
+    done
+
+mamy także w bashu w pętlach break, continue 
+
+    for i in {1..5}; do
+      if [ $i -eq 3 ]; then
+        continue
+      fi
+      echo "Number $i"
+      if [ $i -eq 4 ]; then
+        break
+      fi
+    done
+
+mamy także w bashu funkcje
+
+    my_function() {
+      echo "Hello, World!"
+    }
+
+    my_function() # wywoła
+
+możemy także dać argumenty funkcji 
+
+    greet() {
+      local name=$1
+      echo "Hello, $name!"
+    }
+    
+    greet "Alice" # wywoła
 
 
 
