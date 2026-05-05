@@ -56,13 +56,10 @@ Rowzwiązanie:
 Utwórz na pulpicie plik student.txt a następnie zmień jego rozszerzenie na student.cmd. Następnie go zedytuj
 
 ***
-@echo off
-
-FOR /L %%i IN (1, 1, 5) DO (
-
-    net user student_%%i /add
-    
-)
+    @echo off
+    FOR /L %%i IN (1, 1, 5) DO (
+        net user student_%%i /add
+    )
 
 ***
 Skryprt z 2026 roku
