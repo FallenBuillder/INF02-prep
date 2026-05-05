@@ -169,7 +169,7 @@ MKDIR, RMDIR
 
 '>' zapis do pliku
 
->> dopisywanie
+'>> dopisywanie'
 
 '| (pipe) np. DIR | MORE'
 
