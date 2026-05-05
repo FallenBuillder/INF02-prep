@@ -149,29 +149,50 @@ CHOICE pozwala pobrać wybór użytkownika z klawiatury i zwraca numer odpowiedz
     
 ***
 
-Pliki wsadowe tak samo jak pliki shellowe są w stanie także wykonywać polcenia systemowe
+Pliki wsadowe posiadają o wiele więcej funkcjonalności. Tutaj przedstawiamy tylko podstawy. Aby dowiedzieć się więcej można poczytać o tych rzeczach:
 
-***
 
-    #!/bin/bash
+### 1. Polecenia wewnętrzne CMD
 
-    echo "=== Informacje o systemie ==="
-    uname -a
+DIR, CD, SET, ECHO, IF, FOR, GOTO, PAUSE
 
-    echo ""
-    echo "=== Zawartość katalogu ==="
-    ls -l
+### 2. Programy (.exe, .com, .bat)
 
-    echo ""
-    echo "=== Argument ==="
+notepad, calc, mspaint
 
-    if [ "$1" == "" ]; then
-        echo "Nie podano argumentu"
-    else
-        echo "Podany argument to: $1"
-    fi
+własne programy
 
-***
+inne pliki wsadowe (CALL)
+
+### 3. Narzędzia systemowe Windows
+
+ipconfig, tasklist, taskkill
+
+shutdown, net, sc
+
+ping, tracert
+
+### Operacje na plikach i systemie
+
+COPY, MOVE, DEL, REN
+
+MKDIR, RMDIR
+
+XCOPY, ROBOCOPY (bardziej zaawansowane i raczej niepotrzebne)
+
+### Przekierowania i łączenie poleceń
+
+> zapis do pliku
+
+>> dopisywanie
+
+| (pipe) np. DIR | MORE
+
+### Zmienne i środowisko
+
+SET zmienna=wartosc
+
+używanie %zmienna%
 
 
 
