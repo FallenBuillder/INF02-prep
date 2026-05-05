@@ -37,9 +37,13 @@ sudo ./konfiguracja.sh
 tworzymy na pulpicie plik .bat o nazwie konto.bat ( przez stworzenie pliku tekstowego i zmienienie rozszerzenia )
 ***
 @echo off
+
 net user tester /add
+
 net localgroup testerzy /add
+
 net localgroup testerzy tester /add
+
 ***
 <br>
 Aby otworzyć plik należy zrobić na niego prawoklik i kliknąć 'Uruchom jako administrator'
