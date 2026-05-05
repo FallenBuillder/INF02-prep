@@ -2,7 +2,29 @@
 w ostatnich latach na egzaminach INF02 coraz częściej pojawiają się skrypty powłoki ( bash ) i skrypty wsadowe ( bat ) w tej sekcji omówimy wszystkie przykłady z egzaminów w ,których występowało zadanie z napisaniem tego typu skryptów oraz nauczymy cię jak je pisać.
 > Powoli na egzaminach INF02 odchodzi się już od arkuszy kalkulacyjnych i zastępuje się je skrypytami !
 
-nie ma zauważalnej różnicy między plikami .bat a plikami .cmd, istnieją wyłącznie małe różnice, których na egzaminie nie będziemt musieli rozróżnić ani się do nich dopasować
+nie ma zauważalnej różnicy między plikami .bat a plikami .cmd, istnieją wyłącznie małe różnice, których na egzaminie nie będziemt musieli rozróżnić ani się do nich dopasować.
+
+pliki .cmd i pliki .bat pojawią się wtedy kiedy będziemy mieli stworzyć skrypty na Windows 10 albo na Windows Server 
+pliki .sh (shellowe) pojawią się za to kiedy będziemy mieli stworzyć skrypty na Ubuntu Desktopie albo na Ubuntu Serverze
+
+
+## jak tworzyć / pisać pliki .bat .cmd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Skrypty z 2021-2026 roku 
