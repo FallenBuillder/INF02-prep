@@ -151,7 +151,7 @@ CHOICE pozwala pobrać wybór użytkownika z klawiatury i zwraca numer odpowiedz
 
 Pliki wsadowe posiadają o wiele więcej funkcjonalności. Tutaj przedstawiamy tylko podstawy. Aby dowiedzieć się więcej można poczytać o tych rzeczach:
 
-***
+<br>
 
 DIR, CD, SET, ECHO, IF, FOR, GOTO, PAUSE
 
@@ -171,16 +171,15 @@ MKDIR, RMDIR
 
 >> dopisywanie
 
-| (pipe) np. DIR | MORE
+'| (pipe) np. DIR | MORE'
 
 SET zmienna=wartosc
 
 używanie %zmienna%
 
+<br>
 
-***
-
-## Wszystkie Polecenia konsoli windowsa ( nie powershella ) działają w plikach .bat , .cmd co oznacza ,że można stworzyć plik wsadowy, który np.
+### Wszystkie Polecenia konsoli windowsa ( nie powershella ) działają w plikach .bat , .cmd co oznacza ,że można stworzyć plik wsadowy, który np.
 1. Coś skopiuje
 2. Znajdzie date
 3. Wypiszę pliki
