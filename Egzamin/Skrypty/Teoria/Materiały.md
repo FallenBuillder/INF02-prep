@@ -60,7 +60,7 @@ Utwórz na pulpicie plik student.txt a następnie zmień jego rozszerzenie na st
 ## Skrypty z 2026 roku
 <img width="896" height="330" alt="image" src="https://github.com/user-attachments/assets/518f74e5-a41a-4860-a8cf-3741d242d72c" />
 Rozwiązanie:
-
+<br>
 nano konta.sh
 
 ***
@@ -71,7 +71,46 @@ nano konta.sh
     done
 
 ***
+chmod +x konta.sh
+
+sudo ./konta.sh uczen 3TI
 
 <img width="777" height="455" alt="image" src="https://github.com/user-attachments/assets/370a6132-a0cb-4237-9b8d-f0c4682ed9dd" />
+Rozwiązanie:
+<br>
+Tworzymy folder C:\Wsadowe a następnie kopiujemy do tego folderu foldery archiwum1, archiwum2, dane 
+Następnie tworzymy 3 pliki wsadowe
+- plik1.bat
+- plik2.bat
+- plik3.bat
+
+Edytujemy plik1.bat
+***
+    @echo off
+    copy C:\Wsadowe\dane\*.* C:\Wsadowe\archiwum1\
+***
+<br>
+Aby uruchomić ten skrypt należy go dwukrotnie kliknąć
+
+Edytujemy plik2.bat
+***
+    @echo off
+    copy C:\Wsadowe\dane\*.%1 C:\Wsadowe\archiwum2\
+***
+<br>
+Aby go uruchomić należy wpisać w cmd 'plik2.bat txt'
+
+Edytujemy plik3.bat
+***
+    @echo off
+    echo Nowy wpis w dniu: >> C:\Wsadowe\dane\informacje.txt
+    date /t >> C:\Wsadowe\dane\informacje.txt
+    dir C:\ >> C:\Wsadowe\dane\informacje.txt
+***
+<br>
+Aby uruchomić ten skrypt należy go dwukrotnie klikąć
+
+
+
 <img width="1191" height="441" alt="image" src="https://github.com/user-attachments/assets/59ca4c35-8ed2-4aa7-bc16-d3496447aab5" />
 
