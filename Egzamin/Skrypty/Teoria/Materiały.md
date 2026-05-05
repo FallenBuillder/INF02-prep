@@ -42,7 +42,7 @@ tworzymy na pulpicie plik .bat o nazwie konto.bat ( przez stworzenie pliku tekst
 ***
 
 <br>
-Aby otworzyć plik należy zrobić na niego prawoklik i kliknąć 'Uruchom jako administrator'
+Aby otworzyć plik należy zrobić na nim prawoklik i kliknąć 'Uruchom jako administrator'
 <br>
 <img width="677" height="135" alt="image" src="https://github.com/user-attachments/assets/0c5ae09f-ace7-4cef-bf42-aa7047aea66a" />
 
