@@ -115,7 +115,7 @@ Występują także struktury klucz:wartość
 <img width="273" height="98" alt="image" src="https://github.com/user-attachments/assets/963aeeab-aa4e-4ee5-8834-3ad9ac28ab5f" />
 
 
-mamy także w bashu if ,else ,elifstatmenty
+mamy także w bashu if ,else ,elif statmenty
 
     #!/bin/bash
     num=10
@@ -161,7 +161,7 @@ mamy także w bashu w pętlach break, continue
       fi
     done
 
-mamy także w bashu funkcje
+mamy także w bashu funkcję
 
     my_function() {
       echo "Hello, World!"
