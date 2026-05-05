@@ -468,6 +468,8 @@ Utwórz na pulpicie plik student.txt a następnie zmień jego rozszerzenie na st
 <br>
 <img width="301" height="166" alt="image" src="https://github.com/user-attachments/assets/bb308e85-8cbf-4e69-b77d-38967e008aba" />
 > Zapomniałem tego dodać to szybki prompcik do chata wleciał
+
+
 <br>
 ## Skrypty z 2026 roku
 <img width="896" height="330" alt="image" src="https://github.com/user-attachments/assets/518f74e5-a41a-4860-a8cf-3741d242d72c" />
