@@ -17,8 +17,11 @@ Rozwiązanie:
 nano konfiguracja.sh
 
 #!/bin/bash
+
 groupadd informatycy
+
 usermod -aG informatycy administrator
+
 groupmod -g 1111 informatycy
 
 chmod +x konfiguracja.sh
