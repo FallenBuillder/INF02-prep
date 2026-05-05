@@ -8,7 +8,7 @@ pliki .cmd i pliki .bat pojawią się wtedy kiedy będziemy mieli stworzyć skr
 pliki .sh (shellowe) pojawią się za to kiedy będziemy mieli stworzyć skrypty na Ubuntu Desktopie albo na Ubuntu Serverze
 
 
-## jak tworzyć / pisać pliki .bat .cmd
+# pliki .bat .cmd
 
 
 
