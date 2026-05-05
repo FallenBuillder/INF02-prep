@@ -18,7 +18,7 @@ zagadnienia:
 
 jak już wcześniej wspomniałem pliki .bat i pliki .cmd to praktycznie to samo a więc jedyną różnicą przy ich tworzeniu / wywoływaniu będzie zmiana rozszerzenia z .bat na .cmd i odwrotnie.
 
-Jako fajne źródło do uczenia się plików wsadowych polecam [tą stonkę](https://biuletyn.rcre.opolskie.pl/)
+Jako fajne źródło do uczenia się plików wsadowych polecam [tą stonkę](https://biuletyn.rcre.opolskie.pl/pliki_wsadowe/pliki_wsadowe.htm)
 <br>
 
 # pliki .sh 
