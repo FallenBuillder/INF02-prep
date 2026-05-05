@@ -12,6 +12,7 @@ nie ma zauważalnej różnicy między plikami .bat a plikami .cmd, istnieją wy�
 Rozwiązanie:
 <br>
 nano konfiguracja.sh
+
 *** 
 
     #!/bin/bash
@@ -20,7 +21,6 @@ nano konfiguracja.sh
     groupmod -g 1111 informatycy
 
 ***
-<br>
 chmod +x konfiguracja.sh
 
 sudo ./konfiguracja.sh
@@ -31,6 +31,7 @@ sudo ./konfiguracja.sh
 Rozwiązanie:
 
 tworzymy na pulpicie plik .bat o nazwie konto.bat ( przez stworzenie pliku tekstowego i zmienienie rozszerzenia )
+
 ***
 
     @echo off
@@ -39,6 +40,7 @@ tworzymy na pulpicie plik .bat o nazwie konto.bat ( przez stworzenie pliku tekst
     net localgroup testerzy tester /add
 
 ***
+
 <br>
 Aby otworzyć plik należy zrobić na niego prawoklik i kliknąć 'Uruchom jako administrator'
 <br>
@@ -55,7 +57,6 @@ Utwórz na pulpicie plik student.txt a następnie zmień jego rozszerzenie na st
     )
 
 ***
-
 
 ## Skrypty z 2026 roku
 <img width="896" height="330" alt="image" src="https://github.com/user-attachments/assets/518f74e5-a41a-4860-a8cf-3741d242d72c" />
