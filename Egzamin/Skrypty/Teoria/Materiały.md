@@ -151,20 +151,11 @@ CHOICE pozwala pobrać wybór użytkownika z klawiatury i zwraca numer odpowiedz
 
 Pliki wsadowe posiadają o wiele więcej funkcjonalności. Tutaj przedstawiamy tylko podstawy. Aby dowiedzieć się więcej można poczytać o tych rzeczach:
 
-
-### 1. Polecenia wewnętrzne CMD
+***
 
 DIR, CD, SET, ECHO, IF, FOR, GOTO, PAUSE
 
-### 2. Programy (.exe, .com, .bat)
-
 notepad, calc, mspaint
-
-własne programy
-
-inne pliki wsadowe (CALL)
-
-### 3. Narzędzia systemowe Windows
 
 ipconfig, tasklist, taskkill
 
@@ -172,27 +163,36 @@ shutdown, net, sc
 
 ping, tracert
 
-### Operacje na plikach i systemie
-
 COPY, MOVE, DEL, REN
 
 MKDIR, RMDIR
 
-XCOPY, ROBOCOPY (bardziej zaawansowane i raczej niepotrzebne)
-
-### Przekierowania i łączenie poleceń
-
-> zapis do pliku
+'>' zapis do pliku
 
 >> dopisywanie
 
 | (pipe) np. DIR | MORE
 
-### Zmienne i środowisko
-
 SET zmienna=wartosc
 
 używanie %zmienna%
+
+
+***
+
+## Wszystkie Polecenia konsoli windowsa ( nie powershella ) działają w plikach .bat , .cmd co oznacza ,że można stworzyć plik wsadowy, który np.
+1. Coś skopiuje
+2. Znajdzie date
+3. Wypiszę pliki
+
+***
+    copy C:\Wsadowe\dane\*.* C:\Wsadowe\archiwum1\            
+    date /t >> C:\Wsadowe\dane\informacje.txt
+    dir C:\ >> C:\Wsadowe\dane\informacje.txt
+***
+
+> Więcej komend konsoli windows będzie w folderze 'Windows-Client'
+
 
 
 
@@ -385,10 +385,6 @@ mozna też w bashu dodawać parametry przy wywoływaniu skryptów.
     done
 > ten skrypt tworzy 5 użytkowników w formacie -> Zmienna1 , Zmienna2 , Zmie.... w zależności od podanej zmiennej 
 sudo ./users.sh harry - wywołanie 
-
-
-
-
 
 
 
