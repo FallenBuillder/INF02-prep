@@ -15,6 +15,43 @@ pliki .sh (shellowe) pojawią się za to kiedy będziemy mieli stworzyć skrypty
 jak już wcześniej wspomniałem pliki .bat i pliki .cmd to praktycznie to samo a więc jedyną różnicą przy ich tworzeniu / wywoywaniu będzie zmiana rozszerzenia z .bat na .cmd i odwrotnie.
 <br>
 
+# pliki .sh 
+
+### Teoria 
+
+Skrypty shellowe ( .sh ) pozwalają nam na automatyzacje codziennych zadań lub wpisywania komend. 
+
+Na egzaminie Praktycznym INF02 ich zadaniem jest sprawdzenie czy umie się ich prosty syntax.
+
+Podstawy bash scriptingu:
+
+***
+Aby skrypt był traktowany przez powłoke bash jako skrypt bashowy musi mieć końcówke ( .sh )
+
+    touch Skrypt_shellowy.sh
+
+dodatkowo żeby skrypt był traktowany jako skrypt systemowy musi mieć na początku linijke #!/bin/bash
+
+    #/!bin/bash
+
+W bashu komentarze robimy poprzez hashtag ( # ) 
+
+    # this is a bash script 
+    
+Bash używa normalnych komend systemowych do interekacji z shellem, czyli komenda echo będzie działała jak print
+
+    echo "Pierwsza komenda" 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
