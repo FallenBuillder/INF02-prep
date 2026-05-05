@@ -40,7 +40,26 @@ W bashu komentarze robimy poprzez hashtag ( # )
     
 Bash używa normalnych komend systemowych do interekacji z shellem, czyli komenda echo będzie działała jak print
 
-    echo "Pierwsza komenda" 
+    echo "Hello World!"
+    
+Czyli podstawowy skrypt w bashu wyglądałby tak:
+
+    #!/bin/bash
+    # This is a bash script
+    echo "Hello World!"
+
+W bashu można normalnie używać wszystkich komend, których używałoby się w naszym shellu czyli można zrobić np. taki skrypt
+
+    #!/bin/bash
+    # This is a bash script
+    mkdir Folder
+    cd Folder
+    touch plik.txt 
+    echo "Hello World!" >> plik.txt
+    cat plik.txt
+    rm -rf plik.txt
+
+    
 
 
 
