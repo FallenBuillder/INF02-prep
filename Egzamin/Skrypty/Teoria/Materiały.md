@@ -178,9 +178,14 @@ możemy także dać argumenty funkcji
     
     greet "Alice" # wywoła
 
+mozna też w bashu dodawać parametry przy wywoływaniu skryptów.
 
-
-
+    #!/bin/bash
+    for i in {1..5}; do
+        useradd $1$i
+    done
+> ten skrypt tworzy 5 użytkowników w formacie -> Zmienna1 , Zmienna2 , Zmie.... w zależności od podanej zmiennej 
+sudo ./users.sh harry - wywołanie 
 
 
 
