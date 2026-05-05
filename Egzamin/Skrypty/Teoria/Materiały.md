@@ -16,6 +16,10 @@ Rozwiązanie:
 
 nano konfiguracja.sh
 
+<br>
+
+*** 
+
 #!/bin/bash
 
 groupadd informatycy
@@ -23,6 +27,10 @@ groupadd informatycy
 usermod -aG informatycy administrator
 
 groupmod -g 1111 informatycy
+
+***
+
+<br>
 
 chmod +x konfiguracja.sh
 sudo ./konfiguracja.sh
