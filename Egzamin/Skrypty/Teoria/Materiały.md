@@ -10,6 +10,7 @@ w ostatnich latach na egzaminach INF02 coraz częściej pojawiają się skrypty 
 Skrypty z 2021-2026 roku 
 <br>
 <img width="677" height="237" alt="image" src="https://github.com/user-attachments/assets/86818d59-7f47-4036-b29c-c898512017e0" />
+<br>
 Rozwiązanie:
 <br>
 nano konfiguracja.sh
@@ -31,11 +32,14 @@ sudo ./konfiguracja.sh
 
 > tar -cvf konfiguracja.tar konfiguracja.sh - dodatkowo jeszcze jest tutaj utworzenie archiwum. ( Komendy tego typu będą znajdować się w pliku 'Windows-Client','Windows-Server'
 
-
-
-
-
 <img width="674" height="180" alt="image" src="https://github.com/user-attachments/assets/00699952-3a05-4725-a9ab-6df479a2ee68" />
+
+
+
+
+
+
+
 <img width="677" height="135" alt="image" src="https://github.com/user-attachments/assets/0c5ae09f-ace7-4cef-bf42-aa7047aea66a" />
 
 
