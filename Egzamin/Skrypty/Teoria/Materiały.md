@@ -21,6 +21,19 @@ jak już wcześniej wspomniałem pliki .bat i pliki .cmd to praktycznie to samo 
 Jako fajne źródło do uczenia się plików wsadowych polecam [tą stonkę](https://biuletyn.rcre.opolskie.pl/pliki_wsadowe/pliki_wsadowe.htm)
 <br>
 
+*** 
+aby skrypt był traktowany prez windowsa jako plik wsadowy potrzebne będzie nam rozszerzenie .bat lub .cmd
+<img width="109" height="83" alt="image" src="https://github.com/user-attachments/assets/44ee50db-a3e1-4899-883b-aaded164a6b7" />
+<img width="107" height="66" alt="image" src="https://github.com/user-attachments/assets/ff3e513e-858d-42a0-8857-911c74d853f9" />
+
+aby stworzyc taki plik można stworzyć poprostu dokument tekstowy i zamienić rozszerzenie z .txt na .bat lub .cmd ( na egzaminie będzie powiedziane jakie ma być rozszerzenie.
+
+***
+
+
+
+    
+
 # pliki .sh 
 
 ### Teoria 
