@@ -11,13 +11,8 @@ Skrypty z 2021-2026 roku
 <br>
 <img width="677" height="237" alt="image" src="https://github.com/user-attachments/assets/86818d59-7f47-4036-b29c-c898512017e0" />
 Rozwiązanie:
-
 <br>
-
 nano konfiguracja.sh
-
-<br>
-
 *** 
 
 #!/bin/bash
@@ -29,11 +24,11 @@ usermod -aG informatycy administrator
 groupmod -g 1111 informatycy
 
 ***
-
 <br>
-
 chmod +x konfiguracja.sh
+
 sudo ./konfiguracja.sh
+
 > tar -cvf konfiguracja.tar konfiguracja.sh - dodatkowo jeszcze jest tutaj utworzenie archiwum. ( Komendy tego typu będą znajdować się w pliku 'Windows-Client','Windows-Server'
 
 
