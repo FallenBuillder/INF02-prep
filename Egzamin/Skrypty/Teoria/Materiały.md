@@ -11,7 +11,9 @@ Skrypty z 2021-2026 roku
 <br>
 <img width="677" height="237" alt="image" src="https://github.com/user-attachments/assets/86818d59-7f47-4036-b29c-c898512017e0" />
 Rozwiązanie:
+
 <br>
+
 nano konfiguracja.sh
 
 #!/bin/bash
