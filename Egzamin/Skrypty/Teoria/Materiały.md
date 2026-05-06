@@ -473,7 +473,9 @@ Utwórz na pulpicie plik student.txt a następnie zmień jego rozszerzenie na st
 
 
 <br>
+
 ## Skrypty z 2026 roku
+
 <img width="896" height="330" alt="image" src="https://github.com/user-attachments/assets/518f74e5-a41a-4860-a8cf-3741d242d72c" />
 Rozwiązanie:
 <br>
