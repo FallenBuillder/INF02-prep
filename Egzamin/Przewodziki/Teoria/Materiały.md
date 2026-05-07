@@ -4,8 +4,18 @@ od lat na egzaminach INF02 pierwszym zadaniem zawsze jest jedno z poniższych
 - Montaż komponentów typu: Karta Graficzna, RAM, dyski SSD do stacji roboczej lub servera.
 - Zarabianie przewodów Ethernet, Patch paneli, Keystonów, montowanie i wkładanie urządzeń do szafy rackowej
 
-Dlatego, że nie da się zabardzo wytłumaczyć jak coś zarobić lub zmontować ćwiczenie te trzeba wykonać w własnym zakresie. 
-Ćwiczenia związane z przewodzikami, podłączaniem rzeczy są następujące:
+Dlatego, że nie da się zabardzo wytłumaczyć jak coś zarobić lub zmontować. Trzeba wykonać ćwiczenia związnane z przewodzikami w własnym zakresie.
+
+Zagadnienia:
+- Skręcanie kabelków ethernetowych ( patchcordów )w standardzie 568A, 568B oraz użycie poprawnego typu przewodu kiedy jest to wymagane.
+- Skręcanie kabelków crossowych ( 568A --- 568B )
+- Podłączanie kabelków ethernetowych do patch paneli
+- podłączanie kabelków ethernetowych do gniazd Keystone ( gniazdo naścienne do Ethernetu )
+- Montowanie karty graficznej do komputera
+- Montowanie RAMu do komputera
+- Montowanie dysków SSD do komputera
+
+
 
 
 ## Przykładowe zadania z egzaminów INF02 dotyczące zadań 1-2
