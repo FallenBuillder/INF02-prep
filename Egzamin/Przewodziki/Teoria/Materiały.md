@@ -37,6 +37,35 @@ Dlatego, że nie da się zabardzo wytłumaczyć jak coś zarobić lub zmontować
 <img width="503" height="131" alt="image" src="https://github.com/user-attachments/assets/2ead8db3-f83e-4032-87c9-71f54b912c49" />
 <img width="413" height="47" alt="image" src="https://github.com/user-attachments/assets/a0c0f24c-6370-47a9-8abd-8abea151fa29" />
 <img width="895" height="106" alt="image" src="https://github.com/user-attachments/assets/a551f74a-fd06-411d-814d-a1957aa2360a" />
+<img width="896" height="82" alt="image" src="https://github.com/user-attachments/assets/4ffc8afd-9286-4e93-ac4b-66e0bdc1524c" />
+<img width="862" height="32" alt="image" src="https://github.com/user-attachments/assets/475f8e03-6f26-4856-aa10-0463aa0bffe0" />
+<img width="788" height="356" alt="image" src="https://github.com/user-attachments/assets/d0f41d8b-ad80-449a-bf4f-18b3060110a5" />
+<img width="832" height="139" alt="image" src="https://github.com/user-attachments/assets/70210591-5a1c-4189-8ec7-b2c508e16bd8" />
+<img width="899" height="78" alt="image" src="https://github.com/user-attachments/assets/262e8f99-77f6-41e3-826c-ddfdb26d1d40" />
+<img width="886" height="91" alt="image" src="https://github.com/user-attachments/assets/41973566-9f31-47f8-b9a9-514b298b7271" />
+<img width="898" height="108" alt="image" src="https://github.com/user-attachments/assets/a7408b70-521a-424c-9fc3-222c45ac8d3f" />
+<img width="894" height="107" alt="image" src="https://github.com/user-attachments/assets/710ba3be-b94f-4581-8f1a-2de48701e47c" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
