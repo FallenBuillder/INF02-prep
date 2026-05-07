@@ -35,6 +35,8 @@ Dlatego, że nie da się zabardzo wytłumaczyć jak coś zarobić lub zmontować
 <img width="662" height="134" alt="image" src="https://github.com/user-attachments/assets/a142df6e-221f-40e4-8100-e87ee765b125" />
 <img width="695" height="123" alt="image" src="https://github.com/user-attachments/assets/d5b43224-6f5f-4314-96c0-77d1f98bbd48" />
 <img width="503" height="131" alt="image" src="https://github.com/user-attachments/assets/2ead8db3-f83e-4032-87c9-71f54b912c49" />
+<img width="413" height="47" alt="image" src="https://github.com/user-attachments/assets/a0c0f24c-6370-47a9-8abd-8abea151fa29" />
+<img width="895" height="106" alt="image" src="https://github.com/user-attachments/assets/a551f74a-fd06-411d-814d-a1957aa2360a" />
 
 
 
