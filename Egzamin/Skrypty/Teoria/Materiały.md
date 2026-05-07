@@ -553,10 +553,10 @@ Tworzymy plik wsadowy bezpośredniu na dysku C:\ o nazwie plik1.bat
 Edytujemy plik plik1.bat
 
     @echo off
-    echo "tworzenie folderów dla studentów"
-    md TEST
-    cd TEST
-    for i in {1..10}; do
-        md 'STUDENT'+i
-    done
+    echo tworzenie folderow dla studentow
+    md C:\TEST
+    cd /d C:\TEST
+    for /L %%i in (1,1,10) do (
+        md STUDENT%%i
+    )
 ***
