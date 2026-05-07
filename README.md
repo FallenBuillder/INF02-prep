@@ -22,7 +22,7 @@ Lista rzeczy do zrobienia:
 - Konfiguracja Servera-Linux 0%
 - Skrypty wsadowe, systemowe 100%
 - Zagadnienia powtórkowe, podstawowe związane z sieciami 100%
-- Sekcja skupiona na przewodzikach, zadaniach praktycznych/fizycznych 0%
+- Sekcja skupiona na przewodzikach, zadaniach praktycznych/fizycznych 40%
 
 
 # UWAGA
