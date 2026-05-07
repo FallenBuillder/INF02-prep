@@ -546,3 +546,5 @@ Aby wykonać plik powitanie.bat należy na niego dwukrotnie kliknąć
 
 <img width="896" height="189" alt="image" src="https://github.com/user-attachments/assets/7ac8991b-e901-47c2-b7be-4273c396ecde" />
 Rozwiązanie:
+<br>
+Tworzymy s
