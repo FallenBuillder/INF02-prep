@@ -1,24 +1,27 @@
 # Teoria 
 
-od lat na egzaminach INF02 pierwszym zadaniem zawsze jest jedno z poniższych
+na INF02 pierwszym zadaniem zawsze jest jedno z poniższych
 - Montaż komponentów typu: Karta Graficzna, RAM, dyski SSD do stacji roboczej lub servera.
 - Zarabianie przewodów Ethernet, Patch paneli, Keystonów, montowanie i wkładanie urządzeń do szafy rackowej
 
-Dlatego, że nie da się zabardzo wytłumaczyć jak coś zarobić lub zmontować. Trzeba wykonać ćwiczenia związnane z przewodzikami w własnym zakresie.
+Żeby nauczyć się dobrze, szybko zarabiać rzeczy związanie z zadaniem pierwszym trzeba je przećwiczyć w własnym zakresie. Ta sekcja ma na celu tylko pokazać wszystkie* zadania z egzaminów INF02, które były związane z zrobieniem czegoś manualnie. Warto sobie je przeczytać aby zobaczyć czy już umiemy je wszystkie wykonać.
+
 
 Zagadnienia:
-- Skręcanie kabelków ethernetowych ( patchcordów )w standardzie 568A, 568B oraz użycie poprawnego typu przewodu kiedy jest to wymagane.
+- Skręcanie kabelków ethernetowych ( patchcordów ) w standardzie 568A, 568B oraz użycie poprawnego typu przewodu kiedy jest to wymagane.
 - Skręcanie kabelków crossowych ( 568A --- 568B )
-- Podłączanie kabelków ethernetowych do patch paneli
-- podłączanie kabelków ethernetowych do gniazd Keystone ( gniazdo naścienne do Ethernetu )
-- Montowanie karty graficznej do komputera
-- Montowanie RAMu do komputera
-- Montowanie dysków SSD do komputera
+- Podłączanie kabelków ethernetowych do patch paneli ( panelów krosowych )
+- podłączanie kabelków ethernetowych do gniazd Keystone ( gniazdo naścienne )
+- Montowanie karty graficznej w komputerze
+- Montowanie RAMu w komputerze
+- Montowanie dysków SSD w komputerze
+- Montowanie panelu krosowego do szafy rackowej
 
 
 
 
 ## Przykładowe zadania z egzaminów INF02 dotyczące zadań 1-2
+> Znajdują się tutaj powtórzenia*
 
 <img width="590" height="81" alt="image" src="https://github.com/user-attachments/assets/fc8775df-2417-450c-bd6d-75b92a1dfbd2" />
 <img width="707" height="128" alt="image" src="https://github.com/user-attachments/assets/d3680bbc-4f93-48c8-b166-e7f8a70eb688" />
