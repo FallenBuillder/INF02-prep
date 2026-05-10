@@ -11,7 +11,7 @@ część GUI ,CLI zawiera następujące zagadnienia
 - Konfiguracja VLANów (tworzenie, nadawanie ID, ustawianie tagowania, przypisywanie portów)
 - wyłączenie portu na switchu
 - Konfiguracja trunków
-- przypisanie ostatniego możliwego adresu z podsieci ( było kiedyś takie zadanie na egzaminie ,że trzeba było jeszcze przypisać Adres IP bazując na obecnej konfiguracji sieciowej i wybrać ostatni adres IP z danej sieci więcej o tym w folderze 'Sieci')
+- przypisanie ostatniego możliwego adresu z podsieci ( było kiedyś takie zadanie na egzaminie ,że trzeba było jeszcze przypisać Adres IP bazując na obecnej konfiguracji sieciowej i wybrać ostatni adres IP z danej sieci. Więcej o tym w folderze 'Sieci')
 
 
 ### GUI  - Jak połączyć się z switchem 
@@ -233,6 +233,8 @@ Trunk był na tych egzaminach:
 Tutaj niestety jak dostanie się trunka to będzie trzeba wtedy skonfigurować ustawienia z nim związane i na routerze i na switchu.
 <img width="1054" height="474" alt="image" src="https://github.com/user-attachments/assets/4c2dc1ff-b3cf-4d4e-9582-b76b09f6b7f2" />
 <img width="1057" height="743" alt="image" src="https://github.com/user-attachments/assets/0b2fa7f9-3152-4583-82e9-74b6e79d6c43" />
+
+
 
 BEFORE MAKING THE GUIDE ON THE TRUNK FIRST DO THE ROUTER && RIDERECT PEOPLE TO THE 'Mikrotik_Konfiguracja' FOLDER
 
