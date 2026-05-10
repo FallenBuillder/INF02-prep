@@ -1,6 +1,6 @@
 # Teoria 
 
-na INF02 pierwszym zadaniem zawsze jest jedno z poniższych
+podczas rozwiązywania egzaminów INF02 pierwszym zadaniem jakie napotkamy zazwyczaj jest:
 - Montaż komponentów typu: Karta Graficzna, RAM, dyski SSD do stacji roboczej lub servera.
 - Zarabianie przewodów Ethernet, Patch paneli, Keystonów, montowanie i wkładanie urządzeń do szafy rackowej
 
@@ -21,7 +21,7 @@ Zagadnienia:
 
 
 ## Przykładowe zadania z egzaminów INF02 dotyczące zadań 1-2
-> Znajdują się tutaj powtórzenia*
+> Znajdują się tutaj powtórzenia
 
 <img width="590" height="81" alt="image" src="https://github.com/user-attachments/assets/fc8775df-2417-450c-bd6d-75b92a1dfbd2" />
 <img width="707" height="128" alt="image" src="https://github.com/user-attachments/assets/d3680bbc-4f93-48c8-b166-e7f8a70eb688" />
