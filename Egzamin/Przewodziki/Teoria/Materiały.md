@@ -1,7 +1,7 @@
 # Teoria 
 
 podczas rozwiązywania egzaminów INF02 pierwszym zadaniem jakie napotkamy zazwyczaj jest:
-- Montaż komponentów typu: Karta Graficzna, RAM, dyski SSD do stacji roboczej lub servera.
+- Montaż komponentów typu: Karta Graficzna, RAM, dyski twarde do stacji roboczej lub servera.
 - Zarabianie przewodów Ethernet, Patch paneli, Keystonów, montowanie i wkładanie urządzeń do szafy rackowej
 
 Żeby nauczyć się dobrze, szybko zarabiać rzeczy związanie z zadaniem pierwszym trzeba je przećwiczyć w własnym zakresie. Ta sekcja ma na celu tylko pokazać wszystkie* zadania z egzaminów INF02, które były związane z zrobieniem czegoś manualnie. Warto sobie je przeczytać aby zobaczyć czy już umiemy je wszystkie wykonać.
@@ -14,11 +14,24 @@ Zagadnienia:
 - podłączanie kabelków ethernetowych do gniazd Keystone ( gniazdo naścienne )
 - Montowanie karty graficznej w komputerze
 - Montowanie RAMu w komputerze
-- Montowanie dysków SSD w komputerze
+- Montowanie dysków twardych w komputerze
 - Montowanie panelu krosowego do szafy rackowej
 
+### Pomocne wskazówki
+- Jeśli na egzaminie pojawi się zadanie z montażem dysków twardych lub RAMu warto najpierw spojrzeć na arkusz i upewnić się czy nie ma na nim tabelki, którą trzeba wypełnić informacjami, które są zawarte na naklejce umieszczonej na dysku lub ramie ponieważ po włożeniu tych komponentów do komputera nie będziemy już ich widzieć i nie będziemy mogli wypełnić tabelki, która jest najpewniej w innym zadaniu.
+- Podczas egzaminu mamy na stole dwa kabelki - drut, linka. W wielu egzaminach jest napisane "Użyj właściwego typu kabla" - oznacza to, że to czy wybierzemy linke czy drut ma faktycznie znaczenie.
 
+Zasada jest generalnie taka, że tam gdzie nie będziemy w żaden sposób giąć lub dotykać lub zmieniać ułożenia przewodu instalujemy drut, a tam gdzie będziemy zmieniać jego ułożenie linke.
+ no dobra rozumiem i się zgadzam ale na egzaminach jest czasami ,że mamy podłączyć patchpanel od tyłu do rj-45 to wiem na 100% wtedy drut tak ? 
+Kiedy używamy drut:
+Łączenie gniazda komputerowego (natynkowego/podtynkowego) z patch panelem w szafie rack. 
 
+czyli np.
+- Gniazdo - patchpanel
+- Gniazdo - RJ-45 ( na końcu )
+
+Kiedy używamy linke:
+normalny przewód 8P8C zakończony z dwóch stron bez żadnego pośrednika
 
 ## Przykładowe zadania z egzaminów INF02 dotyczące zadań 1-2
 > Znajdują się tutaj powtórzenia
@@ -61,31 +74,3 @@ Zagadnienia:
 <img width="886" height="91" alt="image" src="https://github.com/user-attachments/assets/41973566-9f31-47f8-b9a9-514b298b7271" />
 <img width="898" height="108" alt="image" src="https://github.com/user-attachments/assets/a7408b70-521a-424c-9fc3-222c45ac8d3f" />
 <img width="894" height="107" alt="image" src="https://github.com/user-attachments/assets/710ba3be-b94f-4581-8f1a-2de48701e47c" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
