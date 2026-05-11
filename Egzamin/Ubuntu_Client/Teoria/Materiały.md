@@ -417,9 +417,15 @@ czyli mamy:
 Jeśli server został prawidłowo skonfigurowany będziemy mogli zobaczyć na nim pliki
 <img width="903" height="610" alt="image" src="https://github.com/user-attachments/assets/7ac864ba-2415-4fe2-b743-5fd956bc4177" />
 
+#### <strong>WWW</strong>
 
+myśle, że każdy wie jak dostać się do strony internetowej. Wystarczy wyszukać jej nazwę a nastepnie przeglądarka wypluje nam wyniki podobne do tego co wyszukaliśmy.
 
+Jeśli chcemi się połączyć z naszą przeglądarką WWW należy poprostu w przeglądarce wpisać jej adres IP i opjonalnie numer portu na, którym jest ona wystawiona 
+<img width="964" height="238" alt="image" src="https://github.com/user-attachments/assets/93f1bc1e-cc37-411c-8ede-46d5aad50e72" />
 
+Aby zmienic port przy wyszukiwaniu jakiejś strony wystarczy po adresie IP napisać dwukropek i port na, którym wystawiliśmy wcześniej naszą stronę
+<img width="193" height="33" alt="image" src="https://github.com/user-attachments/assets/33591b44-dd58-4eb6-801a-93e1b42574ab" />
 
 
 
