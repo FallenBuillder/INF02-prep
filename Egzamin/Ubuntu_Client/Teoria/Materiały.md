@@ -12,25 +12,7 @@ Zagadnienia:
 
 Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linuxie trzeba znać w nim komendy. Niektóre komendy są proste i będziemy ich używać niemal ciągle podczas konfiguracji systemu z linuxem a niektóre rzadziej jeśli mamy zrobić jakąś konkretną rzecz.
 
-- cd
-- pwd
-- ls
-- mkdir
-- rm
-- touch
-- chage
-- passwd
-- less
-- chmod
-- chown
-- cat
-- man
-- date
-- uptime
-- alias
-- history
-
-## Polecenia
+## Podstawowe Polecenia
 
     pwd - wyświetla bieżący katalog (print working directory) 
     cd - zmiana katalogu
@@ -191,7 +173,11 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
 
     find /ścieżka -name "nazwa" - wyszukiwanie plików po nazwie
     find /ścieżka -type f -size +100M - wyszukiwanie dużych plików
-    locate nazwa - szybkie wyszukiwanie (wymaga updatedb)
+    
+    locate foo.txt                             # Find a file
+    locate --ignore-case                       # Find a file and ignore case
+    locate f*.txt                              # Find a text file starting with 'f'
+    
     which komenda - lokalizacja pliku wykonywalnego komendy
     whereis komenda - lokalizacja plików związanych z komendą
 
@@ -204,8 +190,24 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
     echo $PATH - wyświetlenie zmiennej PATH
     export ZMIENNA=wartość - ustawienie zmiennej środowiskowej
 
-    
 
+    date - wyświetla aktualną datę i godzinę
+    date +%F - wyświetla datę w formacie RRRR-MM-DD
+    date +%T - wyświetla aktualny czas (GG:MM:SS)
+    date "+%d-%m-%Y %H:%M:%S" - wyświetla datę i czas w formacie (DD-MM-RRRR GG:MM:SS)
+
+    date -s "2026-05-11 14:45:00" - ustawia systemową datę i czas (wymaga sudo)
+    date -u - wyświetla czas uniwersalny (UTC)
+
+    %d - dzień miesiąca (01-31)
+    %m - miesiąc (01-12)
+    %Y - rok (np. 2026)
+    %H - godzina (00-23)
+    %M - minuta (00-59)
+    %S - sekunda (00-59)
+
+
+    
     
 
     Ctrl+C - przerwanie działania programu
