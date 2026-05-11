@@ -342,10 +342,9 @@ Nie każdy egzamin ma linuxa, dlatego więc nie w wszystich egzaminach trzeba si
 
 # Zadania z diagnostyką na linuxie 
 <img width="712" height="459" alt="image" src="https://github.com/user-attachments/assets/2bb45027-072c-49ba-a5e2-500c54452d1a" />
-<img width="703" height="332" alt="image" src="https://github.com/user-attachments/assets/5a311d77-72b3-4d0e-8adf-e716a74c2c0e" />
-
 <img width="696" height="437" alt="image" src="https://github.com/user-attachments/assets/14880f2a-bea5-4026-a42f-66f1150bd38f" />
 <img width="698" height="302" alt="image" src="https://github.com/user-attachments/assets/91f0733c-0745-44db-8e27-0aacdce00cd6" />
+<img width="703" height="332" alt="image" src="https://github.com/user-attachments/assets/5a311d77-72b3-4d0e-8adf-e716a74c2c0e" />
 <img width="707" height="277" alt="image" src="https://github.com/user-attachments/assets/c6840e55-1551-4dad-80be-6963b43996c4" />
 <img width="694" height="199" alt="image" src="https://github.com/user-attachments/assets/ee925c5a-6bb8-4884-90fb-b327d6432918" />
 <img width="711" height="217" alt="image" src="https://github.com/user-attachments/assets/26abac49-2eb5-42e8-97c8-dacf1bc9388d" />
