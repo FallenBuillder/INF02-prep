@@ -7,6 +7,7 @@ Zagadnienia:
 - Podstawowe Komendy w linuxie
 - Sprawdzanie parametrów systemowych w Linuxie 
 - Linux jako client, któremu są świadczone usługi
+- Komendy związane z Linux Clientem, Serverem na egzaminie INF02
 
 ## Komendy w linuxie
 
