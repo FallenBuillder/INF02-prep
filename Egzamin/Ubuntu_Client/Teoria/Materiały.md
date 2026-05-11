@@ -399,7 +399,8 @@ Po zescrollowaniu na dół widzimy Zakładke 'Other Locations' - ( po polsku bę
 po kliknięciu tej zakładki pojawia się nam okienko w, którym można następnie połączyć się z serverem na, którym wystawiane są nasze pliki.
 <img width="705" height="51" alt="image" src="https://github.com/user-attachments/assets/75c76876-84ab-4039-a034-56611d24fa08" />
 Aby to zrobić należy wpisać w pasku na dole adres Servera z, którym chcemy się połączyć.
-<strong>jak widać aby to zrobić należy w pasku na dole wpisać nazwę usługi a następnie adres IP czyli:   'Usługa'://'Adres IP' </strong>
+
+<strong>czyli należy poprostu wpisać na dole w pasku nazwę usługi a następnie adres IP czyli:   'Usługa'://'Adres IP' </strong>
 <img width="906" height="617" alt="image" src="https://github.com/user-attachments/assets/bcdc1d76-4e9d-4fc7-894c-04a33eed309d" />
 Jeśli server jest skonfigurowany będą widoczne zasoby, które tam umieściliśmy 
 
