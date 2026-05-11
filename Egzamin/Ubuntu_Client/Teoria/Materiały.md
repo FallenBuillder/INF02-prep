@@ -348,11 +348,53 @@ Wszystko w linuxie da się zrobić przez CLI, nie potrzeba GUI lecz czasami kied
 
 > Konfiguracja powyższych usług jest omowiona w sekcji 'Ubuntu_Server'
 
-### jak sprawić aby mieć dostęp do tych usług na Ubuntu ? 
+### jak sprawić abyśmy mieli dostęp do tych usług na Kliencie ? 
 
 #### <strong>DHCP</strong>
 DHCP - Dynamic Host Configuration Protocol - jest protokołem, który pozwala na przypisywanie jakiemuś urządzeniu dynamicznego adresu IP z góry przypisanemu klientowi przez server.
-aby otrzymać adres DHCP na Ubuntu należy zmienić nasze ustawienia karty sieciowej pod takie, które sprawią, że taki adres możemy otrzymać - możemy to zrobić graficznie bo tak jest najłatwiej 
+<br>
+aby otrzymać adres DHCP na Ubuntu należy zmienić nasze ustawienia karty sieciowej pod takie, które sprawią, że taki adres możemy otrzymać - najlepiej to zrobić graficznie.
+<img width="102" height="33" alt="image" src="https://github.com/user-attachments/assets/ae37e219-b2ce-4845-b251-46774387b7ea" />
+Wchodzimy w 3 ikonki w prawym górnym rogu
+<img width="414" height="465" alt="image" src="https://github.com/user-attachments/assets/9517910e-9264-4652-b3bd-ec93422b334a" />
+Następnie w zakładke Wired i klikamy Wired Settings
+<img width="570" height="334" alt="image" src="https://github.com/user-attachments/assets/787f6f52-ac0b-498c-86d3-e66a6fb4048d" />
+Następnie klikamy w górną ikonke ustawień
+<img width="762" height="587" alt="image" src="https://github.com/user-attachments/assets/bd152b57-f4b4-4878-a1f7-5afa763b16ce" />
+przechodzimy do sekcji IPv4 i ustawiamy metode otzymywania dresu IP na DHCP
+<img width="105" height="49" alt="image" src="https://github.com/user-attachments/assets/134a11ca-4884-414a-8d29-a68d0c4a3f21" />
+Na końcu klikamy 'Apply'
+
+Teraz przez to, że nasz adres IP jest otrzymywany przez server DHCP nasz klient powinien znaleść go w sieci i otrzymać od niego adres.
+
+To czy otrzymaliśmy adres IP z zakresu lub dzierżawy, którą ustaliliśmy na serverze DHCP pokaże nam komenda 'ip a'
+<img width="828" height="588" alt="image" src="https://github.com/user-attachments/assets/e3b7e48b-ff16-4a09-aedb-efcf6627b54d" />
+
+#### <strong>Routing</strong>
+
+Jako klient chcemy mieć możliwość korzystania z internetu. Aby to zrobić trzeba sprawić, że nasze zapytania do różnego typu usług, które są wystawione na innych serverach do nich docierają.
+
+Służy do tego usługa routingu 
+
+jako klient nie mamy zabardzo sposobu dzięki, któremu możemy otrzymać dostęp do tej usługi - jedynym sposobem jest ustawienie naszego adresu IP bramy domyślnej w komputerze na interfejs LANowy naszego servera. ( w sytuacji kiedy komputer jest bezpośrednio lub przez switcha podłączony do servera ) dzięki temu wszystkie zapytania, które będą wychodzić do internetu muszą przejść przez nasz server. Co oznacza, że jeśli na serverze skonfigurowana jest skonfigurowana obsługa routingu, będziemy mogli rozmawiać z światem zewnętrznym. 
+
+#### <strong>DNS</strong>
+DNS - Domains Name System jest to protokół, który służy do zamiany adresów IP na nazwy domenowe i odwrotnie 
+
+Aby połączyć się do servera DNS i otrzymywać od niego adresy IP trzeba się upewnić, że ustawiliś my go jako nasz server DNS w ustawieniach karty sieciowej. Co oznacza ,że robimy to samo co przy serverze DHCP jedynie zmieniamy Adres servera DNS na server DNS w naszej lokalnej podsieci 
+
+Zakładając, że nasz server DNS będzie pod adresem 192.168.0.1 nasza konfiguracja będzie wyglądała następująco
+<img width="756" height="499" alt="image" src="https://github.com/user-attachments/assets/daccfcfa-7be7-4427-a65e-9b934f13773e" />
+> Można ustawić w ustawieniach servera DHCP aby także automatycznie przypisywał nam server DNS, wtedy klikamy Automatic
+
+#### <strong>Samba</strong>
+
+Samba jest 
+
+
+
+
+
 
  
 
