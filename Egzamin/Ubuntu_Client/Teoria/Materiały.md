@@ -340,10 +340,14 @@ Wszystko w linuxie da się zrobić przez CLI, nie potrzeba GUI lecz czasami kied
 ## Komendy na linuxie na egzaminach INF02
 Nie każdy egzamin ma linuxa, dlatego więc nie w wszystich egzaminach trzeba się z nim męczyć czasami na egzaminach mamy połączenie Windows Servera z Linux Clientem lub np. połączenie Linux Servera z Linux Clientem - ( może być wiele opcji ) naszczęście dlatego, że duża część usług wystawianych na windows serverze potrzebuje clienta w systemie Windows linuxa jest trochę mniej - co nie oznacza, że się wogóle nie pojawia.
 
+# Zadania z diagnostyką na linuxie 
+<img width="698" height="302" alt="image" src="https://github.com/user-attachments/assets/91f0733c-0745-44db-8e27-0aacdce00cd6" />
+
+# Zadania z ogólną eksploatacją na linuxie 
+<img width="717" height="350" alt="image" src="https://github.com/user-attachments/assets/c59615d6-0c71-4640-ace5-857de6187875" />
 
 
-
-
+*robić od 2022 styczeń zad 1    
 
 
 
