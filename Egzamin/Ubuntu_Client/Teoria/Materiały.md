@@ -211,9 +211,27 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
     %M - minuta (00-59)
     %S - sekunda (00-59)
 
+    Exit - wychodzi z obecnie zalogowanego użytkownika
 
-    
-    
+    hostname - wyświetla aktualną nazwę systemową komputera
+    hostname -f - wyświetla pełną nazwę domenową (Fully Qualified Domain Name)
+    hostname -d - wyświetla nazwę samej domeny DNS
+
+    sudo nano /etc/hostname - edycja pliku zawierającego główną nazwę komputera
+    sudo nano /etc/hosts - edycja pliku lokalnego mapowania nazw na adresy IP (pozwala przypisać nazwę do konkretnego adresu IP bez udziału serwera DNS)
+
+
+    sudo chage -l admin01 - wyświetla szczegółowe dane o ważności konta i hasła
+    sudo chage -E 2026-03-21 admin01 - ustawia konkretną datę wygaśnięcia konta
+    sudo chage -E -1 admin01 - wyłącza wygasanie konta (konto bezterminowe)
+    sudo chage admin01 - tryb interaktywny (pozwala ustawić parametry po kolei)
+
+    passwd --help - wyświetla listę opcji zmiany haseł
+    sudo passwd -S admin01 - sprawdza status hasła (czy jest ustawione, zablokowane itp.)
+    sudo passwd -l admin01 - blokuje hasło użytkownika (uniemożliwia logowanie)
+    sudo passwd -u admin01 - odblokowuje hasło użytkownika
+
+    Alias adres =’ip a’  - tworzy alias dla jakieś komendy 
 
     Ctrl+C - przerwanie działania programu
     Ctrl+Z - wstrzymanie programu (można wznowić bg/fg)
@@ -223,9 +241,12 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
     Ctrl+R - wyszukiwanie w historii komend
     !! - powtórzenie ostatniej komendy
     !n - wykonanie n-tej komendy z histori
-> Zmiana adresu IP w Linuxie opartym na Ubuntu jest zawarta w Teorii w folderze 'TP-link_Konfiguracja'
+    
+> Zmiana adresu IP, bramy domyślnej, maski sieciowej, serverów DNS w Linuxie opartym na Ubuntu jest zawarta w Teorii w folderze 'TP-link_Konfiguracja'
 
-## Podstawowe Polecenia służące do diagnostyki.
+## Podstawowe Polecenia służące do diagnostyki na linuxie.
+    
+
 
 
 
