@@ -360,6 +360,10 @@ Nie każdy egzamin ma linuxa, dlatego więc nie w wszystich egzaminach trzeba si
 <img width="697" height="445" alt="image" src="https://github.com/user-attachments/assets/d1562048-8f49-4db8-84fb-85af1fa4268b" />
 <img width="702" height="121" alt="image" src="https://github.com/user-attachments/assets/f2bf5ae7-4adb-4036-97a2-d03f5d939105" />
 <img width="695" height="247" alt="image" src="https://github.com/user-attachments/assets/c21b2306-9100-46c1-b7e3-39f34d9563d2" />
+<img width="697" height="125" alt="image" src="https://github.com/user-attachments/assets/b63d84f5-5630-44f6-9b13-366b98e6d18e" />
+<img width="565" height="201" alt="image" src="https://github.com/user-attachments/assets/e7399a65-b264-4897-aa65-2271566c664f" />
+<img width="719" height="138" alt="image" src="https://github.com/user-attachments/assets/cbc5159a-08ac-40e2-b056-21594b59cea6" />
+<img width="469" height="176" alt="image" src="https://github.com/user-attachments/assets/df1d6f76-0f62-40cf-95a1-4b7011bd0c76" />
 
 
 # Zadania z ogólną eksploatacją na linuxie 
@@ -384,6 +388,10 @@ Nie każdy egzamin ma linuxa, dlatego więc nie w wszystich egzaminach trzeba si
 <img width="701" height="413" alt="image" src="https://github.com/user-attachments/assets/2c251840-6cf3-45f9-a7db-5caaaa012fb7" />
 <img width="709" height="297" alt="image" src="https://github.com/user-attachments/assets/50917ff3-692b-4374-87cb-6a334ed05984" />
 <img width="714" height="231" alt="image" src="https://github.com/user-attachments/assets/fc497237-35b8-4b45-ad1d-2abac526e336" />
+<img width="651" height="236" alt="image" src="https://github.com/user-attachments/assets/3649e68e-beab-407f-a8fb-93825f70d340" />
+<img width="715" height="410" alt="image" src="https://github.com/user-attachments/assets/c3422d39-0269-4abf-9b08-44bad11c12c9" />
+<img width="739" height="417" alt="image" src="https://github.com/user-attachments/assets/c723a697-8a24-497e-b1c2-f8fb228c86df" />
+<img width="708" height="42" alt="image" src="https://github.com/user-attachments/assets/7e49cf3c-fe59-4360-b8c9-be65ddf0e0ad" />
 
 
 2023 czerwiec zad 2 
