@@ -337,6 +337,8 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
 ## Linux Jako Klient, któremu świadczone są usługi
 Wszystko w linuxie da się zrobić przez CLI, nie potrzeba GUI lecz czasami kiedy sprawdzamy czy nasz server działa lub kiedy go testujemy to GUI się przydaję - szczególnie do serverów [ ftp , samba , Apache ] ( rzeczy takie jak DHCP, NAT, SSH, DNS będą sprawdzane przez CLI i będą omówione w sekci związanej z Linux Serverem lub Windows Serverem zależnie od usługi )
 
+> Zagadnienia te będą trochę krócej omówione w sekcji 'Ubuntu-Server' oraz 'Windows-Server' a więć jeśli wie się o co chodzi nie trzeba czytać tego modułu 
+
 ### Jakie usługi może świadczyć server clientowi, który jest na linuxie.
 - DHCP
 - Routing
@@ -427,21 +429,23 @@ Jeśli chcemi się połączyć z naszą przeglądarką WWW należy poprostu w pr
 Aby zmienic port przy wyszukiwaniu jakiejś strony wystarczy po adresie IP napisać dwukropek i port na, którym wystawiliśmy wcześniej naszą stronę
 <img width="193" height="33" alt="image" src="https://github.com/user-attachments/assets/33591b44-dd58-4eb6-801a-93e1b42574ab" />
 
+#### <strong>SSH</strong>
 
+SSH ( Secure Shell ) - jest protokołem komunikacjnym, który pozawala nam na uzyskanie stabilnej szyfrowanej powłoki z systemem, który chcemy skonfigurować. 
 
+Aby dostać się do servera, który ma wystawioną usługe SSH jedyne co należy zrobić to wpisać w terminalu Linuxowym / Windowsowym komende
 
+ssh Host@IP
 
+czyli np:
 
+ssh admin@192.168.10.10
 
-
- 
-
-
-
+dzięki tej komendzie, jeśli server SSH jest skonfigurowany prawidłowo i wpisaliśmy poprawne hasło użytkownika admin będziemy w stanie uzyskać szyfrowane połączenie z naszym serverem i zacząć go konfigurować.
 
 
 ## Komendy na linuxie na egzaminach INF02
-Nie każdy egzamin ma linuxa, dlatego więc nie w wszystich egzaminach trzeba się z nim męczyć czasami na egzaminach mamy połączenie Windows Servera z Linux Clientem lub np. połączenie Linux Servera z Linux Clientem - ( może być wiele opcji ) naszczęście dlatego, że duża część usług wystawianych na windows serverze potrzebuje clienta w systemie Windows linuxa jest trochę mniej - co nie oznacza, że się wogóle nie pojawia.
+Naszczęście nie każdy egzamin ma linuxa, może czasami być Windows i Linux a czasami Windows i Windows itd.. Naszczęście będzie raczej więcej Windowsa bo wiele usług, które są na windowsie poprostu potrzebują klienta, który też ma Windowsa 
 
 # Zadania z diagnostyką na linuxie 
 <img width="712" height="459" alt="image" src="https://github.com/user-attachments/assets/2bb45027-072c-49ba-a5e2-500c54452d1a" />
@@ -497,8 +501,8 @@ Nie każdy egzamin ma linuxa, dlatego więc nie w wszystich egzaminach trzeba si
 <img width="708" height="42" alt="image" src="https://github.com/user-attachments/assets/7e49cf3c-fe59-4360-b8c9-be65ddf0e0ad" />
 
 
-2023 czerwiec zad 2 
-dodać wiązania symboliczne 
+> Dodać zadania z 2026 Zima.
+> Dodać do notatki rzeczy, które pojawiły się na egzaminie związane z linuxem ale nie ma notatce.
 
 
 
