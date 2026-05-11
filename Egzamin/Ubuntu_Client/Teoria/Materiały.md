@@ -342,12 +342,33 @@ Nie każdy egzamin ma linuxa, dlatego więc nie w wszystich egzaminach trzeba si
 
 # Zadania z diagnostyką na linuxie 
 <img width="698" height="302" alt="image" src="https://github.com/user-attachments/assets/91f0733c-0745-44db-8e27-0aacdce00cd6" />
+<img width="696" height="321" alt="image" src="https://github.com/user-attachments/assets/63fb9abb-6eb4-4d17-ab5a-ac9c3be7ca06" />
+
+
+
 
 # Zadania z ogólną eksploatacją na linuxie 
 <img width="717" height="350" alt="image" src="https://github.com/user-attachments/assets/c59615d6-0c71-4640-ace5-857de6187875" />
+<img width="699" height="294" alt="image" src="https://github.com/user-attachments/assets/99618095-097a-4263-89b0-0679d7278e88" />
+<img width="708" height="261" alt="image" src="https://github.com/user-attachments/assets/ab4d8965-12ab-4723-8c96-bf62c73534ac" />
+<img width="709" height="272" alt="image" src="https://github.com/user-attachments/assets/542061ce-1f6b-4322-87b5-7934f8e609e4" />
+<img width="699" height="243" alt="image" src="https://github.com/user-attachments/assets/41f35f30-b167-41ed-9bcf-fc9f6cf5fee0" />
+<img width="686" height="363" alt="image" src="https://github.com/user-attachments/assets/9cb6c43f-3bf8-4105-9cc7-9737e76a12f5" />
+<img width="707" height="277" alt="image" src="https://github.com/user-attachments/assets/c6840e55-1551-4dad-80be-6963b43996c4" />
+<img width="694" height="199" alt="image" src="https://github.com/user-attachments/assets/ee925c5a-6bb8-4884-90fb-b327d6432918" />
+<img width="704" height="498" alt="image" src="https://github.com/user-attachments/assets/08bdad9b-7a6c-4d44-8ec8-8474a58f5556" />
+2023 czerwiec zad 2 
+
+
+
+
+
 
 
 *robić od 2022 styczeń zad 1    
+
+
+
 
 
 
