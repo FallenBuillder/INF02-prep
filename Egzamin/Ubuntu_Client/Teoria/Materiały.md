@@ -13,7 +13,12 @@ Zagadnienia:
 Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linuxie trzeba znać w nim komendy. Niektóre komendy są proste i będziemy ich używać niemal ciągle podczas konfiguracji systemu z linuxem a niektóre rzadziej jeśli mamy zrobić jakąś konkretną rzecz.
 
 ## Podstawowe Polecenia
+    
 
+    man ls - wyświetla manual komendy
+    ls --help - wyświetla pomoc dla jakiejś komendy 
+    ls -h - robi to samo co powyższa komenda ( skrócony zapis )
+    
     pwd - wyświetla bieżący katalog (print working directory) 
     cd - zmiana katalogu
     cd /home - przejście do katalogu /home
@@ -219,7 +224,7 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
     !! - powtórzenie ostatniej komendy
     !n - wykonanie n-tej komendy z histor
     
-
+## Podstawowe Polecenia służące do diagnostyki.
 
 
 
