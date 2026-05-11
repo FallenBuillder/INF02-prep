@@ -409,7 +409,7 @@ Jeśli server jest skonfigurowany będą widoczne zasoby, które tam umieścili�
 
 Dzięki FTP ( File Transfer Protocol ) - możemy pobierać oraz wysyłać pliki. Jedyną różnicą między FTP a sambą jest to, że Samba skupia się na wygodzie i faktycznym jej użyciu w firmach i korporacjach a FTP służy bardziej tylko jako miejsce z, którego można pobierać jakieś np. Pakiety lub aplikacje 
 
-Aby połączyć się z serverem FTP jedyne co musimy zmienić w polu wyszukiwania zasób sieciowych to nazwa usługi - w tym przypadku na ftp:// 
+Aby połączyć się z serverem FTP jedyne co musimy zmienić w naszym 'pasku wyszukiwania' to nazwa usługi - w tym przypadku na ftp:// 
 
 czyli mamy:
 
