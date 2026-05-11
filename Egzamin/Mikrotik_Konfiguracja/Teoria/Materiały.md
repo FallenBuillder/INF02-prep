@@ -171,10 +171,10 @@ i zmieniamy jego zakres i klikamy Apply , OK
 <img width="303" height="202" alt="image" src="https://github.com/user-attachments/assets/9217e650-8703-4b99-820b-6984e3e1429d" />
 
 
+### Konfiguracja Wi-Fi na routerze 
 
+<img width="779" height="412" alt="image" src="https://github.com/user-attachments/assets/0fd3f5e7-33f6-4c4f-94e4-289403f21f7d" />
 
-do Wi-Fi
-<img width="991" height="547" alt="image" src="https://github.com/user-attachments/assets/baf35985-9bdf-4d3b-a05a-2c7130d92479" />
 
 
 
