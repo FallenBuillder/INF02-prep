@@ -342,8 +342,8 @@ Wszystko w linuxie da się zrobić przez CLI, nie potrzeba GUI lecz czasami kied
 - Routing
 - DNS
 - Samba
-- WWW
 - FTP
+- WWW
 - SSH
 
 > Konfiguracja powyższych usług jest omowiona w sekcji 'Ubuntu_Server'
@@ -389,7 +389,38 @@ Zakładając, że nasz server DNS będzie pod adresem 192.168.0.1 nasza konfigur
 
 #### <strong>Samba</strong>
 
-Samba jest 
+Dzięki Sambie możemy udostępniać pliki oraz na nich pracować co sprawia, że mamy do nich łatwą dostępnosć w sieci
+
+Aby połączyć się do servera Samba ( podobnie jak do serva FTP należy najpierw wejść do 'Eksploratora plików'
+<img width="71" height="69" alt="image" src="https://github.com/user-attachments/assets/f5c1fadf-34ef-4f6b-afb4-00e92c7dbc1b" />
+<img width="900" height="552" alt="image" src="https://github.com/user-attachments/assets/6effa5ca-4913-45b6-90ea-81066710c0e1" />
+Po zescrollowaniu na dół widzimy Zakładke 'Other Locations' - ( po polsku będzie inaczej na INF02 ) 
+<img width="895" height="549" alt="image" src="https://github.com/user-attachments/assets/b76d1e65-0501-4b2e-8e41-24810cdb1d1a" />
+po kliknięciu tej zakładki pojawia się nam okienko w, którym można następnie połączyć się z serverem na, którym wystawiane są nasze pliki.
+<img width="705" height="51" alt="image" src="https://github.com/user-attachments/assets/75c76876-84ab-4039-a034-56611d24fa08" />
+Aby to zrobić należy wpisać w pasku na dole adres Servera z, którym chcemy się połączyć.
+<strong>jak widać aby to zrobić należy w pasku na dole wpisać nazwę usługi a następnie adres IP czyli:   'Usługa'://'Adres IP' </strong>
+<img width="906" height="617" alt="image" src="https://github.com/user-attachments/assets/bcdc1d76-4e9d-4fc7-894c-04a33eed309d" />
+Jeśli server jest skonfigurowany będą widoczne zasoby, które tam umieściliśmy 
+
+
+#### <strong>FTP</strong>
+
+Dzięki FTP ( File Transfer Protocol ) - możemy pobierać oraz wysyłać pliki. Jedyną różnicą między FTP a sambą jest to, że Samba skupia się na wygodzie i faktycznym jej użyciu w firmach i korporacjach a FTP służy bardziej tylko jako miejsce z, którego można pobierać jakieś np. Pakiety lub aplikacje 
+
+Aby połączyć się z serverem FTP jedyne co musimy zmienić w polu wyszukiwania zasób sieciowych to nazwa usługi - w tym przypadku na ftp:// 
+
+czyli mamy:
+
+<img width="709" height="49" alt="image" src="https://github.com/user-attachments/assets/c2ef66bb-704b-45c2-b4dc-fa74d265d8fb" />
+Jeśli server został prawidłowo skonfigurowany będziemy mogli zobaczyć na nim pliki
+<img width="903" height="610" alt="image" src="https://github.com/user-attachments/assets/7ac864ba-2415-4fe2-b743-5fd956bc4177" />
+
+
+
+
+
+
 
 
 
