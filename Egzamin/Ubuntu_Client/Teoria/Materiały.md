@@ -358,14 +358,7 @@ Nie każdy egzamin ma linuxa, dlatego więc nie w wszystich egzaminach trzeba si
 <img width="694" height="199" alt="image" src="https://github.com/user-attachments/assets/ee925c5a-6bb8-4884-90fb-b327d6432918" />
 <img width="704" height="498" alt="image" src="https://github.com/user-attachments/assets/08bdad9b-7a6c-4d44-8ec8-8474a58f5556" />
 2023 czerwiec zad 2 
-
-
-
-
-
-
-
-*robić od 2022 styczeń zad 1    
+dodać wiązania symboliczne 
 
 
 
