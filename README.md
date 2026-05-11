@@ -17,7 +17,7 @@ Lista rzeczy do zrobienia:
 - Konfiguracja Switcha 80%
 - Konfiguracja Routera 60%
 - Konfiguracja Clienta-Windows 0%
-- Konfiguracja Clienta-Linux 0%
+- Konfiguracja Clienta-Linux 100%
 - Konfiguracja Servera-Windows 0%
 - Konfiguracja Servera-Linux 0%
 - Skrypty wsadowe, systemowe 100%
