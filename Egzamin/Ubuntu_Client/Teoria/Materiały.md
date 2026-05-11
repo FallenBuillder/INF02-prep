@@ -4,7 +4,7 @@ Linux jest bardziej skomplikowany niż Windows ponieważ w windowsie możemy sob
 
 Zagadnienia:
 
-- Komendy w linuxie
+- Podstawowe Komendy w linuxie
 - Sprawdzanie parametrów systemowych w Linuxie 
 - Linux jako client, któremu są świadczone usługi
 
