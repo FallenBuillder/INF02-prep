@@ -246,9 +246,97 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
 
 ## Podstawowe Polecenia służące do diagnostyki na linuxie.
     
+    uname -a - wyświetla kompletne informacje o jądrze (kernel), nazwie hosta i architekturze
+    lsb_release -a - czytelne informacje o dystrybucji (np. Ubuntu 22.04)
+    sudo nano /etc/lsb-release - podgląd pliku konfiguracyjnego wersji systemu
+    sudo lspci -v - szczegółowa lista urządzeń podłączonych do szyny PCI
+    sudo lscpu - wyświetla parametry procesora (liczba rdzeni, wątków, cache)
+    sudo lshw - ogólne informacje o całym sprzęcie (hardware)
+    sudo lshw -short - uproszczona, krótka lista podzespołów
+    sudo lshw -c memory - wyświetla szczegółowe dane tylko o pamięci RAM
+
+    ╰─○ dmidecode -t
+    dmidecode: option requires an argument -- 't'
+    Type number or keyword expected
+    Valid type keywords are:
+          bios
+          system
+          baseboard
+          chassis
+          processor
+          memory
+          cache
+          connector
+          slot
+  
+    sudo dmidecode -t baseboard - szczegółowe dane o płycie głównej pobrane z BIOS/UEFI
+    sudo lshw -c memory | grep -i size - wyciąga tylko linie dotyczące rozmiaru pamięci
+    sudo lshw -short > sprzet.txt - zapisuje listę sprzętu do pliku (nadpisuje plik)
+    sudo lscpu | grep -i core >> ram.txt - dopisuje dane o rdzeniach na koniec istniejącego pliku
+    
+
+    Jak uzyskać informację o poszczególnych rzeczach na egzamin.
 
 
+    Informacje o procesorze
+        lscpu - szczegółowe informacje o procesorze
+        cat /proc/cpuinfo - informacje o procesorze z pliku proc
+        sudo dmidecode -t processor - informacje o procesorze z DMI
+        
+    Informacje o pamięci RAM
+        free -m - informacje o pamięci w MB
+        free -h - informacje o pamięci w GB
+        sudo dmidecode -t memory - szczegółowe informacje o pamięci
+        lshw -c memory - informacje o pamięci
+        hwinfo --memory - informacje o pamięci (może wymagać instalacji)
+        
+    Informacje o dyskach
+        lsblk - lista urządzeń blokowych
+        fdisk -l - lista partycji dyskowych
+        sudo fdisk -l | grep -i "disk" - lista dysków
+        lshw -c disk - informacje o dyskach
+        hdparm -i /dev/sda - informacje o dysku twardym
+        
+    Informacje o karcie graficznej
+        lspci | grep -i vga - informacje o karcie graficznej
+        lshw -c display - szczegółowe informacje o karcie graficznej
+        
+    Informacje o płycie głównej
+        sudo dmidecode -t baseboard - informacje o płycie głównej
+        sudo dmidecode -t system - informacje o systemie
+        
+    Informacje o karcie sieciowej
+        lspci | grep -i network - lista kart sieciowych
+        lshw -c network - szczegółowe informacje o kartach sieciowych
 
+
+    free -h - pokazuje zużycie pamięci RAM i SWAP w formacie czytelnym dla człowieka (np. GB, MB)
+    sudo nano /proc/meminfo - wgląd w surowe dane systemowe o pamięci
+    top - klasyczny, tekstowy monitor procesów w czasie rzeczywistym
+    htop - nowoczesny, kolorowy i interaktywny monitor procesów
+
+    whoami - wyświetla nazwę aktualnie zalogowanego użytkownika
+    users - wyświetla listę wszystkich zalogowanych obecnie użytkowników
+    w - pokazuje kto jest zalogowany oraz co aktualnie robi (jakie procesy uruchomił)
+
+    ps - lista procesów aktualnego terminalu
+    ps aux - lista wszystkich procesów systemu
+    ps -ef - alternatywny format listy procesów
+
+    kill PID - zakończenie procesu o danym PID
+    kill -9 PID - wymuszenie zakończenia procesu
+    killall nazwa_procesu - zakończenie wszystkich procesów o danej nazwie
+    pkill nazwa - zakończenie procesów na podstawie wzorca nazwy
+
+    hostnamectl - informacje o systemie (systemd)
+    df -h - informacje o przestrzeni dyskowej
+    du -sh katalog - rozmiar katalogu
+    uptime - czas działania systemu i obciążen
+    
+
+    
+    
+    
 
 
 
