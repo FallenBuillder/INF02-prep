@@ -502,6 +502,7 @@ Naszczęście nie każdy egzamin ma linuxa, może czasami być Windows i Linux a
 
 
 > Dodać zadania z 2026 Zima.
+
 > Dodać do notatki rzeczy, które pojawiły się na egzaminie związane z linuxem ale nie ma notatce.
 
 
