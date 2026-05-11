@@ -337,6 +337,9 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
 ## Linux Jako Klient, któremu świadczone są usługi
 Wszystko w linuxie da się zrobić przez CLI, nie potrzeba GUI lecz czasami kiedy sprawdzamy czy nasz server działa lub kiedy go testujemy to GUI się przydaję - szczególnie do serverów [ ftp , samba , Apache ] ( rzeczy takie jak DHCP, NAT, SSH, DNS będą sprawdzane przez CLI i będą omówione w sekci związanej z Linux Serverem lub Windows Serverem zależnie od usługi )
 
+## Komendy na linuxie na egzaminach INF02
+Nie każdy egzamin ma linuxa, dlatego więc nie w wszystich egzaminach trzeba się z nim męczyć czasami na egzaminach mamy połączenie Windows Servera z Linux Clientem lub np. połączenie Linux Servera z Linux Clientem - ( może być wiele opcji ) naszczęście dlatego, że duża część usług wystawianych na windows serverze potrzebuje clienta w systemie Windows linuxa jest trochę mniej - co nie oznacza, że się wogóle nie pojawia.
+
 
 
 
