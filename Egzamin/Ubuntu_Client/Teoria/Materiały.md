@@ -343,8 +343,21 @@ Nie każdy egzamin ma linuxa, dlatego więc nie w wszystich egzaminach trzeba si
 # Zadania z diagnostyką na linuxie 
 <img width="698" height="302" alt="image" src="https://github.com/user-attachments/assets/91f0733c-0745-44db-8e27-0aacdce00cd6" />
 <img width="696" height="321" alt="image" src="https://github.com/user-attachments/assets/63fb9abb-6eb4-4d17-ab5a-ac9c3be7ca06" />
-
-
+<img width="707" height="277" alt="image" src="https://github.com/user-attachments/assets/c6840e55-1551-4dad-80be-6963b43996c4" />
+<img width="694" height="199" alt="image" src="https://github.com/user-attachments/assets/ee925c5a-6bb8-4884-90fb-b327d6432918" />
+<img width="711" height="217" alt="image" src="https://github.com/user-attachments/assets/26abac49-2eb5-42e8-97c8-dacf1bc9388d" />
+<img width="699" height="56" alt="image" src="https://github.com/user-attachments/assets/6769a76c-c999-455d-8445-8e1b6ac774ef" />
+<img width="705" height="587" alt="image" src="https://github.com/user-attachments/assets/ce5599e5-bbdc-483e-8b92-7f5e1d333441" />
+<img width="700" height="202" alt="image" src="https://github.com/user-attachments/assets/25795e70-d830-4425-8da2-d3d9174f9db9" />
+<img width="699" height="198" alt="image" src="https://github.com/user-attachments/assets/d5ebf4a5-813f-4622-908d-7d796712d790" />
+<img width="689" height="173" alt="image" src="https://github.com/user-attachments/assets/c0720314-f1ef-495b-97d8-eb11309839c6" />
+<img width="696" height="249" alt="image" src="https://github.com/user-attachments/assets/cfd897d7-c3c7-4add-a93e-7038a0b66325" />
+<img width="703" height="176" alt="image" src="https://github.com/user-attachments/assets/9eddac39-31e2-469a-b7e8-9276713a5baf" />
+<img width="701" height="288" alt="image" src="https://github.com/user-attachments/assets/0908d956-5f4c-477c-a1a5-49ef5b3d2087" />
+<img width="700" height="81" alt="image" src="https://github.com/user-attachments/assets/21c3d7ef-b14b-4bb6-b10f-3ac8105a0293" />
+<img width="697" height="445" alt="image" src="https://github.com/user-attachments/assets/d1562048-8f49-4db8-84fb-85af1fa4268b" />
+<img width="702" height="121" alt="image" src="https://github.com/user-attachments/assets/f2bf5ae7-4adb-4036-97a2-d03f5d939105" />
+<img width="695" height="247" alt="image" src="https://github.com/user-attachments/assets/c21b2306-9100-46c1-b7e3-39f34d9563d2" />
 
 
 # Zadania z ogólną eksploatacją na linuxie 
@@ -354,9 +367,22 @@ Nie każdy egzamin ma linuxa, dlatego więc nie w wszystich egzaminach trzeba si
 <img width="709" height="272" alt="image" src="https://github.com/user-attachments/assets/542061ce-1f6b-4322-87b5-7934f8e609e4" />
 <img width="699" height="243" alt="image" src="https://github.com/user-attachments/assets/41f35f30-b167-41ed-9bcf-fc9f6cf5fee0" />
 <img width="686" height="363" alt="image" src="https://github.com/user-attachments/assets/9cb6c43f-3bf8-4105-9cc7-9737e76a12f5" />
-<img width="707" height="277" alt="image" src="https://github.com/user-attachments/assets/c6840e55-1551-4dad-80be-6963b43996c4" />
-<img width="694" height="199" alt="image" src="https://github.com/user-attachments/assets/ee925c5a-6bb8-4884-90fb-b327d6432918" />
 <img width="704" height="498" alt="image" src="https://github.com/user-attachments/assets/08bdad9b-7a6c-4d44-8ec8-8474a58f5556" />
+<img width="701" height="190" alt="image" src="https://github.com/user-attachments/assets/5f76dcbe-7675-4d6b-8345-73d95b0b6918" />
+<img width="701" height="530" alt="image" src="https://github.com/user-attachments/assets/dbd4ed2c-ba5c-4542-9ae3-0b7f9cb740b0" />
+<img width="705" height="669" alt="image" src="https://github.com/user-attachments/assets/dddbdf4f-496a-40e8-ac27-62552ead13a9" />
+<img width="725" height="329" alt="image" src="https://github.com/user-attachments/assets/fd19824c-d9a2-4e6b-9293-323dc207b7f9" />
+<img width="693" height="341" alt="image" src="https://github.com/user-attachments/assets/e81d8b92-f127-4c23-8ac1-914e09cce2aa" />
+<img width="707" height="468" alt="image" src="https://github.com/user-attachments/assets/7f1cfb42-2a5e-4665-a42f-a27912644762" />
+<img width="703" height="533" alt="image" src="https://github.com/user-attachments/assets/9297bccf-ef4c-4a55-9421-304e1425dd1f" />
+<img width="652" height="359" alt="image" src="https://github.com/user-attachments/assets/edc10f61-a6b4-4a1c-966f-5a3c4f5eea86" />
+<img width="709" height="404" alt="image" src="https://github.com/user-attachments/assets/53b2fddd-917b-4719-b0e5-01b4c8778d6a" />
+<img width="712" height="419" alt="image" src="https://github.com/user-attachments/assets/b5345f44-3287-40a4-a342-d4546ac426f8" />
+<img width="701" height="413" alt="image" src="https://github.com/user-attachments/assets/2c251840-6cf3-45f9-a7db-5caaaa012fb7" />
+<img width="709" height="297" alt="image" src="https://github.com/user-attachments/assets/50917ff3-692b-4374-87cb-6a334ed05984" />
+<img width="714" height="231" alt="image" src="https://github.com/user-attachments/assets/fc497237-35b8-4b45-ad1d-2abac526e336" />
+
+
 2023 czerwiec zad 2 
 dodać wiązania symboliczne 
 
