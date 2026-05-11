@@ -30,32 +30,34 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
 - alias
 - history
 
+## Polecenia
 
-pwd - wyświetla bieżący katalog (print working directory)
+    pwd - wyświetla bieżący katalog (print working directory) 
+    cd - zmiana katalogu
+    cd /home - przejście do katalogu /home
+    cd .. - przejście o jeden katalog w górę
+    cd ~ - przejście do katalogu domowego użytkownika
 
-cd - zmiana katalogu
-cd /home - przejście do katalogu /home
-cd .. - przejście o jeden katalog w górę
-cd ~ - przejście do katalogu domowego użytkownika
+    ls - wyświetlanie zawartości katalogu
+    ls -l - szczegółowy widok (długi format)
+    ls -la - widok wszystkich plików (także ukrytych)
+    ls -la | grep nazwa - filtrowanie wyników
 
-ls - wyświetlanie zawartości katalogu
-ls -l - szczegółowy widok (długi format)
-ls -la - widok wszystkich plików (także ukrytych)
-ls -la | grep nazwa - filtrowanie wyników
+    mkdir nazwa - tworzenie nowego katalogu
 
-mkdir nazwa - tworzenie nowego katalogu
+    touch nazwa_pliku - tworzenie pustego pliku
 
-touch nazwa_pliku - tworzenie pustego pliku
+    cp plik1 plik2 - kopiowanie pliku
+    cp -r katalog1 katalog2 - kopiowanie katalogu rekursywnie
 
-cp plik1 plik2 - kopiowanie pliku
-cp -r katalog1 katalog2 - kopiowanie katalogu rekursywnie
+    mv plik1 plik2 - przenoszenie/zmiana nazwy pliku
 
-mv plik1 plik2 - przenoszenie/zmiana nazwy pliku
+    rm plik - usuwanie pliku
+    rm -rf katalog - usuwanie katalogu rekursywnie
 
-rm plik - usuwanie pliku
-rm -rf katalog - usuwanie katalogu rekursywnie
+    rmdir katalog - usuwanie pustego katalogu
 
-rmdir katalog - usuwanie pustego katalogu
+    
 
   
 
