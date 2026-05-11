@@ -222,8 +222,9 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
     Tab - autouzupełnianie
     Ctrl+R - wyszukiwanie w historii komend
     !! - powtórzenie ostatniej komendy
-    !n - wykonanie n-tej komendy z histor
-    
+    !n - wykonanie n-tej komendy z histori
+> Zmiana adresu IP w Linuxie opartym na Ubuntu jest zawarta w Teorii w folderze 'TP-link_Konfiguracja'
+
 ## Podstawowe Polecenia służące do diagnostyki.
 
 
