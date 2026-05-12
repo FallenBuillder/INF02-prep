@@ -23,6 +23,7 @@ Lista rzeczy do zrobienia:
 - Skrypty wsadowe, systemowe 100%
 - Zagadnienia powtórkowe, podstawowe związane z sieciami 100%
 - Sekcja skupiona na przewodzikach, zadaniach praktycznych/fizycznych 100%
+- Egzaminy 100%
 
 
 # UWAGA
