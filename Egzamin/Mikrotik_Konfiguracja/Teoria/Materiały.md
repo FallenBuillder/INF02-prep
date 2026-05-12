@@ -208,7 +208,12 @@ Po kliknięciu w intefejs 'wlan1' pokaże się nam menu w, którym jedyną ważn
 
 <img width="872" height="378" alt="image" src="https://github.com/user-attachments/assets/38793098-e170-4527-9c5a-a742d1184864" />
 
-Kluczowym elementem konfiguracji jest sekcja 'Security Profiles'. To właśnie tutaj definiujemy politykę bezpieczeństwa naszej sieci bezprzewodowej, wybierając standard uwierzytelniania (np. WPA2) oraz konkretne algorytmy szyfrowania danych, ponadto ustwiamy tutaj także hasło służące do tego abyśmy się dostali do naszego Wi-Fi.
+Kluczowym elementem konfiguracji jest także zakładka 'Security Profiles'. To właśnie tutaj definiujemy politykę bezpieczeństwa naszej sieci bezprzewodowej, wybierając standard uwierzytelniania (np. WPA2) oraz konkretne algorytmy szyfrowania danych, ponadto ustwiamy tutaj także hasło służące do tego abyśmy się dostali do naszego Wi-Fi.
+
+<img width="891" height="490" alt="image" src="https://github.com/user-attachments/assets/1d98f427-73bb-40b1-8572-8532b2c17790" />
+
+Po kliknięciu na defaultowy security profile, który z automatu używa wlan1 widzimy wcześniej wymieone ustawienia 
+
 
 W zadaniu jest napisane abyśmy ustawili:
 SSID na wifi-x   ( SSID jest poprostu nazwą sieci, jaka się pojawia kiedy się z nią łączymy ) - po tym poznajemy jaka sieć jest jaka 
