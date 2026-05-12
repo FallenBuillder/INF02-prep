@@ -228,8 +228,24 @@ Numer kanału na 7 - Wi-Fi może mieć wiele kanałów i może być ustawione na
 
 > jeśli w QuickSecie nie można kliknąć apply wystarczy poprostu wpisać to samo hasło w pole Wifi Password i nastepnie zapisać Quick Seta
 
+Narazie jeśli będziemy chcieli połączyć się naszym telefonem do sieci to nie otrzymamy adresu IP ponieważ nie skonfigurowaliśmy servera DHCP.
 
-Na tym etapie skończyliśmy już robić zadanie. Teraz nauczymy się jak sprawić, że dostaniemy adres IP od routera 
+nasuwa więc się pytanie jak skonfigurować server DHCP tak abyśmy dostawali adresy IP na naszym telefonie / komputerze i mogli rozmawiać z innymi urządzeniami w sieci 
+- Pierwszym krokiem jest stworzenie adresu IP dla interfejsu WAN
+<img width="939" height="527" alt="image" src="https://github.com/user-attachments/assets/6e504bd0-fde7-4f6f-92c7-f65ee351e25c" />
+Robimy to poprzez wejście w zakładke IP -> Addresses -> guzik 'plus' i wpisujemy adres dla naszego interfejsu Wi-Fi
+<img width="339" height="385" alt="image" src="https://github.com/user-attachments/assets/e8167a74-1511-4e30-821a-4b5df43ecdf7" />
+Po dodaniu adresu przechodzimy do znanej już nam zakładki DHCP Server i klimay w 'DHCP Setup'
+<img width="1089" height="565" alt="image" src="https://github.com/user-attachments/assets/7c964a43-d626-4898-ba81-abfcaefdd38b" />
+
+Następnie przechodzimy przez proces przez, który przeszliśmy w poprzednim zadaniu tylko teraz dla wlan1
+<img width="271" height="172" alt="image" src="https://github.com/user-attachments/assets/2f0153fa-ec36-4a2f-98aa-63d658d2cf93" />
+<img width="274" height="174" alt="image" src="https://github.com/user-attachments/assets/771f08ff-fac7-42ab-bda5-f5d4a044ac3a" />
+
+
+
+
+Drugim krokiem do otrzymania adresu IP będzie wejście w zakładke 'DHCP Server' a następnie kliknięcie w guzik 'DHCP Setup' i wybranie w interfejsie naszego wlan1
 
 
 
