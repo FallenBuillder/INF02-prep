@@ -174,7 +174,33 @@ i zmieniamy jego zakres i klikamy Apply , OK
 ### Konfiguracja Wi-Fi na routerze 
 
 <img width="779" height="412" alt="image" src="https://github.com/user-attachments/assets/0fd3f5e7-33f6-4c4f-94e4-289403f21f7d" />
-Aby wytłumaczyć jak skonfigurować Wi-Fi na routerze zrobimy powyższy przykład. 
+Aby wytłumaczyć jak skonfigurować Wi-Fi na routerze Mikrotikowym posłużymy się powyższyn przykładem.
+<img width="1302" height="269" alt="image" src="https://github.com/user-attachments/assets/fa409749-ace8-42f1-8f9c-3b428b351ec7" />
+
+Najpierw zrobimy Zadanie część zadania, kórą już defakto wiemy jak zrobić. Całą tą część da się skonfigurować za pomocą QuickSeta - lub można zrobić to manualnie co będzie pokazane pod koniec.
+
+<img width="1115" height="598" alt="image" src="https://github.com/user-attachments/assets/0b097896-9687-422d-a0f5-3dee79097af4" />
+
+Jak widać przez to, że użyliśmy quickseta adresy IP dla danych portów stworzyły się automatycznie.
+
+<strong>Teraz możemy przejść do części z konfiguracją Wi-Fi</strong>
+
+Zakładka, która zawiera ustawienia Wi-Fi to czwarta zakładka patrząc od początku 
+<img width="136" height="533" alt="image" src="https://github.com/user-attachments/assets/71c60cdf-2a70-4b75-a811-0ae261f3a8e0" />
+<img width="126" height="32" alt="image" src="https://github.com/user-attachments/assets/a6f111f6-84f9-45b4-a9d8-349a210def7f" />
+<img width="875" height="381" alt="image" src="https://github.com/user-attachments/assets/44a4ee75-18ff-4d69-a3ac-8cf1f9dd9dbb" />
+
+Jak widać wyświetla się nam menu w, którym mamy interfejs 'wlan1', który będziemy konfigurować
+
+<img width="531" height="505" alt="image" src="https://github.com/user-attachments/assets/920dfd9c-c6e1-4774-9aa3-fa8b658b9dbe" />
+
+Po kliknięciu w intefejs 'wlan1' pokaże się nam menu w, którym jedyną ważną zakładką, której będziemy używać będzie zakładka 'Wireless' - to właśnie tutaj możemy zmienić naszę SSID, Kanał, Security Profile, Kraj.
+
+<img width="872" height="378" alt="image" src="https://github.com/user-attachments/assets/38793098-e170-4527-9c5a-a742d1184864" />
+Drugą zakłądką, która będzie nas interesowac jest zakładka 'Security Profiles' w, której będziemy konfigurować metode szyfrowania naszej sieci oraz 
+
+
+
 
 
 
