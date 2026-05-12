@@ -174,6 +174,8 @@ i zmieniamy jego zakres i klikamy Apply , OK
 ### Konfiguracja Wi-Fi na routerze 
 
 <img width="779" height="412" alt="image" src="https://github.com/user-attachments/assets/0fd3f5e7-33f6-4c4f-94e4-289403f21f7d" />
+Aby wytłumaczyć jak skonfigurować Wi-Fi na routerze zrobimy powyższy przykład. 
+
 
 
 
