@@ -230,17 +230,72 @@ Numer kanału na 7 - Wi-Fi może mieć wiele kanałów i może być ustawione na
 
 Narazie jeśli będziemy chcieli połączyć się naszym telefonem do sieci to nie otrzymamy adresu IP ponieważ nie skonfigurowaliśmy servera DHCP.
 
+Przerobić to na dole zadaniem z egzaminu faktycznym np. takim
+
+<img width="728" height="548" alt="image" src="https://github.com/user-attachments/assets/991f8162-3677-4f0e-9876-37d55dd26080" />
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
 nasuwa więc się pytanie jak skonfigurować server DHCP tak abyśmy dostawali adresy IP na naszym telefonie / komputerze i mogli rozmawiać z innymi urządzeniami w sieci 
-- Pierwszym krokiem jest stworzenie adresu IP dla interfejsu WAN
-<img width="939" height="527" alt="image" src="https://github.com/user-attachments/assets/6e504bd0-fde7-4f6f-92c7-f65ee351e25c" />
+- Pierwszym krokiem jest stworzenie adresu IP dla interfejsu wlan1
+<img width="897" height="538" alt="image" src="https://github.com/user-attachments/assets/47ad528b-8b4f-4283-b8f5-4f13f5f9b72c" />
 Robimy to poprzez wejście w zakładke IP -> Addresses -> guzik 'plus' i wpisujemy adres dla naszego interfejsu Wi-Fi
-<img width="339" height="385" alt="image" src="https://github.com/user-attachments/assets/e8167a74-1511-4e30-821a-4b5df43ecdf7" />
+<img width="334" height="189" alt="image" src="https://github.com/user-attachments/assets/1b6fdbcd-a8ea-4a87-9cd6-1631228899d5" />
+
 Po dodaniu adresu przechodzimy do znanej już nam zakładki DHCP Server i klimay w 'DHCP Setup'
 <img width="1089" height="565" alt="image" src="https://github.com/user-attachments/assets/7c964a43-d626-4898-ba81-abfcaefdd38b" />
 
 Następnie przechodzimy przez proces przez, który przeszliśmy w poprzednim zadaniu tylko teraz dla wlan1
-<img width="271" height="172" alt="image" src="https://github.com/user-attachments/assets/2f0153fa-ec36-4a2f-98aa-63d658d2cf93" />
-<img width="274" height="174" alt="image" src="https://github.com/user-attachments/assets/771f08ff-fac7-42ab-bda5-f5d4a044ac3a" />
+<img width="275" height="179" alt="image" src="https://github.com/user-attachments/assets/c5b98f2d-e4d4-4c68-adf7-d63d1f80c528" />
+<img width="280" height="185" alt="image" src="https://github.com/user-attachments/assets/ada96a0c-eede-4f63-b999-48e1834668b2" />
+<img width="276" height="183" alt="image" src="https://github.com/user-attachments/assets/d2b28b09-e722-423b-a4a0-d2ef8d53ae5c" />
+<img width="279" height="175" alt="image" src="https://github.com/user-attachments/assets/e57e178b-51f9-40d1-808c-6bf66b6f1dee" />
+<img width="273" height="181" alt="image" src="https://github.com/user-attachments/assets/0c5f3a72-e941-4cfb-b8a6-91f9de538b7c" />
+<img width="276" height="183" alt="image" src="https://github.com/user-attachments/assets/f2adb52c-c326-4383-9ea1-1ed53b6f8255" />
+<img width="209" height="115" alt="image" src="https://github.com/user-attachments/assets/f8404940-7845-4f14-9ee6-8528daa979cf" />
 
 
 
