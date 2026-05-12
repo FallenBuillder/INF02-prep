@@ -229,7 +229,7 @@ Numer kanału na 7 - Wi-Fi może mieć wiele kanałów i może być ustawione na
 > jeśli w QuickSecie nie można kliknąć apply wystarczy poprostu wpisać to samo hasło w pole Wifi Password i nastepnie zapisać Quick Seta
 
 
-
+Na tym etapie skończyliśmy już robić zadanie. Teraz nauczymy się jak sprawić, że dostaniemy adres IP od routera 
 
 
 
