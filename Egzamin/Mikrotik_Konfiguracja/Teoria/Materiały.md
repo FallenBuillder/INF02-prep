@@ -190,6 +190,8 @@ Najpierw zrobimy Zadanie część zadania, kórą już defakto wiemy jak zrobić
 
 Jak widać przez to, że użyliśmy quickseta adresy IP dla danych portów stworzyły się automatycznie.
 
+> <strong>zmieniłem potem adres dla LANu z 192.168.1.128 na 192.168.1.129</strong>
+
 <strong>Teraz możemy przejść do części z konfiguracją Wi-Fi</strong>
 
 Zakładka, która zawiera ustawienia Wi-Fi to czwarta zakładka patrząc od początku 
@@ -221,9 +223,10 @@ Klucz dostępu na stanowisko-x ( Klucz dostepu to inaczej poprostu hasło do nas
 Najsilniejsze możliwe szyfrowanie - Oznacza to, że mamy ustawić szyfrowanie na WPA2-PSK i aes ccm - ponieważ jest to najsilniejsze szyfrowanie w tych modelach mikrotików
 Numer kanału na 7 - Wi-Fi może mieć wiele kanałów i może być ustawione na wielu kamałach. Mamy ustawić naszę Wi-Fi na inny kanał aby nie kolidowału z innymi różnymi sieciami Wi-Fi, które są wystawione na innych kanałach 
 
+<strong>Poprawinie skonfigurowane zadanie wyglądałoby tak:</strong>
+<img width="1827" height="940" alt="image" src="https://github.com/user-attachments/assets/3cced199-bbb4-4d63-9b8a-2e55937b078e" />
 
-
-
+> jeśli w QuickSecie nie można kliknąć apply wystarczy poprostu wpisać to samo hasło w pole Wifi Password i nastepnie zapisać Quick Seta
 
 
 
