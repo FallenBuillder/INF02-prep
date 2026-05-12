@@ -197,7 +197,15 @@ Jak widać wyświetla się nam menu w, którym mamy interfejs 'wlan1', który b�
 Po kliknięciu w intefejs 'wlan1' pokaże się nam menu w, którym jedyną ważną zakładką, której będziemy używać będzie zakładka 'Wireless' - to właśnie tutaj możemy zmienić naszę SSID, Kanał, Security Profile, Kraj.
 
 <img width="872" height="378" alt="image" src="https://github.com/user-attachments/assets/38793098-e170-4527-9c5a-a742d1184864" />
-Drugą zakłądką, która będzie nas interesowac jest zakładka 'Security Profiles' w, której będziemy konfigurować metode szyfrowania naszej sieci oraz 
+Kluczowym elementem konfiguracji jest sekcja 'Security Profiles'. To właśnie tutaj definiujemy politykę bezpieczeństwa naszej sieci bezprzewodowej, wybierając standard uwierzytelniania (np. WPA2) oraz konkretne algorytmy szyfrowania danych, ponadto ustwiamy tutaj także hasło służące do tego abyśmy się dostali do naszego Wi-Fi.
+
+W zadaniu jest napisane abyśmy ustawili:
+SSID na wifi-x   ( SSID jest poprostu nazwą sieci, jaka się pojawia kiedy się z nią łączymy ) - po tym poznajemy jaka sieć jest jaka 
+Klucz dostępu na stanowisko-x ( Klucz dostepu to inaczej poprostu hasło do naszego Wi-Fi )
+Najsilniejsze możliwe szyfrowanie - Oznacza to, że mamy ustawić szyfrowanie na WPA2-PSK i aes ccm - ponieważ jest to najsilniejsze szyfrowanie w tych modelach mikrotików
+Numer kanału na 7 - Wi-Fi może mieć wiele kanałów i może być ustawione na wielu kamałach. Mamy ustawić naszę Wi-Fi na inny kanał aby nie kolidowału z innymi różnymi sieciami Wi-Fi, które są wystawione na innych kanałach 
+
+
 
 
 
