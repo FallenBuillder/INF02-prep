@@ -19,6 +19,10 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
     man ls - wyświetla manual komendy
     ls --help - wyświetla pomoc dla jakiejś komendy 
     ls -h - robi to samo co powyższa komenda ( skrócony zapis )
+ 
+    sudo apt update – aktualizacja listy dostępnych pakietów i ich wersji w repozytoriach, co pozwala systemowi sprawdzić dostępność nowszych wydań.
+    sudo apt upgrade – ulepszenie wszystkich pakietów oraz bibliotek w systemie na nowszą wersję bez usuwania aktualnie zainstalowanych programów.
+    apt list --upgradable – wypisanie rzeczy, które są do ulepszenia, co pozwala na szybki przegląd dostępnych aktualizacji przed ich pobraniem.
     
     pwd - wyświetla bieżący katalog (print working directory) 
     cd - zmiana katalogu
@@ -234,6 +238,10 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
 
     Alias adres =’ip a’  - tworzy alias dla jakieś komendy 
 
+    ln -s źródło cel
+    ln -s /etc skrot_do_etc - tworzy wiązanie symboliczne
+    po wykonaniu komendy ls -l powinniśmy zauważyć skrot_do_etc -> /etc (skrót wskazuje na miejsce źródłowe)
+
     Ctrl+C - przerwanie działania programu
     Ctrl+Z - wstrzymanie programu (można wznowić bg/fg)
     Ctrl+D - koniec pliku EOF / wylogowanie
@@ -297,6 +305,7 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
         sudo fdisk -l | grep -i "disk" - lista dysków
         lshw -c disk - informacje o dyskach
         hdparm -i /dev/sda - informacje o dysku twardym
+        lshw -class disk 
         
     Informacje o karcie graficznej
         lspci | grep -i vga - informacje o karcie graficznej
