@@ -164,17 +164,24 @@ Jak widać Server DHCP działa poprawnie
 ### Troubleshooting 
 
 Jeśli źle się wpisało Pool adresów do servera DHCP to nie trzeba usuwać całego Serwera DHCP i zaczynać od początku. Wystarczy wejśc do zakłądki IP > Pool
+
 <img width="255" height="523" alt="image" src="https://github.com/user-attachments/assets/2bb6b9db-e03a-47f7-9c97-7c0baa3af6d8" />
+
 a następnie w tej zakłądce klikamy na źle utworzony Pool
+
 <img width="428" height="373" alt="image" src="https://github.com/user-attachments/assets/51002420-7d2b-4d13-be5a-5dec51889ebf" />
+
 i zmieniamy jego zakres i klikamy Apply , OK
+
 <img width="303" height="202" alt="image" src="https://github.com/user-attachments/assets/9217e650-8703-4b99-820b-6984e3e1429d" />
 
 
 ### Konfiguracja Wi-Fi na routerze 
 
 <img width="779" height="412" alt="image" src="https://github.com/user-attachments/assets/0fd3f5e7-33f6-4c4f-94e4-289403f21f7d" />
+
 Aby wytłumaczyć jak skonfigurować Wi-Fi na routerze Mikrotikowym posłużymy się powyższyn przykładem.
+
 <img width="1302" height="269" alt="image" src="https://github.com/user-attachments/assets/fa409749-ace8-42f1-8f9c-3b428b351ec7" />
 
 Najpierw zrobimy Zadanie część zadania, kórą już defakto wiemy jak zrobić. Całą tą część da się skonfigurować za pomocą QuickSeta - lub można zrobić to manualnie co będzie pokazane pod koniec.
@@ -186,8 +193,11 @@ Jak widać przez to, że użyliśmy quickseta adresy IP dla danych portów stwor
 <strong>Teraz możemy przejść do części z konfiguracją Wi-Fi</strong>
 
 Zakładka, która zawiera ustawienia Wi-Fi to czwarta zakładka patrząc od początku 
+
 <img width="136" height="533" alt="image" src="https://github.com/user-attachments/assets/71c60cdf-2a70-4b75-a811-0ae261f3a8e0" />
+
 <img width="126" height="32" alt="image" src="https://github.com/user-attachments/assets/a6f111f6-84f9-45b4-a9d8-349a210def7f" />
+
 <img width="875" height="381" alt="image" src="https://github.com/user-attachments/assets/44a4ee75-18ff-4d69-a3ac-8cf1f9dd9dbb" />
 
 Jak widać wyświetla się nam menu w, którym mamy interfejs 'wlan1', który będziemy konfigurować
@@ -197,6 +207,7 @@ Jak widać wyświetla się nam menu w, którym mamy interfejs 'wlan1', który b�
 Po kliknięciu w intefejs 'wlan1' pokaże się nam menu w, którym jedyną ważną zakładką, której będziemy używać będzie zakładka 'Wireless' - to właśnie tutaj możemy zmienić naszę SSID, Kanał, Security Profile, Kraj.
 
 <img width="872" height="378" alt="image" src="https://github.com/user-attachments/assets/38793098-e170-4527-9c5a-a742d1184864" />
+
 Kluczowym elementem konfiguracji jest sekcja 'Security Profiles'. To właśnie tutaj definiujemy politykę bezpieczeństwa naszej sieci bezprzewodowej, wybierając standard uwierzytelniania (np. WPA2) oraz konkretne algorytmy szyfrowania danych, ponadto ustwiamy tutaj także hasło służące do tego abyśmy się dostali do naszego Wi-Fi.
 
 W zadaniu jest napisane abyśmy ustawili:
@@ -204,6 +215,8 @@ SSID na wifi-x   ( SSID jest poprostu nazwą sieci, jaka się pojawia kiedy się
 Klucz dostępu na stanowisko-x ( Klucz dostepu to inaczej poprostu hasło do naszego Wi-Fi )
 Najsilniejsze możliwe szyfrowanie - Oznacza to, że mamy ustawić szyfrowanie na WPA2-PSK i aes ccm - ponieważ jest to najsilniejsze szyfrowanie w tych modelach mikrotików
 Numer kanału na 7 - Wi-Fi może mieć wiele kanałów i może być ustawione na wielu kamałach. Mamy ustawić naszę Wi-Fi na inny kanał aby nie kolidowału z innymi różnymi sieciami Wi-Fi, które są wystawione na innych kanałach 
+
+
 
 
 
