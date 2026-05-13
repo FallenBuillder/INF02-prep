@@ -14,14 +14,14 @@ Praca nad repozytorium przygotowywującym do egzaminu teoretycznego zacznie się
 *** 
 
 Lista rzeczy do zrobienia:
-- Konfiguracja Switcha 80%
-- Konfiguracja Routera 60%
-- Konfiguracja Clienta-Windows 0%
+- Konfiguracja Switcha 95%
+- Konfiguracja Routera 100%
 - Konfiguracja Clienta-Linux 100%
-- Konfiguracja Servera-Windows 0%
 - Konfiguracja Servera-Linux 0%
 - Skrypty wsadowe, systemowe 100%
 - Zagadnienia powtórkowe, podstawowe związane z sieciami 100%
+- Konfiguracja Clienta-Windows 0%
+- Konfiguracja Servera-Windows 0%
 - Sekcja skupiona na przewodzikach, zadaniach praktycznych/fizycznych 100%
 - Egzaminy 100%
 
