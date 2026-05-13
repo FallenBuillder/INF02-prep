@@ -29,6 +29,6 @@ Lista rzeczy do zrobienia:
 # UWAGA
 materiały przedstawione tutaj zawierają tylko materiały pod egzamin <strong>praktyczny</strong> INF02 
 
-### Jesteśmy otwarci na jakiekolwiek pull requesty i poprawki / dodatki do repozytorium ❤️
-> przepraszam z góry za wszystkie błędy ortograficzne i interpunkcyjne
+### <strong>Jestem Otwarty na jakiekolwiek Pull Requesty do skończonych Działów i z góry dziękuje za poprawki !</strong>
+
 
