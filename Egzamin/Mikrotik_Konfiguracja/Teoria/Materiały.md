@@ -320,6 +320,52 @@ Służy do: Przesyłania ruchu z wielu odizolowanych sieci (VLAN) przez jeden fi
 
 ### Jak skonfigurować Trunka na Routerze..? 
 To zależy od zadania ale kiedy konfigurujemy trunka to albo wystarcy nam sam trunk albo będziemy musieli jeszcze dodatkowo postawic DHCP Server na jednym z sieci trunkoych.
+<img width="837" height="705" alt="image" src="https://github.com/user-attachments/assets/5e5a2951-b9a6-4341-9af2-927762a7dd71" />
+Najpierw robimy to co już wiemy jak zrobić i przechodzimy do trudniejszej części.
+Tworzenie trunka na routerze składa się z dwóch części
+- Tworzenie virtualnych vlanów
+- Przypisywanie virtualnym vlanom adresów IP
+
+### Krok1. Tworzenie virtualnych vlanów
+Aby stworzyć virtualne vlany na mikrotiku należy wejść do zakładki Interfaces->VLAN - tutaj będziemy tworzyć VLANy poprzez kliknięcie guzika '+'
+<img width="456" height="452" alt="image" src="https://github.com/user-attachments/assets/ce7fad2f-5a6a-4e12-b19b-33dc3ea641a3" />
+Po kliknięciu Guzika '+' wpisujemy następujące parametry i tworzymy pierwszą sieć VLAN.
+<img width="454" height="452" alt="image" src="https://github.com/user-attachments/assets/e964034f-65d4-460e-bb6f-0da950c38d21" />
+<img width="449" height="451" alt="image" src="https://github.com/user-attachments/assets/cc089507-953f-4ff0-aa5f-c238278fbaf7" />
+Analogicznie tworzymy dwa dodatkowe Sieci VLAN i dostajemy następującą konfigurację
+<img width="1274" height="236" alt="image" src="https://github.com/user-attachments/assets/172a4bdd-098c-4771-b7ed-c783ce428923" />
+### krok2. Przypisywanie Adresów IP do vlanów.
+Aby dodać adresy IP do naszych virtualnych vlanów należy przejść do IP->Addresses
+<img width="611" height="406" alt="image" src="https://github.com/user-attachments/assets/54664e22-a137-4d1d-8f01-d45632d9fbd0" />
+Po kliknięciu Guzika '+' wpisujemy następujące parametry:
+<img width="300" height="248" alt="image" src="https://github.com/user-attachments/assets/5a6a84ab-ace0-4a18-b7f6-f5df9cb77215" />
+<img width="300" height="249" alt="image" src="https://github.com/user-attachments/assets/c72f9c51-26b9-4048-bcd2-4d4284151f94" />
+<img width="297" height="244" alt="image" src="https://github.com/user-attachments/assets/01e999e7-3bbf-4424-a07b-72440933bfaf" />
+
+Wynik powinien wyglądać tak:
+<img width="350" height="390" alt="image" src="https://github.com/user-attachments/assets/8465cf2d-2262-40b5-9892-d2d22d2051e9" />
+
+Jak się wątpi czy routing pomiędzy tymi VLANami się automatycznie zrobił można podejrzeć zakładkę IP->routes
+<img width="718" height="398" alt="image" src="https://github.com/user-attachments/assets/81b4b3b2-d12c-4055-a5cf-525c4c12e6b8" />
+
+### Krok3. -Server DHCP na Vlanie ( Dodatkowy )
+Następnie przejdziemy do konfiguracja servera DHCP na jednym z virtualnych VLANów ( było takie zadanie na egzaminie ) - zrobienie tego nie jest aż tak trudnę jak się wydaję ponieważ możemy dodać server DHCP do virtualnego interfejsu tak samo jak byśmy tworzyli go dla danego portu.
+
+Konfiguracja:
+Wchodzimy w IP->DHCP Server->DHCP Setup->Wybieramy Interfejs na, którym chcemy rozdawać adresy IP
+<img width="1136" height="540" alt="image" src="https://github.com/user-attachments/assets/253a7a79-59f1-42d0-bff1-eb396e152245" />
+Następnie konfigurujemy DHCP Server tak jak byśmy konfigurowali normalny DHCP server.
+<img width="272" height="177" alt="image" src="https://github.com/user-attachments/assets/f0283f24-7f21-4c6e-bf9a-e5d6814d6db2" />
+<img width="275" height="172" alt="image" src="https://github.com/user-attachments/assets/ea05a633-b8f2-4c6a-8244-00b1d3e2444e" />
+<img width="274" height="172" alt="image" src="https://github.com/user-attachments/assets/b3ee86ce-8d71-410a-a32a-526d7d62941e" />
+<img width="272" height="172" alt="image" src="https://github.com/user-attachments/assets/1a7b94c0-5ccb-4f55-ae06-fc4ca94156ce" />
+<img width="275" height="174" alt="image" src="https://github.com/user-attachments/assets/7faede7e-0e11-4df3-8bd7-cd4eee4663c4" />
+<img width="198" height="109" alt="image" src="https://github.com/user-attachments/assets/50ece209-fb35-487d-ac1e-5997449a4734" />
+DHCP Server powinien już nam działać.
+<img width="613" height="383" alt="image" src="https://github.com/user-attachments/assets/3f448f12-bf3c-454c-8c7f-8b9c792a583c" />
+Jak to działa ? - jeśli podłączymy się do VLANa o ID 3 na switchu i włączymy na naszej karcie sieciowej DHCP - powinniśmy dostać adres IP od tego servera DHCP - jeśli połączymy się do innego VLANa o innym ID to wtedy nie dostaniemy adresu bo na tym VLANie nie ma servera DHCP!
+
+
 
 
 
