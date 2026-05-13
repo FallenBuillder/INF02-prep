@@ -9,15 +9,12 @@ inne dodatki w folderze 'Egzamin - ( Częste pytania , Przebieg , Przygotowanie 
 Praca nad repozytorium przygotowywującym do egzaminu teoretycznego zacznie się dopiero około 18.05.2026 
 
 ### Przykładowa Struktura Folderów wygląda Następująco
-
+```
 Egzamin
-<br>
-   -Skrypty
-   <br>
-      -Teoria  ( Materiały Teoretyczne )
-      <br>
-      -Zadania ( Zadania ) 
-
+      Skrypty
+         Teoria  ( Materiały Teoretyczne )
+         Zadania ( Zadania ) 
+```
 Zadania powtórkowe będą stworzone pod koniec pracy nad egzaminem Praktycznym!
 
 > [!CAUTION]
