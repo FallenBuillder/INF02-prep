@@ -231,6 +231,12 @@ Trunk był na tych egzaminach:
 - egzamin2023-Czerwiec-zad.02 
 - egzamin2024-czerwiec-zad.01
 Tutaj niestety jak dostanie się trunka to będzie trzeba wtedy skonfigurować ustawienia z nim związane i na routerze i na switchu.
+<img width="717" height="627" alt="image" src="https://github.com/user-attachments/assets/73681880-d598-4717-86ec-a1946a647195" />
+<img width="713" height="462" alt="image" src="https://github.com/user-attachments/assets/cf6f582d-1557-4f78-bf66-13a81ea1e19f" />
+> robienie Trunka na Mikrotiku jest wytłumaczone w folderze 'Mikrotik_Konfiguracja'
+
+
+
 
 
 
