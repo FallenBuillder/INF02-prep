@@ -263,27 +263,27 @@ Ostatnim krokiek jest Stworzenie mostu, dodanie do niego i ether2 i wlan1, przyp
 <img width="597" height="293" alt="image" src="https://github.com/user-attachments/assets/26bd8ed7-ec3a-4b6a-a74d-d18c29184509" />
 
 Przed dodaniem zmienieniem miejsca na, którym wystawiane są naszę usługi na most trzeba najpierw dodać adres IP interfejsowi wlan1
-
+<br>
 <img width="619" height="394" alt="image" src="https://github.com/user-attachments/assets/c26606fc-cc5e-443f-ad8c-9f97fbf182ea" />
-
+<br>
 Następnie wchodzimy do IP->DHCP Server->Klikamy na nasz obecny server DHCP-> zmieniamy intefejs na nasz most czyli 'WLAN+LAN'
-
+<br>
 <img width="386" height="502" alt="image" src="https://github.com/user-attachments/assets/fef87035-07b2-4cd4-935c-531e1e794740" />
-
+<br>
 Server DHCP powinien wyglądać teraz tak:
-
+<br>
 <img width="844" height="388" alt="image" src="https://github.com/user-attachments/assets/e44a5fdd-ef89-4139-a536-cc3df4440287" />
-
+<br>
 W zakładce Leasesw widać, że mój Iphone połączył do servera DHCP.
-
+<br>
 <img width="256" height="40" alt="image" src="https://github.com/user-attachments/assets/6841126e-11e1-4e8d-8ae0-ff917c94bfba" />
-
+<br>
 W tej samej zakładce ( Leases ) dodajemy nowy lease klikając guzik '+'
-
+<br>
 <img width="379" height="428" alt="image" src="https://github.com/user-attachments/assets/7de6fb1b-f825-44a6-8ae5-a4e3c4a091dc" />
-
+<br>
 Tutaj wpisujemy adres IP dla urządzenia z konkretnym adresem IP aby miał on ten adres za każdym razem jak podłączy się do sieci:
-
+<br>
 <img width="380" height="424" alt="image" src="https://github.com/user-attachments/assets/e780a951-4ab9-4eb0-b623-1ea571e3b56a" />
 
 
