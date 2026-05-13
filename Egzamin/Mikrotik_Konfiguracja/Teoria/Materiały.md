@@ -10,7 +10,7 @@ Zagadnienia
 - jak się połączyć ? && Resetowanie Routera ✅
 - Podstawowy przykład konfiguracji na podstawie najprostszego egzaminu ( Quick set ) ✅
 - Konfiguracja serwera DHCP ✅
-- Konfiguracja Wi-FI ❌
+- Konfiguracja Wi-FI ✅
 - Konfiguracja Router-on-a-stick - zarządzanie trunkami ❌
   
 
@@ -307,10 +307,16 @@ Kanał 7: 2442 MHz
 
  
 ### Konfiguracja Trunka na Mikrotiku
+<img width="717" height="627" alt="image" src="https://github.com/user-attachments/assets/73681880-d598-4717-86ec-a1946a647195" />
+<img width="713" height="462" alt="image" src="https://github.com/user-attachments/assets/cf6f582d-1557-4f78-bf66-13a81ea1e19f" />
 
+<strong>Dlaczego Trunk jest przydatny?</strong>
+Bez Trunka, aby połączyć 3 sieci VLAN między routerem a switchem, musiałbyś pociągnąć 3 osobne kable. Przy 20 VLAN-ach zabrakłoby Ci portów w urządzeniach. Trunk pozwala obsłużyć dowolną liczbę sieci przy użyciu tylko jednego kabla.
 
+<strong>Do czego służy i jak działa?</strong>
+Służy do: Przesyłania ruchu z wielu odizolowanych sieci (VLAN) przez jeden fizyczny interfejs.
 
-
+<strong>Jak działa</strong>: Wykorzystuje standard 802.1q. Do każdej ramki danych "doklejany" jest mały znacznik (Tag) z numerem ID sieci. Gdy router wysyła dane do VLAN 2, dodaje tag "2". Przełącznik odbiera ramkę, widzi tag i wie, że ma ją wysłać tylko do portów należących do VLAN 2. Przed wysłaniem danych do komputera (tryb Access), przełącznik usuwa ten tag.
 
 
 
