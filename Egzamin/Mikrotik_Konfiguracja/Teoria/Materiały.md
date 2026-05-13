@@ -286,6 +286,10 @@ Tutaj wpisujemy adres IP dla urządzenia z konkretnym adresem IP aby miał on te
 <br>
 <img width="380" height="424" alt="image" src="https://github.com/user-attachments/assets/e780a951-4ab9-4eb0-b623-1ea571e3b56a" />
 
+Wszystko powinno być teraz skonfigurowane. Lecz trzeba jeszcze zwrócić uwagę na parę rzeczy:
+- Quick Set czasami miesza się z ręcznymi ustawieniami co oznacza, że jest szansa, że jeśli coś nam nie zadziała będziemy chcieli logicznie spróbować odbudować nasz problem. Po pierwsze każdy interfejs urzadzenia warstwy trzeciej do, którego będziemy rozmawiać musi mieć adres IP aby z nim rozmawiać ( nieważne czy jest to adres IP jeden dla całego mostku lub adres IP jednego intefejsu ) Po drugie Server DHCP jest usługą, którą ustawia się na dany port. Server DHCP ( na mikrotiku ) nie jest magiczną usługą, która będzie dawać adresy IP każdemu hostowi jeśli jakkolwiek podłączymy się do routera. Musimy wiedzieć jak i gdzie mamy się do niego podłączyć. Po trzecie wszystko co zostało tutaj przedstawione da się także zrobić manualnie i przez zakładkę Wireless a więc jeśli Quick Set z jakiegokolwiek powodu nie działa zawsze można zrobić zadanie jeśli zna się podstawy sieci.
+
+ 
 
 
 
