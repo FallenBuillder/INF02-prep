@@ -318,6 +318,10 @@ Służy do: Przesyłania ruchu z wielu odizolowanych sieci (VLAN) przez jeden fi
 
 <strong>Jak działa</strong>: Wykorzystuje standard 802.1q. Do każdej ramki danych "doklejany" jest mały znacznik (Tag) z numerem ID sieci. Gdy router wysyła dane do VLAN 2, dodaje tag "2". Przełącznik odbiera ramkę, widzi tag i wie, że ma ją wysłać tylko do portów należących do VLAN 2. Przed wysłaniem danych do komputera (tryb Access), przełącznik usuwa ten tag.
 
+### Jak skonfigurować Trunka na Routerze..? 
+To zależy od zadania ale kiedy konfigurujemy trunka to albo wystarcy nam sam trunk albo będziemy musieli jeszcze dodatkowo postawic DHCP Server na jednym z sieci trunkoych.
+
+
 
 
 
