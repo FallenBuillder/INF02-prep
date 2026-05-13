@@ -35,7 +35,7 @@ Lista rzeczy do zrobienia:
 - Egzaminy 100%
 
 
-# UWAGA
+## UWAGA
 materiały przedstawione tutaj zawierają tylko materiały pod egzamin <strong>praktyczny</strong> INF02 
 
 ***
