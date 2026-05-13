@@ -11,9 +11,12 @@ Praca nad repozytorium przygotowywującym do egzaminu teoretycznego zacznie się
 ### Przykładowa Struktura Folderów wygląda Następująco
 
 Egzamin
-    -Skrypty
-        -Teoria  ( Materiały Teoretyczne )
-        -Zadania ( Zadania ) 
+<br>
+   -Skrypty
+   <br>
+      -Teoria  ( Materiały Teoretyczne )
+      <br>
+      -Zadania ( Zadania ) 
 
 Zadania powtórkowe będą stworzone pod koniec pracy nad egzaminem Praktycznym!
 
