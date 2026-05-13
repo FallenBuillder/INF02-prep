@@ -240,7 +240,7 @@ Dla prostoty użyjemy znowu Quick Seta tym razem w trybie 'WISP AP' - w tym tryb
 
 <img width="839" height="704" alt="image" src="https://github.com/user-attachments/assets/287f15f7-7882-45e2-96fe-28ede4057d85" />
 
-Teraz wystarczy poprostu wypełnić danę, które otrzymaliśmy w zadaniu.
+Teraz wystarczy poprostu wypełnić danę, które otrzymaliśmy w zadaniu dotyczące LANu i WANu
 
 <img width="836" height="703" alt="image" src="https://github.com/user-attachments/assets/0813429e-99d6-466c-9981-4bc2b995a627" />
 
