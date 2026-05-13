@@ -246,6 +246,7 @@ Wchodzimy do zakładki VLAN-> 802.1Q VLAN -> Create -> Tworzymy nowy VLAN
 <img width="627" height="643" alt="image" src="https://github.com/user-attachments/assets/5aecd802-26ea-41a1-8245-0de51a6bcf20" />
 
 <img width="718" height="229" alt="image" src="https://github.com/user-attachments/assets/4d336ee8-008e-4659-9305-d55d34b28431" />
+
 Mamy Teraz trzy VLANy każdy z portami, które ma mieć. ( nie przejmujemy się, że Defauly VLAN ma wszystkie porty nie zmienimy tego. )
 
 ### Krok2. Zmienienie Portu nr 1. na Link-type 'Trunk'
@@ -262,96 +263,65 @@ Konfiguracja powinna wyglądać tak:
 > Port 2,3 powinny być ustawione na 'Link Type' Access
 
 ### Krok3.
-Wchodzimy do każdego VLANa osobno klikając guzik 'Edit' obok każdego i upewniamy się czy Egress Rule dla Portu 1. Jest wszędzie Tagged a dla portów 2,3 Untagged
+Wchodzimy teraz do każdego VLANa z osobna klikając guzik 'Edit' i upewniamy się czy Egress Rule dla Portu 1. Jest wszędzie Tagged a dla portów 2,3 Untagged - ponadto dodajemy do vlanów 2,3 port 1 po to aby kiedy pakiety idą do naszego VLANa będą one następnie przekazywane przez port1 jako tagowane do routera.
+
 <img width="618" height="556" alt="image" src="https://github.com/user-attachments/assets/3f0ed11e-bfc6-4cc6-89ca-29bdb46889c8" />
+
 <img width="628" height="624" alt="image" src="https://github.com/user-attachments/assets/dc0d95f2-86d8-4c39-895e-8a80648010d3" />
+
 <img width="635" height="643" alt="image" src="https://github.com/user-attachments/assets/305a72cd-6e1e-4254-9cc3-f59deb89c252" />
-> Trzeba dodać także interfejs 1 do vlanów aby wiedziały gdzie szukać Tagowanego portu.
+
+Skończona konfiguracja powinna wyglądać tak:
+
 <img width="705" height="183" alt="image" src="https://github.com/user-attachments/assets/005e3b78-b283-4de4-9868-6dbf84100d5d" />
 
 
 Na koniec zmieniamy jeszczę Adres IP switcha według zadania.
+
 <img width="860" height="466" alt="image" src="https://github.com/user-attachments/assets/9e614ae5-f0b4-4b14-a466-cef3dd94814e" />
 
 
 Ethernet adapter Karta-USB:
 
    Connection-specific DNS Suffix  . :
-   Link-local IPv6 Address . . . . . : fe80::46ba:dc86:e6b0:d286%26
+   Link-local IPv6 Address . . . . . : f220::32ba:dc86:3211:d2232%26
    IPv4 Address. . . . . . . . . . . : 192.168.0.254
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Default Gateway . . . . . . . . . : 192.168.0.1
 
-Jak widać otrzymałem Adres IP
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Jak widać kiedy wszystko jest podłączone otrzymałem adres IP!
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
@@ -594,7 +564,7 @@ z obrazka dokładnie widać ,że w tym switchu stosuje się nazwenictwo z 1 na t
 
  ## Konfiguracja Trunka przez CLI 
 
- BEFORE MAKING THE GUIDE ON THE TRUNK FIRST DO THE ROUTER && RIDERECT PEOPLE TO THE 'Mikrotik_Konfiguracja' FOLDER
+> Do zrobienia ! ( nie sądze, że ktoś to przez CLI zrobi ale zrobię to gdzieś 15.05.2026 )
 
 
 
