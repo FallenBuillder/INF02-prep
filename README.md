@@ -6,7 +6,16 @@ Wszystkie materiały teoretyczne, zadania są zawarte w folderze 'Egzamin'
 
 inne dodatki w folderze 'Egzamin - ( Częste pytania , Przebieg , Przygotowanie )' będą skończone kiedy zakończymy pracę nad głównymi materiałami.
 
-Praca nad repozytorium przygotowywującym do egzaminu teoretycznego zacznie się dopiero około 10.05.2026 
+Praca nad repozytorium przygotowywującym do egzaminu teoretycznego zacznie się dopiero około 18.05.2026 
+
+### Przykładowa Struktura Folderów wygląda Następująco
+
+Egzamin
+    -Skrypty
+        -Teoria  ( Materiały Teoretyczne )
+        -Zadania ( Zadania ) 
+
+Zadania powtórkowe będą stworzone pod koniec pracy nad egzaminem Praktycznym!
 
 > [!CAUTION]
 > <strong>Pod koniec pracy nad tym repozytorium będą w nim zawarte wszystkie rzeczy, które były na egzaminach praktycznych INF02 od 2021 roku do 2026 roku ( włączając 4 arkuszę z zimy 2026 ). Oznacza to, że jakiekolwiek zadanie, które było skomplikowane lub niezrozumiałe będzie tutaj wytłumaczone w wyznaczonych do tego plikach teoretycznych zawartych w folderze 'Egzamin'.</strong>
