@@ -240,7 +240,7 @@ Aby skrypt był traktowany przez powłoke bash jako skrypt bashowy musi mieć ko
 
 dodatkowo żeby skrypt był traktowany jako skrypt systemowy musi mieć na początku linijke #!/bin/bash
 
-    #/!bin/bash
+    #!/bin/bash
 
 W bashu komentarze robimy poprzez hashtag ( # ) 
 
@@ -375,7 +375,7 @@ mamy także w bashu funkcję
       echo "Hello, World!"
     }
 
-    my_function() # wywoła
+    my_function # wywoła
 
 możemy także dać argumenty funkcji 
 
