@@ -176,7 +176,7 @@ i zmieniamy jego zakres i klikamy Apply , OK
 <img width="303" height="202" alt="image" src="https://github.com/user-attachments/assets/9217e650-8703-4b99-820b-6984e3e1429d" />
 
 
-### Konfiguracja Wi-Fi na routerze 
+### Konfiguracja Wi-Fi na Mikrotiku
 
 <img width="779" height="412" alt="image" src="https://github.com/user-attachments/assets/0fd3f5e7-33f6-4c4f-94e4-289403f21f7d" />
 
@@ -286,11 +286,27 @@ Tutaj wpisujemy adres IP dla urządzenia z konkretnym adresem IP aby miał on te
 <br>
 <img width="380" height="424" alt="image" src="https://github.com/user-attachments/assets/e780a951-4ab9-4eb0-b623-1ea571e3b56a" />
 
-Wszystko powinno być teraz skonfigurowane. Lecz trzeba jeszcze zwrócić uwagę na parę rzeczy:
+Wszystko powinno być teraz skonfigurowane. Lecz trzeba jeszcze zwrócić uwagę na pare istotnych uwag:
 - Quick Set czasami miesza się z ręcznymi ustawieniami co oznacza, że jest szansa, że jeśli coś nam nie zadziała będziemy chcieli logicznie spróbować odbudować nasz problem. Po pierwsze każdy interfejs urzadzenia warstwy trzeciej do, którego będziemy rozmawiać musi mieć adres IP aby z nim rozmawiać ( nieważne czy jest to adres IP jeden dla całego mostku lub adres IP jednego intefejsu ) Po drugie Server DHCP jest usługą, którą ustawia się na dany port. Server DHCP ( na mikrotiku ) nie jest magiczną usługą, która będzie dawać adresy IP każdemu hostowi jeśli jakkolwiek podłączymy się do routera. Musimy wiedzieć jak i gdzie mamy się do niego podłączyć. Po trzecie wszystko co zostało tutaj przedstawione da się także zrobić manualnie i przez zakładkę Wireless a więc jeśli Quick Set z jakiegokolwiek powodu nie działa zawsze można zrobić zadanie jeśli zna się podstawy sieci.
+- Jeśli ktoś każe nam w zadaniu ustawić kanał na np. 7 oznacza to, że mamy +5 MHz za kazdy kanał w polu Frequency ( defaultowo jesteśmy na kanale 1 bo 2422-2427 )- co to oznacza?. Oznacza to, że jeśli ktoś powie nam, że mamy ustawić kanał na 7 to dodajemy wartość wszystkich poprzednich kanałów do defaultowego ustawienia, które jest 2422 tak abyśmy otrzymali kanał docelowy:
+
+Kanał 1: 2412 MHz
+
+Kanał 2: 2417 MHz
+
+Kanał 3: 2422 MHz
+
+Kanał 4: 2427 MHz
+
+Kanał 5: 2432 MHz
+
+Kanał 6: 2437 MHz
+
+Kanał 7: 2442 MHz
+
 
  
-
+### Konfiguracja Trunka na Mikrotiku
 
 
 
