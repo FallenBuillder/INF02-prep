@@ -235,6 +235,56 @@ Tutaj niestety jak dostanie się trunka to będzie trzeba wtedy skonfigurować u
 <img width="713" height="462" alt="image" src="https://github.com/user-attachments/assets/cf6f582d-1557-4f78-bf66-13a81ea1e19f" />
 > robienie Trunka na Mikrotiku jest wytłumaczone w folderze 'Mikrotik_Konfiguracja'
 
+### Krok1. Tworzenie VLANów
+Wchodzimy do zakładki VLAN-> 802.1Q VLAN -> Create -> Tworzymy nowy VLAN 
+<img width="895" height="483" alt="image" src="https://github.com/user-attachments/assets/dcb1c79d-dc23-40e5-827c-be94527e532d" />
+
+<img width="631" height="620" alt="image" src="https://github.com/user-attachments/assets/0b6b038d-b5af-4c5b-a8fa-06f157673fe6" />
+
+> Nie musimy tworzyć VLANa o ID 1 bo fabrycznie jest nieusuwalny i już go mamy.
+
+<img width="627" height="643" alt="image" src="https://github.com/user-attachments/assets/5aecd802-26ea-41a1-8245-0de51a6bcf20" />
+
+<img width="718" height="229" alt="image" src="https://github.com/user-attachments/assets/4d336ee8-008e-4659-9305-d55d34b28431" />
+Mamy Teraz trzy VLANy każdy z portami, które ma mieć. ( nie przejmujemy się, że Defauly VLAN ma wszystkie porty nie zmienimy tego. )
+
+### Krok2. Zmienienie Portu nr 1. na Link-type 'Trunk'
+przechodzimy do zakłądki 'Port Config'->Kliamy w pierwszy interfejs->Zmieniamy go na 'Link Type' Trunk
+
+<img width="620" height="499" alt="image" src="https://github.com/user-attachments/assets/c22b9ba3-9ef6-4429-b388-0609383ce3fe" />
+
+<img width="585" height="428" alt="image" src="https://github.com/user-attachments/assets/17d5c695-8789-4711-b503-969305e0f01b" />
+
+Konfiguracja powinna wyglądać tak:
+
+<img width="589" height="421" alt="image" src="https://github.com/user-attachments/assets/780ffe24-a95b-4097-87ff-dc4cf1114c2e" />
+
+> Port 2,3 powinny być ustawione na 'Link Type' Access
+
+### Krok3.
+Wchodzimy do każdego VLANa osobno klikając guzik 'Edit' obok każdego i upewniamy się czy Egress Rule dla Portu 1. Jest wszędzie Tagged a dla portów 2,3 Untagged
+<img width="618" height="556" alt="image" src="https://github.com/user-attachments/assets/3f0ed11e-bfc6-4cc6-89ca-29bdb46889c8" />
+<img width="628" height="624" alt="image" src="https://github.com/user-attachments/assets/dc0d95f2-86d8-4c39-895e-8a80648010d3" />
+<img width="635" height="643" alt="image" src="https://github.com/user-attachments/assets/305a72cd-6e1e-4254-9cc3-f59deb89c252" />
+> Trzeba dodać także interfejs 1 do vlanów aby wiedziały gdzie szukać Tagowanego portu.
+<img width="705" height="183" alt="image" src="https://github.com/user-attachments/assets/005e3b78-b283-4de4-9868-6dbf84100d5d" />
+
+
+Na koniec zmieniamy jeszczę Adres IP switcha według zadania.
+<img width="860" height="466" alt="image" src="https://github.com/user-attachments/assets/9e614ae5-f0b4-4b14-a466-cef3dd94814e" />
+
+
+Ethernet adapter Karta-USB:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::46ba:dc86:e6b0:d286%26
+   IPv4 Address. . . . . . . . . . . : 192.168.0.254
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.0.1
+
+Jak widać otrzymałem Adres IP
+
+
 
 
 
