@@ -234,6 +234,19 @@ Narazie jeśli będziemy chcieli połączyć się naszym telefonem do sieci to n
 
 <img width="728" height="548" alt="image" src="https://github.com/user-attachments/assets/991f8162-3677-4f0e-9876-37d55dd26080" />
 
+Dla prostoty użyjemy znowu Quick Seta tym razem w trybie 'WISP AP' - w tym trybie da się skonfigurować wszystko w prosty sposób.
+<img width="312" height="130" alt="image" src="https://github.com/user-attachments/assets/ce859363-e21d-4e0c-9bda-c746f282ff84" />
+<img width="839" height="704" alt="image" src="https://github.com/user-attachments/assets/287f15f7-7882-45e2-96fe-28ede4057d85" />
+Teraz wystarczy poprostu wypełnić danę, które otrzymaliśmy w zadaniu.
+<img width="836" height="703" alt="image" src="https://github.com/user-attachments/assets/0813429e-99d6-466c-9981-4bc2b995a627" />
+
+
+
+
+
+
+
+
 
 
 
