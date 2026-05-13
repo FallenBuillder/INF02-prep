@@ -12,8 +12,8 @@ Praca nad repozytorium przygotowywującym do egzaminu teoretycznego zacznie się
 ```
 Egzamin
       Skrypty
-         Teoria  ( Materiały Teoretyczne )
-         Zadania ( Zadania ) 
+            Teoria  ( Materiały Teoretyczne )
+            Zadania ( Zadania ) 
 ```
 Zadania powtórkowe będą stworzone pod koniec pracy nad egzaminem Praktycznym!
 
