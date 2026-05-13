@@ -236,7 +236,6 @@ Tutaj niestety jak dostanie się trunka to będzie trzeba wtedy skonfigurować u
 
 
 
-BEFORE MAKING THE GUIDE ON THE TRUNK FIRST DO THE ROUTER && RIDERECT PEOPLE TO THE 'Mikrotik_Konfiguracja' FOLDER
 
 
 
