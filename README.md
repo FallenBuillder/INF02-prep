@@ -40,5 +40,5 @@ materiały przedstawione tutaj zawierają tylko materiały pod egzamin <strong>p
 
 ## Dopisek
 - <strong>Jestem Otwarty na jakiekolwiek Pull Requesty do skończonych Działów i z góry za nie dziękuje !</strong
-- <strongByłoby super gdyby dało się pokazało swoim kolegom/koleżankom to repozytorium aby dodawali swoje poprawki!</strong
+- <strong>Byłoby super gdyby dało się pokazało swoim kolegom/koleżankom to repozytorium aby dodawali swoje poprawki!</strong
 
