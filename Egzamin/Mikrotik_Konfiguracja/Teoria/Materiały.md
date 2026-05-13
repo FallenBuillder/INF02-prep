@@ -381,8 +381,10 @@ Jak to działa ? - jeśli podłączymy się do VLANa o ID 3 na switchu i włącz
 
 
 
+> Dodatkowe zadanie z Trunkiem.
 
-
+<img width="1054" height="474" alt="image" src="https://github.com/user-attachments/assets/4c2dc1ff-b3cf-4d4e-9582-b76b09f6b7f2" />
+<img width="1057" height="743" alt="image" src="https://github.com/user-attachments/assets/0b2fa7f9-3152-4583-82e9-74b6e79d6c43" />
 
 
 
