@@ -216,11 +216,19 @@ defrag       - defragmentuje dyski
 
 ```
 
+## Sprawdzanie parametrów systemowych w Windowsie przy urzyciu Komend systemowych
+
+```
+systeminfo   - wyświetli Kompletny raport o systemie (wersja OS, BIOS, czas pracy, zainstalowane poprawki).
+
+```
 
 ## Usugi, Przystawki w Windowsie
 
 Przed przejściem do przystawek chciałbym tylko powiedzieć o skrócie Windows+R, który jest bardzo przydatny kiedy chcemy zaoszczędzić czas na egzaminie. Dzięki niemu można bardzo łatwo wejść do jakiejś przystawki. 
+
 <img width="401" height="205" alt="image" src="https://github.com/user-attachments/assets/36faaf38-845c-4e31-b474-f3632ef5788b" />
+
 Uruchomi się takie okienkio w, którym wpisujemy np. cmd albo diskmgmt.msc i łatwo możemy wchodzić do przystawek, programów w ten sposób.
 
 
