@@ -11,7 +11,9 @@ Zagadnienia:
 - Odpowiedzi na pytania z egzaminów
 
 ## Komendy w Windowsie ( tak z 30% zrobione do dokończenia )
+
 ```
+
 --- Przechodzenie przez strukturę folderów ---
 cls - czyści konsole 
 exit - wychodzi z terminala 
@@ -28,9 +30,13 @@ copy harry1 harry2/ - kopiuje folder harry1 do folderu harry2
 xcopy harry/* harry123/ -e -y    -  kopiuje wszystkie pliki i foldery z harry do harry123 (-e: kopiuje wszystko, -y: nie pyta o potwierdzenie)
 move harry1/harry2.txt harry2/ - przeniesie plik 'harry2.txt' znajdujący się w folderze 'harry1' do folderu 'harry2'
 tree - pokazuje obecną strukturę folderów w formie drzewa
+
 ```
+
 <img width="234" height="86" alt="image" src="https://github.com/user-attachments/assets/77d3fea6-facf-49a1-9063-d2b18bfc0927" />
+
 ```
+
 attrib +h tajny_harry.txt - sprawia, że plik tajny_harry.txt znika z widoku ( staje się hidden ) - polecenie attrib jest w stanie zmieniać atrybuty danego pliku.
 attrib /? - pokazuje wszystkie atrybuty jakie możemy dać plikom np. ( +r sprawia, że plik jest read-only albo np. +s sprawia, że plik jest systemowy )
 ---                                          ---
