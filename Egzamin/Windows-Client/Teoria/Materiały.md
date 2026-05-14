@@ -10,7 +10,7 @@ Zagadnienia:
 - Windows jako client, któremu są świadczone usługi ( Windows Server ) 
 - Odpowiedzi na pytania z egzaminów
 
-## Komendy w Windowsie
+## Komendy w Windowsie ( tak z 30% zrobione do dokończenia )
 ```
 
 listdisk-lista dostępnych dysków na komputerze
@@ -62,7 +62,11 @@ format-formatowanie dysku
 sfc - skanuje pliki systemowe i wyświetla te błędne nslookup - diagnostyka DNS
 
 ```
+## Usugi, Przystawki w Windowsie
 
+## Windows jako Klient
+
+## Zadania praktyczne.
 
 
 
