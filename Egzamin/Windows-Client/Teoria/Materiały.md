@@ -11,7 +11,7 @@ Zagadnienia:
 - Odpowiedzi na pytania z egzaminów
 
 ## Komendy w Windowsie ( tak z 30% zrobione do dokończenia )
-``
+```
 
 listdisk-lista dostępnych dysków na komputerze
 shrink - zmniejszenie woluminu
