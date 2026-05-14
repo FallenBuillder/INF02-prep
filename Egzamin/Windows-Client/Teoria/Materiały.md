@@ -13,10 +13,6 @@ Zagadnienia:
 ## Komendy w Windowsie ( tak z 30% zrobione do dokończenia )
 ```
 
-listdisk-lista dostępnych dysków na komputerze
-shrink - zmniejszenie woluminu
-( dodać całego diskparta ) 
-
 mkdir - tworzenie folderu
 rmdir - usunięcie folderu
 md <all> - wejście do folderu <all>
@@ -61,6 +57,22 @@ log off - wylogowuje danego użytkownika
 mem - wyświetla informacje dotyczące pamięci RAM
 format-formatowanie dysku
 sfc - skanuje pliki systemowe i wyświetla te błędne nslookup - diagnostyka DNS
+
+
+-------DISKPART-------
+DISKPART - wchodzi do diskparta
+? - wyświetla dostępne komendy
+list disk - wyświetla wszystkie dostepne dyski
+select disk 0 - wybiera dysk 0
+
+PRZYKŁAD:
+DISKPART> select disk 0                                                                                                                  Disk 0 is now the selected disk.
+
+list partition - wyświetla partycje
+<img width="413" height="131" alt="image" src="https://github.com/user-attachments/assets/a2b35c08-9eaa-4a9a-b4e1-8085d071c6ca" />
+
+
+        
 
 ```
 ## Usugi, Przystawki w Windowsie
