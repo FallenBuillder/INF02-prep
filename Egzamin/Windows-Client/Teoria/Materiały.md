@@ -73,3 +73,4 @@ sfc - skanuje pliki systemowe i wyświetla te błędne nslookup - diagnostyka DN
 
 
 
+
