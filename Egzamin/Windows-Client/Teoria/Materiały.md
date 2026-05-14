@@ -13,6 +13,9 @@ Zagadnienia:
 ## Komendy w Windowsie ( tak z 30% zrobione do dokończenia )
 
 ```
+UWAGA:
+
+Za wszystkimi komendami można wpisać /? aby uzyskać o nich pomoc.
 
 --- Przechodzenie przez strukturę folderów ---
 cls - czyści konsole 
@@ -34,6 +37,8 @@ tree - pokazuje obecną strukturę folderów w formie drzewa
 ```
 
 <img width="234" height="86" alt="image" src="https://github.com/user-attachments/assets/77d3fea6-facf-49a1-9063-d2b18bfc0927" />
+> pokazało by pełną scieżke gdzie dokładnie znajduję się plik ale się ucieło.
+
 
 ```
 
@@ -71,23 +76,72 @@ net user harry /fullname:"H.Potter" - Ustawia pełną nazwę wyświetlaną
 net user harry                      - Wyświetla wszystkie szczegóły o harry'm
 
 
+--- Komendy sieciowe ---
+
+ipconfig              - Wyświetla konfigurację kart sieciowych (adres IP, maska podsieci).
+ipconfig /all         - Wyświetla dokładnąkonfigurację kart sieciowych (adres IP, maska podsieci).
+ipconfig /flushdns    - Czyści pamięć podręczną DNS
+ipconfig /release     - Puszcza obecny adres DHCP
+ipconfig /renew       - Żąda nowego adresu DHCP
+ping 8.8.8.8          - sprawdza połączenie z innym hostem
+tracert 8.8.8.8       - sprawdza ścieżke do innego hosta 
+netstat               - wyśeietkla aktywne połączenia / porty
+nslookup 8.8.8.8      - sprawdza rekordy DNS dla danej domeny 
+getmac                - sprawdza adresy MAC wszystkich kart sieciowych w komputerze
+netsh                 - Zaawansowane narzędzie do konfiguracji interfejsów sieciowych ( lepiej używać ustawień albo 'Wyświetl Połączenia sieciowe')
+net share             - wyświetla zasoby udostępnione w sieci
+arp -a                - Wyświetla tablicę translacji adresów IP na MAC.
+pathping 8.8.8.8      - Połączenie ping i tracert ( nie używany już )
+hostname              - Wyświetla nazwę komputera.
+net view              - wyświetla listę komputerów w sieci lokalnej.
+net use               - Mapuje dyski sieciowe.
+*Istnieje więcej komend sieciowych ale wykraczają one za materiał związany z egzaminem.
+
+
+--- Zarządzanie systemem i procesami ---
+
+tasklist              - Wyświetla listę wszystkich uruchomionych procesów.
+taskkill              - Zamyka proces (np. taskkill /IM notepad.exe /F).
+shutdown              - wyłącza komputer
+shutdown /r           - restartuje komputer
+gpupdate              - wymusza aktualizacje zasad grup.
+gpresult              - Wyświetla wynikowe zasady grupy dla użytkownika/komputera.
+whoami                - Wyświetla nazwę zalogowanego użytkownika.
+logoff                - Wylogowuje użytkownika.
+driverquery           - Wyświetla listę zainstalowanych sterowników.
+net start [usługa]    - Uruchamia usługę.
+sc query              - Wyświetla status usług systemowych.
+net stop [usługa]     - Zatrzymuje usługę.
+
+
+
+
+--- Dodatkowe / nichowe ---
+
+assoc – Wyświetla powiązania rozszerzeń plików z aplikacjami
+set – Wyświetla lub ustawia zmienne środowiskowe.
+path – Wyświetla/ustawia ścieżki przeszukiwania dla plików wykonywalnych.
+echo - wyświetla tekst w konsoli
+clip – Przekierowuje wynik polecenia do schowka (np. dir | clip)
+fc harry1.txt harry2.txt – Porównuje dwa pliki i wyświetla różnice między nimi.
+winget - instalator programów zewnętrznych
+timeout 2 – Czeka określoną liczbę sekund ( tutaj 2 sekundy )
+ver – Wyświetla wersję systemu Windows.
+find "plik_tekstowy_o_nazwie_harry" C:\Users\Harry\ – Wyszukuje ciąg znaków w pliku.
+powershell -command "[kod]" – Wykonuje komendę PowerShell bezpośrednio z poziomu zwykłego CMD.
+title harry – Zmienia tytuł okna konsoli na harry.
+```
+
+<img width="248" height="33" alt="image" src="https://github.com/user-attachments/assets/471c2241-40a8-405e-b755-1792e185dcd1" />
+
+```
+choice – Pozwala użytkownikowi wybrać opcję (T/N) w skrypcie.
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+wmic – Wywołuje instrumentację zarządzania Windows (starsze, ale potężne).
 systeminfo - wyświetla podstawowe informacje o zainstalowanym systemie, poprawkach, wyświetla nazwę hosta, strefę czasową oraz częściową konfigurację karty sieciowej ipconfig - wyświetla aktualną konfigurację karty sieciowej
 getmac - wyświetla adresy fizyczne MAC zainstalowanych kart sieciowych
 netstat - wyświetla listę aktualnych połączeń sieciowych
@@ -99,7 +153,6 @@ shutdown - wyłącza komputer
 wusa - zarządza aktualizacjami Windows
 chkdisk - sprawdza dysk w poszukiwaniu błędów
 winsat disk-seg-read/write-drive C - testuje prędkość dysku C pod względem odczytu/zapisu
-ver-pokazuje wersję systemu operacyjnego
 perfmon - służy do uruchamiania "Monitora wydajności"
 vol - pokazuje nazwę dysku
 history - wyświetla listę zapisanych wcześniej komend
@@ -115,34 +168,53 @@ format-formatowanie dysku
 sfc - skanuje pliki systemowe i wyświetla te błędne nslookup - diagnostyka DNS
 
 
--------DISKPART-------
+---DISKPART---
 DISKPART jest narzędziem służącym do zarządzania Dyskami, partycjami, voluminami 
 
-DISKPART - wchodzi do diskparta
-? - wyświetla dostępne komendy
-list disk - wyświetla wszystkie dostepne dyski
+DISKPART                              - wchodzi do diskparta ( z poziomu CMD )
+?                                     - wyświetla dostępne komendy
+list disk                             - wyświetla wszystkie dostepne dyski
 ```
 <img width="435" height="91" alt="image" src="https://github.com/user-attachments/assets/ecae4b7b-29b0-42fa-bf9f-cbccedc7cd33" />
 ```
-select disk 0 - wybiera dysk 0 ( jako ten, którym na, którym chcemy operować )
+select disk 0                         - wybiera dysk 0 ( jako ten, którym na, którym chcemy operować )
 
 PRZYKŁAD:
 DISKPART> select disk 0                                                                                                                  Disk 0 is now the selected disk.
 
-list partition - wyświetla partycje
+list partition                        - wyświetla partycje
 ```
 <img width="413" height="131" alt="image" src="https://github.com/user-attachments/assets/a2b35c08-9eaa-4a9a-b4e1-8085d071c6ca" />
 ```
-select partition 4 - wybiera partycje czwartą ( jako tą na, której chcemy operować )
+select partition 4                    - wybiera partycje czwartą ( jako tą na, której chcemy operować )
 
-create partition primary size=50000 - tworzy partycje mającą 50GB
-delete partition 4 - usuwa partycje czwartą
+create partition primary size=50000   - tworzy partycje mającą 50GB
+delete partition 4                    - usuwa partycje czwartą
 format fs=ntfs quick label="MojeDane" - formatuje partycje / volumin
-extend size=10000 - powiększa partycję o wydzieloną wielkość ( w tym przypadku o 10GB )
-shrink desired=5000 - zmniejsza partycję o 50GB
-assign letter=G - przypisuje litere partycji
+extend size=10000                     - powiększa partycję o wydzieloną wielkość ( w tym przypadku o 10GB )
+shrink desired=5000                   - zmniejsza partycję o 50GB
+assign letter=G                       - przypisuje litere partycji
+
+---CMD(dyski)---
+
+format       - Formatuje partycję. ( proszę spojrzeć na format /? ponieważ format jest dość ważnym poleceniem. )
+sfc /scannow - Skanuje i naprawia uszkodzone pliki systemowe Windows.
+chkdsk       - Sprawdza dysk pod kątem błędów systemu plików.
+dism         - Naprawa obrazu systemu Windows.
+label        - Zmienia etykietę woluminu.
+vol          - Wyświetla etykietę i numer seryjny dysku.
+defrag       - defragmentuje dyski
+
 ```
+
+
 ## Usugi, Przystawki w Windowsie
+
+Przed przejściem do przystawek chciałbym tylko powiedzieć o skrócie Windows+R, który jest bardzo przydatny kiedy chcemy zaoszczędzić czas na egzaminie. Dzięki niemu można bardzo łatwo wejść do jakiejś przystawki. 
+<img width="401" height="205" alt="image" src="https://github.com/user-attachments/assets/36faaf38-845c-4e31-b474-f3632ef5788b" />
+Uruchomi się takie okienkio w, którym wpisujemy np. cmd albo diskmgmt.msc i łatwo możemy wchodzić do przystawek, programów w ten sposób.
+
+
 
 ## Windows jako Klient
 
