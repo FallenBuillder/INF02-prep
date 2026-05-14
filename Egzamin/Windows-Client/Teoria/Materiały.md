@@ -37,6 +37,7 @@ tree - pokazuje obecną strukturę folderów w formie drzewa
 ```
 
 <img width="234" height="86" alt="image" src="https://github.com/user-attachments/assets/77d3fea6-facf-49a1-9063-d2b18bfc0927" />
+
 > pokazało by pełną scieżke gdzie dokładnie znajduję się plik ale się ucieło.
 
 
@@ -173,19 +174,27 @@ DISKPART jest narzędziem służącym do zarządzania Dyskami, partycjami, volum
 
 DISKPART                              - wchodzi do diskparta ( z poziomu CMD )
 ?                                     - wyświetla dostępne komendy
-list disk                             - wyświetla wszystkie dostepne dyski
+list disk                         - wyświetla wszystkie dostepne dyski
+
 ```
+
 <img width="435" height="91" alt="image" src="https://github.com/user-attachments/assets/ecae4b7b-29b0-42fa-bf9f-cbccedc7cd33" />
+
 ```
+
 select disk 0                         - wybiera dysk 0 ( jako ten, którym na, którym chcemy operować )
 
 PRZYKŁAD:
 DISKPART> select disk 0                                                                                                                  Disk 0 is now the selected disk.
 
 list partition                        - wyświetla partycje
+
 ```
+
 <img width="413" height="131" alt="image" src="https://github.com/user-attachments/assets/a2b35c08-9eaa-4a9a-b4e1-8085d071c6ca" />
+
 ```
+
 select partition 4                    - wybiera partycje czwartą ( jako tą na, której chcemy operować )
 
 create partition primary size=50000   - tworzy partycje mającą 50GB
