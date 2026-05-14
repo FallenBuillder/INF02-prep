@@ -15,6 +15,7 @@ Zagadnienia:
 
 listdisk-lista dostępnych dysków na komputerze
 shrink - zmniejszenie woluminu
+( dodać całego diskparta ) 
 
 mkdir - tworzenie folderu
 rmdir - usunięcie folderu
