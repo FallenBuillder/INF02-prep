@@ -1,6 +1,11 @@
+
+Przeczytać:
+
 https://allinonebyplucek.blogspot.com/p/ee08-skrot-z-teorii.html
 
 
+## Losowe rzeczy do przyszłej notatki ( nieważne )
+```
 
 RAID 0 - dane zapisywane są jednocześnie na kilku dyskach połączonych tak, aby były widziane jako jeden dysk logiczny (wzrost wydajności) - Stripping
 RAID 1 - replikacja pracy dwóch lub więcej dysków fizycznych, powstała przestrzeń ma rozmiar najmniejszego nośnika, każdy dysk przechowuje te same dane - Mirroring
@@ -28,7 +33,9 @@ punkty rozdzielcze (miejsca, w których zbiega się okablowanie z danego segment
 szafach RACK montowany jest sprzęt sieciowy)
 punkty abonenckie (miejsca, w których są urządzenia końcowe)
 
+```
 
+<img width="522" height="730" alt="image" src="https://github.com/user-attachments/assets/dd6401dc-2ade-4c7a-be76-230e55f4fb2f" />
 
 
 
