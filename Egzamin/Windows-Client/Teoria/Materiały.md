@@ -720,20 +720,68 @@ Skanuje komputer w poszukiwaniu wirusów.
 
 
 
-## Programy na Windowsie 
+## Programy na Windowsie - narazie wszystko z AI przepisać / zrobić zdjęcia i zrobić dobrą notatkę.
+
+cpuz_x64.exe / cpuz.exe – kluczowy do RAM (taktowanie, sloty) i Procesora.
+
+gpuz.exe – do karty graficznej (ilość VRAM, magistrala).
+
+hdtune_255.exe – klasyk do testowania powierzchni dysku.
+
+crystaldiskinfo.exe – do odczytu S.M.A.R.T. (np. liczba godzin pracy dysku).
+
+hwmonitor.exe – do temperatur i napięć.
+
+aida64_trial.exe – często jako alternatywa "wszystko w jednym".
+
+LibreOffice_Installer.msi lub folder z wersją Portable.
+
+Apache_OpenOffice_Setup.exe.
 
 
 
 
+inf02.txt oraz inf03.txt – małe pliki tekstowe (często 0 KB), używane do zadań typu: "utwórz archiwum .tar w Linuxie" lub "nadaj uprawnienia NTFS".
+
+index.html / test.html – prosta strona WWW do sprawdzenia działania roli serwera WWW (IIS lub Apache).
+
+obraz.jpg, logo.png, baner.gif – pliki graficzne, które mają znaleźć się na Twojej stronie testowej.
+
+skrypt.bat / skrypt.ps1 – czasem gotowy szkielet skryptu, który musisz uzupełnić.
 
 
 
+
+wireshark_setup.exe – do przechwytywania ruchu (często w sesjach zimowych 2024 i 2025).
+
+nmap_setup.exe / zenmap.exe – do skanowania portów.
+
+putty.exe – jedyny sposób na połączenie się z ruterem przez kabel konsolowy.
+
+PacketTracer_Setup.exe – rzadziej na praktyce, ale bywa jako pomoc do rozrysowania schematu.
+
+
+
+Folder DRUKARKA – zawiera pliki .inf (np. dla HP LaserJet lub wirtualnej drukarki). Musisz je wskazać ręcznie przez Menedżer Urządzeń.
+
+Folder KARTA_SIECIOWA – jeśli zadanie wymaga dołożenia drugiej karty (np. na PCI-E)
+
+
+7z_setup.exe – do pakowania Twoich rezultatów (zrzutów ekranu) na koniec egzaminu.
+
+npp.installer.exe (Notepad++) – znacznie wygodniejszy niż zwykły notatnik do edycji index.html.
+
+VirtualBox_Setup.exe – jeśli Twoje systemy egzaminacyjne są maszynami wirtualnymi.
+
+## Programy na Windowsie ( wbudowane )
 
 
 
 
 
 ## Windows jako Klient
+
+
 
 ## Zadania praktyczne.
 
