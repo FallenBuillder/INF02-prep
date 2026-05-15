@@ -472,15 +472,6 @@ Kompletnie bezuzyteczny - pozwala sprawdzić, jakie konkretnie zasady grupy (GPO
 
 Narzędzie służące do monitorowania wydajności komputera w czasie rzeczywistym - Kompletnie bezużyteczny na egzaminie praktycznym INF02
 
-<strong>panel sterowania</strong>
-
-<img width="1122" height="620" alt="image" src="https://github.com/user-attachments/assets/d12875ab-e120-4d20-b044-203b2d64ddf8" />
-
-Święty gral Windowsa gdzie można znaleść niemal wszystkie ustawienia systemu. Wiekszość ustawień w panelu sterowania jest dosyć prosta i można do nich łatwo dojść przeklikując zakładki w nim zawarte.
-
-TODO: Stworzyć detailed guide po panelu sterowania.
-
-
 <strong>ustawienia</strong>
 
 <img width="1176" height="939" alt="Zrzut ekranu 2026-05-15 200226" src="https://github.com/user-attachments/assets/1aa8d514-aa33-426c-9a0b-561e4b6a6d09" />
@@ -493,9 +484,25 @@ TODO: Stworzyć detailed guide po ustawieniach.
 ---
 
 
+<strong>panel sterowania</strong>
+
+<img width="1122" height="620" alt="image" src="https://github.com/user-attachments/assets/d12875ab-e120-4d20-b044-203b2d64ddf8" />
+
+Święty gral Windowsa gdzie można znaleść niemal wszystkie ustawienia systemu. Wiekszość ustawień w panelu sterowania jest dosyć prosta i można do nich łatwo dojść przeklikując zakładki w nim zawarte.
+
+TODO: Stworzyć detailed guide po panelu sterowania.
+
+
 ### **SEKCJA .CPL (Control Panel Items)**
 
+## UWAGA - Wszystkie sekcje .cpl można znaleść w panelu sterowania NIE TRZEBA ZAPAMIĘTYWAĆ ICH NA PAMIĘĆ dlatego nie będą naraazie omawiane...
+
 **<strong>access.cpl</strong>** — Centrum ułatwień dostępu.
+
+<img width="1343" height="896" alt="image" src="https://github.com/user-attachments/assets/8692b1a1-6584-4eb1-8092-e9fbd5e837e8" />
+<img width="403" height="199" alt="image" src="https://github.com/user-attachments/assets/71f26219-10d1-4e15-8b83-13aab514c2c1" />
+
+Narzędzie otwierające aplet Ułatwienia dostępu w Panelu sterowania, pozwalające na konfigurację funkcji pomocniczych, takich jak klawisze trwałe - kompletnie bezużyteczny
 
 [ZDJĘCIE]
 
@@ -566,6 +573,17 @@ TODO: Stworzyć detailed guide po ustawieniach.
 
 
 ---
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### **SEKCJA .EXE I POZOSTAŁE NARZĘDZIA**
@@ -645,11 +663,23 @@ TODO: Stworzyć detailed guide po ustawieniach.
 [ZDJĘCIE]
 
 
-regedit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 > dodać normy EN 50174
-
 
 ## Programy na Windowsie 
 
