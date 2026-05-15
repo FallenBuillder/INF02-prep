@@ -402,57 +402,92 @@ Dyski wymienne: Odmów dostępu do odczytu (całkowita blokada USB).
 
 **<strong>lusrmgr.msc</strong>** — Użytkownicy i grupy lokalne.
 
-[ZDJĘCIE]
+<img width="941" height="716" alt="image" src="https://github.com/user-attachments/assets/d2d84e6e-62e5-41d5-ba77-28344046e000" />
+<img width="396" height="448" alt="image" src="https://github.com/user-attachments/assets/3ba3f31e-e174-4f68-a7bd-ccf93ec9e789" />
+<strong>właśnie tutaj można zmieniac niektóre z ważnych ustawień hasła na egzaminie.</strong>
 
-
-**<strong>perfmon.msc</strong>** — Monitor wydajności (również jako .exe).
-
-[ZDJĘCIE]
-
-
-**<strong>resmon.msc</strong>** — Monitor zasobów (CPU, RAM, Sieć).
-
-[ZDJĘCIE]
+Narzędzie do zarządzania lokalnymi kontami użytkowników oraz grupami, umożliwiające m.in. zakładanie nowych kont, zmianę haseł czy przypisywanie osób do grup (np. Administratorzy).
 
 
 **<strong>services.msc</strong>** — Zarządzanie usługami systemowymi (Usługa to program działający w tle).
 
-[ZDJĘCIE]
+<img width="1071" height="515" alt="image" src="https://github.com/user-attachments/assets/465a1a2e-0c0f-4610-83bb-5d28a71c160f" />
 
+Narzędzie służące do zarządzania usługami systemowymi, które umożliwia ich uruchamianie, zatrzymywanie oraz wybór trybu startu
 
 **<strong>taskschd.msc</strong>** — Harmonogram zadań.
 
-[ZDJĘCIE]
+<img width="1346" height="872" alt="image" src="https://github.com/user-attachments/assets/6f549f8e-86a1-471e-9b4b-0c8f9396016e" />
 
+Narzędzie pozwalające na automatyczne uruchamianie programów lub skryptów o określonych godzinach lub w odpowiedzi na konkretne zdarzenia systemowe
 
-**<strong>WF.msc</strong>** — Zaawansowane zabezpieczenia zapory Windows.
+**<strong>WF.msc</strong>** — Zaawansowane zabezpieczenia zapory Windows. ( poprostu ustawienia zapory ) 
 
-[ZDJĘCIE]
+<img width="1371" height="728" alt="image" src="https://github.com/user-attachments/assets/a7421a9c-1581-462e-8e4d-7d9479e4ec08" />
+
+Zaawansowana konsola zarządzania Zaporą Windows, która pozwala na tworzenie precyzyjnych reguł przychodzących i wychodzących dla konkretnych portów, programów lub adresów IP
+
+<img width="268" height="30" alt="image" src="https://github.com/user-attachments/assets/93b7d0fd-61d1-4b5a-b0e6-96fde3116391" />
+
+Po wejściu tutaj można zmienić stany wszystkich profilów zapory ( na egzaminie może być zadanie aby wyłączyć wszystkie profile zapory aby przeszedł ping ) 
+
+<img width="395" height="471" alt="image" src="https://github.com/user-attachments/assets/42ce591b-d1b5-41bd-abe7-da77eb534427" />
 
 
 **<strong>secpol.msc</strong>** — Ustawienia zabezpieczeń lokalnych (podzbiór gpedit.msc).
 
-[ZDJĘCIE]
+<img width="1200" height="949" alt="image" src="https://github.com/user-attachments/assets/a33aacbb-963d-4b9c-84a2-d1fcb7689676" />
 
+ta przystawka Pozwala na WIELE operacji na kontach, jest podzbiorem gpedit.msc ( wyciętą częścią ), po przeklikaniu w tej zakładce da się znaleśc wszystko dotyczące pytań o kontach.
 
 **<strong>tpm.msc</strong>** — Zarządzanie modułem Trusted Platform Module.
 
-[ZDJĘCIE]
+<img width="999" height="679" alt="image" src="https://github.com/user-attachments/assets/ecf713a5-5d40-4055-8ea3-bcf8f97028ba" />
 
+Nie jest przydatny na egzaminie praktycznym INF02
+
+jest Narzędziem służący, do sprawdzania statusu i zarządzania modułem zaufanej platformy (Trusted Platform Module) na płycie głównej.
 
 **<strong>printmanagement.msc</strong>** — Zarządzanie drukowaniem (serwer druku, sterowniki).
 
-[ZDJĘCIE]
+<img width="945" height="719" alt="image" src="https://github.com/user-attachments/assets/2bb9592d-ea93-4ef3-915d-8baa3b967d2b" />
 
+Narzędzie do kompleksowego zarządzania infrastrukturą druku, pozwalające na monitorowanie kolejek wydruku, serwerów oraz sterowników drukarek w jednym miejscu
 
 **<strong>fsmgmt.msc</strong>** — Zarządzanie folderami udostępnionymi.
 
-[ZDJĘCIE]
+<img width="783" height="684" alt="image" src="https://github.com/user-attachments/assets/9d106fbd-3bf1-42d8-ad9c-b5d86446eba5" />
 
+Narzędzie umożliwiające zarządzanie wszystkimi zasobami udostępnionymi w sieci lokalnej, bieżącymi sesjami użytkowników oraz otwartymi plikami
 
 **<strong>rsop.msc</strong>** — Pokazuje, jakie zasady grupy faktycznie działają na użytkowniku.
 
-[ZDJĘCIE]
+<img width="834" height="542" alt="image" src="https://github.com/user-attachments/assets/d8c7adf3-ab30-4fba-9270-369177b87e07" />
+
+Kompletnie bezuzyteczny - pozwala sprawdzić, jakie konkretnie zasady grupy (GPO) są aktualnie zastosowane do danego użytkownika i komputera
+
+**<strong>perfmon.msc</strong>** — Monitor wydajności (również jako .exe).
+
+<img width="1339" height="922" alt="image" src="https://github.com/user-attachments/assets/b68e80cf-c9d3-49e3-b9de-e1113d8d25a5" />
+
+Narzędzie służące do monitorowania wydajności komputera w czasie rzeczywistym - Kompletnie bezużyteczny na egzaminie praktycznym INF02
+
+<strong>panel sterowania</strong>
+
+<img width="1122" height="620" alt="image" src="https://github.com/user-attachments/assets/d12875ab-e120-4d20-b044-203b2d64ddf8" />
+
+Święty gral Windowsa gdzie można znaleść niemal wszystkie ustawienia systemu. Wiekszość ustawień w panelu sterowania jest dosyć prosta i można do nich łatwo dojść przeklikując zakładki w nim zawarte.
+
+TODO: Stworzyć detailed guide po panelu sterowania.
+
+
+<strong>ustawienia</strong>
+
+<img width="1176" height="939" alt="Zrzut ekranu 2026-05-15 200226" src="https://github.com/user-attachments/assets/1aa8d514-aa33-426c-9a0b-561e4b6a6d09" />
+
+Podobnie jak w przypadku panelu sterowania w ustawieniach można znaleść niemal wszystko jeśli tylko pomyślimy logicznie i wystarczająco je przeklikamy.
+
+TODO: Stworzyć detailed guide po ustawieniach.
 
 
 ---
@@ -609,6 +644,8 @@ Dyski wymienne: Odmów dostępu do odczytu (całkowita blokada USB).
 
 [ZDJĘCIE]
 
+
+regedit
 
 
 > dodać normy EN 50174
