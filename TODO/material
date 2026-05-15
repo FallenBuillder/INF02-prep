@@ -1,35 +1,8 @@
-Folder Strutcure , what needs to be done  -  should take around 1-2 day
-Co jest do zrobienia - Notatka + praktyczne obrazki , plik Word
 
 Montaż okablowania sieciowego
-    Wykonywanie i zarabianie kabli U/UTP według sekwencji T568B, T568A oraz cross
-    Montowanie urządzeń sieciowych w szafach rackowych
-    Składanie szaf rackowych
-    Składanie keystonów
-    Montowanie paneli krosowych w szafach rackowych
-    Podłączanie urządzeń sieciowych do siebie
-    Składanie listew z keystonami
-    Stosowanie odpowiedniego typu kabla przy braku AUTO MDIX
     Rozpoznawanie urządzeń sieciowych na diagramach
 
-Konfiguracja Switcha (TP-Link)
-    Konfiguracja przez konsolę oraz interfejs Web
-    Przypisywanie adresu SVI (VLAN0 / IP) oraz bramy domyślnej
-    Tworzenie VLANów i dodawanie do nich komentarzy
-    Przypisywanie portów do odpowiednich VLANów
-    Tworzenie trunka (Router-on-a-Stick)
-    Konfiguracja banerów powitalnych
-    Zarządzanie hasłami i enkrypcją
-Konfiguracja Routera (MikroTik)
-    Przypisywanie i modyfikacja adresów IP dla portów
-    Dodawanie mostków (bridges)
-    Konfiguracja bramy domyślnej, maski podsieci oraz serwerów DNS
-    Przypisywanie nazwy urządzenia (Identity) oraz hasła
-    Konfiguracja serwera DHCP (Client oraz Server) do rozdawania adresów w LAN
-    Konfiguracja urządzenia jako Access Point (zabezpieczenia, kanały)
-    Poprawne przypisywanie adresów do interfejsów LAN i WAN
-    Podłączanie interfejsów sieciowych do innych urządzeń
-    Analiza dokumentacji funkcjonalności systemu MikroTik
+
 Eksploatacja: Windows Client
     Diagnostyka podzespołów (CPU-Z, GPU-Z, systeminfo, Menedżer urządzeń) i zapis w tabeli
     Wykonywanie kosztorysów wykonanej pracy
