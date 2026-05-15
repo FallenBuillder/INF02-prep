@@ -19,22 +19,23 @@ UWAGA:
 Za wszystkimi komendami można wpisać /? aby uzyskać o nich pomoc.
 
 --- Przechodzenie przez strukturę folderów ---
-cls - czyści konsole 
-exit - wychodzi z terminala 
-color - zmienia kolor tekstu / tyłu konsoli
+cls                                               - czyści konsole 
+exit                                             - wychodzi z terminala 
+color                                            - zmienia kolor tekstu / tyłu konsoli
 
-mkdir harry - tworzy folder 'harry'
-mkdir -p Harry/Harry2/Harry3/Harry4 - tworzy strukturę folderów
-rmdir harry - usuwa folder 'harry'
-md harry - Tworzy folder 'harry'
-rename harry harry3 - zmienia nazwe folderu 'harry' na 'harry3'
-type harry4.txt - wyświetla zawartośc pliku tekstowego
-type nul > harry_123.txt - tworzy plik tekstowy o nazwie 'harry_123.txt'
-del harry4.txt - usuwa plik harry4.txt
-copy harry1 harry2/ - kopiuje folder harry1 do folderu harry2
-xcopy harry/* harry123/ -e -y    -  kopiuje wszystkie pliki i foldery z harry do harry123 (-e: kopiuje wszystko, -y: nie pyta o potwierdzenie)
-move harry1/harry2.txt harry2/ - przeniesie plik 'harry2.txt' znajdujący się w folderze 'harry1' do folderu 'harry2'
-tree - pokazuje obecną strukturę folderów w formie drzewa
+mkdir harry                                      - tworzy folder 'harry'
+mkdir -p Harry/Harry2/Harry3/Harry4              - tworzy strukturę folderów
+rmdir harry                                      - usuwa folder 'harry'
+md harry                                         - Tworzy folder 'harry'
+rename harry harry3                              - zmienia nazwe folderu 'harry' na 'harry3'
+type harry4.txt                                  - wyświetla zawartośc pliku tekstowego
+type nul > harry_123.txt                         - tworzy plik tekstowy o nazwie 'harry_123.txt'
+del harry4.txt                                   - usuwa plik harry4.txt
+copy harry1 harry2/                              - kopiuje folder harry1 do folderu harry2
+xcopy harry/* harry123/ -e -y                    -  kopiuje wszystkie pliki i foldery z harry do harry123 (-e: kopiuje wszystko, -y: nie pyta o potwierdzenie)
+move harry1/harry2.txt harry2/                   - przeniesie plik 'harry2.txt' znajdujący się w folderze 'harry1' do folderu 'harry2'
+tree                                             - pokazuje obecną strukturę folderów w formie drzewa
+icacls "plik_harrowy.txt" /grant Harry:(OI)(CI)F - nadaje uprawnienia plikom/folderom
 
 ```
 
@@ -52,17 +53,17 @@ attrib /? - pokazuje wszystkie atrybuty jakie możemy dać plikom np. ( +r spraw
 --- Tworzenie, modyfikowanie użytkowników ---
 
 net user - Wypisuje listę kont 
-net user harry /add - doda użytkownika o nazwie harry
-net user harry haslo123 /add - doda użytkownika o nazwie harry z hasłem haslo123
-net user harry * /add - doda użytkownika o nazwie harry i poprosi o wpisanie dla niego hasła ( wyświetli monit )
-net user harry /del - usunie użytkownika o nazwie harry
+net user harry /add            - doda użytkownika o nazwie harry
+net user harry haslo123 /add   - doda użytkownika o nazwie harry z hasłem haslo123
+net user harry * /add          - doda użytkownika o nazwie harry i poprosi o wpisanie dla niego hasła ( wyświetli monit )
+net user harry /del            - usunie użytkownika o nazwie harry
 
-net localgroup Miasto_Harrych /add - doda grupę o nazwię 'Miasto_Harrych'
-net localgroup Miasto_Harrych /del - usunię grupę o nazwię 'Miasto_Harrych'
-net localgroup "Miasto_Harrych" harry123 /add - doda użytkownika 'harry123' do grupy 'Miasto_Harrych'
-net localgroup "Miasto_Harrych" harry123 /del - usuwa użytkownika 'harry123' z grupy 'Miasto_Harrych'
+net localgroup Miasto_Harrych /add                - doda grupę o nazwię 'Miasto_Harrych'
+net localgroup Miasto_Harrych /del                - usunię grupę o nazwię 'Miasto_Harrych'
+net localgroup "Miasto_Harrych" harry123 /add     - doda użytkownika 'harry123' do grupy 'Miasto_Harrych'
+net localgroup "Miasto_Harrych" harry123 /del     - usuwa użytkownika 'harry123' z grupy 'Miasto_Harrych'
 net localgroup "Miasto_Harrych" /comment:"tutaj żyje harry" - Dodaje opis/komentarz do grupy
-net localgroup "Miasto_Harrych" - Wyświetla listę wszystkich członków grupy
+net localgroup "Miasto_Harrych"                   - Wyświetla listę wszystkich członków grupy
 
 
 net user harry *                    - Zmienia hasło (wpisujesz je niewidocznie)
@@ -70,6 +71,7 @@ net user harry /active:no           - Blokuje konto (użytkownik nie może wejś
 net user harry /active:yes          - Odblokowuje konto
 net user harry /passwordchg:no      - Zabrania użytkownikowi zmiany hasła
 net user harry /passwordchg:yes     - Pozwala użytkownikowi na zmianę hasła
+net user harry /logonpasswordchg:yes - Wymusza zmianę hasła przy następnym logowaniu 
 net user harry /passwordreq:yes     - Wymusza, aby konto musiało mieć hasło
 net user harry /expires:18/05/2026  - Konto wygaśnie i "zniknie" (stanie się nieaktywne) w dacie, która jest wyżej ustalona
 net user harry /times:Pn-Pt,08-16   - Pozwala na logowanie tylko w dni robocze 8-16
@@ -98,8 +100,11 @@ pathping 8.8.8.8      - Połączenie ping i tracert ( nie używany już )
 hostname              - Wyświetla nazwę komputera.
 net view              - wyświetla listę komputerów w sieci lokalnej.
 net use               - Mapuje dyski sieciowe.
-*Istnieje więcej komend sieciowych ale wykraczają one za materiał związany z egzaminem.
 
+--- zaawansowane komendy sieciowe --- 
+netsh interface ip set address "Ethernet1" static 192.168.1.10 255.255.255.0 192.168.1.1   -   ręczne ustawianie adresu IP, maski podsiec, bramy domyślnej z konsoli 
+netsh interface ip set dns "Ethernet1" static 8.8.8.8                                      -   ręczne ustawienie servera DNS dla danej karty 
+netsh advfirewall set allprofiles state off                                            -   całkowicie wyłącza zapore. ( można przez GUI )
 
 --- Zarządzanie systemem i procesami ---
 
@@ -121,33 +126,33 @@ logoff                - wylogowuje danego użytkownika
 
 --- Dodatkowe / nichowe ---
 
-assoc                 - Wyświetla powiązania rozszerzeń plików z aplikacjami
-set                   - Wyświetla lub ustawia zmienne środowiskowe.
-path                  - Wyświetla/ustawia ścieżki przeszukiwania dla plików wykonywalnych.
-echo                  - wyświetla tekst w konsoli
-clip                  - Przekierowuje wynik polecenia do schowka (np. dir | clip)
-fc harry1.txt harry2.txt - Porównuje dwa pliki i wyświetla różnice między nimi.
-winget                - instalator programów zewnętrznych
-timeout 2             - Czeka określoną liczbę sekund ( tutaj 2 sekundy )
-ver                   - Wyświetla wersję systemu Windows.
+assoc                      - Wyświetla powiązania rozszerzeń plików z aplikacjami
+set                        - Wyświetla lub ustawia zmienne środowiskowe.
+path                       - Wyświetla/ustawia ścieżki przeszukiwania dla plików wykonywalnych.
+echo                       - wyświetla tekst w konsoli
+clip                       - Przekierowuje wynik polecenia do schowka (np. dir | clip)
+fc harry1.txt harry2.txt   - Porównuje dwa pliki i wyświetla różnice między nimi.
+winget                     - instalator programów zewnętrznych
+timeout 2                  - Czeka określoną liczbę sekund ( tutaj 2 sekundy )
+ver                        - Wyświetla wersję systemu Windows.
 find "plik_tekstowy_o_nazwie_harry" C:\Users\Harry\ – Wyszukuje ciąg znaków w pliku.
-powershell -command "[kod]" - Wykonuje komendę PowerShell bezpośrednio z poziomu zwykłego CMD.
-title harry           - Zmienia tytuł okna konsoli na harry.
+powershell -command "[kod]"- Wykonuje komendę PowerShell bezpośrednio z poziomu zwykłego CMD.
+title harry                - Zmienia tytuł okna konsoli na harry.
 ```
 
 <img width="248" height="33" alt="image" src="https://github.com/user-attachments/assets/471c2241-40a8-405e-b755-1792e185dcd1" />
 
 ```
-choice – Pozwala użytkownikowi wybrać opcję (T/N) w skrypcie.
-calc- kalkulator
-notepad - uruchamia notatnik
-time-pokazuje i ustawia czas
-wusa - zarządza aktualizacjami Windows
+choice                    – Pozwala użytkownikowi wybrać opcję (T/N) w skrypcie.
+calc                      - kalkulator
+notepad                   - uruchamia notatnik
+time                      - pokazuje i ustawia czas
+wusa                      - zarządza aktualizacjami Windows
 winsat disk-seg-read/write-drive C - testuje prędkość dysku C pod względem odczytu/zapisu
-mode - służy do konfiguracji urządzeń systemowych
-sc - otwiera zarządzanie usługami
-winh132 - aplikacja otwiera pliki pomocy
-sfc - skanuje pliki systemowe i wyświetla te błędne
+mode                      - służy do konfiguracji urządzeń systemowych
+sc                        - otwiera zarządzanie usługami
+winh132                   - aplikacja otwiera pliki pomocy
+sfc                       - skanuje pliki systemowe i wyświetla te błędne
 
 
 ---DISKPART---
@@ -224,20 +229,21 @@ gpedit.msc – Edytor lokalnych zasad grup (tylko wersje Pro/Enterprise).
 lusrmgr.msc – Użytkownicy i grupy lokalne.
 perfmon.msc – Monitor wydajności (również jako .exe).
 resmon.msc – Monitor zasobów (CPU, RAM, Sieć) 
-services.msc – Zarządzanie usługami systemowymi ( usługi to są inaczej procesy )
+services.msc – Zarządzanie usługami systemowymi ( Usługa to program działający w tle  )
 taskschd.msc – Harmonogram zadań.
 WF.msc – Zaawansowane zabezpieczenia zapory Windows.
 secpol.msc – Ustawienia zabezpieczeń lokalnych (podzbiór gpedit.msc dotyczący bezpieczeństwa).
 tpm.msc – Zarządzanie modułem Trusted Platform Module (szyfrowanie/bezpieczeństwo).
 printmanagement.msc – Zarządzanie drukowaniem (serwer druku, sterowniki).
-
+fsmgmt.msc – Zarządzanie folderami udostępnionymi
+rsop.msc – (Resultant Set of Policy) Pokazuje, jakie zasady grupy faktycznie działają na danym użytkowniku.
 
 access.cpl – Centrum ułatwień dostępu.
 appwiz.cpl – Programy i funkcje (dodawanie/usuwanie).
 desk.cpl – Ustawienia ekranu.
 firewall.cpl – Zapora systemu Windows (podstawowa).
 hdwwiz.cpl – Kreator dodawania sprzętu / Menedżer urządzeń.
-inetcpl.cpl – Właściwości internetowe (w Twojej liście jako controlaccess.cpl).
+inetcpl.cpl – Właściwości internetowe.
 intl.cpl – Ustawienia regionalne i językowe
 joy.cpl – Kontrolery gier (joysticki)
 main.cpl – Właściwości myszy.
@@ -256,12 +262,12 @@ dxdiag.exe – Narzędzie diagnostyczne DirectX.
 netplwiz.exe – Zaawansowane konta użytkowników (hasła).
 optionalfeatures.exe – Funkcje systemu Windows (włącz/wyłącz).
 osk.exe – Klawiatura ekranowa.
-regedit.exe – Edytor rejestru [BRAKUJĄCE].
+regedit.exe – Edytor rejestru.
 msconfig.exe – Konfiguracja systemu (zarządzanie rozruchem/boot).
 taskmgr.exe – Menedżer zadań.
 msinfo32.exe – (Dodatek do Twojej listy .exe) To najważniejsze
 certutil.exe – Zarządzanie certyfikatami, ale też potężne narzędzie do liczenia sum kontrolnych plików (np. certutil -hashfile plik.exe SHA256)
-
+mrt.exe – Microsoft Removal Tool
 ```
 
 > dodać normy EN 50174
