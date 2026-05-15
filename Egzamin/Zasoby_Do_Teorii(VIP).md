@@ -36,6 +36,8 @@ punkty abonenckie (miejsca, w których są urządzenia końcowe)
 ```
 
 <img width="522" height="730" alt="image" src="https://github.com/user-attachments/assets/dd6401dc-2ade-4c7a-be76-230e55f4fb2f" />
+Wifi z wikipedi
+<img width="889" height="639" alt="image" src="https://github.com/user-attachments/assets/ecf5ea14-745a-4c55-b5be-7c6ebb7a2da4" />
 
 
 
