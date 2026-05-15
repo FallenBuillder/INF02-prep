@@ -280,8 +280,9 @@ mrt.exe – Microsoft Removal Tool
 
 **<strong>certmgr.msc</strong>** — Certyfikaty użytkownika.
 
-[ZDJĘCIE]
+<img width="804" height="608" alt="image" src="https://github.com/user-attachments/assets/d21c3964-b996-4de7-8c29-581ece85873f" />
 
+Służy do zarządzania certyfikatami cyfrowymi zalogowanego użytkownika, umożliwiając ich przeglądanie, importowanie oraz eksportowanie. Pozwala na weryfikację zaufanych głównych urzędów certyfikacji oraz zarządzanie kluczami prywatnymi używanymi do szyfrowania lub podpisu.
 
 **<strong>compmgmt.msc</strong>** — Zarządzanie komputerem (zbiorcza konsola).
 
