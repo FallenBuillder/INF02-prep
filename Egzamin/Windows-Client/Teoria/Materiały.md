@@ -1,4 +1,4 @@
-# Teoria
+<img width="1247" height="550" alt="image" src="https://github.com/user-attachments/assets/84314586-78ce-4279-b385-a1507bba03f9" /># Teoria
 
 Windows nie jest teoretycznie trudny, ponieważ nie musimy na nim zapamiętywać rzeczy na pamięć. Wystarczy, że wiemy jak się do nich doklikać. Oczywiście nadal trzeba umieć komendy w terminalu Windowsa ale jest ich o wiele mniej niż na linuxie.
 
@@ -286,27 +286,118 @@ Służy do zarządzania certyfikatami cyfrowymi zalogowanego użytkownika, umoż
 
 **<strong>compmgmt.msc</strong>** — Zarządzanie komputerem (zbiorcza konsola).
 
-[ZDJĘCIE]
+<img width="1209" height="845" alt="image" src="https://github.com/user-attachments/assets/19543b1e-18cc-444d-8be8-c4d5dfd09fcf" />
 
+To zbiorcza konsola narzędzi administracyjnych, która łączy w sobie m.in. zarządzanie dyskami, usługami i użytkownikami w jednym oknie. Pozwala nam na wejście w wiele przystawek systemowych - nie dodaję nic do nich.
 
 **<strong>devmgmt.msc</strong>** — Menedżer urządzeń.
 
-[ZDJĘCIE]
+<img width="775" height="563" alt="image" src="https://github.com/user-attachments/assets/9a33e760-6061-4d66-87d9-06f31a87ddb1" />
+<img width="376" height="72" alt="image" src="https://github.com/user-attachments/assets/f5487c6b-8441-434a-a9b1-8496447a7b68" />
+<img width="773" height="564" alt="image" src="https://github.com/user-attachments/assets/a13d73f5-2d1b-4108-baf9-503554322391" />
 
+Pozwala na zarządzanie sprzętem oraz sterownikami wszystkich komponentów zainstalowanych w komputerze. 
+
+Zakładka porty COM pozawla nam sprawdzić jakie porty COM są dostępne na naszym komputerze w celu połączenie się przez Konsole do jakiegoś urządzenia.
+
+Zakładki takie jak 'Karty Graficzne' lub 'Procesory' mogą nam także pomóc w identyfikacji parametrów systemowych
 
 **<strong>diskmgmt.msc</strong>** — Zarządzanie dyskami.
 
-[ZDJĘCIE]
+<img width="1205" height="595" alt="image" src="https://github.com/user-attachments/assets/15b91a10-496f-44fd-af0e-cde7b6487cb0" />
 
+nardzędzie podobne do DISKPARTA ale w GUI pozwala nam na zmienianie właściwości partycji, voluminów na naszym systemie.
+
+Przystawka ta w kontekscie egzaminu jest bardzo ważna. Na wielu arkuszach praktycznych pojawiają się zadania z diskmgmt.msc \
+
+>TODO : Dodać Opis ( W GUI ) Jak działa diskmgmt.msc
 
 **<strong>eventvwr.msc</strong>** — Podgląd zdarzeń.
 
-[ZDJĘCIE]
+<img width="1513" height="942" alt="image" src="https://github.com/user-attachments/assets/8eb1be83-79be-460c-8f3a-32ea07d5b4e8" />
 
+Umożliwia przeglądanie dzienników systemowych, w których zapisywane są informacje o błędach, ostrzeżeniach i sukcesach aplikacji oraz usług.
 
 **<strong>gpedit.msc</strong>** — Edytor lokalnych zasad grup (tylko wersje Pro/Enterprise).
 
-[ZDJĘCIE]
+<img width="1059" height="658" alt="image" src="https://github.com/user-attachments/assets/895500ca-33d9-441b-add1-36115abea0fc" />
+
+Narzędzie do konfiguracji zaawansowanych ustawień systemu i użytkownika poprzez zasady (polisy), które nie są dostępne w zwykłym panelu sterowania
+
+Na egzaminie jest także badzo ważną pzystawką. To tutaj robimy takie rzeczy jak wyłączamy dostęp do panelu sterowania i podobne.  
+
+
+<strong>Zarządzanie Restrykcjami Użytkownika</strong>
+
+Konfiguracja użytkownika -> Szablony administracyjne.
+
+<img width="1316" height="791" alt="image" src="https://github.com/user-attachments/assets/ef3904cf-76f4-49fa-bcf3-b729f20b2a1f" />
+
+Przykłady eksploatacji:
+```
+Panel Sterowania: można tutaj całkowicie zablokować dostęp do Panelu sterowania i Ustawień lub ukryć tylko konkretne ikony.
+Pulpit: Zablokowanie zmiany tapety, ukrycie ikon systemowych (np. Kosza) lub zablokowanie dodawania/usuwania skrótów.
+Menu Start i Pasek zadań: Usunięcie przycisku "Zamknij system" (użytkownik nie będzie mógł wyłączyć komputera przyciskiem programowym), ukrycie zegara lub listy programów.
+System: Blokada dostępu do Wiersza poleceń (cmd.exe), edytora rejestru (regedit.exe) lub menedżera zadań.
+```
+<strong>Konfiguracja Zabezpieczeń (Sekcja Systemowa)</strong>
+
+Konfiguracja komputera -> Ustawienia systemu Windows -> Ustawienia zabezpieczeń.
+
+<img width="950" height="407" alt="image" src="https://github.com/user-attachments/assets/b86b7304-fd59-4cdf-9e72-e2a3f19c5b78" />
+
+Przykłady eksploatacji:
+```
+Zasady haseł: Wymuszenie minimalnej długości hasła (np. 8 znaków), wymuszenie złożoności (duże litery, cyfry) oraz ustawienie ważności hasła (użytkownik musi zmienić hasło co 30 dni).
+Zasady blokady konta: Ustawiasz tu, po ilu nieudanych próbach logowania konto ma zostać zablokowane i na jak długo (np. 3 błędne próby = blokada na 15 minut).
+Prawa użytkownika: Przypisywanie konkretnych uprawnień, np. "Kto może zmieniać czas systemowy" lub "Kto może logować się lokalnie".
+```
+
+<strong>Skrypty Logowania i Wylogowywania</strong>
+
+Ustawienia systemu Windows -> Skrypty (Logowanie/Wylogowanie)
+
+<img width="1247" height="550" alt="image" src="https://github.com/user-attachments/assets/6b77cb39-bf7e-4919-9165-1742ca596e19" />
+
+Przykłady eksploatacji:
+```
+można tu dodać pliki .bat lub .ps1, które uruchomi się automatycznie po wylogowaniu lub zalogowaniu do systemu.
+```
+
+<strong>Zarządzanie Aktualizacjami i Składnikami Windows</strong>
+
+<img width="1351" height="2138" alt="image" src="https://github.com/user-attachments/assets/f60d11cd-a4fc-4629-a8bf-423f68759bfb" />
+
+Przykłady eskploatacji:
+
+```
+
+Windows Update: Możesz całkowicie wyłączyć automatyczne aktualizacje lub skonfigurować godziny, w których system ma prawo się restartować.
+Windows Defender: Możliwość wyłączenia antywirusa lub skonfigurowania harmonogramu skanowania.
+Instalator Windows: Blokowanie możliwości instalowania nowego oprogramowania przez użytkowników bez uprawnień administratora.
+
+```
+
+<strong>Blokowanie dostępu do napędów wymiennych</strong>
+
+Konfiguracja komputera -> Szablony administracyjne -> Składniki systemu Windows
+
+<img width="1204" height="1308" alt="image" src="https://github.com/user-attachments/assets/d46d6f89-ba5f-4078-9226-1838cf96ba64" />
+
+
+Przykłady eksploatacji:
+
+```
+
+Dyski wymienne: Odmów dostępu do zapisu (użytkownik może czytać z pendrive, ale nie może nic na niego skopiować).
+Dyski wymienne: Odmów dostępu do odczytu (całkowita blokada USB).
+
+```
+
+### Podsumowując: gpedit.msc to narzędzie, które "mówi systemowi, co użytkownikowi wolno, a czego nie"
+
+
+***
 
 
 **<strong>lusrmgr.msc</strong>** — Użytkownicy i grupy lokalne.
