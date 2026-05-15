@@ -497,6 +497,8 @@ TODO: Stworzyć detailed guide po panelu sterowania.
 
 ## UWAGA - Wszystkie sekcje .cpl można znaleść w panelu sterowania NIE TRZEBA ZAPAMIĘTYWAĆ ICH NA PAMIĘĆ dlatego nie będą naraazie omawiane...
 
+Przykład omówienia jednej sekcji panelu sterowania 
+
 **<strong>access.cpl</strong>** — Centrum ułatwień dostępu.
 
 <img width="1343" height="896" alt="image" src="https://github.com/user-attachments/assets/8692b1a1-6584-4eb1-8092-e9fbd5e837e8" />
@@ -586,47 +588,65 @@ Narzędzie otwierające aplet Ułatwienia dostępu w Panelu sterowania, pozwalaj
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### **SEKCJA .EXE I POZOSTAŁE NARZĘDZIA**
 
 **<strong>cleanmgr.exe</strong>** — Oczyszczanie dysku.
 
-[ZDJĘCIE]
+<img width="372" height="466" alt="image" src="https://github.com/user-attachments/assets/405fe06f-a220-493c-ba8a-39248af4a35c" />
 
+służy do bezpiecznego usuwania zbędnych plików systemowych, takich jak pliki tymczasowe, zawartość kosza czy pozostałości po aktualizacjach systemu Windows 
 
 **<strong>control admintools</strong>** — Folder narzędzi administracyjnych.
 
 [ZDJĘCIE]
+<img width="405" height="207" alt="image" src="https://github.com/user-attachments/assets/5a4375ab-e313-48db-9379-6fa4dc9cdda7" />
+<img width="1347" height="890" alt="image" src="https://github.com/user-attachments/assets/9bd14653-c054-41e5-94e7-044528f493bd" />
 
-
-**<strong>control mouse</strong>** — Alternatywa dla main.cpl.
-
-[ZDJĘCIE]
-
+BARDZO przydatne nardzędzie jeśli nie wiemy gdzie znaleść Przystawek w Windowsie 
 
 **<strong>dfrgui.exe</strong>** — Optymalizacja dysków.
 
-[ZDJĘCIE]
+<img width="702" height="500" alt="image" src="https://github.com/user-attachments/assets/70f0239c-3939-4588-80d7-5bf7af88b0d9" />
 
+służy do defragmentacji dysków HDD oraz optymalizacji (wysyłania komendy TRIM) dla dysków SSD w celu przyspieszenia działania systemu.
+
+Kompletnie bezużyteczny.
 
 **<strong>dxdiag.exe</strong>** — Narzędzie diagnostyczne DirectX.
 
-[ZDJĘCIE]
+<img width="725" height="529" alt="image" src="https://github.com/user-attachments/assets/d452671e-ce5e-4c57-a263-dac60ddf68c7" />
 
+Narzędzie diagnostyczne DirectX, które służy do zbierania szczegółowych informacji o komponentach multimedialnych komputera, takich jak karta graficzna, dźwiękowa oraz zainstalowane sterowniki
 
 **<strong>netplwiz.exe</strong>** — Zaawansowane konta użytkowników (hasła).
 
-[ZDJĘCIE]
+<img width="463" height="508" alt="image" src="https://github.com/user-attachments/assets/883881a7-dae3-4d9f-a91c-db2dc0cd2d23" />
 
+pozwala na to aby sprawić, że trzeba kliknąc Ctr+Alt+Delete przed włączeniem systemu - tak to jest bezużyteczny
 
 **<strong>optionalfeatures.exe</strong>** — Funkcje systemu Windows (włącz/wyłącz).
 
-[ZDJĘCIE]
+<img width="415" height="365" alt="image" src="https://github.com/user-attachments/assets/80bf6cbe-9713-4156-83f6-a838de536cd7" />
 
+Bardzo przydatny. Jeśli na egzaminie jest np. napisane "Wyłącz WSL" to będzie to właśnie tutaj 
 
 **<strong>osk.exe</strong>** — Klawiatura ekranowa.
 
-[ZDJĘCIE]
-
+Włącza klawiaturę graficzną ( nie da się zrobić screena jej ) 
 
 **<strong>regedit.exe</strong>** — Edytor rejestru.
 
