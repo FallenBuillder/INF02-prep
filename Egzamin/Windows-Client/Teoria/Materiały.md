@@ -115,60 +115,39 @@ driverquery           - Wyświetla listę zainstalowanych sterowników.
 net start [usługa]    - Uruchamia usługę.
 sc query              - Wyświetla status usług systemowych.
 net stop [usługa]     - Zatrzymuje usługę.
-
+logoff                - wylogowuje danego użytkownika
 
 
 
 --- Dodatkowe / nichowe ---
 
-assoc – Wyświetla powiązania rozszerzeń plików z aplikacjami
-set – Wyświetla lub ustawia zmienne środowiskowe.
-path – Wyświetla/ustawia ścieżki przeszukiwania dla plików wykonywalnych.
-echo - wyświetla tekst w konsoli
-clip – Przekierowuje wynik polecenia do schowka (np. dir | clip)
-fc harry1.txt harry2.txt – Porównuje dwa pliki i wyświetla różnice między nimi.
-winget - instalator programów zewnętrznych
-timeout 2 – Czeka określoną liczbę sekund ( tutaj 2 sekundy )
-ver – Wyświetla wersję systemu Windows.
+assoc                 - Wyświetla powiązania rozszerzeń plików z aplikacjami
+set                   - Wyświetla lub ustawia zmienne środowiskowe.
+path                  - Wyświetla/ustawia ścieżki przeszukiwania dla plików wykonywalnych.
+echo                  - wyświetla tekst w konsoli
+clip                  - Przekierowuje wynik polecenia do schowka (np. dir | clip)
+fc harry1.txt harry2.txt - Porównuje dwa pliki i wyświetla różnice między nimi.
+winget                - instalator programów zewnętrznych
+timeout 2             - Czeka określoną liczbę sekund ( tutaj 2 sekundy )
+ver                   - Wyświetla wersję systemu Windows.
 find "plik_tekstowy_o_nazwie_harry" C:\Users\Harry\ – Wyszukuje ciąg znaków w pliku.
-powershell -command "[kod]" – Wykonuje komendę PowerShell bezpośrednio z poziomu zwykłego CMD.
-title harry – Zmienia tytuł okna konsoli na harry.
+powershell -command "[kod]" - Wykonuje komendę PowerShell bezpośrednio z poziomu zwykłego CMD.
+title harry           - Zmienia tytuł okna konsoli na harry.
 ```
 
 <img width="248" height="33" alt="image" src="https://github.com/user-attachments/assets/471c2241-40a8-405e-b755-1792e185dcd1" />
 
 ```
 choice – Pozwala użytkownikowi wybrać opcję (T/N) w skrypcie.
-
-
-
-
-
-wmic – Wywołuje instrumentację zarządzania Windows (starsze, ale potężne).
-systeminfo - wyświetla podstawowe informacje o zainstalowanym systemie, poprawkach, wyświetla nazwę hosta, strefę czasową oraz częściową konfigurację karty sieciowej ipconfig - wyświetla aktualną konfigurację karty sieciowej
-getmac - wyświetla adresy fizyczne MAC zainstalowanych kart sieciowych
-netstat - wyświetla listę aktualnych połączeń sieciowych
-ping onet.pl - sprawdza połączenie z daną stroną
 calc- kalkulator
 notepad - uruchamia notatnik
 time-pokazuje i ustawia czas
-shutdown - wyłącza komputer
 wusa - zarządza aktualizacjami Windows
-chkdisk - sprawdza dysk w poszukiwaniu błędów
 winsat disk-seg-read/write-drive C - testuje prędkość dysku C pod względem odczytu/zapisu
-perfmon - służy do uruchamiania "Monitora wydajności"
-vol - pokazuje nazwę dysku
-history - wyświetla listę zapisanych wcześniej komend
-color - ustawia kolor konsoli
-tasklist - wyświetla listę procesu
-defrag - służy do defragmentacji dysku (uruchamia się go z Diskpart'a)
 mode - służy do konfiguracji urządzeń systemowych
 sc - otwiera zarządzanie usługami
 winh132 - aplikacja otwiera pliki pomocy
-log off - wylogowuje danego użytkownika
-mem - wyświetla informacje dotyczące pamięci RAM
-format-formatowanie dysku
-sfc - skanuje pliki systemowe i wyświetla te błędne nslookup - diagnostyka DNS
+sfc - skanuje pliki systemowe i wyświetla te błędne
 
 
 ---DISKPART---
