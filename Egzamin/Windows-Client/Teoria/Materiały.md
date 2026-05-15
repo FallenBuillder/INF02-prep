@@ -11,7 +11,7 @@ Zagadnienia:
 - Windows jako client, któremu są świadczone usługi ( Windows Server )
 - Odpowiedzi na pytania z egzaminów
 
-## Komendy w Windowsie ( tak z 30% zrobione do dokończenia )
+## Komendy w Windowsie ( dodać sprawdzanie parametrów systemowych ) 
 
 ```
 UWAGA:
