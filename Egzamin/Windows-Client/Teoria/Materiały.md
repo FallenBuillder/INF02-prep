@@ -220,6 +220,7 @@ defrag       - defragmentuje dyski
 
 ```
 systeminfo   - wyświetli Kompletny raport o systemie (wersja OS, BIOS, czas pracy, zainstalowane poprawki).
+wmic         - (Windows Management Instrumentation) Potężne narzędzie do zapytań o konkretne parametry sprzętu.
 
 ```
 
@@ -231,6 +232,57 @@ Przed przejściem do przystawek chciałbym tylko powiedzieć o skrócie Windows+
 
 Uruchomi się takie okienkio w, którym wpisujemy np. cmd albo diskmgmt.msc i łatwo możemy wchodzić do przystawek, programów w ten sposób.
 
+***
+```
+certmgr.msc – Certyfikaty użytkownika.
+compmgmt.msc – Zarządzanie komputerem (zbiorcza konsola) [BRAKUJĄCE].
+devmgmt.msc – Menedżer urządzeń.
+diskmgmt.msc – Zarządzanie dyskami.
+eventvwr.msc – Podgląd zdarzeń [BRAKUJĄCE].
+gpedit.msc – Edytor lokalnych zasad grup (tylko wersje Pro/Enterprise).
+lusrmgr.msc – Użytkownicy i grupy lokalne.
+perfmon.msc – Monitor wydajności (również jako .exe).
+resmon.msc – Monitor zasobów (CPU, RAM, Sieć) [BRAKUJĄCE].
+services.msc – Zarządzanie usługami systemowymi [BRAKUJĄCE].
+taskschd.msc – Harmonogram zadań.
+WF.msc – Zaawansowane zabezpieczenia zapory Windows.
+secpol.msc – Ustawienia zabezpieczeń lokalnych (podzbiór gpedit.msc dotyczący bezpieczeństwa).
+tpm.msc – Zarządzanie modułem Trusted Platform Module (szyfrowanie/bezpieczeństwo).
+printmanagement.msc – Zarządzanie drukowaniem (serwer druku, sterowniki).
+
+
+access.cpl – Centrum ułatwień dostępu.
+appwiz.cpl – Programy i funkcje (dodawanie/usuwanie).
+desk.cpl – Ustawienia ekranu.
+firewall.cpl – Zapora systemu Windows (podstawowa).
+hdwwiz.cpl – Kreator dodawania sprzętu / Menedżer urządzeń.
+inetcpl.cpl – Właściwości internetowe (w Twojej liście jako controlaccess.cpl).
+intl.cpl – Ustawienia regionalne i językowe [BRAKUJĄCE].
+joy.cpl – Kontrolery gier (joysticki) [BRAKUJĄCE].
+main.cpl – Właściwości myszy.
+mmsys.cpl – Dźwięk (odtwarzanie, nagrywanie).
+ncpa.cpl – Połączenia sieciowe (karty sieciowe).
+powercfg.cpl – Opcje zasilania.
+sysdm.cpl – Właściwości systemu (nazwa komputera, zmienne środowiskowe).
+timedate.cpl – Data i godzina.
+ncpa.cpl – Otwiera natychmiast okno 'Wyświetl połączenia sieciowe'
+
+
+cleanmgr.exe – Oczyszczanie dysku.
+control admintools – Folder narzędzi administracyjnych.
+control mouse – Alternatywa dla main.cpl.
+dfrgui.exe – Optymalizacja dysków (poprawiona nazwa z dfrgiu.exe).
+dxdiag.exe – Narzędzie diagnostyczne DirectX.
+netplwiz.exe – Zaawansowane konta użytkowników (hasła).
+optionalfeatures.exe – Funkcje systemu Windows (włącz/wyłącz).
+osk.exe – Klawiatura ekranowa.
+regedit.exe – Edytor rejestru [BRAKUJĄCE].
+msconfig.exe – Konfiguracja systemu (zarządzanie rozruchem/boot).
+taskmgr.exe – Menedżer zadań.
+msinfo32.exe – (Dodatek do Twojej listy .exe) To najważniejsze
+certutil.exe – Zarządzanie certyfikatami, ale też potężne narzędzie do liczenia sum kontrolnych plików (np. certutil -hashfile plik.exe SHA256)
+
+```
 
 
 ## Windows jako Klient
