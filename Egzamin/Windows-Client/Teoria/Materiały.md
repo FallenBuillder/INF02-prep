@@ -276,192 +276,244 @@ mrt.exe – Microsoft Removal Tool
 
 
 
-Jasne, poprawiłem formatowanie zgodnie z Twoimi wytycznymi. Teraz każda nazwa jest pogrubiona, a znacznik [ZDJĘCIE] znajduje się w osobnej linii pod opisem, co tworzy przejrzystą strukturę w pliku .md.
+### **SEKCJA .MSC (Microsoft Management Console)**
 
-SEKCJA .MSC (Microsoft Management Console)
-certmgr.msc — Certyfikaty użytkownika.
-
-[ZDJĘCIE]
-
-compmgmt.msc — Zarządzanie komputerem (zbiorcza konsola).
+**<strong>certmgr.msc</strong>** — Certyfikaty użytkownika.
 
 [ZDJĘCIE]
 
-devmgmt.msc — Menedżer urządzeń.
+
+**<strong>compmgmt.msc</strong>** — Zarządzanie komputerem (zbiorcza konsola).
 
 [ZDJĘCIE]
 
-diskmgmt.msc — Zarządzanie dyskami.
+
+**<strong>devmgmt.msc</strong>** — Menedżer urządzeń.
 
 [ZDJĘCIE]
 
-eventvwr.msc — Podgląd zdarzeń.
+
+**<strong>diskmgmt.msc</strong>** — Zarządzanie dyskami.
 
 [ZDJĘCIE]
 
-gpedit.msc — Edytor lokalnych zasad grup (tylko wersje Pro/Enterprise).
+
+**<strong>eventvwr.msc</strong>** — Podgląd zdarzeń.
 
 [ZDJĘCIE]
 
-lusrmgr.msc — Użytkownicy i grupy lokalne.
+
+**<strong>gpedit.msc</strong>** — Edytor lokalnych zasad grup (tylko wersje Pro/Enterprise).
 
 [ZDJĘCIE]
 
-perfmon.msc — Monitor wydajności (również jako .exe).
+
+**<strong>lusrmgr.msc</strong>** — Użytkownicy i grupy lokalne.
 
 [ZDJĘCIE]
 
-resmon.msc — Monitor zasobów (CPU, RAM, Sieć).
+
+**<strong>perfmon.msc</strong>** — Monitor wydajności (również jako .exe).
 
 [ZDJĘCIE]
 
-services.msc — Zarządzanie usługami systemowymi (Usługa to program działający w tle).
+
+**<strong>resmon.msc</strong>** — Monitor zasobów (CPU, RAM, Sieć).
 
 [ZDJĘCIE]
 
-taskschd.msc — Harmonogram zadań.
+
+**<strong>services.msc</strong>** — Zarządzanie usługami systemowymi (Usługa to program działający w tle).
 
 [ZDJĘCIE]
 
-WF.msc — Zaawansowane zabezpieczenia zapory Windows.
+
+**<strong>taskschd.msc</strong>** — Harmonogram zadań.
 
 [ZDJĘCIE]
 
-secpol.msc — Ustawienia zabezpieczeń lokalnych (podzbiór gpedit.msc).
+
+**<strong>WF.msc</strong>** — Zaawansowane zabezpieczenia zapory Windows.
 
 [ZDJĘCIE]
 
-tpm.msc — Zarządzanie modułem Trusted Platform Module.
+
+**<strong>secpol.msc</strong>** — Ustawienia zabezpieczeń lokalnych (podzbiór gpedit.msc).
 
 [ZDJĘCIE]
 
-printmanagement.msc — Zarządzanie drukowaniem (serwer druku, sterowniki).
+
+**<strong>tpm.msc</strong>** — Zarządzanie modułem Trusted Platform Module.
 
 [ZDJĘCIE]
 
-fsmgmt.msc — Zarządzanie folderami udostępnionymi.
+
+**<strong>printmanagement.msc</strong>** — Zarządzanie drukowaniem (serwer druku, sterowniki).
 
 [ZDJĘCIE]
 
-rsop.msc — Pokazuje, jakie zasady grupy faktycznie działają na użytkowniku.
+
+**<strong>fsmgmt.msc</strong>** — Zarządzanie folderami udostępnionymi.
 
 [ZDJĘCIE]
 
-SEKCJA .CPL (Control Panel Items)
-access.cpl — Centrum ułatwień dostępu.
+
+**<strong>rsop.msc</strong>** — Pokazuje, jakie zasady grupy faktycznie działają na użytkowniku.
 
 [ZDJĘCIE]
 
-appwiz.cpl — Programy i funkcje (dodawanie/usuwanie).
+
+---
+
+
+### **SEKCJA .CPL (Control Panel Items)**
+
+**<strong>access.cpl</strong>** — Centrum ułatwień dostępu.
 
 [ZDJĘCIE]
 
-desk.cpl — Ustawienia ekranu.
+
+**<strong>appwiz.cpl</strong>** — Programy i funkcje (dodawanie/usuwanie).
 
 [ZDJĘCIE]
 
-firewall.cpl — Zapora systemu Windows (podstawowa).
+
+**<strong>desk.cpl</strong>** — Ustawienia ekranu.
 
 [ZDJĘCIE]
 
-hdwwiz.cpl — Kreator dodawania sprzętu / Menedżer urządzeń.
+
+**<strong>firewall.cpl</strong>** — Zapora systemu Windows (podstawowa).
 
 [ZDJĘCIE]
 
-inetcpl.cpl — Właściwości internetowe.
+
+**<strong>hdwwiz.cpl</strong>** — Kreator dodawania sprzętu / Menedżer urządzeń.
 
 [ZDJĘCIE]
 
-intl.cpl — Ustawienia regionalne i językowe.
+
+**<strong>inetcpl.cpl</strong>** — Właściwości internetowe.
 
 [ZDJĘCIE]
 
-joy.cpl — Kontrolery gier (joysticki).
+
+**<strong>intl.cpl</strong>** — Ustawienia regionalne i językowe.
 
 [ZDJĘCIE]
 
-main.cpl — Właściwości myszy.
+
+**<strong>joy.cpl</strong>** — Kontrolery gier (joysticki).
 
 [ZDJĘCIE]
 
-mmsys.cpl — Dźwięk (odtwarzanie, nagrywanie).
+
+**<strong>main.cpl</strong>** — Właściwości myszy.
 
 [ZDJĘCIE]
 
-powercfg.cpl — Opcje zasilania.
+
+**<strong>mmsys.cpl</strong>** — Dźwięk (odtwarzanie, nagrywanie).
 
 [ZDJĘCIE]
 
-sysdm.cpl — Właściwości systemu (nazwa komputera, zmienne).
+
+**<strong>powercfg.cpl</strong>** — Opcje zasilania.
 
 [ZDJĘCIE]
 
-timedate.cpl — Data i godzina.
+
+**<strong>sysdm.cpl</strong>** — Właściwości systemu (nazwa komputera, zmienne).
 
 [ZDJĘCIE]
 
-ncpa.cpl — Otwiera natychmiast okno 'Wyświetl połączenia sieciowe'.
+
+**<strong>timedate.cpl</strong>** — Data i godzina.
 
 [ZDJĘCIE]
 
-SEKCJA .EXE I POZOSTAŁE NARZĘDZIA
-cleanmgr.exe — Oczyszczanie dysku.
+
+**<strong>ncpa.cpl</strong>** — Otwiera natychmiast okno 'Wyświetl połączenia sieciowe'.
 
 [ZDJĘCIE]
 
-control admintools — Folder narzędzi administracyjnych.
+
+---
+
+
+### **SEKCJA .EXE I POZOSTAŁE NARZĘDZIA**
+
+**<strong>cleanmgr.exe</strong>** — Oczyszczanie dysku.
 
 [ZDJĘCIE]
 
-control mouse — Alternatywa dla main.cpl.
+
+**<strong>control admintools</strong>** — Folder narzędzi administracyjnych.
 
 [ZDJĘCIE]
 
-dfrgui.exe — Optymalizacja dysków.
+
+**<strong>control mouse</strong>** — Alternatywa dla main.cpl.
 
 [ZDJĘCIE]
 
-dxdiag.exe — Narzędzie diagnostyczne DirectX.
+
+**<strong>dfrgui.exe</strong>** — Optymalizacja dysków.
 
 [ZDJĘCIE]
 
-netplwiz.exe — Zaawansowane konta użytkowników (hasła).
+
+**<strong>dxdiag.exe</strong>** — Narzędzie diagnostyczne DirectX.
 
 [ZDJĘCIE]
 
-optionalfeatures.exe — Funkcje systemu Windows (włącz/wyłącz).
+
+**<strong>netplwiz.exe</strong>** — Zaawansowane konta użytkowników (hasła).
 
 [ZDJĘCIE]
 
-osk.exe — Klawiatura ekranowa.
+
+**<strong>optionalfeatures.exe</strong>** — Funkcje systemu Windows (włącz/wyłącz).
 
 [ZDJĘCIE]
 
-regedit.exe — Edytor rejestru.
+
+**<strong>osk.exe</strong>** — Klawiatura ekranowa.
 
 [ZDJĘCIE]
 
-msconfig.exe — Konfiguracja systemu (zarządzanie rozruchem/boot).
+
+**<strong>regedit.exe</strong>** — Edytor rejestru.
 
 [ZDJĘCIE]
 
-taskmgr.exe — Menedżer zadań.
+
+**<strong>msconfig.exe</strong>** — Konfiguracja systemu (zarządzanie rozruchem/boot).
 
 [ZDJĘCIE]
 
-msinfo32.exe — Pełne informacje o systemie i sprzęcie (najważniejsze).
+
+**<strong>taskmgr.exe</strong>** — Menedżer zadań.
 
 [ZDJĘCIE]
 
-certutil.exe — Zarządzanie certyfikatami i liczenie sum kontrolnych.
+
+**<strong>msinfo32.exe</strong>** — Pełne informacje o systemie i sprzęcie (najważniejsze).
 
 [ZDJĘCIE]
 
-mrt.exe — Microsoft Removal Tool (usuwanie wirusów).
+
+**<strong>certutil.exe</strong>** — Zarządzanie certyfikatami i liczenie sum kontrolnych.
 
 [ZDJĘCIE]
 
-winver — Sprawdzanie dokładnej wersji systemu Windows.
+
+**<strong>mrt.exe</strong>** — Microsoft Removal Tool (usuwanie wirusów).
+
+[ZDJĘCIE]
+
+
+**<strong>winver</strong>** — Sprawdzanie dokładnej wersji systemu Windows.
 
 [ZDJĘCIE]
 
