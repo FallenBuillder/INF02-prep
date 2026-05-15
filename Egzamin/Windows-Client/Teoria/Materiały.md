@@ -1,4 +1,4 @@
-<img width="1247" height="550" alt="image" src="https://github.com/user-attachments/assets/84314586-78ce-4279-b385-a1507bba03f9" /># Teoria
+# Teoria
 
 Windows nie jest teoretycznie trudny, ponieważ nie musimy na nim zapamiętywać rzeczy na pamięć. Wystarczy, że wiemy jak się do nich doklikać. Oczywiście nadal trzeba umieć komendy w terminalu Windowsa ale jest ich o wiele mniej niż na linuxie.
 
@@ -650,38 +650,67 @@ Włącza klawiaturę graficzną ( nie da się zrobić screena jej )
 
 **<strong>regedit.exe</strong>** — Edytor rejestru.
 
-[ZDJĘCIE]
+<img width="1588" height="566" alt="image" src="https://github.com/user-attachments/assets/3bf98033-b9ad-41ee-8820-5db51746163f" />
 
+Narzędzie Edytor rejestru, będące hierarchiczną bazą danych, w której system Windows przechowuje wszystkie ustawienia konfiguracji sprzętu, oprogramowania oraz preferencje użytkowników. Rejestr jest "mózgiem" systemu – każda zmiana wprowadzona w Panelu sterowania czy gpedit.msc ostatecznie zapisuje się jako konkretna wartość w jednym z kluczy rejestru.
+
+RegEdit jest przepotężnym narzędziem ale znalezienie czegokolwiek w nim jest prawie co niemożliwe ponieważ jest on jagby bazą danych dla CAŁEGO systemu operacyjnego 
 
 **<strong>msconfig.exe</strong>** — Konfiguracja systemu (zarządzanie rozruchem/boot).
 
-[ZDJĘCIE]
+HKEY_CLASSES_ROOT (HKCR): Informacje o powiązaniach plików (jaki program otwiera .txt itp.).
 
+HKEY_CURRENT_USER (HKCU): Ustawienia aktualnie zalogowanego użytkownika (tapeta, kolory, układ klawiatury).
+
+HKEY_LOCAL_MACHINE (HKLM): Globalne ustawienia komputera i sprzętu, wspólne dla wszystkich użytkowników.
+
+HKEY_USERS (HKU): Profile wszystkich użytkowników na dysku.
+
+HKEY_CURRENT_CONFIG (HKCC): Informacje o aktualnym profilu sprzętowym.
+
+
+
+TODO: Dodać detailed guide po Edytorze Rejestru.
 
 **<strong>taskmgr.exe</strong>** — Menedżer zadań.
+<img width="1263" height="1095" alt="image" src="https://github.com/user-attachments/assets/027ef3f7-d2e6-4952-b950-a7b5f66817da" />
 
-[ZDJĘCIE]
+jest podstawowym panelem diagnostycznym systemu Windows, umożliwiającym monitorowanie procesów, wydajności oraz zarządzanie uruchomionymi aplikacjami.
 
+W Zakładce 'Wydajnośc' można dodatkowo znaleść różnego typu parametry dotyczące systemu operacyjnego
+<img width="1266" height="1087" alt="image" src="https://github.com/user-attachments/assets/b251405f-dcd0-4dfe-95b5-7fbae672a95e" />
+<img width="1027" height="1037" alt="image" src="https://github.com/user-attachments/assets/3ebcd044-b2ae-4a4d-85b5-5f5a56a3ad7d" />
+<img width="1263" height="1084" alt="image" src="https://github.com/user-attachments/assets/efeb3a08-8ea0-4047-a92a-8bf6cd18c7be" />
+<img width="1020" height="1030" alt="image" src="https://github.com/user-attachments/assets/c0652bb0-2c6f-42a1-8f96-cdee05c78aad" />
 
 **<strong>msinfo32.exe</strong>** — Pełne informacje o systemie i sprzęcie (najważniejsze).
 
-[ZDJĘCIE]
+<img width="2439" height="1276" alt="image" src="https://github.com/user-attachments/assets/441a5028-90f5-467c-a135-6a9c376fe2f1" />
+
+Narzędzie Informacje o systemie, które generuje najbardziej szczegółowy raport o konfiguracji sprzętowej i programowej komputera.
+
+Bardziej dokładne parametry o Windowsie można znaleść korzystając narzędzia wmic.
+<img width="239" height="80" alt="image" src="https://github.com/user-attachments/assets/d4e01d4b-ae97-4fc0-9a2b-453c8cfbb3bc" />
 
 
-**<strong>certutil.exe</strong>** — Zarządzanie certyfikatami i liczenie sum kontrolnych.
+**<strong>certutil.exe</strong>** — Zarządzanie certyfikatami i liczenie sum kontrolnych. ( jest narzędziem konsoli nie grafcznym ) 
 
-[ZDJĘCIE]
+Kodowanie: certutil -encode plik.exe zakodowany.txt      ( base 64 ) 
+Dekodowanie: certutil -decode zakodowany.txt plik.exe    ( base 64 )
+certutil -store My (wyświetla osobiste certyfikaty).
+Komenda: certutil -hashfile [ścieżka_do_pliku] SHA256    - sprawdza, czy plik nie jest uszkodzony lub zmodyfikowany przez wirusa. ( raczej nie potrzebne na egzaminie )
+Obsługuje też: MD5, SHA1, SHA512.
 
 
 **<strong>mrt.exe</strong>** — Microsoft Removal Tool (usuwanie wirusów).
 
-[ZDJĘCIE]
+<img width="514" height="466" alt="image" src="https://github.com/user-attachments/assets/88a09378-59b4-48a6-8dfd-f301aa65a00c" />
+<img width="511" height="461" alt="image" src="https://github.com/user-attachments/assets/7a6610ea-096d-44ba-9b45-b62a9e39e5d5" />
 
+Skanuje komputer w poszukiwaniu wirusów.
 
 **<strong>winver</strong>** — Sprawdzanie dokładnej wersji systemu Windows.
-
-[ZDJĘCIE]
-
+<img width="453" height="416" alt="image" src="https://github.com/user-attachments/assets/f756113b-fdf6-4091-9972-0ff958eea855" />
 
 
 
@@ -690,18 +719,19 @@ Włącza klawiaturę graficzną ( nie da się zrobić screena jej )
 
 
 
-
-
-
-
-
-
-
-
-
-> dodać normy EN 50174
 
 ## Programy na Windowsie 
+
+
+
+
+
+
+
+
+
+
+
 
 ## Windows jako Klient
 
@@ -710,4 +740,8 @@ Włącza klawiaturę graficzną ( nie da się zrobić screena jej )
 
 
 
+
+
+
+> dodać normy EN 50174
 
