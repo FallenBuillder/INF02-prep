@@ -24,6 +24,7 @@ exit - wychodzi z terminala
 color - zmienia kolor tekstu / tyłu konsoli
 
 mkdir harry - tworzy folder 'harry'
+mkdir -p Harry/Harry2/Harry3/Harry4 - tworzy strukturę folderów
 rmdir harry - usuwa folder 'harry'
 md harry - Tworzy folder 'harry'
 rename harry harry3 - zmienia nazwe folderu 'harry' na 'harry3'
@@ -236,15 +237,15 @@ Uruchomi się takie okienkio w, którym wpisujemy np. cmd albo diskmgmt.msc i ł
 ***
 ```
 certmgr.msc – Certyfikaty użytkownika.
-compmgmt.msc – Zarządzanie komputerem (zbiorcza konsola) [BRAKUJĄCE].
+compmgmt.msc – Zarządzanie komputerem (zbiorcza konsola)
 devmgmt.msc – Menedżer urządzeń.
 diskmgmt.msc – Zarządzanie dyskami.
-eventvwr.msc – Podgląd zdarzeń [BRAKUJĄCE].
+eventvwr.msc – Podgląd zdarzeń 
 gpedit.msc – Edytor lokalnych zasad grup (tylko wersje Pro/Enterprise).
 lusrmgr.msc – Użytkownicy i grupy lokalne.
 perfmon.msc – Monitor wydajności (również jako .exe).
-resmon.msc – Monitor zasobów (CPU, RAM, Sieć) [BRAKUJĄCE].
-services.msc – Zarządzanie usługami systemowymi [BRAKUJĄCE].
+resmon.msc – Monitor zasobów (CPU, RAM, Sieć) 
+services.msc – Zarządzanie usługami systemowymi ( usługi to są inaczej procesy )
 taskschd.msc – Harmonogram zadań.
 WF.msc – Zaawansowane zabezpieczenia zapory Windows.
 secpol.msc – Ustawienia zabezpieczeń lokalnych (podzbiór gpedit.msc dotyczący bezpieczeństwa).
@@ -258,11 +259,10 @@ desk.cpl – Ustawienia ekranu.
 firewall.cpl – Zapora systemu Windows (podstawowa).
 hdwwiz.cpl – Kreator dodawania sprzętu / Menedżer urządzeń.
 inetcpl.cpl – Właściwości internetowe (w Twojej liście jako controlaccess.cpl).
-intl.cpl – Ustawienia regionalne i językowe [BRAKUJĄCE].
-joy.cpl – Kontrolery gier (joysticki) [BRAKUJĄCE].
+intl.cpl – Ustawienia regionalne i językowe
+joy.cpl – Kontrolery gier (joysticki)
 main.cpl – Właściwości myszy.
 mmsys.cpl – Dźwięk (odtwarzanie, nagrywanie).
-ncpa.cpl – Połączenia sieciowe (karty sieciowe).
 powercfg.cpl – Opcje zasilania.
 sysdm.cpl – Właściwości systemu (nazwa komputera, zmienne środowiskowe).
 timedate.cpl – Data i godzina.
@@ -284,6 +284,10 @@ msinfo32.exe – (Dodatek do Twojej listy .exe) To najważniejsze
 certutil.exe – Zarządzanie certyfikatami, ale też potężne narzędzie do liczenia sum kontrolnych plików (np. certutil -hashfile plik.exe SHA256)
 
 ```
+
+> dodać normy EN 50174
+
+
 ## Programy na Windowsie 
 
 ## Windows jako Klient
