@@ -7,7 +7,8 @@ Bez dwóch zdań najgorzą rzeczą w Windowsie jest to, że wszystkie funkcję s
 Zagadnienia:
 - Terminal w windowsie
 - usługi i zakładki .msc
-- Windows jako client, któremu są świadczone usługi ( Windows Server ) 
+- Programy na Windowsie
+- Windows jako client, któremu są świadczone usługi ( Windows Server )
 - Odpowiedzi na pytania z egzaminów
 
 ## Komendy w Windowsie ( tak z 30% zrobione do dokończenia )
@@ -283,7 +284,7 @@ msinfo32.exe – (Dodatek do Twojej listy .exe) To najważniejsze
 certutil.exe – Zarządzanie certyfikatami, ale też potężne narzędzie do liczenia sum kontrolnych plików (np. certutil -hashfile plik.exe SHA256)
 
 ```
-
+## Programy na Windowsie 
 
 ## Windows jako Klient
 
