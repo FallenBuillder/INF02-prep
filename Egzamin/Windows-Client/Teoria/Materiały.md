@@ -276,145 +276,193 @@ mrt.exe – Microsoft Removal Tool
 
 
 
-EKCJA .MSC (Microsoft Management Console)
-certmgr.msc            — Certyfikaty użytkownika.
+Jasne, poprawiłem formatowanie zgodnie z Twoimi wytycznymi. Teraz każda nazwa jest pogrubiona, a znacznik [ZDJĘCIE] znajduje się w osobnej linii pod opisem, co tworzy przejrzystą strukturę w pliku .md.
+
+SEKCJA .MSC (Microsoft Management Console)
+certmgr.msc — Certyfikaty użytkownika.
+
 [ZDJĘCIE]
 
-compmgmt.msc          — Zarządzanie komputerem (zbiorcza konsola).
+compmgmt.msc — Zarządzanie komputerem (zbiorcza konsola).
+
 [ZDJĘCIE]
 
-devmgmt.msc            — Menedżer urządzeń.
+devmgmt.msc — Menedżer urządzeń.
+
 [ZDJĘCIE]
 
-diskmgmt.msc           — Zarządzanie dyskami.
+diskmgmt.msc — Zarządzanie dyskami.
+
 [ZDJĘCIE]
 
-eventvwr.msc           — Podgląd zdarzeń.
+eventvwr.msc — Podgląd zdarzeń.
+
 [ZDJĘCIE]
 
-gpedit.msc             — Edytor lokalnych zasad grup (tylko wersje Pro/Enterprise).
+gpedit.msc — Edytor lokalnych zasad grup (tylko wersje Pro/Enterprise).
+
 [ZDJĘCIE]
 
-lusrmgr.msc            — Użytkownicy i grupy lokalne.
+lusrmgr.msc — Użytkownicy i grupy lokalne.
+
 [ZDJĘCIE]
 
-perfmon.msc            — Monitor wydajności (również jako .exe).
+perfmon.msc — Monitor wydajności (również jako .exe).
+
 [ZDJĘCIE]
 
-resmon.msc             — Monitor zasobów (CPU, RAM, Sieć).
+resmon.msc — Monitor zasobów (CPU, RAM, Sieć).
+
 [ZDJĘCIE]
 
-services.msc           — Zarządzanie usługami systemowymi (Usługa to program działający w tle).
+services.msc — Zarządzanie usługami systemowymi (Usługa to program działający w tle).
+
 [ZDJĘCIE]
 
-taskschd.msc           — Harmonogram zadań.
+taskschd.msc — Harmonogram zadań.
+
 [ZDJĘCIE]
 
-WF.msc                 — Zaawansowane zabezpieczenia zapory Windows.
+WF.msc — Zaawansowane zabezpieczenia zapory Windows.
+
 [ZDJĘCIE]
 
-secpol.msc             — Ustawienia zabezpieczeń lokalnych (podzbiór gpedit.msc).
+secpol.msc — Ustawienia zabezpieczeń lokalnych (podzbiór gpedit.msc).
+
 [ZDJĘCIE]
 
-tpm.msc                — Zarządzanie modułem Trusted Platform Module.
+tpm.msc — Zarządzanie modułem Trusted Platform Module.
+
 [ZDJĘCIE]
 
-printmanagement.msc    — Zarządzanie drukowaniem (serwer druku, sterowniki).
+printmanagement.msc — Zarządzanie drukowaniem (serwer druku, sterowniki).
+
 [ZDJĘCIE]
 
-fsmgmt.msc             — Zarządzanie folderami udostępnionymi.
+fsmgmt.msc — Zarządzanie folderami udostępnionymi.
+
 [ZDJĘCIE]
 
-rsop.msc               — Pokazuje, jakie zasady grupy faktycznie działają na użytkowniku.
+rsop.msc — Pokazuje, jakie zasady grupy faktycznie działają na użytkowniku.
+
 [ZDJĘCIE]
 
 SEKCJA .CPL (Control Panel Items)
-access.cpl             — Centrum ułatwień dostępu.
+access.cpl — Centrum ułatwień dostępu.
+
 [ZDJĘCIE]
 
-appwiz.cpl             — Programy i funkcje (dodawanie/usuwanie).
+appwiz.cpl — Programy i funkcje (dodawanie/usuwanie).
+
 [ZDJĘCIE]
 
-desk.cpl               — Ustawienia ekranu.
+desk.cpl — Ustawienia ekranu.
+
 [ZDJĘCIE]
 
-firewall.cpl           — Zapora systemu Windows (podstawowa).
+firewall.cpl — Zapora systemu Windows (podstawowa).
+
 [ZDJĘCIE]
 
-hdwwiz.cpl             — Kreator dodawania sprzętu / Menedżer urządzeń.
+hdwwiz.cpl — Kreator dodawania sprzętu / Menedżer urządzeń.
+
 [ZDJĘCIE]
 
-inetcpl.cpl            — Właściwości internetowe.
+inetcpl.cpl — Właściwości internetowe.
+
 [ZDJĘCIE]
 
-intl.cpl               — Ustawienia regionalne i językowe.
+intl.cpl — Ustawienia regionalne i językowe.
+
 [ZDJĘCIE]
 
-joy.cpl                — Kontrolery gier (joysticki).
+joy.cpl — Kontrolery gier (joysticki).
+
 [ZDJĘCIE]
 
-main.cpl               — Właściwości myszy.
+main.cpl — Właściwości myszy.
+
 [ZDJĘCIE]
 
-mmsys.cpl              — Dźwięk (odtwarzanie, nagrywanie).
+mmsys.cpl — Dźwięk (odtwarzanie, nagrywanie).
+
 [ZDJĘCIE]
 
-powercfg.cpl           — Opcje zasilania.
+powercfg.cpl — Opcje zasilania.
+
 [ZDJĘCIE]
 
-sysdm.cpl              — Właściwości systemu (nazwa komputera, zmienne).
+sysdm.cpl — Właściwości systemu (nazwa komputera, zmienne).
+
 [ZDJĘCIE]
 
-timedate.cpl           — Data i godzina.
+timedate.cpl — Data i godzina.
+
 [ZDJĘCIE]
 
-ncpa.cpl               — Otwiera natychmiast okno 'Wyświetl połączenia sieciowe'.
+ncpa.cpl — Otwiera natychmiast okno 'Wyświetl połączenia sieciowe'.
+
 [ZDJĘCIE]
 
 SEKCJA .EXE I POZOSTAŁE NARZĘDZIA
-cleanmgr.exe           — Oczyszczanie dysku.
+cleanmgr.exe — Oczyszczanie dysku.
+
 [ZDJĘCIE]
 
-control admintools     — Folder narzędzi administracyjnych.
+control admintools — Folder narzędzi administracyjnych.
+
 [ZDJĘCIE]
 
-control mouse          — Alternatywa dla main.cpl.
+control mouse — Alternatywa dla main.cpl.
+
 [ZDJĘCIE]
 
-dfrgui.exe             — Optymalizacja dysków.
+dfrgui.exe — Optymalizacja dysków.
+
 [ZDJĘCIE]
 
-dxdiag.exe             — Narzędzie diagnostyczne DirectX.
+dxdiag.exe — Narzędzie diagnostyczne DirectX.
+
 [ZDJĘCIE]
 
-netplwiz.exe           — Zaawansowane konta użytkowników (hasła).
+netplwiz.exe — Zaawansowane konta użytkowników (hasła).
+
 [ZDJĘCIE]
 
-optionalfeatures.exe   — Funkcje systemu Windows (włącz/wyłącz).
+optionalfeatures.exe — Funkcje systemu Windows (włącz/wyłącz).
+
 [ZDJĘCIE]
 
-osk.exe                — Klawiatura ekranowa.
+osk.exe — Klawiatura ekranowa.
+
 [ZDJĘCIE]
 
-regedit.exe            — Edytor rejestru.
+regedit.exe — Edytor rejestru.
+
 [ZDJĘCIE]
 
-msconfig.exe           — Konfiguracja systemu (zarządzanie rozruchem/boot).
+msconfig.exe — Konfiguracja systemu (zarządzanie rozruchem/boot).
+
 [ZDJĘCIE]
 
-taskmgr.exe            — Menedżer zadań.
+taskmgr.exe — Menedżer zadań.
+
 [ZDJĘCIE]
 
-msinfo32.exe           — Pełne informacje o systemie i sprzęcie (najważniejsze).
+msinfo32.exe — Pełne informacje o systemie i sprzęcie (najważniejsze).
+
 [ZDJĘCIE]
 
-certutil.exe           — Zarządzanie certyfikatami i liczenie sum kontrolnych.
+certutil.exe — Zarządzanie certyfikatami i liczenie sum kontrolnych.
+
 [ZDJĘCIE]
 
-mrt.exe                — Microsoft Removal Tool (usuwanie wirusów).
+mrt.exe — Microsoft Removal Tool (usuwanie wirusów).
+
 [ZDJĘCIE]
 
-winver                 — Sprawdzanie dokładnej wersji systemu Windows.
+winver — Sprawdzanie dokładnej wersji systemu Windows.
+
 [ZDJĘCIE]
 
 
