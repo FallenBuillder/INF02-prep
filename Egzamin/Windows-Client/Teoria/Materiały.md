@@ -722,9 +722,111 @@ Skanuje komputer w poszukiwaniu wirusów.
 
 ## Programy na Windowsie - narazie wszystko z AI przepisać / zrobić zdjęcia i zrobić dobrą notatkę.
 
-cpuz_x64.exe / cpuz.exe – kluczowy do RAM (taktowanie, sloty) i Procesora.
+Wszystkie programy, które są poniżej przedstawione można znaleść w folderze PROGRAMY na jednym z pendrivów podczas egzaminu zawodowego.
 
-gpuz.exe – do karty graficznej (ilość VRAM, magistrala).
+
+cpuz_x64.exe / cpuz.exe
+<img width="66" height="72" alt="image" src="https://github.com/user-attachments/assets/678cae83-da75-4493-bcd1-0095970830f8" />
+<img width="406" height="402" alt="image" src="https://github.com/user-attachments/assets/f06de79e-328b-4f53-acf8-525a1190a9d7" />
+<img width="398" height="401" alt="image" src="https://github.com/user-attachments/assets/8b102dbf-ca25-4194-bfdd-a6a0829c1e6b" />
+<img width="401" height="401" alt="image" src="https://github.com/user-attachments/assets/a477664a-6821-465f-a4da-121d1699c6aa" />
+<img width="402" height="405" alt="image" src="https://github.com/user-attachments/assets/b69c0304-16f7-4931-a43c-8bf057c05360" />
+<img width="405" height="400" alt="image" src="https://github.com/user-attachments/assets/6dba9711-ada5-4a9b-8bf8-e15c5b48d8cf" />
+
+Program CPU-Z posiada bardzo dużą ilośc informacji o procesorze, karcie graficznej, ramie ,płycie głównej - nie ma sensu omawiać wszystkich jego parametrów ponieważ na egzaminach INF02 zadania związane z tym programem każą na przykład: zrobić zdjęcie danego parametry / wypisać go w tabelce. Myśle, że można się domyślić jaki dany parametre gdzie wpisać i gdzie go znaleść ponieważ CPU-Z jest dość przyjaznym programem graficznym jeśli chodzi o znajdywanie w nim różnych parametrów.
+
+Te rzecz, które mogą się pojawić na egzaminie to np.
+
+
+
+
+<strong>Zakładka CPU (Procesor):</strong>
+Name (Nazwa procesora): Pełna nazwa rynkowa (np. Intel Core i5-10400F lub AMD Ryzen 5 3600).
+
+Code Name (Nazwa kodowa): Nazwa architektury (np. Comet Lake, Matisse).
+
+Package (Obudowa / Gniazdo): Typ podstawki procesora (np. Socket AM4 (1331), Socket 1200 LGA).
+
+Technology (Proces technologiczny): Litografia wyrażona w nanometrach (np. 14 nm, 7 nm).
+
+Core Voltage (Napięcie rdzenia): Aktualne napięcie zasilania procesora (np. 1.248 V).
+
+Core Speed (Taktowanie rdzenia): Bieżąca częstotliwość procesora (np. 3591.2 MHz).
+
+Multiplier (Mnożnik): Wartość mnożnika procesora (np. x 36.0).
+
+Bus Speed (Taktowanie magistrali): Częstotliwość szyny (np. 99.8 MHz).
+
+Cache (Pamięć podręczna): Najczęściej pytają o rozmiar pamięci L3 (Third Level Cache), rzadziej L1 lub L2.
+
+Cores / Threads (Rdzenie / Wątki): Liczba fizycznych rdzeni i wątków logicznych (np. 6 Cores / 12 Threads).
+
+<strong>Zakładka Mainboard (Płyta główna):</strong>
+Manufacturer (Producent): Producent płyty (np. ASUSTeK COMPUTER INC., MSI).
+
+Model: Dokładne oznaczenie modelu płyty głównej.
+
+Chipset & Southbridge: Model mostka północnego/południowego lub układu logiki (np. Intel Skylake-S, AMD B450).
+ 
+BIOS Brand & Version: Producent oraz wersja oprogramowania układowego BIOS (np. American Megatrends Inc., wersja 1802).
+
+<strong>Zakładka Memory (Pamięć RAM – ogólne):</strong>
+
+Type: Typ pamięci (np. DDR3, DDR4, DDR5).
+
+Channel #: Tryb pracy pamięci (Single – jednokanałowy, Dual – dwukanałowy).
+
+Size (Pojemność): Łączna ilość pamięci RAM zainstalowanej w systemie (np. 16 GBytes).
+
+DRAM Frequency: Aktualne taktowanie rzeczywiste pamięci 
+
+CAS# Latency (CL): Główne opóźnienie pamięci (np. 16.0 clocks).
+
+<strong>Zakładka SPD (Pamięć RAM – szczegóły modułu):</strong>
+Slot # (Wybór gniazda):
+
+Module Size: Pojemność jednego modułu (np. 8192 MBytes).
+
+Max Bandwidth: Maksymalna przepustowość standardowa (np. DDR4-2666 (1333 MHz)).
+
+Module Manufacturer: Producent samej kości pamięci (np. Kingston, Crucial, Corsair).
+
+
+
+
+
+
+
+
+
+
+
+gpuz.exe
+
+<img width="421" height="268" alt="image" src="https://github.com/user-attachments/assets/41b95902-2d0a-43c0-863d-f86438a78b22" />
+<img width="394" height="604" alt="image" src="https://github.com/user-attachments/assets/ac736c79-4fb1-44a0-a50f-cccaf3c79a61" />
+<img width="388" height="545" alt="image" src="https://github.com/user-attachments/assets/ad50ad11-66fb-4906-997b-a454eb8e325c" />
+
+Program GPU-Z podobnie jak program CPU-Z często pojawia się na egzaminie a zadanie z nim związanie są dosyć prostę i także wymagają prostych screenów / czytania parametrów.
+
+stary PDF, który zrobiłem, który wytłumacza funkcję GPU-Z
+
+[GPU-Z (1).pdf](https://github.com/user-attachments/files/27853055/GPU-Z.1.pdf)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 hdtune_255.exe – klasyk do testowania powierzchni dysku.
 
