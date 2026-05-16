@@ -908,7 +908,38 @@ skrypt.bat / skrypt.ps1 – gotowy szkielet skryptu, który musisz uzupełnić.
 
 > aida64_trial.exe – nie będzie omawiany.
 
-## Programy na Windowsie ( wbudowane )
+## Programy, funkcje na Windowsie ( wbudowane )
+
+<strong>Właściwości</strong>
+
+<img width="398" height="627" alt="image" src="https://github.com/user-attachments/assets/eadee721-16a2-40f2-adc1-01e3baec8e13" />
+
+<img width="346" height="63" alt="image" src="https://github.com/user-attachments/assets/af75bab4-9b33-4e9c-b088-1cd574572d22" />
+
+<img width="449" height="480" alt="image" src="https://github.com/user-attachments/assets/fccf8196-8a93-4136-8b21-b796930125ec" />
+
+To właśnie tutaj w właściwościach możemy zmienić wiele ustawień o, które pytają nas na INF02.
+
+W pierwszej zakładcę możemy zmienić nazwę pliku , dodawać atrybuty.
+
+<img width="450" height="480" alt="image" src="https://github.com/user-attachments/assets/fa921b89-b8d2-491c-82a0-c1685e7a1549" />
+
+
+W Drugiej zakładce możemy udostępnić folder jako zasób sieciowy.
+
+<img width="440" height="472" alt="image" src="https://github.com/user-attachments/assets/59d7048f-98b5-4b2e-8e50-9392613ea778" />
+
+Przykład udostępniania folderu jako zasób sieciowy:
+
+1. Wchodzimy do zakładki 'Udostepnianie' w właściwościach i kliamy guzik 'Udostępnj'
+<img width="441" height="480" alt="image" src="https://github.com/user-attachments/assets/63ededc9-f446-459a-a021-be5b74293489" />
+2. Klikamy 'Udostępnij' znowu
+
+
+
+
+
+
 
 
 
