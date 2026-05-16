@@ -916,8 +916,6 @@ skrypt.bat / skrypt.ps1 – gotowy szkielet skryptu, który musisz uzupełnić.
 
 <img width="346" height="63" alt="image" src="https://github.com/user-attachments/assets/af75bab4-9b33-4e9c-b088-1cd574572d22" />
 
-<img width="449" height="480" alt="image" src="https://github.com/user-attachments/assets/fccf8196-8a93-4136-8b21-b796930125ec" />
-
 To właśnie tutaj w właściwościach możemy zmienić wiele ustawień o, które pytają nas na INF02.
 
 W pierwszej zakładcę możemy zmienić nazwę pliku , dodawać atrybuty.
