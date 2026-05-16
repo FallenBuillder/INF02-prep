@@ -24,15 +24,15 @@ exit                                             - wychodzi z terminala
 color                                            - zmienia kolor tekstu / tyłu konsoli
 
 mkdir harry                                      - tworzy folder 'harry'
-mkdir -p Harry/Harry2/Harry3/Harry4              - tworzy strukturę folderów
+mkdir Harry/Harry2/Harry3/Harry4                 - tworzy strukturę folderów
 rmdir harry                                      - usuwa folder 'harry'
 md harry                                         - Tworzy folder 'harry'
 rename harry harry3                              - zmienia nazwe folderu 'harry' na 'harry3'
 type harry4.txt                                  - wyświetla zawartośc pliku tekstowego
 type nul > harry_123.txt                         - tworzy plik tekstowy o nazwie 'harry_123.txt'
 del harry4.txt                                   - usuwa plik harry4.txt
-copy harry1 harry2/                              - kopiuje folder harry1 do folderu harry2
-xcopy harry/* harry123/ -e -y                    -  kopiuje wszystkie pliki i foldery z harry do harry123 (-e: kopiuje wszystko, -y: nie pyta o potwierdzenie)
+copy harry1/harry1.txt harry2/                   - kopiuje plik harry1.txt do folderu harry2 ( copy może tylko kopiowac pliki , xcopy lub robocopy kopiuje foldery ) 
+xcopy harry/* harry123/ -e -y                    - kopiuje wszystkie pliki i foldery z harry do harry123 (-e: kopiuje wszystko, -y: nie pyta o potwierdzenie)
 move harry1/harry2.txt harry2/                   - przeniesie plik 'harry2.txt' znajdujący się w folderze 'harry1' do folderu 'harry2'
 tree                                             - pokazuje obecną strukturę folderów w formie drzewa
 icacls "plik_harrowy.txt" /grant Harry:(OI)(CI)F - nadaje uprawnienia plikom/folderom
@@ -73,7 +73,7 @@ net user harry /passwordchg:no      - Zabrania użytkownikowi zmiany hasła
 net user harry /passwordchg:yes     - Pozwala użytkownikowi na zmianę hasła
 net user harry /logonpasswordchg:yes - Wymusza zmianę hasła przy następnym logowaniu 
 net user harry /passwordreq:yes     - Wymusza, aby konto musiało mieć hasło
-net user harry /expires:18/05/2026  - Konto wygaśnie i "zniknie" (stanie się nieaktywne) w dacie, która jest wyżej ustalona
+net user harry /expires:18/05/2026  - Konto wygaśnie i "zniknie" (stanie się nieaktywne) w dacie, która jest wyżej ustalona       albo        net user harry /expires:18/05/2026      ( zależy od formatowania regionalnego dat w systemie )
 net user harry /times:Pn-Pt,08-16   - Pozwala na logowanie tylko w dni robocze 8-16
 net user harry /times:all           - Usuwa ograniczenia godzin logowania
 net user harry /comment:"jest słodki" - Dodaje krótki opis do konta
@@ -96,7 +96,7 @@ getmac                - sprawdza adresy MAC wszystkich kart sieciowych w kompute
 netsh                 - Zaawansowane narzędzie do konfiguracji interfejsów sieciowych ( lepiej używać ustawień albo 'Wyświetl Połączenia sieciowe')
 net share             - wyświetla zasoby udostępnione w sieci
 arp -a                - Wyświetla tablicę translacji adresów IP na MAC.
-pathping 8.8.8.8      - Połączenie ping i tracert ( nie używany już )
+pathping 8.8.8.8      - Połączenie ping i tracert ( nadal występuje na pytaniach teoretycznych ale na praktycznym się go nie używa )
 hostname              - Wyświetla nazwę komputera.
 net view              - wyświetla listę komputerów w sieci lokalnej.
 net use               - Mapuje dyski sieciowe.
@@ -206,7 +206,28 @@ defrag       - defragmentuje dyski
 
 ```
 systeminfo   - wyświetli Kompletny raport o systemie (wersja OS, BIOS, czas pracy, zainstalowane poprawki).
+Windows+R -> msinfo32.exe - narzędzie dzięki, któremu możemy otrzynmać wiele ważnych informacji o naszym komputerze przez interfejs CLI
+
 wmic         - (Windows Management Instrumentation) Potężne narzędzie do zapytań o konkretne parametry sprzętu.
+
+---- wmic ----
+
+wmic cpu list full
+wmic memorychip list full ( RAM ) 
+wmic diskdrive list full 
+wmic baseboard list full
+wmic path win32_VideoController ( karta graficzna )
+wmic bios list full
+
+i wiele więcej....
+wmic /?
+
+DISKAPRT
+list disk
+select disk 0
+detail disk
+
+Więcej nardzędzi do sprawdzania parametrów systemowych w Windowsie znajdą się jeszcze przez tą notatkę
 
 ```
 
