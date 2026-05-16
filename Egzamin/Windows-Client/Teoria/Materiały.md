@@ -931,9 +931,59 @@ W Drugiej zakładce możemy udostępnić folder jako zasób sieciowy.
 
 Przykład udostępniania folderu jako zasób sieciowy:
 
+
+
 1. Wchodzimy do zakładki 'Udostepnianie' w właściwościach i kliamy guzik 'Udostępnj'
+   
 <img width="441" height="480" alt="image" src="https://github.com/user-attachments/assets/63ededc9-f446-459a-a021-be5b74293489" />
-2. Klikamy 'Udostępnij' znowu
+
+2. Klikamy 'Udostępnij' poraz kolejny 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
