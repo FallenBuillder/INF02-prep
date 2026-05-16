@@ -827,8 +827,9 @@ Program HWMonitor służy do sprawdzania temperatur, napięć różnych komponen
 
 <img width="1283" height="1033" alt="image" src="https://github.com/user-attachments/assets/fdb9fd86-2987-445e-9c5a-74437d486b4f" />
 
-Virtual Box jest narzędziem słóżącym do virtualizacji jeśli pokaże się na egzaminie oznacza to, że będzie najprawdobodobniej stworzyć na nim maszynę virtualną urzywając iso, które będzie nam dane i pokazane gdzie jest.
+Virtual Box jest narzędziem słóżącym do virtualizacji systemów operacyjnych jeśli pokaże się na egzaminie oznacza to, że będzie najprawdobodobniej trzeba stworzyć na nim maszynę virtualną urzywając iso, które będzie nam dane i pokazane gdzie jest.
 
+[Przykład Instalowania maszyny wirtualnej z ISO](https://www.youtube.com/watch?v=8ZS5AiKE0z8)
 
 <strong>Znaczenia / dodatkowe rzeczy do różnych zadań:</strong>
 
