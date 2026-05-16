@@ -819,7 +819,49 @@ Program HWMonitor służy do sprawdzania temperatur, napięć różnych komponen
 
 ### wireshark_setup.exe
 
+Program wireshark służy do analizy ruchu sieciowego, który przechodzi przez nasz komputer. 
+
+<img width="109" height="73" alt="image" src="https://github.com/user-attachments/assets/bed7748f-fddc-4da8-90f2-7bd9fd8e5e23" />
+
+<img width="1561" height="749" alt="image" src="https://github.com/user-attachments/assets/8607dbbd-83a6-42db-a493-1ea3897426c4" />
+
+pliki w wiresharku mają rozszerzenie .pcap - jeśli na egzaminie będzie zadanie aby otworzyć plik .pcap wchodzimy tutaj
+
+<img width="321" height="46" alt="image" src="https://github.com/user-attachments/assets/27d8cfbc-21cf-4a34-9064-5217146ab6af" />
+
+A następnie otworzy się okienko w ,którym będziemy mieli wybrać nasz plik.
+
+<img width="532" height="191" alt="image" src="https://github.com/user-attachments/assets/f4c364b0-f9dd-4ba8-b1c3-ce52ac46546b" />
+
+Po kliknięciu na interfejs karty sieciowej na, której jest obecnie przetwarzany jakiś ruch pokaże się nam taki interfejs:
+
+<img width="830" height="569" alt="image" src="https://github.com/user-attachments/assets/dfffe462-a731-42ec-9d88-c0bf9829e074" />
+
+Tutaj dzieje się cała magia i widać pakiety, które przychodzą i wychodzą z komputera, które można potem zfiltrować do dalszej analizy
+
+<strong>Filmik na yt jak używac Wiresharka:</strong>
+
+[Link](https://www.youtube.com/watch?v=lb1Dw0elw0Q&t=68s)
+
+> Wszystkie filmiki są krótkie i na temat.
+
 ### nmap_setup.exe / zenmap.exe
+
+Nmap pojawił się już na paru egzaminach INF02 a więc napewno warto się go nauczyć. Lepiej się nauczyć wersji w GUI bo uczenie się go przez CLI wychodzi za zakres egzaminu.
+
+<img width="109" height="81" alt="image" src="https://github.com/user-attachments/assets/ad045772-84d4-44a6-b8c2-9976ee6deefa" />
+
+<img width="1726" height="1180" alt="image" src="https://github.com/user-attachments/assets/325e9fc1-5c56-42f3-91f1-f2b749df91c1" />
+
+Na egzaminie może pojawić się np. Pytanie aby przeskanować całą naszą sieć. Zrobilibyśmy to tak:
+
+<img width="1735" height="1186" alt="image" src="https://github.com/user-attachments/assets/96b7fbd0-d15c-4b23-b19d-0b5f99029966" />
+
+Jak z Wiresharkiem dam link do filimka na yt o Zenmapie ( GUI ).
+
+[link](https://www.youtube.com/watch?v=wgNIva5nRjA)
+
+> Wszystkie filmiki są krótkie i na temat.
 
 ### 7z_setup.exe
 program 7-Zip jest stosunkowo łatwym w użytkowaniu programem, który na egzaminie może się pokazać jeśli mamy np. Zapakować lub Wypakować jakieś archiwum.
@@ -829,6 +871,7 @@ program 7-Zip jest stosunkowo łatwym w użytkowaniu programem, który na egzami
 aby zapakować jakieś pliki do nowego archiwum należy wybrać nasze pliki i kliknąć guzik 'Dodaj'
 
 <img width="52" height="49" alt="image" src="https://github.com/user-attachments/assets/e481cfe7-102d-43a2-8a6e-68ccfa147582" />
+
 <img width="628" height="565" alt="image" src="https://github.com/user-attachments/assets/bcdb057c-5b62-460a-beeb-45dca3a646b0" />
 
 <br>
@@ -842,8 +885,6 @@ Jeżeli chcemy zato Wypakować pliki z jakiegoś archiwum to po wybraniu tego ar
 <img width="59" height="47" alt="image" src="https://github.com/user-attachments/assets/04e4d478-5cb8-4955-86a4-38f1e537d1e0" />
 <img width="527" height="325" alt="image" src="https://github.com/user-attachments/assets/5cc118a1-48ae-4271-a8c7-dd696c65dc76" />
 
-
-
 ### VirtualBox_Setup.exe
 
 <img width="1283" height="1033" alt="image" src="https://github.com/user-attachments/assets/fdb9fd86-2987-445e-9c5a-74437d486b4f" />
@@ -853,35 +894,49 @@ Virtual Box jest narzędziem słóżącym do virtualizacji systemów operacyjnyc
 [Przykład Instalowania maszyny wirtualnej z ISO](https://www.youtube.com/watch?v=8ZS5AiKE0z8)
 
 <strong>Znaczenia / dodatkowe rzeczy do różnych zadań:</strong>
-
-> putty.exe – jedyny sposób na połączenie się z ruterem przez kabel konsolowy. ( omówiony w folderze 'TP-link konfiguracja' )
-> Folder DRUKARKA – zawiera pliki .inf (np. dla HP LaserJet lub wirtualnej drukarki).
-> inf02.txt oraz inf03.txt – małe pliki tekstowe (często 0 KB), używane do zadań typu: "utwórz archiwum .tar w Linuxie" lub "nadaj uprawnienia NTFS".
-> index.html / test.html – prosta strona WWW do sprawdzenia działania roli serwera WWW (IIS lub Apache).
-> obraz.jpg, logo.png, baner.gif – pliki graficzne, które mają znaleźć się na Twojej stronie testowej.
-> skrypt.bat / skrypt.ps1 – gotowy szkielet skryptu, który musisz uzupełnić.
-
+```
+putty.exe – jedyny sposób na połączenie się z ruterem przez kabel konsolowy. ( omówiony w folderze 'TP-link konfiguracja' )
+Folder DRUKARKA – zawiera pliki .inf (np. dla HP LaserJet lub wirtualnej drukarki).
+inf02.txt oraz inf03.txt – małe pliki tekstowe (często 0 KB), używane do zadań typu: "utwórz archiwum .tar w Linuxie" lub "nadaj uprawnienia NTFS".
+index.html / test.html – prosta strona WWW do sprawdzenia działania roli serwera WWW (IIS lub Apache).
+obraz.jpg, logo.png, baner.gif – pliki graficzne, które mają znaleźć się na Twojej stronie testowej.
+skrypt.bat / skrypt.ps1 – gotowy szkielet skryptu, który musisz uzupełnić.
+```
 <strong>Jeśli na egzaminie nie będzie Worda / Excela na Kliencie należy szukać tych programów na pendrivie aby zainstalowac pakiet office.
 - LibreOffice_Installer.msi 
 - Apache_OpenOffice_Setup.exe.
 
 > aida64_trial.exe – nie będzie omawiany.
 
-
 ## Programy na Windowsie ( wbudowane )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Windows jako Klient
 
-
-
 ## Zadania praktyczne.
-
-
-
-
-
-
 
 > dodać normy EN 50174
 
