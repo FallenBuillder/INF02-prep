@@ -1017,6 +1017,47 @@ Przykład udostępniania folderu jako zasób sieciowy:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Windows jako Klient
 
 
