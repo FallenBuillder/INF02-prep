@@ -822,12 +822,34 @@ Program HWMonitor służy do sprawdzania temperatur, napięć różnych komponen
 ### nmap_setup.exe / zenmap.exe
 
 ### 7z_setup.exe
+program 7-Zip jest stosunkowo łatwym w użytkowaniu programem, który na egzaminie może się pokazać jeśli mamy np. Zapakować lub Wypakować jakieś archiwum.
+
+aby zapakować jakieś pliki do nowego archiwum należy wybrać nasze pliki i kliknąć guzik 'Dodaj'
+
+<img width="52" height="49" alt="image" src="https://github.com/user-attachments/assets/e481cfe7-102d-43a2-8a6e-68ccfa147582" />
+
+Jeżeli chcemy zato Wypakować pliki z jakiegoś archiwum to po wybraniu tego archiwum klikamy guzik 'Wypakuj'
+
+<img width="52" height="49" alt="image" src="https://github.com/user-attachments/assets/dd564af9-dfb8-41ab-9c5b-76dd804cc97f" />
+
+
+
+<img width="620" height="566" alt="image" src="https://github.com/user-attachments/assets/15a0a3f7-0d45-4656-95f5-3956eecf1b7b" />
+
+<img width="85" height="22" alt="image" src="https://github.com/user-attachments/assets/dc8eeef4-3106-4854-98bd-602c456d06aa" />
+
+<img width="527" height="325" alt="image" src="https://github.com/user-attachments/assets/5cc118a1-48ae-4271-a8c7-dd696c65dc76" />
+
+
+
+<img width="1075" height="1035" alt="image" src="https://github.com/user-attachments/assets/10999ae6-7b9a-42f3-867d-b27f7575bdbd" />
+
 
 ### VirtualBox_Setup.exe
 
 <img width="1283" height="1033" alt="image" src="https://github.com/user-attachments/assets/fdb9fd86-2987-445e-9c5a-74437d486b4f" />
 
-Virtual Box jest narzędziem słóżącym do virtualizacji systemów operacyjnych jeśli pokaże się na egzaminie oznacza to, że będzie najprawdobodobniej trzeba stworzyć na nim maszynę virtualną urzywając iso, które będzie nam dane i pokazane gdzie jest.
+Virtual Box jest narzędziem słóżącym do virtualizacji systemów operacyjnych jeśli pokaże się na egzaminie oznacza to, że będzie najprawdobodobniej trzeba stworzyć na nim maszynę virtualną urzywając iso, które dostaniemy.
 
 [Przykład Instalowania maszyny wirtualnej z ISO](https://www.youtube.com/watch?v=8ZS5AiKE0z8)
 
