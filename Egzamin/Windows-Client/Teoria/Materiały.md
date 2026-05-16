@@ -824,21 +824,24 @@ Program HWMonitor służy do sprawdzania temperatur, napięć różnych komponen
 ### 7z_setup.exe
 program 7-Zip jest stosunkowo łatwym w użytkowaniu programem, który na egzaminie może się pokazać jeśli mamy np. Zapakować lub Wypakować jakieś archiwum.
 
+<img width="85" height="22" alt="image" src="https://github.com/user-attachments/assets/dc8eeef4-3106-4854-98bd-602c456d06aa" />
+
 aby zapakować jakieś pliki do nowego archiwum należy wybrać nasze pliki i kliknąć guzik 'Dodaj'
 
 <img width="52" height="49" alt="image" src="https://github.com/user-attachments/assets/e481cfe7-102d-43a2-8a6e-68ccfa147582" />
 <img width="628" height="565" alt="image" src="https://github.com/user-attachments/assets/bcdb057c-5b62-460a-beeb-45dca3a646b0" />
 
+<br>
+
+<img width="1075" height="1035" alt="image" src="https://github.com/user-attachments/assets/10999ae6-7b9a-42f3-867d-b27f7575bdbd" />
+
+<br>
 
 Jeżeli chcemy zato Wypakować pliki z jakiegoś archiwum to po wybraniu tego archiwum klikamy guzik 'Wypakuj'
 
 <img width="59" height="47" alt="image" src="https://github.com/user-attachments/assets/04e4d478-5cb8-4955-86a4-38f1e537d1e0" />
-<img width="85" height="22" alt="image" src="https://github.com/user-attachments/assets/dc8eeef4-3106-4854-98bd-602c456d06aa" />
-
-
-
 <img width="527" height="325" alt="image" src="https://github.com/user-attachments/assets/5cc118a1-48ae-4271-a8c7-dd696c65dc76" />
-<img width="1075" height="1035" alt="image" src="https://github.com/user-attachments/assets/10999ae6-7b9a-42f3-867d-b27f7575bdbd" />
+
 
 
 ### VirtualBox_Setup.exe
