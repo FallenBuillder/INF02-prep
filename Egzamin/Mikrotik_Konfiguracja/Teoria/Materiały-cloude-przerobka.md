@@ -1,4 +1,4 @@
-#Teoria
+# Teoria
 
 Na egzaminie praktycznym INF02 router (jak i switch) pojawiają się w każdym arkuszu, jaki napotkamy. Czasami zadania z nim związane są dosyć łatwe, a czasami trochę bardziej skomplikowane.
 
@@ -6,7 +6,7 @@ W tej sekcji skupimy się na routerze Mikrotikowym i metodach, dzięki którym m
 
 Konfiguracja Mikrotika przez CLI jest bardzo trudna i wymagałaby dużej znajomości dokumentacji, a więc nie ma jej tutaj.
 
-Zagadnienia
+### Zagadnienia
 
 - jak się połączyć? i Resetowanie Routera 
 - Podstawowy przykład konfiguracji na podstawie najprostszego egzaminu (Quick set) 
@@ -22,7 +22,7 @@ WinBox do wykrywania urządzeń nie używa protokołu IP, lecz protokołów wars
 
 Teraz, jak mamy wszystkie narzędzia i wiedzę, możemy podejść do połączenia się.
 
-Krok 1.
+### Krok 1.
 
 Moim zdaniem przed połączeniem się do routera powinniśmy się upewnić, że jest zresetowany, ponieważ jeśli egzaminator przypadkowo zostawił skonfigurowany router i go nie zresetował po poprzedniej osobie, jest szansa, że się do niego nie połączymy, ponieważ ktoś ustawił wcześniej takie ustawienia.
 
@@ -34,7 +34,7 @@ Aby zresetować fabrycznie router Mikrotikowy, należy:
 - odczekać 5-6 sekund do momentu migania lampeczki z tyłu (niech lampeczka mignie sobie tak z 4 razy, abyśmy byli pewni, że się na pewno zresetował)
 - wyciągnąć zapałkę
 
-Krok 2.
+#### Krok 2.
 
 Następnie należy połączyć się przewodem Ethernet do naszego mikrotika na porcie 2 - czemu nie na 1? Na porcie pierwszym wykrywanie po adresie MAC nie działa i służy on domyślnie do podłączenia do interfejsu WAN, a nie LAN.
 
@@ -44,7 +44,7 @@ jeden koniec Ethernetu jest wpięty do portu 2+ mikrotika, a drugi koniec do nas
 
 karta sieciowa, do której wpiąliśmy mikrotika, jest włączona
 
-Krok 3.
+#### Krok 3.
 
 Następnie należy włączyć program WinBox w wersji v.3.41 lub v.3.43 (byle nie v0.4, ponieważ ta wersja jeszcze nie jest wymagana do egzaminu na rok 2026-czerwiec).
 
@@ -54,7 +54,7 @@ Na egzaminie nie będzie zbytnio wyboru wersji - będzie tylko ta starsza.
 
 Interfejs Winboxa
 
-Krok 4.
+#### Krok 4.
 
 Na egzaminie INF02, kiedy połączymy się do jakiegoś routera, którego świeżo co dopiero zresetowaliśmy, pojawi się on w zakładce 'Neighbours' jako pierwszy, jeśli wszystko dobrze podłączyliśmy i będzie wyglądał tak:
 
@@ -378,6 +378,7 @@ Kanał 7: 2442 MHz
 
 
 Konfiguracja trunka na Mikrotiku
+
 <img width="717" height="627" alt="image" src="https://github.com/user-attachments/assets/73681880-d598-4717-86ec-a1946a647195" />
 
 <img width="713" height="462" alt="image" src="https://github.com/user-attachments/assets/cf6f582d-1557-4f78-bf66-13a81ea1e19f" />
