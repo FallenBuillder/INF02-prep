@@ -40,4 +40,4 @@ Wifi z wikipedi
 <img width="889" height="639" alt="image" src="https://github.com/user-attachments/assets/ecf5ea14-745a-4c55-b5be-7c6ebb7a2da4" />
 
 
-
+https://wojst.pl/linux-serwer-przygotowanie-do-egzaminu-inf-02-ubuntu/
