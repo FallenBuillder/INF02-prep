@@ -220,62 +220,6 @@ Uruchomi się takie okienkio w, którym wpisujemy np. cmd albo diskmgmt.msc i ł
 
 ***
 
-( Usunąć potem niech narazie zostanie )
-
-``` 
-certmgr.msc – Certyfikaty użytkownika.
-compmgmt.msc – Zarządzanie komputerem (zbiorcza konsola)
-devmgmt.msc – Menedżer urządzeń.
-diskmgmt.msc – Zarządzanie dyskami.
-eventvwr.msc – Podgląd zdarzeń 
-gpedit.msc – Edytor lokalnych zasad grup (tylko wersje Pro/Enterprise).
-lusrmgr.msc – Użytkownicy i grupy lokalne.
-perfmon.msc – Monitor wydajności (również jako .exe).
-resmon.msc – Monitor zasobów (CPU, RAM, Sieć) 
-services.msc – Zarządzanie usługami systemowymi ( Usługa to program działający w tle  )
-taskschd.msc – Harmonogram zadań.
-WF.msc – Zaawansowane zabezpieczenia zapory Windows.
-secpol.msc – Ustawienia zabezpieczeń lokalnych (podzbiór gpedit.msc dotyczący bezpieczeństwa).
-tpm.msc – Zarządzanie modułem Trusted Platform Module (szyfrowanie/bezpieczeństwo).
-printmanagement.msc – Zarządzanie drukowaniem (serwer druku, sterowniki).
-fsmgmt.msc – Zarządzanie folderami udostępnionymi
-rsop.msc – (Resultant Set of Policy) Pokazuje, jakie zasady grupy faktycznie działają na danym użytkowniku.
-access.cpl – Centrum ułatwień dostępu.
-appwiz.cpl – Programy i funkcje (dodawanie/usuwanie).
-desk.cpl – Ustawienia ekranu.
-firewall.cpl – Zapora systemu Windows (podstawowa).
-hdwwiz.cpl – Kreator dodawania sprzętu / Menedżer urządzeń.
-inetcpl.cpl – Właściwości internetowe.
-intl.cpl – Ustawienia regionalne i językowe
-joy.cpl – Kontrolery gier (joysticki)
-main.cpl – Właściwości myszy.
-mmsys.cpl – Dźwięk (odtwarzanie, nagrywanie).
-powercfg.cpl – Opcje zasilania.
-sysdm.cpl – Właściwości systemu (nazwa komputera, zmienne środowiskowe).
-timedate.cpl – Data i godzina.
-ncpa.cpl – Otwiera natychmiast okno 'Wyświetl połączenia sieciowe'
-cleanmgr.exe – Oczyszczanie dysku.
-control admintools – Folder narzędzi administracyjnych.
-control mouse – Alternatywa dla main.cpl.
-dfrgui.exe – Optymalizacja dysków (poprawiona nazwa z dfrgiu.exe).
-dxdiag.exe – Narzędzie diagnostyczne DirectX.
-netplwiz.exe – Zaawansowane konta użytkowników (hasła).
-optionalfeatures.exe – Funkcje systemu Windows (włącz/wyłącz).
-osk.exe – Klawiatura ekranowa.
-regedit.exe – Edytor rejestru.
-msconfig.exe – Konfiguracja systemu (zarządzanie rozruchem/boot).
-taskmgr.exe – Menedżer zadań.
-msinfo32.exe – (Dodatek do Twojej listy .exe) To najważniejsze
-certutil.exe – Zarządzanie certyfikatami, ale też potężne narzędzie do liczenia sum kontrolnych plików (np. certutil -hashfile plik.exe SHA256)
-mrt.exe – Microsoft Removal Tool
-
-```
-
-
-
-
-
-
 ### **SEKCJA .MSC (Microsoft Management Console)**
 
 **<strong>certmgr.msc</strong>** — Certyfikaty użytkownika.
@@ -293,7 +237,9 @@ To zbiorcza konsola narzędzi administracyjnych, która łączy w sobie m.in. za
 **<strong>devmgmt.msc</strong>** — Menedżer urządzeń.
 
 <img width="775" height="563" alt="image" src="https://github.com/user-attachments/assets/9a33e760-6061-4d66-87d9-06f31a87ddb1" />
+
 <img width="376" height="72" alt="image" src="https://github.com/user-attachments/assets/f5487c6b-8441-434a-a9b1-8496447a7b68" />
+
 <img width="773" height="564" alt="image" src="https://github.com/user-attachments/assets/a13d73f5-2d1b-4108-baf9-503554322391" />
 
 Pozwala na zarządzanie sprzętem oraz sterownikami wszystkich komponentów zainstalowanych w komputerze. 
@@ -403,7 +349,9 @@ Dyski wymienne: Odmów dostępu do odczytu (całkowita blokada USB).
 **<strong>lusrmgr.msc</strong>** — Użytkownicy i grupy lokalne.
 
 <img width="941" height="716" alt="image" src="https://github.com/user-attachments/assets/d2d84e6e-62e5-41d5-ba77-28344046e000" />
+
 <img width="396" height="448" alt="image" src="https://github.com/user-attachments/assets/3ba3f31e-e174-4f68-a7bd-ccf93ec9e789" />
+
 <strong>właśnie tutaj można zmieniac niektóre z ważnych ustawień hasła na egzaminie.</strong>
 
 Narzędzie do zarządzania lokalnymi kontami użytkowników oraz grupami, umożliwiające m.in. zakładanie nowych kont, zmianę haseł czy przypisywanie osób do grup (np. Administratorzy).
@@ -502,6 +450,7 @@ Przykład omówienia jednej sekcji panelu sterowania
 **<strong>access.cpl</strong>** — Centrum ułatwień dostępu.
 
 <img width="1343" height="896" alt="image" src="https://github.com/user-attachments/assets/8692b1a1-6584-4eb1-8092-e9fbd5e837e8" />
+
 <img width="403" height="199" alt="image" src="https://github.com/user-attachments/assets/71f26219-10d1-4e15-8b83-13aab514c2c1" />
 
 Narzędzie otwierające aplet Ułatwienia dostępu w Panelu sterowania, pozwalające na konfigurację funkcji pomocniczych, takich jak klawisze trwałe - kompletnie bezużyteczny
@@ -612,8 +561,8 @@ służy do bezpiecznego usuwania zbędnych plików systemowych, takich jak pliki
 
 **<strong>control admintools</strong>** — Folder narzędzi administracyjnych.
 
-[ZDJĘCIE]
 <img width="405" height="207" alt="image" src="https://github.com/user-attachments/assets/5a4375ab-e313-48db-9379-6fa4dc9cdda7" />
+
 <img width="1347" height="890" alt="image" src="https://github.com/user-attachments/assets/9bd14653-c054-41e5-94e7-044528f493bd" />
 
 BARDZO przydatne nardzędzie jeśli nie wiemy gdzie znaleść Przystawek w Windowsie 
@@ -678,9 +627,13 @@ TODO: Dodać detailed guide po Edytorze Rejestru.
 jest podstawowym panelem diagnostycznym systemu Windows, umożliwiającym monitorowanie procesów, wydajności oraz zarządzanie uruchomionymi aplikacjami.
 
 W Zakładce 'Wydajnośc' można dodatkowo znaleść różnego typu parametry dotyczące systemu operacyjnego
+
 <img width="1266" height="1087" alt="image" src="https://github.com/user-attachments/assets/b251405f-dcd0-4dfe-95b5-7fbae672a95e" />
+
 <img width="1027" height="1037" alt="image" src="https://github.com/user-attachments/assets/3ebcd044-b2ae-4a4d-85b5-5f5a56a3ad7d" />
+
 <img width="1263" height="1084" alt="image" src="https://github.com/user-attachments/assets/efeb3a08-8ea0-4047-a92a-8bf6cd18c7be" />
+
 <img width="1020" height="1030" alt="image" src="https://github.com/user-attachments/assets/c0652bb0-2c6f-42a1-8f96-cdee05c78aad" />
 
 **<strong>msinfo32.exe</strong>** — Pełne informacje o systemie i sprzęcie (najważniejsze).
@@ -705,11 +658,13 @@ Obsługuje też: MD5, SHA1, SHA512.
 **<strong>mrt.exe</strong>** — Microsoft Removal Tool (usuwanie wirusów).
 
 <img width="514" height="466" alt="image" src="https://github.com/user-attachments/assets/88a09378-59b4-48a6-8dfd-f301aa65a00c" />
+
 <img width="511" height="461" alt="image" src="https://github.com/user-attachments/assets/7a6610ea-096d-44ba-9b45-b62a9e39e5d5" />
 
 Skanuje komputer w poszukiwaniu wirusów.
 
 **<strong>winver</strong>** — Sprawdzanie dokładnej wersji systemu Windows.
+
 <img width="453" height="416" alt="image" src="https://github.com/user-attachments/assets/f756113b-fdf6-4091-9972-0ff958eea855" />
 
 
@@ -725,12 +680,18 @@ Skanuje komputer w poszukiwaniu wirusów.
 Wszystkie programy, które są poniżej przedstawione można znaleść w folderze PROGRAMY na jednym z pendrivów podczas egzaminu zawodowego.
 
 
-cpuz_x64.exe / cpuz.exe
+### cpuz_x64.exe / cpuz.exe
+
 <img width="66" height="72" alt="image" src="https://github.com/user-attachments/assets/678cae83-da75-4493-bcd1-0095970830f8" />
+
 <img width="406" height="402" alt="image" src="https://github.com/user-attachments/assets/f06de79e-328b-4f53-acf8-525a1190a9d7" />
+
 <img width="398" height="401" alt="image" src="https://github.com/user-attachments/assets/8b102dbf-ca25-4194-bfdd-a6a0829c1e6b" />
+
 <img width="401" height="401" alt="image" src="https://github.com/user-attachments/assets/a477664a-6821-465f-a4da-121d1699c6aa" />
+
 <img width="402" height="405" alt="image" src="https://github.com/user-attachments/assets/b69c0304-16f7-4931-a43c-8bf057c05360" />
+
 <img width="405" height="400" alt="image" src="https://github.com/user-attachments/assets/6dba9711-ada5-4a9b-8bf8-e15c5b48d8cf" />
 
 Program CPU-Z posiada bardzo dużą ilośc informacji o procesorze, karcie graficznej, ramie ,płycie głównej - nie ma sensu omawiać wszystkich jego parametrów ponieważ na egzaminach INF02 zadania związane z tym programem każą na przykład: zrobić zdjęcie danego parametry / wypisać go w tabelce. Myśle, że można się domyślić jaki dany parametre gdzie wpisać i gdzie go znaleść ponieważ CPU-Z jest dość przyjaznym programem graficznym jeśli chodzi o znajdywanie w nim różnych parametrów.
@@ -801,16 +762,18 @@ Module Manufacturer: Producent samej kości pamięci (np. Kingston, Crucial, Cor
 
 
 
-gpuz.exe
+### gpuz.exe
 
 <img width="421" height="268" alt="image" src="https://github.com/user-attachments/assets/41b95902-2d0a-43c0-863d-f86438a78b22" />
+
 <img width="394" height="604" alt="image" src="https://github.com/user-attachments/assets/ac736c79-4fb1-44a0-a50f-cccaf3c79a61" />
+
 <img width="388" height="545" alt="image" src="https://github.com/user-attachments/assets/ad50ad11-66fb-4906-997b-a454eb8e325c" />
 
 Program GPU-Z podobnie jak program CPU-Z często pojawia się na egzaminie a zadanie z nim związanie są dosyć prostę i także wymagają prostych screenów / czytania parametrów.
 
-stary PDF, który zrobiłem, który wytłumacza funkcję GPU-Z
-
+stary PDF, który zrobiłem, który wytłumacza funkcję GPU-Z.
+<br>
 [GPU-Z (1).pdf](https://github.com/user-attachments/files/27853055/GPU-Z.1.pdf)
 
 
@@ -828,57 +791,62 @@ stary PDF, który zrobiłem, który wytłumacza funkcję GPU-Z
 
 
 
-hdtune_255.exe – klasyk do testowania powierzchni dysku.
+### hdtune_255.exe.
 
-crystaldiskinfo.exe – do odczytu S.M.A.R.T. (np. liczba godzin pracy dysku).
+<img width="102" height="76" alt="image" src="https://github.com/user-attachments/assets/37fc31f1-61d7-4db0-9de9-7f782b29b02d" />
 
-hwmonitor.exe – do temperatur i napięć.
+<img width="570" height="463" alt="image" src="https://github.com/user-attachments/assets/3f8af215-5e14-4b65-81ac-40083d75130f" />
 
-aida64_trial.exe – często jako alternatywa "wszystko w jednym".
+<img width="573" height="468" alt="image" src="https://github.com/user-attachments/assets/127f19e7-4065-4857-ba9b-f258e6dd0a31" />
 
-LibreOffice_Installer.msi lub folder z wersją Portable.
+<img width="581" height="473" alt="image" src="https://github.com/user-attachments/assets/25ba9b20-e772-4195-9180-798b9acb9be3" />
 
-Apache_OpenOffice_Setup.exe.
+<img width="574" height="478" alt="image" src="https://github.com/user-attachments/assets/b7aa7f8a-018c-4acc-bfbb-df517df8ebe3" />
 
+darmowe narzędzie diagnostyczne służące do testowania wydajności dysków komputerowych poprzez pomiar ich szybkości odczytu oraz czasu dostępu do danych. Dodatkowo umożliwia ono monitorowanie kondycji nośnika za pomocą parametrów S.M.A.R.T.
 
+### crystaldiskinfo.exe
 
+<img width="674" height="997" alt="image" src="https://github.com/user-attachments/assets/9c2b4e80-41c2-4d9b-afad-3443ef5d4771" />
 
-inf02.txt oraz inf03.txt – małe pliki tekstowe (często 0 KB), używane do zadań typu: "utwórz archiwum .tar w Linuxie" lub "nadaj uprawnienia NTFS".
+CrystalDiskInfo jak sama nazwa wskazuje jest programem, który służy do otrzymania informacji o dysku z systemu. Na egzaminach INF02 przykładem eksploatacji tego programu ( podobnie jak ostatnich ) byoby by zrobienie zdjeć danych parametrów oraz zapisanie ich w tabelce.
 
-index.html / test.html – prosta strona WWW do sprawdzenia działania roli serwera WWW (IIS lub Apache).
+### hwmonitor.exe – do temperatur i napięć.
 
-obraz.jpg, logo.png, baner.gif – pliki graficzne, które mają znaleźć się na Twojej stronie testowej.
+<img width="641" height="797" alt="image" src="https://github.com/user-attachments/assets/fc5191b2-12fd-4798-90ec-efd3dfa4947a" />
 
-skrypt.bat / skrypt.ps1 – czasem gotowy szkielet skryptu, który musisz uzupełnić.
+Program HWMonitor służy do sprawdzania temperatur, napięć różnych komponentów w naszym systemie w danym czasie.
 
+### wireshark_setup.exe
 
+### nmap_setup.exe / zenmap.exe
 
+### 7z_setup.exe
 
-wireshark_setup.exe – do przechwytywania ruchu (często w sesjach zimowych 2024 i 2025).
+### VirtualBox_Setup.exe
 
-nmap_setup.exe / zenmap.exe – do skanowania portów.
+<img width="1283" height="1033" alt="image" src="https://github.com/user-attachments/assets/fdb9fd86-2987-445e-9c5a-74437d486b4f" />
 
-putty.exe – jedyny sposób na połączenie się z ruterem przez kabel konsolowy.
-
-PacketTracer_Setup.exe – rzadziej na praktyce, ale bywa jako pomoc do rozrysowania schematu.
-
-
-
-Folder DRUKARKA – zawiera pliki .inf (np. dla HP LaserJet lub wirtualnej drukarki). Musisz je wskazać ręcznie przez Menedżer Urządzeń.
-
-Folder KARTA_SIECIOWA – jeśli zadanie wymaga dołożenia drugiej karty (np. na PCI-E)
+Virtual Box jest narzędziem słóżącym do virtualizacji jeśli pokaże się na egzaminie oznacza to, że będzie najprawdobodobniej stworzyć na nim maszynę virtualną urzywając iso, które będzie nam dane i pokazane gdzie jest.
 
 
-7z_setup.exe – do pakowania Twoich rezultatów (zrzutów ekranu) na koniec egzaminu.
+<strong>Znaczenia / dodatkowe rzeczy do różnych zadań:</strong>
 
-npp.installer.exe (Notepad++) – znacznie wygodniejszy niż zwykły notatnik do edycji index.html.
+> putty.exe – jedyny sposób na połączenie się z ruterem przez kabel konsolowy. ( omówiony w folderze 'TP-link konfiguracja' )
+> Folder DRUKARKA – zawiera pliki .inf (np. dla HP LaserJet lub wirtualnej drukarki).
+> inf02.txt oraz inf03.txt – małe pliki tekstowe (często 0 KB), używane do zadań typu: "utwórz archiwum .tar w Linuxie" lub "nadaj uprawnienia NTFS".
+> index.html / test.html – prosta strona WWW do sprawdzenia działania roli serwera WWW (IIS lub Apache).
+> obraz.jpg, logo.png, baner.gif – pliki graficzne, które mają znaleźć się na Twojej stronie testowej.
+> skrypt.bat / skrypt.ps1 – gotowy szkielet skryptu, który musisz uzupełnić.
 
-VirtualBox_Setup.exe – jeśli Twoje systemy egzaminacyjne są maszynami wirtualnymi.
+<strong>Jeśli na egzaminie nie będzie Worda / Excela na Kliencie należy szukać tych programów na pendrivie aby zainstalowac pakiet office.
+- LibreOffice_Installer.msi 
+- Apache_OpenOffice_Setup.exe.
+
+> aida64_trial.exe – nie będzie omawiany.
+
 
 ## Programy na Windowsie ( wbudowane )
-
-
-
 
 
 ## Windows jako Klient
