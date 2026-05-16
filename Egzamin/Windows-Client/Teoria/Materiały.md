@@ -908,9 +908,9 @@ skrypt.bat / skrypt.ps1 – gotowy szkielet skryptu, który musisz uzupełnić.
 
 > aida64_trial.exe – nie będzie omawiany.
 
-## Programy, funkcje na Windowsie ( wbudowane )
+# Programy, funkcje na Windowsie ( wbudowane )
 
-<strong>Właściwości</strong>
+## <strong>Właściwości</strong>
 
 <img width="398" height="627" alt="image" src="https://github.com/user-attachments/assets/eadee721-16a2-40f2-adc1-01e3baec8e13" />
 
@@ -927,9 +927,7 @@ W Drugiej zakładce możemy udostępnić folder jako zasób sieciowy.
 
 <img width="440" height="472" alt="image" src="https://github.com/user-attachments/assets/59d7048f-98b5-4b2e-8e50-9392613ea778" />
 
-Przykład udostępniania folderu jako zasób sieciowy:
-
-
+### Przykład udostępniania folderu jako zasób sieciowy:
 
 1. Wchodzimy do zakładki 'Udostepnianie' w właściwościach i kliamy guzik 'Udostępnj'
    
@@ -970,6 +968,47 @@ Przykład udostępniania folderu jako zasób sieciowy:
 <img width="437" height="472" alt="image" src="https://github.com/user-attachments/assets/d7113493-fbe1-4fc7-a058-0441dc567614" />
 
 <img width="839" height="756" alt="image" src="https://github.com/user-attachments/assets/c3f29fa8-0e2b-4d90-b68d-72079afddee1" />
+
+
+#### Zabezpieczenia
+
+<img width="440" height="476" alt="image" src="https://github.com/user-attachments/assets/d5b95ecf-80d7-432c-bf5c-e6e3bba47601" />
+
+Jak sama nazwa wskauje można zmieniać tutaj Uprawienia dla danych użytkowników. Zmienianie tych zabezpieczeń nie jest bardzo skomplikowane.
+
+### Poprzednie wersje
+
+<img width="446" height="485" alt="image" src="https://github.com/user-attachments/assets/99e9b130-19aa-4770-a406-41cb47df8f20" />
+
+w kontekście egzaminu ta zakładka jest bezużyteczna. Normalnie posiadałaby poprzednie wersje danego pliku.
+
+### Dostosowywanie
+
+<img width="442" height="479" alt="image" src="https://github.com/user-attachments/assets/ab2249e9-5ce8-4985-9204-111c55056c6f" />
+
+W tej zakładce można zmienić ikonę folderu.
+
+<img width="308" height="363" alt="image" src="https://github.com/user-attachments/assets/f6b0df7f-78de-4cf4-a9f3-7dbd9f557560" />
+
+Oraz można Zoptymalizować ten folder dla danego szablonu.
+
+<img width="410" height="207" alt="image" src="https://github.com/user-attachments/assets/2d9676ec-348e-499d-8134-febd26e909e5" />
+
+
+### Aparat
+
+<img width="1200" height="920" alt="image" src="https://github.com/user-attachments/assets/d61d485a-f750-4e2e-9daa-29761bf45e38" />
+
+Ta aplikacja pomaga nam stwierdzić czy nasza kamera działa przez urucuchomienie jej i pokazanie obrazu, który z niej wychodzi.
+
+### Zegar 
+
+<img width="1194" height="847" alt="image" src="https://github.com/user-attachments/assets/3ce82f1f-8bc7-4c4c-8a74-52882ee6862d" />
+
+dosłownie poprostu zegar ale na Windowsie.
+
+
+
 
 
 
