@@ -242,6 +242,12 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
     ln -s /etc skrot_do_etc - tworzy wiązanie symboliczne
     po wykonaniu komendy ls -l powinniśmy zauważyć skrot_do_etc -> /etc (skrót wskazuje na miejsce źródłowe)
 
+
+
+    TODO : Dodać tutaj tworzenie i zarządzanie partycjami na Linuxie 
+
+
+
     Ctrl+C - przerwanie działania programu
     Ctrl+Z - wstrzymanie programu (można wznowić bg/fg)
     Ctrl+D - koniec pliku EOF / wylogowanie
