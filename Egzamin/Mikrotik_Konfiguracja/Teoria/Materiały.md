@@ -358,7 +358,7 @@ Konfiguracja:
 Wchodzimy w IP->DHCP Server->DHCP Setup->Wybieramy Interfejs na, którym chcemy rozdawać adresy IP
 <img width="1136" height="540" alt="image" src="https://github.com/user-attachments/assets/253a7a79-59f1-42d0-bff1-eb396e152245" />
 <br>
-Następnie konfigurujemy DHCP Server tak jak byśmy konfigurowali normalny DHCP server.
+Następnie konfigurujemy DHCP Server tak jak byśmy konfigurowali normalny server DHCP
 
 <img width="272" height="177" alt="image" src="https://github.com/user-attachments/assets/f0283f24-7f21-4c6e-bf9a-e5d6814d6db2" />
 <br>
