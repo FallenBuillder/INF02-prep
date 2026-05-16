@@ -1,4 +1,4 @@
-# Teoria
+<img width="717" height="336" alt="image" src="https://github.com/user-attachments/assets/9a908d4f-0a82-4459-8f05-38c9b66f632f" /># Teoria
 
 Windows nie jest teoretycznie trudny, ponieważ nie musimy na nim zapamiętywać rzeczy na pamięć. Wystarczy, że wiemy jak się do nich doklikać. Oczywiście nadal trzeba umieć komendy w terminalu Windowsa ale jest ich o wiele mniej niż na linuxie.
 
@@ -934,9 +934,105 @@ skrypt.bat / skrypt.ps1 – gotowy szkielet skryptu, który musisz uzupełnić.
 
 
 
+
+
 ## Windows jako Klient
 
+
+
+
 ## Zadania praktyczne.
+
+Windows-Klient
+<img width="904" height="317" alt="image" src="https://github.com/user-attachments/assets/49ea49ad-eab6-461f-a11f-53ab5e7caae4" />
+<img width="878" height="166" alt="image" src="https://github.com/user-attachments/assets/d5b3d1ea-2a4c-475b-8dcf-95d4aadd4cd3" />
+<img width="894" height="988" alt="image" src="https://github.com/user-attachments/assets/6345da4d-31e7-412e-86ce-5172b3427052" />
+<img width="897" height="815" alt="image" src="https://github.com/user-attachments/assets/34d6653f-3d51-42f5-b926-b089133134a4" />
+<img width="881" height="280" alt="image" src="https://github.com/user-attachments/assets/5d125f9b-166e-4d54-88cf-c4f427a367be" />
+<img width="896" height="413" alt="image" src="https://github.com/user-attachments/assets/13831b43-4e8c-4809-92e4-60b8caafa985" />
+<img width="720" height="321" alt="image" src="https://github.com/user-attachments/assets/c114274d-f83a-448d-8a6b-8bee172907f0" />
+<img width="703" height="492" alt="image" src="https://github.com/user-attachments/assets/a6ac2b05-49de-45bd-94e5-7567b9337558" />
+<img width="718" height="472" alt="image" src="https://github.com/user-attachments/assets/1822b073-4947-43a2-9a3a-5f4ad3bb8af1" />
+<img width="723" height="493" alt="image" src="https://github.com/user-attachments/assets/7b916a18-8084-4c89-8e5d-4ac9def4b5fe" />
+<img width="713" height="424" alt="image" src="https://github.com/user-attachments/assets/9ca5f9e6-751a-46d6-9e54-f2057c83a095" />
+<img width="722" height="420" alt="image" src="https://github.com/user-attachments/assets/a0fdc51e-6ee5-4b4e-89f5-e37abea0b54d" />
+<img width="704" height="143" alt="image" src="https://github.com/user-attachments/assets/e9bcb17e-7e57-475b-8e9b-f464a38e048a" />
+<img width="713" height="514" alt="image" src="https://github.com/user-attachments/assets/ed61e170-4f82-4b9a-a6d0-12969e070f14" />
+<img width="724" height="688" alt="image" src="https://github.com/user-attachments/assets/2b823bdf-6547-4060-b2c1-2a7b2aa553c9" />
+<img width="712" height="587" alt="image" src="https://github.com/user-attachments/assets/a09423ca-9127-416d-9134-67652319c49f" />
+<img width="696" height="330" alt="image" src="https://github.com/user-attachments/assets/e02f5b20-9d85-40c4-a4ca-c5abccd3964c" />
+
+
+
+Windows-Server
+<img width="893" height="652" alt="image" src="https://github.com/user-attachments/assets/225b42ff-bdcf-47b4-97d2-18f2190401dc" />
+<img width="905" height="728" alt="image" src="https://github.com/user-attachments/assets/c9843ec9-c758-461a-b3d4-2c56f3f99204" />
+<img width="874" height="745" alt="image" src="https://github.com/user-attachments/assets/1430fe32-aecf-4815-a7f0-26b3ff8670bc" />
+<img width="715" height="406" alt="image" src="https://github.com/user-attachments/assets/44f27e45-a3be-4499-9d17-5160feeb7bf6" />
+<img width="888" height="673" alt="image" src="https://github.com/user-attachments/assets/ca3cf13a-e4ac-491f-a544-6e10692bc470" />
+<img width="888" height="1007" alt="image" src="https://github.com/user-attachments/assets/4dfc0b71-1e4d-4694-b00f-ae2bd61d37b6" />
+<img width="903" height="941" alt="image" src="https://github.com/user-attachments/assets/ebd6cd5c-f264-477a-8b83-56127f5a5ffa" />
+<img width="893" height="494" alt="image" src="https://github.com/user-attachments/assets/1677ac74-aadb-4f48-9427-34a0d727897f" />
+<img width="917" height="1137" alt="image" src="https://github.com/user-attachments/assets/1f49bfce-7885-46aa-bee8-e6237d56ea85" />
+<img width="919" height="687" alt="image" src="https://github.com/user-attachments/assets/2e583141-b070-498b-aa32-70a3e97469f6" />
+<img width="905" height="1071" alt="image" src="https://github.com/user-attachments/assets/b74f4db7-50fb-4b9e-b4b7-b278449f0f79" />
+<img width="888" height="737" alt="image" src="https://github.com/user-attachments/assets/49af2472-5ebb-455b-86b6-d4668d88802b" />
+<img width="888" height="1085" alt="image" src="https://github.com/user-attachments/assets/8051e123-a8cd-4f32-8c60-9f11bb5f9bd0" />
+<img width="728" height="860" alt="image" src="https://github.com/user-attachments/assets/15b4a737-4944-4672-9588-6c7e4a9eb8ff" />
+<img width="717" height="336" alt="image" src="https://github.com/user-attachments/assets/a5db0ccd-7aa3-4990-9b8a-026f08f049fc" />
+<img width="727" height="524" alt="image" src="https://github.com/user-attachments/assets/a0bd891c-0920-4b71-83fe-ec43be33e29c" />
+<img width="715" height="649" alt="image" src="https://github.com/user-attachments/assets/f6d13fa1-1984-4d67-b375-511bcb69f4ed" />
+<img width="713" height="819" alt="image" src="https://github.com/user-attachments/assets/6380c641-de19-43d6-853f-4a487bbb6515" />
+<img width="717" height="937" alt="image" src="https://github.com/user-attachments/assets/9fafa350-cb6d-461f-b81d-ebf1584b88bb" />
+<img width="725" height="896" alt="image" src="https://github.com/user-attachments/assets/bbd5b486-0a86-4f4d-9b76-fe46cf40f0a5" />
+
+
+
+
+
+
+Diagnostyka na Windowsie
+<img width="895" height="373" alt="image" src="https://github.com/user-attachments/assets/642f5a7d-9f98-4893-9d9e-2544af01c9ed" />
+<img width="921" height="734" alt="image" src="https://github.com/user-attachments/assets/8801b7c6-681b-42ac-860d-f5bce201a967" />
+<img width="875" height="409" alt="image" src="https://github.com/user-attachments/assets/61f89201-587f-4088-b65e-c4cb701dfe52" />
+<img width="893" height="376" alt="image" src="https://github.com/user-attachments/assets/c2e8d23b-4325-463a-b12f-76b310b1e676" />
+<img width="852" height="152" alt="image" src="https://github.com/user-attachments/assets/8f35a64f-3700-4a18-8e8f-3472a4f54cc4" />
+<img width="868" height="473" alt="image" src="https://github.com/user-attachments/assets/fae80dee-157c-4540-9a9f-7e00720ae312" />
+<img width="732" height="328" alt="image" src="https://github.com/user-attachments/assets/a8797d08-59ce-4a64-b784-0500fac1529e" />
+<img width="712" height="148" alt="image" src="https://github.com/user-attachments/assets/8658a5e2-eea3-4f9e-9fad-f620eca2e85c" />
+<img width="709" height="192" alt="image" src="https://github.com/user-attachments/assets/8fd45a3e-1f8b-44e8-8beb-24514007afb9" />
+<img width="695" height="331" alt="image" src="https://github.com/user-attachments/assets/0d45400a-b251-4af1-87cb-8393f2836a96" />
+<img width="695" height="179" alt="image" src="https://github.com/user-attachments/assets/df9ebf15-bcc2-488e-bb35-f0a64b2a1502" />
+<img width="708" height="297" alt="image" src="https://github.com/user-attachments/assets/104051bc-3359-491a-be5f-26308acfcf96" />
+<img width="704" height="216" alt="image" src="https://github.com/user-attachments/assets/eb6d16ab-f919-4ae7-8202-be7a719f85b1" />
+<img width="718" height="281" alt="image" src="https://github.com/user-attachments/assets/a0b6a0e1-faf7-4e02-8477-b1817ea18d48" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 > dodać normy EN 50174
 
