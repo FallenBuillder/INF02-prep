@@ -937,6 +937,41 @@ Przykład udostępniania folderu jako zasób sieciowy:
 
 2. Klikamy 'Udostępnij' poraz kolejny 
 
+<img width="619" height="456" alt="image" src="https://github.com/user-attachments/assets/284a216c-2b5c-4e14-9f17-17b65b71357b" />
+
+3. kopiujemy link
+
+<img width="612" height="442" alt="image" src="https://github.com/user-attachments/assets/25d22d60-0b12-41c9-b9ca-b330ddcbdb38" />
+
+4. Klikamy 'Gotowe'
+
+<img width="80" height="31" alt="image" src="https://github.com/user-attachments/assets/838ec78a-c80d-48d0-933a-871428501cce" />
+
+5. Wchodzimy do eksploratora plików i wykonujemy prawoklik na 'Ten Komputer' -> 'Pokaż Więcej opcji' -> 'Mapuj Dysk Sieciowy'
+
+<img width="396" height="375" alt="image" src="https://github.com/user-attachments/assets/4ee59d4c-ea72-46b2-95c8-9502c02559dd" />
+
+<img width="616" height="448" alt="image" src="https://github.com/user-attachments/assets/129ee4ea-b034-4d1d-aed9-957683e3a4f5" />
+
+6. Wklejamy naszą ścieżke a następnie dostosowujemy ją pod format o, który proszą nas na dole 
+
+<img width="613" height="450" alt="image" src="https://github.com/user-attachments/assets/857b3bc6-5077-4f0b-88df-f30ca6424017" />
+
+7. Po Zmienieniu ścieżki na poprawną klikamy Zakończ
+
+<img width="616" height="447" alt="image" src="https://github.com/user-attachments/assets/2a108543-906c-4a0d-a1ac-af4fb5c48190" />
+
+8. Jak widac nasz dysk się udostępnił w sieci.
+
+<img width="1414" height="674" alt="image" src="https://github.com/user-attachments/assets/d0887e85-5c32-4b0e-b6b2-9ae425ea90b0" />
+
+9. Dodatkowo w tym okienku można kliknąć w link 'Centrum Sieci i udostępniania' aby pozmieniać ustawienia tak aby było widać nasz folder na innych urządzeniach
+
+<img width="437" height="472" alt="image" src="https://github.com/user-attachments/assets/d7113493-fbe1-4fc7-a058-0441dc567614" />
+
+<img width="839" height="756" alt="image" src="https://github.com/user-attachments/assets/c3f29fa8-0e2b-4d90-b68d-72079afddee1" />
+
+
 
 
 
