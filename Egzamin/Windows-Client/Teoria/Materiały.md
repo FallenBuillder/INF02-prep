@@ -1033,134 +1033,55 @@ dosłownie poprostu zegar ale na Windowsie.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Windows jako Klient
 
+Windows na egzaminach IFN02 często występuje jako klient. Albo to dla servera linuxowego albo to dla servera Windowsowego gdzie można podłączyć go do AD. 
+
+W tej sekcji omówimy jaką role pełni Windows jako Klient i jak sprawić aby otrzymywał usługi od Serverów.
 
 
 
-## Zadania praktyczne.
+```
 
-Windows-Klient
+
+Przyłączanie klientów do domeny
+Serwer DHCP
+Serwer DNS
+Serwer plików i udostępnianie zasobów
+Serwer wydruku
+Zdalne łączenie się z serwerem - konsola mmc i zdalny pulpit
+Usługa IIS - serwer www
+Server FTP
+Server SSH
+SAMBA
+
+```
+TODO - Dokończyć tą sekcje póżniej (:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Zadania praktyczne.
+
+## <strong>Windows-Klient</strong>
 <img width="904" height="317" alt="image" src="https://github.com/user-attachments/assets/49ea49ad-eab6-461f-a11f-53ab5e7caae4" />
 <img width="878" height="166" alt="image" src="https://github.com/user-attachments/assets/d5b3d1ea-2a4c-475b-8dcf-95d4aadd4cd3" />
 <img width="894" height="988" alt="image" src="https://github.com/user-attachments/assets/6345da4d-31e7-412e-86ce-5172b3427052" />
@@ -1194,7 +1115,7 @@ Windows-Klient
 <img width="940" height="405" alt="image" src="https://github.com/user-attachments/assets/4daaf309-79b6-4abc-9490-f3b5a43c1d78" />
 
 
-Windows-Server
+## <strong>Windows-Server</strong>
 <img width="893" height="652" alt="image" src="https://github.com/user-attachments/assets/225b42ff-bdcf-47b4-97d2-18f2190401dc" />
 <img width="905" height="728" alt="image" src="https://github.com/user-attachments/assets/c9843ec9-c758-461a-b3d4-2c56f3f99204" />
 <img width="874" height="745" alt="image" src="https://github.com/user-attachments/assets/1430fe32-aecf-4815-a7f0-26b3ff8670bc" />
@@ -1230,8 +1151,7 @@ Windows-Server
 <img width="1049" height="757" alt="image" src="https://github.com/user-attachments/assets/fb1ee090-7c00-4c3a-a852-df5bbf052337" />
 
 
-
-Diagnostyka na Windowsie
+## <strong>Diagnostyka na Windowsie</strong>
 <img width="895" height="373" alt="image" src="https://github.com/user-attachments/assets/642f5a7d-9f98-4893-9d9e-2544af01c9ed" />
 <img width="921" height="734" alt="image" src="https://github.com/user-attachments/assets/8801b7c6-681b-42ac-860d-f5bce201a967" />
 <img width="875" height="409" alt="image" src="https://github.com/user-attachments/assets/61f89201-587f-4088-b65e-c4cb701dfe52" />
