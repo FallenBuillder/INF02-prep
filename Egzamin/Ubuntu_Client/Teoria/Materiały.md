@@ -121,7 +121,8 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
     ping adres - test dostępności hosta
     
     ping -c 4 google.com - ping z ograniczoną liczbą pakietów
-    traceroute adres - śledzenie trasy do hosta
+    traceroute adres - śledzenie trasy do hosta\
+    mtr google.com - polecenie ping , traceroute w jednym ( każdy element ścieżki ) 
     nslookup domena - zapytanie DNS
     dig domena - zaawansowane zapytania DNS
     host domena - proste zapytania DNS
@@ -348,6 +349,19 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
     df -h - informacje o przestrzeni dyskowej
     du -sh katalog - rozmiar katalogu
     uptime - czas działania systemu i obciążen
+
+
+
+
+
+
+    TODO: Dodać jak robić reguły na linuxie dla usług 
+
+
+
+
+
+    
 
 ## Linux Jako Klient, któremu świadczone są usługi
 Wszystko w linuxie da się zrobić przez CLI, nie potrzeba GUI lecz czasami kiedy sprawdzamy czy nasz server działa lub kiedy go testujemy to GUI się przydaję - szczególnie do serverów [ ftp , samba , Apache ] ( rzeczy takie jak DHCP, NAT, SSH, DNS będą sprawdzane przez CLI i będą omówione w sekci związanej z Linux Serverem lub Windows Serverem zależnie od usługi )
