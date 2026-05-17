@@ -14,8 +14,12 @@ Zagadnienia:
 Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linuxie trzeba znać w nim komendy. Niektóre komendy są proste i będziemy ich używać niemal ciągle podczas konfiguracji systemu z linuxem a niektóre rzadziej jeśli mamy zrobić jakąś konkretną rzecz.
 
 ## Podstawowe Polecenia
+
+
     
     --- Działanie na Plikach / Folderach ---
+
+
 
     man ls - wyświetla manual komendy
     ls --help - wyświetla pomoc dla jakiejś komendy 
@@ -103,7 +107,9 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
     Ctrl+U - wklejenie
 
 
+
     -- Działanie na użytkownikach -- 
+
 
 
     chown użytkownik plik - zmiana właściciela pliku
@@ -142,9 +148,7 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
     sudo chage -l jan_kowalski - Wyświetlenie informacji o ważności hasła
     sudo chage -m 7 marek - Marek będzie mógł zmienić swoje hasło nie częściej niż raz na 7 dni
     sudo chage -M 90 anna - wymuszenie regularnej zmiany hasła co 90 dni.
-
-    Dodatkowe:
-    
+    Dodatkowe parametry:
     -W liczba	Dni ostrzeżenia przed wygaśnięciem (Warning)	chage -W 5 anna
     -I liczba	Dni nieaktywności po wygaśnięciu (Inactive)	chage -I 3 anna
     -E data	Dokładna data wygaśnięcia konta (Expire)	chage -E 2026-06-01 harry123
@@ -161,9 +165,11 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
 
 
     whoami - wyświetla nazwę aktualnego użytkownika
+    users - wyświetla listę wszystkich zalogowanych obecnie użytkowników
     who - lista zalogowanych użytkowników
     w - szczegółowe informacje o zalogowanych użytkownikach
     last - historia logowań
+
 
     /etc/passwd - informacje o użytkownikach
     /etc/group - informacje o grupach
@@ -299,7 +305,9 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
     !n - wykonanie n-tej komendy z histori
 
 
+
     --- Zarządzanei dyskami / partycjami 
+
 
 
     sudo fdisk dysk           - edycja partycji dysku 
@@ -384,9 +392,16 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
     top - klasyczny, tekstowy monitor procesów w czasie rzeczywistym
     htop - nowoczesny, kolorowy i interaktywny monitor procesów
 
-    whoami - wyświetla nazwę aktualnie zalogowanego użytkownika
-    users - wyświetla listę wszystkich zalogowanych obecnie użytkowników
-    w - pokazuje kto jest zalogowany oraz co aktualnie robi (jakie procesy uruchomił)
+    hostnamectl - informacje o systemie (systemd)
+    df -h - informacje o przestrzeni dyskowej
+    du -sh katalog - rozmiar katalogu
+    uptime - czas działania systemu i obciążen
+
+
+
+    --- procesy ---
+
+
 
     ps - lista procesów aktualnego terminalu
     ps aux - lista wszystkich procesów systemu
@@ -397,17 +412,13 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
     killall nazwa_procesu - zakończenie wszystkich procesów o danej nazwie
     pkill nazwa - zakończenie procesów na podstawie wzorca nazwy
 
-    hostnamectl - informacje o systemie (systemd)
-    df -h - informacje o przestrzeni dyskowej
-    du -sh katalog - rozmiar katalogu
-    uptime - czas działania systemu i obciążen
+  
 
 
 
 
 
-
-    TODO: Dodać jak robić reguły na linuxie dla usług 
+    TODO: Dodać jak robić reguły na linuxie dla usług ( firewall )
 
 
 
