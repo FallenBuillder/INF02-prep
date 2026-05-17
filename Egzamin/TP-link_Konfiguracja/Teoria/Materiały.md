@@ -713,7 +713,7 @@ z obrazka dokładnie widać ,że w tym switchu stosuje się nazwenictwo z 1 na t
 
  ## Konfiguracja Trunka przez CLI 
 
-> Do zrobienia ! ( nie sądze, że ktoś to przez CLI zrobi ale zrobię to gdzieś 15.05.2026 )
+> TODO: Zrobić konfiguracje trunków przez CLI !
 
 
 
