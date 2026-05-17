@@ -15,9 +15,13 @@ część GUI ,CLI zawiera następujące zagadnienia
 
 
 ### GUI  - Jak połączyć się z switchem 
+
 w przypadku połączenia się do switcha przez GUI ( Graphical User Interface ) chcemy abyśmy byli switchem w tej samej podsieci abyśmy mogli z nim rozmawiać.
+
 oznacza to ,że nasz adres IP na karcie sieciowej która jest podłączona .do jednego z interfejsów switcha ( zazwyczaj najlepiej przy konfiguracji podłaczać się do pierwszego portu ponieważ wiemy wtedy ,że się połączymy a podłączenie urządzeń jest i tak najczęściej w dalszych etapach egzaminu ) 
+
 czy to jesteśmy na Windowsie czy na Linuxie , adres IP trzbea zmienić 
+
 wszystkie switche na egzaminie powinny mieć adres IP 192.168.0.1/24 - oznacza to ,że abyśmy byli w tej samej podsieci musimy nasz adres IP zmienić na np, 192.168.0.19/24 ( ostatnia liczba nie ma zabardzo znaczenia wystarczy poprostu ,że ostatni oktet nie jest taki sam jak u switcha - czyli poprostu nie mogą mieć takich samych adresów IP ) 
 
 ## krok 1. 
@@ -202,9 +206,7 @@ Od wejścia zakładka wygląda tak
 po wejściu do tej zakładki możemy zauważyć dwie nowe w których będziemy głównie operować:
 
 - VLAN config ( w tej zakładce będziemy dodawać VLANY , przypisywać im nazwy , id , porty )
-- 
 - Port Config ( w tej zakładce będziemy zmieniać mode ( tryb ) portów )
-
 
 Zaczynając od zakładki VLAN config 
 
@@ -219,6 +221,7 @@ Mogę wytłumaczyć poszczególne opcje które tutaj się znajdują poprzez wyko
 <img width="628" height="622" alt="image" src="https://github.com/user-attachments/assets/de6af861-b646-4eca-b278-15b5af36fa14" />
 
 <img width="1805" height="147" alt="image" src="https://github.com/user-attachments/assets/31853aa4-4cc2-4ace-8c2a-82795e151b29" />
+
 Z polecenia wynika ,że mamy skonfigurować VLAN który ma:
 
 - ID = 100
@@ -248,6 +251,7 @@ W tej karcie możemy zmienić tryb konfiguracji portów na jeden z trzech
 - Trunk ( będzie omówiony zachwilę )
 - Access ( to jest defaultowy tryb w każdym VLANie który nie pozwala nam na zmienienie tagowania ) 
 - General ( ten tryb pozwoli nam na włączenie tagowania )
+
 <img width="585" height="208" alt="image" src="https://github.com/user-attachments/assets/ba2ab60a-b91a-4835-beed-2afdbe8519c0" />
 
 dla przykładu, gdyby było na egzaminie żeby włączyć tagowanie na portach 1,2,3 
@@ -282,6 +286,7 @@ kliknąć przycisk 'Edit' i następnie sprawić ,że wybrane są tylko te porty 
 
 
 ## Wyłączenie portu z użytku 
+
 może się na egzaminie pojawić pytanie aby np. wyłączyc pozostałe porty ,których nie używamy, aby to zrobić należy najpierw wejść do zakładki Switching i ją rozwinąć a następnie wybrać opcje 'Port'
 
 <img width="127" height="382" alt="image" src="https://github.com/user-attachments/assets/f204f635-af8c-4af6-8e60-9103e6ac3505" />
@@ -308,6 +313,7 @@ Po kliknięciu Przycisku , zaakceptowaniu monitu przez kliknięcie guzika Ok mam
 
 
 
+
 ## Skonfigurowanie Trunka
 Trunk w kontekście egzaminu praktycznego jest najtrudniejszym elementem jeśli chodzi o switcha.
 
@@ -328,6 +334,7 @@ Tutaj niestety jak dostanie się trunka to będzie trzeba wtedy skonfigurować u
 > robienie Trunka na Mikrotiku jest wytłumaczone w folderze 'Mikrotik_Konfiguracja'
 
 ### Krok1. Tworzenie VLANów
+
 Wchodzimy do zakładki VLAN-> 802.1Q VLAN -> Create -> Tworzymy nowy VLAN 
 
 <img width="895" height="483" alt="image" src="https://github.com/user-attachments/assets/dcb1c79d-dc23-40e5-827c-be94527e532d" />
@@ -343,6 +350,7 @@ Wchodzimy do zakładki VLAN-> 802.1Q VLAN -> Create -> Tworzymy nowy VLAN
 Mamy Teraz trzy VLANy każdy z portami, które ma mieć. ( nie przejmujemy się, że Defauly VLAN ma wszystkie porty nie zmienimy tego. )
 
 ### Krok2. Zmienienie Portu nr 1. na Link-type 'Trunk'
+
 przechodzimy do zakłądki 'Port Config'->Kliamy w pierwszy interfejs->Zmieniamy go na 'Link Type' Trunk
 
 <img width="620" height="499" alt="image" src="https://github.com/user-attachments/assets/c22b9ba3-9ef6-4429-b388-0609383ce3fe" />
@@ -356,6 +364,7 @@ Konfiguracja powinna wyglądać tak:
 > Port 2,3 powinny być ustawione na 'Link Type' Access
 
 ### Krok3.
+
 Wchodzimy teraz do każdego VLANa z osobna klikając guzik 'Edit' i upewniamy się czy Egress Rule dla Portu 1. Jest wszędzie Tagged a dla portów 2,3 Untagged - ponadto dodajemy do vlanów 2,3 port 1 po to aby kiedy pakiety idą do naszego VLANa będą one następnie przekazywane przez port1 jako tagowane do routera.
 
 <img width="618" height="556" alt="image" src="https://github.com/user-attachments/assets/3f0ed11e-bfc6-4cc6-89ca-29bdb46889c8" />
@@ -368,7 +377,6 @@ Skończona konfiguracja powinna wyglądać tak:
 
 <img width="705" height="183" alt="image" src="https://github.com/user-attachments/assets/005e3b78-b283-4de4-9868-6dbf84100d5d" />
 
-
 Na koniec zmieniamy jeszczę Adres IP switcha według zadania.
 
 <img width="860" height="466" alt="image" src="https://github.com/user-attachments/assets/9e614ae5-f0b4-4b14-a466-cef3dd94814e" />
@@ -377,12 +385,16 @@ Na koniec zmieniamy jeszczę Adres IP switcha według zadania.
 Ethernet adapter Karta-USB:
 
    Connection-specific DNS Suffix  . :
+   
    Link-local IPv6 Address . . . . . : f220::32ba:dc86:3211:d2232%26
+   
    IPv4 Address. . . . . . . . . . . : 192.168.0.254
+   
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   
    Default Gateway . . . . . . . . . : 192.168.0.1
 
-Jak widać kiedy wszystko jest podłączone otrzymałem adres IP!
+<strong>Jak widać kiedy wszystko jest podłączone otrzymałem adres IP!</strong>
 
 
 
@@ -544,15 +556,25 @@ po wykonaniu tej komendy wchodzimy w tryb uprzywilejowany w którym możemy zacz
 mianiowicie możemy tutaj wydać komendy takie jak:
 
 show running-config                     wyświetli obecną konfigurację 
+
 <img width="650" height="425" alt="image" src="https://github.com/user-attachments/assets/e74663dc-afa1-4e23-80d0-0e2724bca252" />
+
 show startup-config                     wyświetli konfigurację która automatycznie ładuje się przy starcie 
+
 show vlan brief                         pokaże obecną konfiguracje VLANów - który port jest przypisany do czego
+
 <img width="626" height="172" alt="image" src="https://github.com/user-attachments/assets/89fd7853-d66f-4113-a2f4-2a3b2da35fd1" />
+
 show interfaces status                  pokaże obecny stan każdych interfejsów 
+
 <img width="534" height="406" alt="image" src="https://github.com/user-attachments/assets/c3f1afed-84da-484e-aaa2-d294ba99a317" />
+
 ping [adres_IP]                         wykona test komunikacji ( ta sama składnia jak na więkoszości urządzeń ) 
-show interfaces trunk                   pokaże nam informację o trunkach w CLI                                                         ( jeszcze sprawdzić bo mój model nie obsługuje tej komendy ) 
+
+show interfaces trunk                   pokaże nam informację o trunkach w CLI                                                         ( jeszcze sprawdzić bo mój model switcha nie obsługuje tej komendy ) 
+
 < aby wyjść z jakiegoś trybu uprzywilejowania do tego pod nami należy to wykonać komendą 'exit'
+
 <img width="199" height="52" alt="image" src="https://github.com/user-attachments/assets/3aa31d8b-927b-4f99-9b2e-1e6ac0fc5497" />
 
 < aby usuwać w konsoli tekst jak coś źle wpisaliśmy powinniśmy przy usuwaniu słów trzymać SHIFT 
@@ -560,6 +582,7 @@ show interfaces trunk                   pokaże nam informację o trunkach w CLI
 jeśli chcemy zobaczyć jakie komendy można wpisać do konsoli powinno się poprostu w nią wpisać znak zapytania - '?'
 
 albo wpisać znak zapytania '?' po jakiejś komendzie aby otzymać informację o dopełnieniu jej czyli np.
+
 <img width="508" height="76" alt="image" src="https://github.com/user-attachments/assets/5dd383f1-df72-4fb0-b9c9-712bac4686cc" />
 
 
@@ -574,6 +597,7 @@ obydwie te komendy robią dokładnie to samo i zapisują konfigurację tak ,że 
 
 
 ## Konfiguracja Switcha 
+
 Aby pójść krok dalej i zacząć konfigurować te rzeczy ,które są na egzaminie musimy wpisać komendę:
 
 configure terminal ( w skrócie conf t )
@@ -654,6 +678,7 @@ TL-SG3424# copy running-config startup-config                   --- Zapisanie po
 
 
 ### wyłączenie portów
+
 Aby wyłączyć port wystarczy wpisać w komendy 
 
 TL-SG3424# configure terminal
