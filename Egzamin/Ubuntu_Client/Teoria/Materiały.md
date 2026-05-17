@@ -15,6 +15,7 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
 
 ## Podstawowe Polecenia
     
+    --- Działanie na Plikach / Folderach ---
 
     man ls - wyświetla manual komendy
     ls --help - wyświetla pomoc dla jakiejś komendy 
@@ -59,6 +60,7 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
     tail plik - ostatnie 10 linii pliku
 
     grep "wzorzec" plik - wyszukiwanie wzorca w pliku
+    cat plik | grep wyraz – wyszukaj wyraz w potoku, w którym znajduje się zawartość pliku 
 
     chmod 755 plik - rwxr-xr-x (pełne dla właściciela, odczyt+wykonanie dla grupy i innych)
     chmod 644 plik - rw-r--r-- (odczyt+zapis dla właściciela, odczyt dla grupy i innych)
@@ -74,6 +76,36 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
     2 = zapis (w)
     1 = wykonanie (x)
 
+    
+    tar -cvf moje_pliki.tar foto1.jpg notatka.txt dane.csv     -     tworzy nieskompresowane archiwum o nazwie moje_pliki.tar
+    tar -cvf kopia_projektow.tar projekty/                     -     tworzy archiwum z całego folderu. 
+
+    tar -czvf archiwum.tar.gz folder_do_spakowania/            -     tworzy archiwum.tar.gz ( skompresowane przez flagę -z )
+    
+    tar -xzf archiwum.tar.gz                                   - rozpakowywuje skompresowane archiwum
+    tar -xf plik.tar                                           - rozpakowuje nieskompresowane archiwum 
+    
+
+    zip -r archiwum.zip katalog/ - utworzenie archiwum zip
+    unzip archiwum.zip - rozpakowanie zip
+    unzip -l archiwum.zip - wyświetlenie zawartości zip
+
+
+    ln -s źródło cel
+    ln -s /etc skrot_do_etc - tworzy wiązanie symboliczne
+    po wykonaniu komendy ls -l powinniśmy zauważyć skrot_do_etc -> /etc (skrót wskazuje na miejsce źródłowe)
+
+    
+    nano plik - otwarcie pliku
+    Ctrl+O - zapisanie
+    Ctrl+X - wyjście
+    Ctrl+K - wycięcie linii
+    Ctrl+U - wklejenie
+
+
+    -- Działanie na użytkownikach -- 
+
+
     chown użytkownik plik - zmiana właściciela pliku
     chown użytkownik:grupa plik - zmiana właściciela i grupy
     chown -R użytkownik:grupa katalog - zmiana rekursywna dla katalogu
@@ -83,26 +115,68 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
     sudo useradd nazwa_użytkownika - dodanie nowego użytkownika
     sudo useradd -m nazwa_użytkownika - dodanie użytkownika z katalogiem domowym
     sudo adduser nazwa_użytkownika - interaktywne dodanie użytkownika
-
-    sudo passwd nazwa_użytkownika - zmiana hasła użytkownika
-    passwd - zmiana własnego hasła
+   
+    sudo adduser nazwa_użytkownika parametr
+    --home lokalizacja: ustawia folder domowy użytkownika
+    --uid id: ustawia inny identyfikator użytkownika
+    --disabled login: wyłącza konto
+    --shell powłoka: ustawia inną powłokę
 
     sudo usermod -aG grupa użytkownik - dodanie użytkownika do grupy
     sudo usermod -s /bin/bash użytkownik - zmiana powłoki użytkownika
     sudo usermod -l nowa_nazwa stara_nazwa - zmiana nazwy użytkownika
+    sudo usermod -e 2026-12-31 jan_kowalski - ustawia datę wygaśnięcia konta
+    sudo usermod -d /home/projekty/janek -m janek - zmienia katalog domowy użytkownika
+    sudo usermod -u 1500 harry123 - ustawia nowe UID dla konta harry123
 
     sudo userdel użytkownik - usunięcie użytkownika
-    sudo userdel -r użytkownik - usunięcie użytkownika wraz z katalogiem domowym
+    sudo deluser nazwa_użytkownika - usuwa użytkownika
+    sudo userdel -r użytkownik - usunięcie użytkownika wraz z katalogiem domowy
 
     sudo groupadd nazwa_grupy - tworzenie nowej grupy
     sudo groupdel nazwa_grupy - usuwanie grupy
     groups użytkownik - wyświetlenie grup użytkownika
     id użytkownik - wyświetlenie UID, GID i grup użytkownika
 
+    sudo chage harry1234 - ustawia nową politykę haseł dla danego użytkownika
+    sudo chage -l jan_kowalski - Wyświetlenie informacji o ważności hasła
+    sudo chage -m 7 marek - Marek będzie mógł zmienić swoje hasło nie częściej niż raz na 7 dni
+    sudo chage -M 90 anna - wymuszenie regularnej zmiany hasła co 90 dni.
+
+    Dodatkowe:
+    
+    -W liczba	Dni ostrzeżenia przed wygaśnięciem (Warning)	chage -W 5 anna
+    -I liczba	Dni nieaktywności po wygaśnięciu (Inactive)	chage -I 3 anna
+    -E data	Dokładna data wygaśnięcia konta (Expire)	chage -E 2026-06-01 harry123
+     sudo chage -E -1 admin01 - wyłącza wygasanie konta (konto bezterminowe)
+    -d 0	Wymuszenie zmiany hasła przy następnym logowaniu	chage -d 0 harry123
+     sudo chage admin01 - tryb interaktywny (pozwala ustawić parametry po kolei)
+
+    passwd --help - wyświetla listę opcji zmiany haseł
+    sudo passwd -S admin01 - sprawdza status hasła (czy jest ustawione, zablokowane itp.)
+    sudo passwd -l admin01 - blokuje hasło użytkownika (uniemożliwia logowanie)
+    sudo passwd -u admin01 - odblokowuje hasło użytkownika
+    udo passwd nazwa_użytkownika - zmiana hasła użytkownika
+    passwd - zmiana własnego hasła
+
+
     whoami - wyświetla nazwę aktualnego użytkownika
     who - lista zalogowanych użytkowników
     w - szczegółowe informacje o zalogowanych użytkownikach
     last - historia logowań
+
+    /etc/passwd - informacje o użytkownikach
+    /etc/group - informacje o grupach
+    /etc/shadow - hasła użytkowników (zaszyfrowane)
+
+    Exit - wychodzi z obecnie zalogowanego użytkownika
+
+
+
+    --- Sieci ---
+
+
+
     su - użytkownik - przełączanie na innego użytkownika
     sudo -u użytkownik komenda - wykonanie komendy jako inny użytkown
 
@@ -137,6 +211,26 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
     curl http://example.com - pobieranie zawartości URL
     curl -O http://example.com/plik - pobieranie pliku z zachowaniem nazwy
 
+    /etc/network/interfaces - konfiguracja sieciowa Debian/Ubuntu)
+    /etc/sysconfig/network-scripts/ - konfiguracja sieciowa RedHat/CentOS
+    /etc/resolv.conf - konfiguracja DNS
+    /etc/hosts - lokalne mapowanie nazw na adresy IP
+
+    hostname - wyświetla aktualną nazwę systemową komputera
+    hostname -f - wyświetla pełną nazwę domenową (Fully Qualified Domain Name)
+    hostname -d - wyświetla nazwę samej domeny DNS
+
+    sudo nano /etc/hostname - edycja pliku zawierającego główną nazwę komputera
+    sudo nano /etc/hosts - edycja pliku lokalnego mapowania nazw na adresy IP (pozwala przypisać nazwę do konkretnego adresu IP bez udziału serwera DNS)
+
+    Alias adres =’ip a’  - tworzy alias dla jakieś komendy 
+
+
+
+    --- Usługi ---
+
+
+
     sudo systemctl start usługa - uruchomienie usługi
     sudo systemctl stop usługa - zatrzymanie usługi
     sudo systemctl restart usługa - restart usługi
@@ -148,39 +242,14 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
     sudo systemctl disable usługa - wyłączenie autostartu
     systemctl list-unit-files --type=service - lista usług
 
-    edytor Nano 
+
     
-    nano plik - otwarcie pliku
-    Ctrl+O - zapisanie
-    Ctrl+X - wyjście
-    Ctrl+K - wycięcie linii
-    Ctrl+U - wklejenie
+    --- znajdywanie plików / Folderów ---
 
-
-    tar -czf archiwum.tar.gz katalog/ - utworzenie archiwum gzip
-    tar -xzf archiwum.tar.gz - rozpakowanie archiwum gzip
-    tar -tf archiwum.tar.gz - wyświetlenie zawartości archiwum
-
-
-    zip -r archiwum.zip katalog/ - utworzenie archiwum zip
-    unzip archiwum.zip - rozpakowanie zip
-    unzip -l archiwum.zip - wyświetlenie zawartości zip
 
 
     history - wyświetlenie historii komend
     history | grep nazwa - wyszukiwanie w historii
-
-
-    /etc/passwd - informacje o użytkownikach
-    /etc/group - informacje o grupach
-    /etc/shadow - hasła użytkowników (zaszyfrowane)
-
-
-    /etc/network/interfaces - konfiguracja sieciowa Debian/Ubuntu)
-    /etc/sysconfig/network-scripts/ - konfiguracja sieciowa RedHat/CentOS
-    /etc/resolv.conf - konfiguracja DNS
-    /etc/hosts - lokalne mapowanie nazw na adresy IP
-
 
     find /ścieżka -name "nazwa" - wyszukiwanie plików po nazwie
     find /ścieżka -type f -size +100M - wyszukiwanie dużych plików
@@ -188,18 +257,21 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
     locate foo.txt                             # Find a file
     locate --ignore-case                       # Find a file and ignore case
     locate f*.txt                              # Find a text file starting with 'f'
-    
+
     which komenda - lokalizacja pliku wykonywalnego komendy
     whereis komenda - lokalizacja plików związanych z komendą
-
 
     diff plik1 plik2 - porównanie dwóch plików
     cmp plik1 plik2 - porównanie plików binarnych
 
-
     env - wyświetlenie wszystkich zmiennych środowiskowych
     echo $PATH - wyświetlenie zmiennej PATH
     export ZMIENNA=wartość - ustawienie zmiennej środowiskowej
+
+
+
+    --- Dodatkowe ---
+
 
 
     date - wyświetla aktualną datę i godzinę
@@ -217,38 +289,6 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
     %M - minuta (00-59)
     %S - sekunda (00-59)
 
-    Exit - wychodzi z obecnie zalogowanego użytkownika
-
-    hostname - wyświetla aktualną nazwę systemową komputera
-    hostname -f - wyświetla pełną nazwę domenową (Fully Qualified Domain Name)
-    hostname -d - wyświetla nazwę samej domeny DNS
-
-    sudo nano /etc/hostname - edycja pliku zawierającego główną nazwę komputera
-    sudo nano /etc/hosts - edycja pliku lokalnego mapowania nazw na adresy IP (pozwala przypisać nazwę do konkretnego adresu IP bez udziału serwera DNS)
-
-
-    sudo chage -l admin01 - wyświetla szczegółowe dane o ważności konta i hasła
-    sudo chage -E 2026-03-21 admin01 - ustawia konkretną datę wygaśnięcia konta
-    sudo chage -E -1 admin01 - wyłącza wygasanie konta (konto bezterminowe)
-    sudo chage admin01 - tryb interaktywny (pozwala ustawić parametry po kolei)
-
-    passwd --help - wyświetla listę opcji zmiany haseł
-    sudo passwd -S admin01 - sprawdza status hasła (czy jest ustawione, zablokowane itp.)
-    sudo passwd -l admin01 - blokuje hasło użytkownika (uniemożliwia logowanie)
-    sudo passwd -u admin01 - odblokowuje hasło użytkownika
-
-    Alias adres =’ip a’  - tworzy alias dla jakieś komendy 
-
-    ln -s źródło cel
-    ln -s /etc skrot_do_etc - tworzy wiązanie symboliczne
-    po wykonaniu komendy ls -l powinniśmy zauważyć skrot_do_etc -> /etc (skrót wskazuje na miejsce źródłowe)
-
-
-
-    TODO : Dodać tutaj tworzenie i zarządzanie partycjami na Linuxie 
-
-
-
     Ctrl+C - przerwanie działania programu
     Ctrl+Z - wstrzymanie programu (można wznowić bg/fg)
     Ctrl+D - koniec pliku EOF / wylogowanie
@@ -257,6 +297,18 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
     Ctrl+R - wyszukiwanie w historii komend
     !! - powtórzenie ostatniej komendy
     !n - wykonanie n-tej komendy z histori
+
+
+    --- Zarządzanei dyskami / partycjami 
+
+
+    sudo fdisk dysk           - edycja partycji dysku 
+    sudo mkfs dysk -t system  - formatuje partycje do danego systemu plików
+    sudo mount dysk folder    - mountuje dysk USB w folderze
+    
+
+
+
     
 > Zmiana adresu IP, bramy domyślnej, maski sieciowej, serverów DNS w Linuxie opartym na Ubuntu jest zawarta w Teorii w folderze 'TP-link_Konfiguracja'
 
