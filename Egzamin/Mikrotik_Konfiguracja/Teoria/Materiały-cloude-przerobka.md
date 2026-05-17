@@ -38,11 +38,9 @@ Aby zresetować fabrycznie router Mikrotikowy, należy:
 
 Następnie należy połączyć się przewodem Ethernet do naszego mikrotika na porcie 2 - czemu nie na 1? Na porcie pierwszym wykrywanie po adresie MAC nie działa i służy on domyślnie do podłączenia do interfejsu WAN, a nie LAN.
 
-Trzeba się upewnić, że:
+podsumowując Trzeba się upewnić, że:
 
-jeden koniec Ethernetu jest wpięty do portu 2+ mikrotika, a drugi koniec do naszej stacji roboczej, z której go konfigurujemy.
-
-karta sieciowa, do której wpiąliśmy mikrotika, jest włączona
+- jeden koniec Ethernetu jest wpięty do portu 2+ mikrotika, a drugi koniec do naszej stacji roboczej, z której go konfigurujemy.
 
 #### Krok 3.
 
@@ -60,19 +58,15 @@ Na egzaminie INF02, kiedy połączymy się do jakiegoś routera, którego świe�
 
 <img width="1150" height="60" alt="image" src="https://github.com/user-attachments/assets/15cb7651-74ca-4001-94b8-5dd59ae3177f" />
 
-UWAGA: Router nie pojawi się od razu po zresetowaniu, ponieważ trzeba odczekać pewien czas, żeby się przygotował - w większości przypadków około 30 sekund wystarczy, aby się pojawił.
+UWAGA: Router nie pojawi się od razu po zresetowaniu, ponieważ trzeba odczekać pewien czas, żeby się przygotował, zresetował - w większości przypadków powinno to być maksymalnie 30 sekund zanim się pojawi.
 
-
-(jednak tak nie jest) UWAGA: Z tego, co testowałem, to nie da się połączyć z routerem, jeśli mamy na karcie sieciowej adres APIPA - co to jest? Adres APIPA, taki jak np. 169.254.31.184 z maską 255.255.0.0 - jeśli mamy taki adres, oznacza to, że komputer nie pobrał adresu IP od np. routera, czyli serwer DHCP nie działa.
-
-Następnie, aby połączyć się z Mikrotikiem, musimy w programie Winbox albo wpisać jego adres MAC, domyślny login jako admin i kliknąć guzik Connect.
+Następnie, aby połączyć się z Mikrotikiem, musimy w programie Winbox wpisać jego adres MAC, domyślny login jako admin i kliknąć guzik Connect.
 
 <img width="1263" height="113" alt="image" src="https://github.com/user-attachments/assets/4ec2c46c-b668-4ef9-bda5-f3f7bd05d035" />
 
 Albo możemy po prostu dwukrotnie kliknąć na adres MAC routera, co nas automatycznie do niego połączy.
 
 <img width="209" height="60" alt="image" src="https://github.com/user-attachments/assets/ed7a0437-f7ad-4f2f-ace2-afb5e4d41e59" />
-
 
 UWAGA: Jeśli po zresetowaniu mikrotika pojawi się nam okienko z monitem o usunięciu konfiguracji, nie można go zignorować - klikamy wtedy w nim guzik 'Remove Configuration', co sprawi, że stracimy na chwilę połączenie z mikrotikiem, a następnie automatycznie się z nim połączymy, tym samym resetując konfigurację.
 
