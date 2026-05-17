@@ -445,6 +445,9 @@ Jeśli ktoś ma ochotę skonfigurować switcha przez CLI lub jest napisane tak w
 
 <img width="621" height="625" alt="image" src="https://github.com/user-attachments/assets/deeba806-70d6-4670-a3b0-7a2b4123b3a1" />
 
+> Uwaga: Nowsze modele switchy zamiast portu RJ45/DB9 mogą posiadać port konsolowy typu Micro-USB. W takim przypadku łączymy się zwykłym kablem Micro-USB -> USB bez użycia przejściówek szeregowych.
+
+
 > kolor nie ma znaczenia
 
 kiedy połączamy się przez konsole musimy włączyć przewód Ethernet do specjalnego portu Konsolowego zlokalizowanego na tyle lub na przodzie Switcha - będzie on wyglądać tak: 
