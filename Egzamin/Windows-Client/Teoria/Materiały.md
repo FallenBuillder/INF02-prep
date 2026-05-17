@@ -1039,26 +1039,100 @@ Windows na egzaminach IFN02 często występuje jako klient. Albo to dla servera 
 
 W tej sekcji omówimy jaką role pełni Windows jako Klient i jak sprawić aby otrzymywał usługi od Serverów.
 
+Zagadnienia:
+
+- Przyłączanie klientów do domeny
+- Serwer DHCP
+- Serwer DNS
+- Serwer plików i udostępnianie zasobów
+- Serwer wydruku
+- Zdalne łączenie się z serwerem - konsola mmc i zdalny pulpit
+- Usługa IIS - serwer www
+- Server FTP
+- Server SSH
+- SAMBA
 
 
-```
+## Przyłączanie klientów do domeny
+
+Przyłączenie klientów do domeny przydaje się kiedy mamy doczynienia z Active Directory na Windows Serverze i chcemy do niego dodać jakiś komputer.
+
+[Podłączenie Klienta do domeny w Windows11](https://www.youtube.com/watch?v=UvCjyfGo_js)
+
+Aby Podłączyć Klienta do domeny w Windows10 należy:
+
+1. Wejść w ustawienia
+
+<img width="801" height="630" alt="image" src="https://github.com/user-attachments/assets/d72b2b86-5b2b-4a58-8bcc-9ee54b7457a4" />
+
+2. kliknąć system
+
+<img width="253" height="116" alt="image" src="https://github.com/user-attachments/assets/c3a59d1b-e4f7-4d61-8c71-6afd1fe00615" />
+
+3. Zeskrolowac na dół do 'About' albo 'Informacje'
+
+<img width="253" height="116" alt="image" src="https://github.com/user-attachments/assets/8d90319d-5229-4462-8289-a6eed2186419" />
+
+4. Po kliknięciu i wejściu do menu należy wybrać opcję 'Advanced system settings'
+
+<img width="253" height="116" alt="image" src="https://github.com/user-attachments/assets/85d3f5e5-25bc-40e9-9473-0861f0d14c8a" />
+
+5. Tutaj wchodzimy do zakładki Nazwa Komputera
+
+<img width="253" height="116" alt="image" src="https://github.com/user-attachments/assets/f003a3fd-8c43-43e5-83a0-329adf52724f" />
+
+6. klikamy Zmień
+
+<img width="253" height="116" alt="image" src="https://github.com/user-attachments/assets/12bcbb54-3a0c-41fa-9545-a661134a4b1f" />
+
+7. Zmieniamy na dole domenę na domenę naszego servera i klikamy 'ok'
+
+<img width="253" height="116" alt="image" src="https://github.com/user-attachments/assets/a74fc70c-9b07-467b-8731-824ac380df03" />
 
 
-Przyłączanie klientów do domeny
-Serwer DHCP
-Serwer DNS
-Serwer plików i udostępnianie zasobów
-Serwer wydruku
-Zdalne łączenie się z serwerem - konsola mmc i zdalny pulpit
-Usługa IIS - serwer www
-Server FTP
-Server SSH
-SAMBA
-
-```
-TODO - Dokończyć tą sekcje póżniej (:
 
 
+## Server DHCP
+
+Na Windowsie nie trzeba się wyśilać aby dostać adres IP od naszego servera wystarczy, że:
+- Klient ma połączenie z serverem
+- usługa jest dobrze skonfigurowana na serverze 
+
+krok1. Sprawdzenie połączenia z serverem
+
+<img width="461" height="231" alt="image" src="https://github.com/user-attachments/assets/dd7f58a3-63b6-412d-9dfb-1757b6cd2cc7" />
+
+krok2. Otrzymanie adresu IP od servera
+
+Aby wejsć do ustawień kart sieciowych wystarczy w menu 'Start' wpisać 'sieciowe' i wybrać opcję 'Wyświetl połączenia sieciowe'
+
+<img width="758" height="643" alt="image" src="https://github.com/user-attachments/assets/91a7c4ed-4cca-4b6e-a46d-f1bf7cd6c010" />
+
+Następnie po pokazaniu się menu klikamy dwukrotnię na kartę sieciową -> klikamy właściwości -> Scrollujemy na dół właściwości karty sieciowej i klikamy dwukrotnie 'Internet Protocol Version 4 (TCP/IPv4) -> Wybieramy w ustawieniach karty 'Uzyskaj adres IP automatycznie' 
+
+<img width="1025" height="768" alt="image" src="https://github.com/user-attachments/assets/090b1caa-c044-454a-85ee-823521edac85" />
+
+To sprawi, że adres IP naszego komputera będzie taki jaki przypisał nam server.
+
+<img width="549" height="229" alt="image" src="https://github.com/user-attachments/assets/a3582868-19dc-4211-95e6-a0a8ac2c8297" />
+
+## Server DNS
+
+<img width="405" height="455" alt="image" src="https://github.com/user-attachments/assets/443a9aea-a5c2-4fad-a0ee-bec78b86fcc8" />
+
+Aby otrzymać usługę tłumaczenia nazw od servera należy wpisac jego adres IP na samym dole menu, które konfigurowaliśmy wcześniej w sekcji 'Preferowany Serwer DNS' 
+
+Jeśli Server DNS jest dobrze skonfigurowany będziemy teraz mogli dostawać adresy IP domen, które szukamy i znaleść nasz server DNS oraz inne domeny przez nas skonfigurowane 
+
+<img width="397" height="456" alt="image" src="https://github.com/user-attachments/assets/714d8ddd-e3d8-4692-b7f5-0addfa57724a" />
+<br>
+<img width="311" height="22" alt="image" src="https://github.com/user-attachments/assets/1f83faa6-4050-474b-87a8-6ee5e8eb5c04" />
+<br>
+<img width="336" height="165" alt="image" src="https://github.com/user-attachments/assets/af89946e-7fb6-4cfc-857d-9d969c78f8e1" />
+<br>
+<img width="420" height="184" alt="image" src="https://github.com/user-attachments/assets/66955e01-5492-4a99-8818-03c4a67bd99d" />
+
+## Server plików i udostępnianie zasobów.
 
 
 
