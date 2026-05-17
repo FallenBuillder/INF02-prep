@@ -41,3 +41,19 @@ Wifi z wikipedi
 
 
 https://wojst.pl/linux-serwer-przygotowanie-do-egzaminu-inf-02-ubuntu/
+<img width="708" height="357" alt="image" src="https://github.com/user-attachments/assets/de3a3f82-d8bc-4c17-b9e2-20c8bd30ff8d" />
+
+<img width="721" height="1776" alt="image" src="https://github.com/user-attachments/assets/9d70bfd9-3895-46a2-adb6-b85b3f6f7149" />
+
+<img width="576" height="1543" alt="image" src="https://github.com/user-attachments/assets/90383888-4a1b-49ca-a54e-c6e6c41d651b" />
+
+<img width="607" height="228" alt="image" src="https://github.com/user-attachments/assets/1557daab-9c6f-464e-b25f-8f5a73e2f9db" />
+
+<img width="573" height="1192" alt="image" src="https://github.com/user-attachments/assets/945ce597-743f-42fc-8e1f-f3ffd4e54964" />
+
+<img width="594" height="246" alt="image" src="https://github.com/user-attachments/assets/f8b3dd76-7073-4553-b53e-13f62bbcda06" />
+
+
+
+
+
