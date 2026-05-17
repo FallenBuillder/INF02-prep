@@ -53,6 +53,7 @@ klikamy dwa razy tą opcje
 i możemy skonfigurować nasz adres IP czyli:
 
 - zmieniamy sekcje Adres IP: na jakiś z podsieci w której jest fabrycznie nasz switch , w masce podsieci wpisujemy maske /24 ( taka jest defaultowo ) czyli: 255.255.255.0
+- 
 Po zakończeniu klikamy wszędzie przycisk ok aby opcje się zapisał i wychodzimi z połączeń sieciowych
 
 
@@ -248,16 +249,15 @@ jeśli na egzaminie jest gdzieś napisane ,że mamy włączyć tagowanie dla VLA
 <img width="616" height="493" alt="image" src="https://github.com/user-attachments/assets/b4d41215-5ac7-4cbf-8ce7-dacbcce94395" />
 
 W tej karcie możemy zmienić tryb konfiguracji portów na jeden z trzech 
-- Trunk ( będzie omówiony zachwilę )
+- Trunk ( omówiony później )
 - Access ( to jest defaultowy tryb w każdym VLANie który nie pozwala nam na zmienienie tagowania ) 
-- General ( ten tryb pozwoli nam na włączenie tagowania )
+- General ( ten tryb pozwola nam na włączenie lub wyłączanie tagowanie - jak chceny ( nie jest potrzebny na egzaminie ))
 
 <img width="585" height="208" alt="image" src="https://github.com/user-attachments/assets/ba2ab60a-b91a-4835-beed-2afdbe8519c0" />
 
 dla przykładu, gdyby było na egzaminie żeby włączyć tagowanie na portach 1,2,3 
 
-Musimy najpierw wybrać wszystkie porty ,które chcemy skonfigurować a następnie z Dropdowna wybrać Link Type General
-
+Musimy najpierw wybrać wszystkie porty ,które chcemy skonfigurować a następnie z Dropdowna wybrać Link Type General 
 
 <img width="589" height="429" alt="image" src="https://github.com/user-attachments/assets/08a02b9d-bb21-4109-bc43-ae1d89d9d6a1" />
 
@@ -270,7 +270,6 @@ Po kliknięciu na dropdowna i wybraniu, że chcemy tagować podane przez nas por
 <img width="62" height="21" alt="image" src="https://github.com/user-attachments/assets/398f0c41-c44a-4874-a61c-345b19771a7f" />
 
 <img width="602" height="395" alt="image" src="https://github.com/user-attachments/assets/fed68e2b-d45f-4fff-bdae-c4c3f1e1c945" />
-
 
 ### przypisanie SVI do danego VLANa
 
@@ -315,6 +314,7 @@ Po kliknięciu Przycisku , zaakceptowaniu monitu przez kliknięcie guzika Ok mam
 
 
 ## Skonfigurowanie Trunka
+
 Trunk w kontekście egzaminu praktycznego jest najtrudniejszym elementem jeśli chodzi o switcha.
 
 Naszczęście jest dosyć rzadki , ponieważ był tylko na 4 egzaminach praktycznych i jak już jest to odejmuje się wtedy raczej jedno zadanie z egzaminu na jego rzecz lub reszta egzaminy jest trochę łatwiejsza.
@@ -505,6 +505,7 @@ Przykład Znalezienia Szybkości w dokumentacji:
 Po wejściu do dokumentacji należy znaleść temat który brzmi w stylu jak "Accessing the CLI" albo "Connecting to the switch"
 
 <img width="710" height="100" alt="image" src="https://github.com/user-attachments/assets/f7e59f1a-5919-43f5-8823-67d5dc3123f4" />
+
 Jak widać istnieje taki dział - a więc idziemy do niego w dokumentacji 
 
 <img width="670" height="964" alt="image" src="https://github.com/user-attachments/assets/46e4e0f5-e5cc-474a-993f-4243c13ed5fa" />
