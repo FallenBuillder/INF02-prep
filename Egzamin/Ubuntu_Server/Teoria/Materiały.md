@@ -9,13 +9,226 @@ będą w tym dziale omawiał jedynie komendy ściśle związane z Ubuntu Server,
 
 Zagadnienia:
 
-- Podstawowe polecenia w Linuksie związane z Ubuntu Server
+- Podstawowe polecenia w Linuksie związane z Ubuntu Server ( na końcu ) 
 - Serwer DHCP w Ubuntu Server
 - Routing i NAT w Ubuntu Server 
-- erwer DNS w Ubuntu Server 
+- Serwer DNS w Ubuntu Server 
 - Serwer SAMBA w Ubuntu Server
 - Serwer WWW - Apache w Ubuntu Server ( podstawy do egzaminu )
 - Serwer FTP w Ubuntu Server
 - SSH w Ubuntu Server
 
-TODO: Zrobić cały dział ):
+## 50-cloud-init.yaml
+
+
+
+
+# Server DHCP
+
+Instalacja
+
+> Na Egzaminie pakiet jest już zainstalowany.
+
+Przed Instalacją należy upewnić się, czy ma się połączenie z internetem
+
+<img width="444" height="89" alt="image" src="https://github.com/user-attachments/assets/1c929e30-b61e-4c8f-8e4a-44e6514fb001" />
+
+
+```
+sudo apt update && sudo apt upgrade -y    - pobranie najowszych pakietów i pobranie nowych wersji rzeczy w naszym systemie.
+sudo apt install isc-dhcp-server          - Instalacja Usługi.
+```
+
+
+Komendy do zarządzania Usługą isc-dhcp-server.
+
+```
+sudo systemctl status isc-dhcp-server    -  Sprawdza czy server DHCP działa poprawnie
+sudo systemctl restart isc-dhcp-server   -  restartuje server pod nową konfigurację
+sudo systemctl start isc-dhcp-server     -  Sprawia, że server DHCP włączy się ponownie po wyłączeniu i włączeniu Servera 
+man 5 dhcpd.conf                         -  manual usługi 
+```
+
+pliki do konfiguracji Usługi isc-dhcp-server.
+
+```
+/etc/default/isc-dhcp-server             -  Wybranie interfejsu na, którym wystawiona będzie usługa.
+/etc/dhcp                                -  folder z konfiguracją Servera DHCP
+/etc/dhcp/dhcpd.conf                     -  konfiguracja działania serera oraz jego ustawienia.
+
+```
+
+
+## Konfiguracja
+
+## Krok1. Ustawienie Interfejsu na, którym wystawione będzie usługa.
+
+<img width="833" height="307" alt="image" src="https://github.com/user-attachments/assets/77719ca1-19f0-438e-b1a2-c442fc848aee" />
+
+Po użyciu komendy 'ip a' sprawdzamy nazwę interfejsu LAN naszego servera i ją zapamiętujemy . 
+
+Następnym krokiem jest zmodyfikowanie pliku.
+
+<img width="1280" height="803" alt="image" src="https://github.com/user-attachments/assets/ee0a5719-36bc-400e-b213-33d02f1ef5bb" />
+
+<br>
+
+## krok2. Konfiguracja Servera 
+
+UWAGA: Warto zrobić kopię pliku konfiguracyjnego przed tym jak zaczniemy w nim grzebać ale nie trzeba tego robić.
+```
+cp /etc/dhcp/dhcpd.conf /etc/dhcp/dhcpd.conf-kopia
+```
+
+Wchodzimy do pliku /etc/dhcp/dhcpd.conf oraz odkomentuwojemy #authoritative; - ponieważ nasz server jest jedynym, głównym serverm DHCP w naszej sieci.
+
+<img width="1273" height="799" alt="image" src="https://github.com/user-attachments/assets/df0072aa-9b3e-4949-a6b0-42db27e86f28" />
+
+Po zjechaniu w dół widzimy faktyczną konfigurację servera, należy ją odkomentować.
+
+<img width="486" height="187" alt="image" src="https://github.com/user-attachments/assets/ed2d915a-9495-4592-a8d3-a4c751a1bec6" />
+
+<img width="505" height="185" alt="image" src="https://github.com/user-attachments/assets/0d01a64c-2c90-4392-8012-6958957e0b45" />
+
+Następnie wypełniamy konfigurację parametrami, które zostały nam podane na egzaminie. - W tym przypadku wypełnie konfigurację przykładowymi wartościami.
+
+<img width="508" height="183" alt="image" src="https://github.com/user-attachments/assets/ff1526d4-7545-4f15-8134-6cf60ba71583" />
+
+Znaczenia poszczególnych parametrów
+```
+subnet 192.168.10.0    -    oznacza adres sieciowy w naszego interfejsu LAN
+netmask 255.255.255.0  -    oznacza maskę posieci naszego interfejsu LAN
+range 192.168.10.50 192.168.10.100 - oznacza zakres adresów IP, które są dawane przez server DHCP
+option domain-name-server 192.168.10.1 - oznacza server DNS jaki otrzyma klient jeśli otrzymywanie servera DNS jest ustawione jako automatyczne
+option domain-name "internal.example.org" - Ustawia przyrostek (sufiks) lokalnej domeny. Jeśli klient spróbuje wyszukać hosta o nazwie server, automatycznie dołączy ten przyrostek i wyśle zapytanie o server.internal.example.org.
+option routers 192.168.10.1 - wkazuje adres IP bramy domyślnej jaką otrzyma host
+option broadcast-address 192.168.10.255 - adres rozgłoszeniowy interfejsu LAN servera
+default-lease-time 600 - czas w sekundach w jakim klient trzyma swój adres IP ( defaultowy ) 
+max-lease-time 7200 - maksymalny czas jaki klient może mieć adres IP przypisany przez server DHCP.
+```
+
+## krok3. Utworzenie Statycznej Dzierżawy adresu dla klienta.
+
+Scrollujemy w dół
+
+Odkomentuwojemy tą sekcję.
+
+<img width="312" height="75" alt="image" src="https://github.com/user-attachments/assets/9403c1f7-7187-4174-a483-107585f70a98" />
+
+<img width="324" height="67" alt="image" src="https://github.com/user-attachments/assets/79884479-a9f0-42a8-b9e8-fea32377080e" />
+
+Wypełniamy konfigurację
+
+<img width="325" height="68" alt="image" src="https://github.com/user-attachments/assets/4ef733ac-97e7-4fcf-89d3-f9b97b9a3600" />
+
+Znaczenia poszczególnych parametrów 
+```
+host harry123                        - definiuje unikalną nazwę (identyfikator) dla rezerwacji hosta w pliku konfiguracyjnym
+hardware ethernet 08:00:27:2C:74:3E  - Określa fizyczny adres MAC (08:00:27:2C:74:3E) karty sieciowej typu Ethernet należącej do tego konkretnego klienta.
+fixed-address 192.168.10.150;        - Wskazuje stały adres IP (192.168.10.150), który serwer DHCP ma zawsze przypisywać urządzeniu o dopasowanym wyżej adresie MAC.
+```
+
+## krok4. Zresetowanie / sprawdzenie działania usługi.
+
+Wpisujemy komendę :
+```
+sudo systemctl restart isc-dhcp-server
+```
+aby zapisać zmiany, które dokonaliśmy na serverze.
+
+Nastepnie wpisujemy komendę :
+```
+sudo systemctl status isc-dhcp-server
+```
+Aby sprawdzić czy konfiguracja została wykonana prawidłowo.
+
+<img width="993" height="401" alt="image" src="https://github.com/user-attachments/assets/5020a525-adcc-4499-bf61-5c1029b1b95d" />
+
+Jeśli wszystko jest zielone powinno być OK, lecz jeśli pojawi się czerwony tekst a usługa wejdzie w stan 'Failed' oznacza to, że mam błąd w konfugracji lub adresacji.
+
+Po zmianię karty na DHCP oraz sprawdzeniu adresu IP otrzymaliśmy statyczny Lease ( Adres IP ) od servera.
+
+<img width="740" height="483" alt="image" src="https://github.com/user-attachments/assets/ec2f88c0-74d7-4d3e-a6be-5bcd8d13dc7a" />
+
+<img width="1021" height="245" alt="image" src="https://github.com/user-attachments/assets/22cab411-5c2d-4279-8080-bfca6ec01adb" />
+
+
+
+
+
+# Routing / NAT
+
+pliki do konfiguracji Usługi routingu.
+
+```
+/etc/sysctl.conf
+```
+
+komendy potrzebne do konfiguracji usługi routingu.
+
+```
+sudo sysctl -p
+sudo iptables -t nat -o enp0s3 -A POSTROUTING -j MASQUERADE         - gdzie '-o' odnosi się do nazwy intefejsu WAN karty sieciowej Servera.
+sudo iptables-save
+```
+
+## Krok1.
+
+edycja pliku /etc/sysctl.conf 
+
+<img width="1272" height="799" alt="image" src="https://github.com/user-attachments/assets/ae336961-7aaf-4fd1-86dd-50da6d6bf990" />
+
+jedyną zmianą w tym pliku jest odkomentowanie net.ipv4.ip_forward=1. Po to aby server zaczoł zachowywać się jak router i przekazywał dalej pakiety.
+
+wpisujemy następnie komendę:
+
+```
+sudo sysctl -p 
+```
+
+Aby zapisać zmiany w pliku.
+
+## krok2.
+
+Wpisujemy komendę 
+```
+sudo iptables -t nat -o enp0s3 -A POSTROUTING -j MASQUERADE
+```
+wpisanie tej komendy pozwala uruchomić na naszym interfejsie WAN maskarade (MASQUERADE), czyli najpopularniejszą odmianę NAT (Network Address Translation). Pozwalającą urządzeniom z naszej sieci wewnętrznej na korzystanie z internetu za pośrednictwem serwera, który konfigurujemy.
+
+Aby zapisac zmiany spowodowane przez powyższą komendę wpisujemy komendę
+
+```
+sudo iptables-save
+```
+
+<img width="696" height="226" alt="image" src="https://github.com/user-attachments/assets/ff64c8cc-5c36-48bb-b772-60a62492c16c" />
+
+
+Konfiguracja Routingu jest zakończona. Mamy teraz dostęp do internetu. ( Nie ma jeszcze usługi DNS )
+
+<img width="635" height="313" alt="image" src="https://github.com/user-attachments/assets/27c2cfaa-9257-4f87-900b-ba98e46b3b15" />
+
+
+
+# Server DNS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
