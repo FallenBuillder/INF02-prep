@@ -326,6 +326,17 @@ Po wypisaniu plików konfiguracyjnych bind9 pliki, których będziemy potrzebowa
 
 # krok2.
 
+edycja pliku etc/bind/named.conf.options
+
+<img width="820" height="413" alt="image" src="https://github.com/user-attachments/assets/9143d93e-e123-420b-ad70-37f84a41a54d" />
+
+# krok3.
+
+edycja pliku /etc/bind/named.conf.local 
+
+<img width="822" height="382" alt="image" src="https://github.com/user-attachments/assets/7de1dd1d-7090-40b3-8b0c-8481de2804a7" />
+
+
 
 
 
