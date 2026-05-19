@@ -285,10 +285,46 @@ Konfiguracja Routingu jest zakończona. Mamy teraz dostęp do internetu. ( Nie m
 
 # Server DNS
 
+Na egzaminie Konfiguracja servera DNS nie jest aż tak trudna niż na lekcjach ponieważ trzeba zrobić o wiele mniej.
+
+pliki do konfiguracji usługi DNS
+
+```
+/etc/bind                  -    miejsce z plikami konfiguracyjnymi servera
+
+- db.127                   - konfiguracja strefy przeszukiwania do tyłu
+- db.local                 - konfiguracja strefy przeszukiwania do przodu
+- named.conf               - globalna konfiguracja DNS
+- named.conf.default-zones - domyślne strefy przeszukiwania ( plik , określenie mastera )
+- named.conf.local         - lokalna konfiguracja DNS
+- named.conf.options       - konfiguracja serwera DNS
+
+/etc/resolv.conf           - wybranie, którego servera DNS ma używać nasz server
+```
+Komendy potrzebne do konfiguracji usługi DNS
+
+```
+sudo apt install -y bind9 bind9utils bind9-doc dnsutils   -  instaluje usługę
+dig
+nslookup
+ping
+```
 
 
+## Krok1. Oznajomienie się z konfiguracją.
 
+<img width="539" height="245" alt="image" src="https://github.com/user-attachments/assets/870c467c-19c0-44f1-b275-d51485436667" />
 
+Po wypisaniu plików konfiguracyjnych bind9 pliki, których będziemy potrzebowali są następujące 
+
+- db.127 - przykładowa konfiguracja strefy przeszukiwania wstecznego
+- db.local - przykładowa konfiguracja strefy przeszukiwania do przodu
+- named.conf - globalna konfiguracja DNS
+- named.conf.default-zones - domyślne strefy przeszukiwania
+- named.conf.local - lokalna konfiguracja DNS
+- named.conf.options - konfiguracja serwera DNS
+
+# krok2.
 
 
 
