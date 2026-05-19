@@ -20,9 +20,81 @@ Zagadnienia:
 
 ## 50-cloud-init.yaml
 
+Plik '/etc/netplan/50-cloud-init.yaml' służy nam do konfiguracji interfejsów sieciowych servera Ubuntu.
+
+Jak go Skonfigurować ?
+
+Pierwszym krokiem otwarcie go w edytorze tekstowym takim jak vim lub nano - dla przykładu użyjemy nano 
+
+<strong>UWAGA: Formatowanie w pliku 50-cloud-init.yaml jest bardzo wybredne i każda spacja się liczy</strong>
+
+
+Komendy potrzebne do konfiguracji Sieci.
+```
+sudo nano /etc/netplan/50-cloud-init.yaml
+sudo netplan try
+sudo netplan apply
+```
+
+po wpisaniu komendy 'sudo nano /etc/netplan/50-cloud-init.yaml' przechodzimy do konfiguracji pliku.
+
+Tak wyglądałaby przykładowa pełna konfiguracja netplana:
+
+<img width="350" height="538" alt="image" src="https://github.com/user-attachments/assets/52f093f8-4e6a-424e-ad32-d17a493c6e4b" />
+
+Wytłumaczenie 
+```
 
 
 
+network: – Główny kontener (korzeń) całej konfiguracji sieciowej. Mówi systemowi: „tutaj zaczynają się ustawienia sieci”.
+
+version: 2 – Określa wersję formatu Netplan. Obecnie standardem jest wersja 2.
+
+ethernets: – Sekcja, w której definiuje się przewodowe karty sieciowe (karty Ethernet).
+
+
+
+1. Pierwsza karta sieciowa: enp0s3 ( NIC1 )
+Ta karta pełni rolę głównego połączenia z Internetem (bramy domyślnej).
+
+enp0s3: – Identyfikator systemowy pierwszej karty sieciowej.
+
+addresses:
+
+- "10.15.0.19/24" – Przypisuje karcie statyczny adres IP 10.15.0.19. /24 to maska podsieci (odpowiednik 255.255.255.0), co oznacza, że karta działa w sieci lokalnej od 10.15.0.1 do 10.15.0.254.
+
+nameservers: – Sekcja konfiguracji serwerów DNS (odpowiedzialnych za tłumaczenie nazw stron, np. google.com, na adresy IP).
+
+addresses: – Lista adresów DNS:
+
+- 8.8.8.8 – Główny DNS (publiczny serwer Google).
+
+- 1.1.1.1 – Zapasowy DNS (publiczny serwer Cloudflare).
+
+search: [] – Lista wyszukiwania domen lokalnych (pusta, czyli brak domyślnego dopisywania sufiksów domenowych).
+
+routes: – Sekcja definiująca routing (ścieżki ruchu sieciowego).
+
+- to: "default" – Określa trasę domyślną (czyli gdzie wysyłać cały ruch wychodzący poza sieć lokalną, np. do Internetu).
+
+via: "10.15.0.1" – Adres IP bramy sieciowej (routera), przez który ten ruch ma przechodzić.
+
+match: – Reguła dopasowania sprzętowego. Służy do upewnienia się, że te ustawienia trafią na właściwą fizyczną/wirtualną kartę.
+
+macaddress: 08:00:27:CD:54:13 – System powiąże tę konfigurację tylko z kartą, która ma dokładnie taki adres sprzętowy MAC (unikalny identyfikator VirtualBox).
+
+set-name: NIC1 – Zmienia systemową nazwę tej karty na własną: NIC1 (łatwiejszą do identyfikacji).
+
+
+2. Druag Karta sieciowa: enp0s8 ( NIC2 )
+
+Więkoszość ustawień w tej karcie jest identyczne oprócz dodania
+
+optional: true - lecz ta linijka nie jest potrzebna na egzaminie jest tutaj tylko ze względu, że jestem na maszynioe wirtualnej 
+
+
+```
 # Server DHCP
 
 Instalacja
@@ -212,6 +284,8 @@ Konfiguracja Routingu jest zakończona. Mamy teraz dostęp do internetu. ( Nie m
 
 
 # Server DNS
+
+
 
 
 
