@@ -53,7 +53,7 @@ https://wojst.pl/linux-serwer-przygotowanie-do-egzaminu-inf-02-ubuntu/
 
 <img width="594" height="246" alt="image" src="https://github.com/user-attachments/assets/f8b3dd76-7073-4553-b53e-13f62bbcda06" />
 
-
+dodać dłogósci , standardy ethernetòw
 
 
 
