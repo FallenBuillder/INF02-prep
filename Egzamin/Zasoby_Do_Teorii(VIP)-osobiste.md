@@ -55,5 +55,11 @@ https://wojst.pl/linux-serwer-przygotowanie-do-egzaminu-inf-02-ubuntu/
 
 dodać dłogósci , standardy ethernetòw
 
+program zypper
 
+z bramkami rzeczy zadania 
 
+<img width="1009" height="741" alt="image" src="https://github.com/user-attachments/assets/f8240cff-6601-41f9-846b-d62e4a9e6bd3" />
+<img width="1046" height="485" alt="image" src="https://github.com/user-attachments/assets/0fe18c18-54a6-4588-ae43-dceac60b6f87" />
+
+https://zawodowe.edu.pl/egzamin/47ba9968-2b59-4702-ac84-b8bb2735ca5a/
