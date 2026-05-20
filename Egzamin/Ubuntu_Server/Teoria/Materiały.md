@@ -423,7 +423,7 @@ Następnie należy sprawdzić komendą nslookup na kliencie czy wszystkie rzeczy
 
 # Apache2
 
-Apache jest najłatwięjszą usługą na egzaminie a więc nie trzeba się niczym martwić przy jego konfiguracji (:
+Apache jest generalnie najłatwięjszą usługą na egzaminie a więc nie musimy się go obawiać.
 
 plliki, które są nam potrzebne
 
@@ -530,7 +530,79 @@ Pliki, które będą nam potrzebne
 /etc/vsftpd.conf   -    główna konfiguracja servera FTP
 ```
 
-# krok1. - Edycja pliku /etc/vsftpd.conf
+## krok1. - Zapoznanie się z ustawieniami
+
+Naszym celem będzie:
+- Możliwość zalogowania się przez użytkownika anonimowego
+- Możliwość zalogowania się użytkownika systemowego
+- Sprawienie, że użytkownicy mogą tylko być w swoich katalogach domowych
+
+
+## Najbardziej podstawowa konfiguracja servera FTP ( tylko odkomentowuwyjemy )
+
+po otwarciu pliku vsftpd.conf pierwsza aby stworzyc podstawową konfigurację 
+- Zmienieniamy anonymous_enable=NO na anonymous_enable=YES
+Odkomentowuwyjemy
+- #write_enable=YES
+- anon_upload_enable=YES
+- anon_mkdir_write_enable=YES
+
+aby te zmiany miały jakikolwiek sens należy teraz stworzyć katalog dla użytkownika anonimowego aby mógł pobierać i wysyłać pliki (:.
+
+```
+cd /srv
+sudo mkdir -p /srv/ftp/public_folder_for_anonymous
+sudo chown -R ftp:ftp  /srv/ftp/public_folder_for_anonymous
+sudo chmod -R 775 /srv/ftp
+```
+
+W tej konfiguracji przedstawionej na górze użytkownik anonimowy po zalogowaniu się zobaczy folder 'public_folder_for_anonymous' po wejściu do niego będzie w stanie pobierać i zapisywać pliki.
+
+dlatego, że użytkownik ftp działa jak użytkownik anonymous to kiedy użytkownik anonymous wcieli się w role użytkownika ftp to według uprawnień które ustawiliśmy plikowi public_folder_for_anonymous ( 775 ) według nich grupa,użytkownik ma pełne uprawnienia do pliku. a przez to, nasz folder ma takie uprawnienia jakie ma to skoro uzytkownik anonymous = użytkownik ftp będziemy mogli teraz i zapisywac i odczytywac i wykonywać ALE tylko w tym folderze 
+
+<img width="629" height="767" alt="image" src="https://github.com/user-attachments/assets/80c40a13-fa14-47c4-8a77-64c91c2fb2e0" />
+
+Następnie Odkomentowuwyjemy
+- ftpd_banner= ( wpisujemy cokolwiek )
+- chroot_local_user=YES
+- chroot_list_enable=YES
+- chroot_list_file=/etc/vsftpd.chroot_list
+UWAGA: Dopisujemy allow_writeable_chroot=YES aby nie dostać tego błędu:
+
+Następnie należy utworzyć plik vsftpd.chroot_list komendą
+
+sudo touch /etc/vsftpd.chroot_list
+
+Następnie należy go zedytować i dopisać naszego użytkownika. w moim przypadku użytkownik to 'highsec'.
+
+sudo nano /etc/vsftpd.chroot_list    -    dopisujemy naszego użytkownika.
+
+przez to, że dopisaliśmy użytkownika highsec do tego pliku będzie on mógł po zalogowaniu na niego wyjść z opisanego dla niego katalogu.
+
+Gdyby teraz wejść na server FTP i zalogowac się np. z uzytkownika harry123 z hasłem harry1234 to ten użytkownik nie mógł by przejść 'w tył' i utknołby swoim katalogu domowym i tam mógłby wykonywać jakieś operację.
+
+<img width="679" height="31" alt="image" src="https://github.com/user-attachments/assets/57103218-9cac-414d-9416-de6831e32ba2" />
+
+<img width="687" height="759" alt="image" src="https://github.com/user-attachments/assets/91902655-c571-4d51-852e-9e34fd1f8239" />
+
+
+Na końcu resetujemy server FTP
+
+sudo systemctl restart vsftpd
+sudo systemctl status vsftpd
+
+<img width="798" height="229" alt="image" src="https://github.com/user-attachments/assets/3cc2a7a2-62ec-473a-ac23-1c78bc641f8e" />
+
+i testujemy działanie Servera na kliencie poprzez komendę 'ftp' ( można oczywiście też przez GUI co jest wytłumaczone w sekcji 'Ubuntu_Klient' )
+
+wpisujemy komendę 
+
+- ftp 192.168.10.1
+
+
+
+
+
 
 
 
