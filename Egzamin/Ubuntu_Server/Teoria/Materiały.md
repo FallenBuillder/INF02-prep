@@ -29,7 +29,7 @@ Pierwszym krokiem jest otwarcie go w edytorze tekstowym takim jak vim lub nano -
 <strong>UWAGA: Formatowanie w pliku 50-cloud-init.yaml jest bardzo wybredne i każda spacja się liczy</strong>
 
 
-Komendy potrzebne do konfiguracji Sieci.
+Komendy potrzebne do konfiguracji naszego pliku.
 ```
 sudo nano /etc/netplan/50-cloud-init.yaml
 sudo netplan try
