@@ -324,17 +324,210 @@ Po wypisaniu plików konfiguracyjnych bind9 pliki, których będziemy potrzebowa
 - named.conf.local - lokalna konfiguracja DNS
 - named.conf.options - konfiguracja serwera DNS
 
-# krok2.
+<strong>UWAGA: Nie należy wchodzić do plików konfiguracyjnych bez sudo bo nie będziemy potem w stanie ich zapisać !</strong> 
+
+## krok2.
 
 edycja pliku etc/bind/named.conf.options
 
-<img width="820" height="413" alt="image" src="https://github.com/user-attachments/assets/9143d93e-e123-420b-ad70-37f84a41a54d" />
+<img width="682" height="405" alt="image" src="https://github.com/user-attachments/assets/d3caa2a2-2cfb-437d-9400-6d6a5f82f280" />
 
-# krok3.
+
+wpisujemy w tym pliku adres IP jakiegoś serwera DNS. ( jakiegokolwiek, który jest wystawiony w necie np. 8.8.8.8 lub 1.1.1.1 lub 8.8.4.4)
+
+## krok3.
 
 edycja pliku /etc/bind/named.conf.local 
 
-<img width="822" height="382" alt="image" src="https://github.com/user-attachments/assets/7de1dd1d-7090-40b3-8b0c-8481de2804a7" />
+<img width="973" height="302" alt="image" src="https://github.com/user-attachments/assets/77b93a7d-ec2a-4837-b4ba-d68a8bfad814" />
+
+## krok4. 
+
+Edycja strefy przeszukiwania do Przodu
+
+sudo nano /etc/bind/db.local
+
+W tym pliku po każdej jego edycji zmieniamy numer seryjny (Serial) pliku o 1. DOKONUJEMY TEGO ZAWSZE PO KAŻDORAZOWEJ ZMIANIE TEGO PLIKU. Jest to istotne, gdyż wtedy informujemy serwer DNS, że strefa uległa zmianie. 
+
+Znak @ oznacza serwer.
+
+Rekordy to są poszczególne wpisy w strefie, które mapują odpowiednie informacje. Typów rekordów jest wiele jednak takimi najpopularniejszymi są:
+- A - mapuje nazwę domenową na adres IP
+- NS - informuje o serwerach DNS
+- CNAME - mapuje nazwę domenową na nazwę domenową
+- MX - informuje o serwerze poczty
+- AAAA - mapuje nazwę domenową na adres IPv6
+- TXT - przechowuje czysty tekst. Używany przez chociażby przez Google do autoryzacji właściciela
+
+<img width="1130" height="333" alt="image" src="https://github.com/user-attachments/assets/3323e3e8-dc94-490b-ae1b-2de734ab6bae" />
+
+
+## krok5. 
+
+Edycja strefy przeszukiwania do Tyłu ):
+
+sudo nano /etc/bind/db.127
+
+W tym pliku ( podobnie jak w poprzednim ) po każdej jego edycji zmieniamy numer seryjny (Serial) pliku o 1. DOKONUJEMY TEGO ZAWSZE PO KAŻDORAZOWEJ ZMIANIE TEGO PLIKU. Jest to istotne, gdyż wtedy informujemy serwer DNS, że strefa uległa zmianie. 
+
+Znak @ oznacza serwer.
+
+Rekordy są powyżej (:
+
+<img width="1116" height="295" alt="image" src="https://github.com/user-attachments/assets/be64dc4f-908d-4590-80ac-fb937e785f37" />
+
+## krok6.
+
+Ustawienie obecnego servera DNS jako domyślnego servera DNS dla Klienta i  Servera. 
+
+Edytujemy /etc/resolv.conf na serverze:
+
+<img width="816" height="406" alt="image" src="https://github.com/user-attachments/assets/4c0d798f-4025-43a0-87b9-aca5850af3eb" />
+
+Edytujemy /etc/resolv.conf na Kliencie:
+
+<img width="1042" height="922" alt="image" src="https://github.com/user-attachments/assets/e003b757-3b18-4826-bedb-b111295d1f0e" />
+
+
+## krok7.
+
+Diagnostyka !
+
+<img width="689" height="150" alt="image" src="https://github.com/user-attachments/assets/1c9ff101-d1a4-4bff-b9e9-2009f007159a" />
+
+Te komendy sprawdzą po kolei czy:
+- Skonfigurowaliśmy dobrze plik, który określa śćieżki do stref wyszukiwania
+- plik z rekordami dotyczącymi strefy wyszukiwania do przodu
+- plik z rekoradmi dotyczącymi strefy wyszukiwania do tyłu
+
+
+Jeśli nie żadnych błędów jak powyżej można następnie wykonać komendy
+
+```
+sudo systemctl restart bind9
+sudo systemctl start bind9
+sudo systemctl status bind9
+```
+
+
+należy także sprawdzić czy netplan jest dobrze skonfigurowany
+
+<img width="325" height="491" alt="image" src="https://github.com/user-attachments/assets/aeadbe92-559a-40a0-aa21-7ca55264fbf3" />
+
+
+Następnie należy sprawdzić komendą nslookup na kliencie czy wszystkie rzeczy napewno się dobrze resolvują
+
+<img width="591" height="468" alt="image" src="https://github.com/user-attachments/assets/0a24fe03-3072-487c-97b8-aa34dbd9d3e7" />
+
+<img width="718" height="519" alt="image" src="https://github.com/user-attachments/assets/111bfe44-20c1-49a3-a11a-c5dbb2f43d2c" />
+
+# Apache2
+
+Apache jest najłatwięjszą usługą na egzaminie a więc nie trzeba się niczym martwić przy jego konfiguracji (:
+
+plliki, które są nam potrzebne
+
+```
+/var/www/html/index.html      -      defaultowe miejsce gdzie przesiaduje stronka
+/etc/apache2                  -      tutaj znajdują się wszystkie pliki konfiguracyjne stronki
+/etc/apache2/sites-available/000-default-conf   -  tutaj zmieniamy port / miejsce w, którym jest stronka ( na serverze )
+/etc/apache2/ports.conf                         -  tutaj zmieniamy port na, którym znajduję się stronka
+/etc/apache2/apache2.conf                       -  tutaj zmieniamy miejsce w, którym jest stronka ( na serverze )
+/etc/apache2/mods-available/dir.conf            -  tutaj dodajemy dopuszczalne nazwy dla stronki
+
+```
+
+Komendy, które są nam potrzebne
+
+```
+sudo apt install apache2 -y      -    Instalacja
+
+sudo systemctl restart apache2           
+sudo systemctl status apache2
+sudo systemctl start apache2
+
+--- Diagnostyczne ---  ( niepotrzebne )
+
+sudo apache2 -version
+sudo apache2 app list
+sudo ufw app info 'Apache Full'
+```
+
+Bez zastanowienia przechodzimy do konfiguracji ponieważ wiemy, że defaultowo po instalcji dostaniemy tą piekną stronkę defaultową
+
+<img width="805" height="603" alt="image" src="https://github.com/user-attachments/assets/fedfcdc9-88e6-472a-811e-bdff50546bd0" />
+
+## Krok1. - Modyfikacja portu na, którym jest stronka 
+
+Edytujemy plik /etc/apache2/ports.conf
+
+<img width="470" height="215" alt="image" src="https://github.com/user-attachments/assets/413b9d79-16f9-451e-ac06-b15a7127b7b8" />
+
+<img width="735" height="239" alt="image" src="https://github.com/user-attachments/assets/b2951390-3a08-4913-801f-ddce848416f6" />
+
+Zmieniliśmy Port w pierwszymn pliku na '6767' ( losowa liczba )
+
+Edytujemy plik /etc/apache2/
+
+<img width="761" height="489" alt="image" src="https://github.com/user-attachments/assets/ef3a929e-3396-4bfa-8e26-e1c55f0fc964" />
+
+Zmieniliśmy Port w drugim pliku na '6767'
+
+Restartujemy usługe i widzimy ,że strona jest teraz pod portem 6767
+
+<img width="667" height="24" alt="image" src="https://github.com/user-attachments/assets/983bd66c-1c0d-4ce1-8003-ef4034c81e40" />
+
+<img width="800" height="606" alt="image" src="https://github.com/user-attachments/assets/fa4be42a-6650-48e6-aade-30174051cb0e" />
+
+## Krok2. - Modyfikacja Pliku w, którym znajduję się strona oraz jego nazwy.
+
+Tworzmy folder 'harry' w katalogu / komendą 'sudo mkdir /harry'
+
+<img width="561" height="505" alt="image" src="https://github.com/user-attachments/assets/6978bc37-7224-46a5-8ae7-1bebb6888281" />
+
+Edytujemy plik /etc/apache2/sites-available/000-default.conf i zmieniamy DocumentRoot na /harry
+
+<img width="661" height="495" alt="image" src="https://github.com/user-attachments/assets/2891040b-8ef6-43c5-8dfb-3fb49facb64d" />
+
+Edytujemy plik /etc/apache2/apache2.conf i zmieniamy directory na 'harry'
+
+<img width="664" height="461" alt="image" src="https://github.com/user-attachments/assets/c3662b64-0d94-434e-b35f-b4e795b7085d" />
+
+Edytujemy plik /etc/apache2/mods-available/dir.conf i dodajemy w nim 'index_harrego.html'
+
+<img width="940" height="101" alt="image" src="https://github.com/user-attachments/assets/8af930a9-ce96-4f30-8bc3-b84a04172a7b" />
+
+Na końcu przenosimy plik z /var/www/html o nazwie index.html do pliku /harry i zmieniamy jego nazwę na index_harrego.html ( z sudo )
+
+<img width="764" height="121" alt="image" src="https://github.com/user-attachments/assets/238ba242-85c1-499d-8d04-32a51d3390e7" />
+
+Następnie restartujemy usługę i stronka będzie działać !
+
+<img width="795" height="596" alt="image" src="https://github.com/user-attachments/assets/169cb083-91ca-4aec-873c-dfb134baa2a7" />
+
+Na końcu można jeszcze sobie zedytować naszą stronkę jak chcemy bo wkońcu jest to plik .html
+
+<img width="832" height="265" alt="image" src="https://github.com/user-attachments/assets/140d1e6b-4dfe-4cce-aaef-0c6edc96190c" />
+
+<img width="731" height="269" alt="image" src="https://github.com/user-attachments/assets/0f5a725c-a7cd-4bf7-ab6b-1c34aec3f7fd" />
+
+
+# Samba
+
+
+# Server SSH
+
+sudo apt install openssh-server       - Instaluje usługe
+
+sudo systemctl status ssh             - Sprawdza status usługi
+
+sudo systemctl start ssh              - Sprawia, że usługa włącza się po restarcie kompa
+
+ssh highsec@192.168.10.10 -p 22       - Komenda służąca do połączenia się do servera wystawiającego uśługę SSH      highsec - użytkownik na serverze   @      192.168.10.10 - adres IP servera   -p 22    -  port na, którym jest server ( niewymagane ) 
+
+
+
+
 
 
 
