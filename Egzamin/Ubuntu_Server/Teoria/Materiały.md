@@ -24,7 +24,7 @@ Plik '/etc/netplan/50-cloud-init.yaml' służy nam do konfiguracji interfejsów 
 
 Jak go Skonfigurować ?
 
-Pierwszym krokiem otwarcie go w edytorze tekstowym takim jak vim lub nano - dla przykładu użyjemy nano 
+Pierwszym krokiem jest otwarcie go w edytorze tekstowym takim jak vim lub nano - dla przykładu użyjemy nano 
 
 <strong>UWAGA: Formatowanie w pliku 50-cloud-init.yaml jest bardzo wybredne i każda spacja się liczy</strong>
 
