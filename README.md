@@ -26,10 +26,10 @@ Lista rzeczy do zrobienia:
 - Konfiguracja Switcha 95%
 - Konfiguracja Routera 100%
 - Konfiguracja Clienta-Linux 100%
-- Konfiguracja Servera-Linux 30%
+- Konfiguracja Servera-Linux 85%
 - Skrypty wsadowe, systemowe 100%
 - Zagadnienia powtórkowe, podstawowe związane z sieciami 100%
-- Konfiguracja Clienta-Windows 80%
+- Konfiguracja Clienta-Windows 90%
 - Konfiguracja Servera-Windows 0%
 - Sekcja skupiona na przewodzikach, zadaniach praktycznych/fizycznych 100%
 - Egzaminy 100%
