@@ -530,13 +530,14 @@ Pliki, które będą nam potrzebne
 /etc/vsftpd.conf   -    główna konfiguracja servera FTP
 ```
 
-## krok1. - Zapoznanie się z ustawieniami
+## Zapoznanie się z ustawieniami
 
 Naszym celem będzie:
 - Możliwość zalogowania się przez użytkownika anonimowego
 - Możliwość zalogowania się użytkownika systemowego
 - Sprawienie, że użytkownicy mogą tylko być w swoich katalogach domowych
-
+- stowrzenie banera 
+- Dodatkowe ustawienia..
 
 ## Najbardziej podstawowa konfiguracja servera FTP ( tylko odkomentowuwyjemy )
 
@@ -559,6 +560,8 @@ sudo chmod -R 775 /srv/ftp
 W tej konfiguracji przedstawionej na górze użytkownik anonimowy po zalogowaniu się zobaczy folder 'public_folder_for_anonymous' po wejściu do niego będzie w stanie pobierać i zapisywać pliki.
 
 dlatego, że użytkownik ftp działa jak użytkownik anonymous to kiedy użytkownik anonymous wcieli się w role użytkownika ftp to według uprawnień które ustawiliśmy plikowi public_folder_for_anonymous ( 775 ) według nich grupa,użytkownik ma pełne uprawnienia do pliku. a przez to, nasz folder ma takie uprawnienia jakie ma to skoro uzytkownik anonymous = użytkownik ftp będziemy mogli teraz i zapisywac i odczytywac i wykonywać ALE tylko w tym folderze 
+
+<img width="465" height="403" alt="image" src="https://github.com/user-attachments/assets/b31681ab-edc6-4ee3-8c6e-274dfa11e785" />
 
 <img width="629" height="767" alt="image" src="https://github.com/user-attachments/assets/80c40a13-fa14-47c4-8a77-64c91c2fb2e0" />
 
@@ -586,18 +589,81 @@ Gdyby teraz wejść na server FTP i zalogowac się np. z uzytkownika harry123 z 
 <img width="687" height="759" alt="image" src="https://github.com/user-attachments/assets/91902655-c571-4d51-852e-9e34fd1f8239" />
 
 
-Na końcu resetujemy server FTP
+Na końcu resetujemy nasz server FTP
 
 sudo systemctl restart vsftpd
 sudo systemctl status vsftpd
 
 <img width="798" height="229" alt="image" src="https://github.com/user-attachments/assets/3cc2a7a2-62ec-473a-ac23-1c78bc641f8e" />
 
-i testujemy działanie Servera na kliencie poprzez komendę 'ftp' ( można oczywiście też przez GUI co jest wytłumaczone w sekcji 'Ubuntu_Klient' )
+testujemy działanie Servera na kliencie poprzez komendę 'ftp' ( można oczywiście też przez GUI co jest wytłumaczone w sekcji 'Ubuntu_Klient' )
 
 wpisujemy komendę 
+```
+ftp 192.168.10.1   
+użytkownik: highsec
+hasło: ( hasło użytkownika highsec ) 
+```
+możemy robić teraz wszystko.
+```
+ftp 192.168.10.1
+użytkownik: anonymous 
+hasło: ( BRAK - klikamy enter )
+```
+cd Public_folder_for_anonymous
 
-- ftp 192.168.10.1
+możemy teraz robić wszystko ale TYLKO w tym folderze.
+
+## Komenda FTP.
+```
+ftp 192.168.10.1 – Łączy się z serwerem. ( Podajesz użytkownika i hasło )
+
+dir/ls – Pokazuje pliki na serwerze w obecnym katalogu.
+
+pwd – Pokazuje, w jakim folderze jesteś na serwerze.
+
+cd folder – Wchodzi do folderu na serwerze.
+
+cd .. – Wraca folder wyżej na serwerze.
+
+lcd /home/user – Zmienia folder na Twoim komputerze z którego pobieramy pliki.
+
+mkdir Folder_Harrego – Tworzy nowy folder na serwerze.
+
+put harry.txt – Wysyła plik z Twojego PC na serwer.
+
+get harrongo.txt – Pobiera plik z serwera na Twój PC.
+
+delete plik.txt – Usuwa plik z serwera.
+
+bye (lub quit / exit) – Rozłącza i zamyka FTP.
+```
+
+
+
+
+## Dodatkowe ustawienia.
+
+oprócz tego co już mamy możemy zrobić jeszcze więcej!
+
+Dodatkowe ustawienia
+
+```
+anon_root=/srv/ftp/public_folder_for_anonymous - sprawi, że po zalogowaniu się z użytkownika anonymous odrazu przejdziemy do tego folderu, gdzie możemy robić co chcemy.
+hide_ids=YES - ta opcja jest po to, aby nie było widać właścicieli danego zasobu na serwerze;
+
+userlist_enable=YES - ta opcja mówi serwerowi, że uruchomiona jest lista użytkowników;
+userlist_file=/etc/vsftpd.user_list - ta opcja ustawia lokalizację tej listy;
+userlist_deny=NO - ta opcja natomiast mówi serwerowi, że ta lista zawiera użytkowników, którzy MOGĄ wejść na serwer, a nie tych którzy nie mogą. Gdybyśmy to ustawili na YES to ta lista byłaby to klasyczna blacklist. W naszym przypadku jest to whitelist;
+```
+
+Przykładowa edycja tej listy:
+
+<img width="470" height="110" alt="image" src="https://github.com/user-attachments/assets/4f0e5549-3391-4632-b114-bbb258e87edf" />
+
+Nie będziemy wchodzić w uprawnienia dla danych użytkowinków w innych folderach. To co tutaj jest wyczerpało i tak server FTP. Server FTP nie pojawił się jeszcze nigdy na egzaminie INF02 ale jeśki się pojawi to napewno będzie zawierał uproszczoną powyższą konfigurację i np. zamiast 3 rzeczy będzie trzeba zrobić jedną 
+
+
 
 
 
