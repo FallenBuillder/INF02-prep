@@ -514,6 +514,27 @@ Na końcu można jeszcze sobie zedytować naszą stronkę jak chcemy bo wkońcu 
 
 # Samba
 
+# FTP 
+
+Komendy, które będą nam potrzebne
+```
+sudo apt install vsftpd -y
+sudo systemctl restart vsftpd
+sudo systemctl status vsftpd
+sudo systemctl start vsftpd
+
+
+```
+Pliki, które będą nam potrzebne
+```
+/etc/vsftpd.conf   -    główna konfiguracja servera FTP
+```
+
+# krok1. - Edycja pliku /etc/vsftpd.conf
+
+
+
+
 
 # Server SSH
 
