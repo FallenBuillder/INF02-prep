@@ -63,3 +63,14 @@ z bramkami rzeczy zadania
 <img width="1046" height="485" alt="image" src="https://github.com/user-attachments/assets/0fe18c18-54a6-4588-ae43-dceac60b6f87" />
 
 https://zawodowe.edu.pl/egzamin/47ba9968-2b59-4702-ac84-b8bb2735ca5a/
+
+
+sudo passwd -n 1 -x 5 test
+
+myszki wykorzystuja 2,4 GHz - bluetooth 
+
+Norma TIA/EIA-568-B.2 - kable UTP
+
+skanery 
+
+
