@@ -117,6 +117,24 @@ D. 32 kB
 
 
 
+Alternatywa logiczna to operacja OR (suma logiczna, czyli "lub").
+
+Negacja to operacja NOT (zaprzeczenie, czyli "nie").
+
+Połączenie alternatywy z negacją daje nam NOT + OR, co po skróceniu tworzy bramkę NOR (zanegowane OR).
+
+Dla jasności, pozostałe opcje oznaczają:
+
+B. OR – sama alternatywa (bez negacji).
+
+C. EX-OR (XOR) – alternatywa rozłączna (albo jedno, albo drugie, ale nie oba).
+
+D. NAND – iloczyn logiczny z negacją (NOT + AND).
+
+
+<img width="594" height="506" alt="image" src="https://github.com/user-attachments/assets/2a15c5ea-d774-43aa-8616-07cb93722577" />
+
+<img width="760" height="290" alt="image" src="https://github.com/user-attachments/assets/b99e9321-c10b-4e9c-8aa8-e8c716bcd1fb" />
 
 
 
