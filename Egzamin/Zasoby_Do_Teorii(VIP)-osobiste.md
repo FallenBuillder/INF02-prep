@@ -73,4 +73,52 @@ Norma TIA/EIA-568-B.2 - kable UTP
 
 skanery 
 
+<img width="1782" height="705" alt="image" src="https://github.com/user-attachments/assets/e4c88b9f-e87f-42e2-9151-8af673162d27" />
+
+A. justowaniem
+B. wersalikiem
+C. kapitalikiem
+D. interlinią
+
+A. AFEXT
+B. FEXT
+C. ANEXT
+D. NEXT
+
+
+. Mini ATX
+B. Flex ATX
+C. Micro BTX
+D. Mini ITX
+
+rozmiary
+
+12. Dopuszczalny promień zgięcia podczas instalacji kabla U/UTP kat.5E wynosi 8 średnic kabla
+
+
+pubkt przywracania zostawia w spokoju pliki osobiste 
+
+
+
+Drukarki!!
+
+
+15. Jaki jest maksymalny rozmiar pojedynczego datagramu IPv4, którego wielkość liczona jest wraz z jego nagłówkiem?
+Pomyłka! Poprawna odpowiedź to A (twoja odpowiedź: C)
+A. 64 kB
+B. 256 kB
+C. 128 kB
+D. 32 kB
+
+64 kB
+
+<img width="1089" height="687" alt="image" src="https://github.com/user-attachments/assets/c331ff63-41b2-484b-a329-4be67f7049d5" />
+<img width="615" height="434" alt="image" src="https://github.com/user-attachments/assets/1d7198b9-ea2d-4f60-8801-d885f3c1431c" />
+
+
+
+
+
+
+
 
