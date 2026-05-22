@@ -1,6 +1,6 @@
 # Teoria
 
-Linux jest bardziej skomplikowany niż Windows ponieważ w windowsie możemy sobie coś tam przeklikać i nawet jak nic nie wiemy to można dojść do celu. Na linuxie jest inaczej ponieważ jeśli chcemy cośz robić musimy znać do tego komendę.
+Linux jest bardziej skomplikowany niż Windows, ponieważ w windowsie możemy sobie coś tam przeklikać i nawet jak nic nie wiemy to można dojść do celu. Na linuxie jest inaczej ponieważ jeśli chcemy cośz robić musimy znać do tego komendę.
 
 Zagadnienia:
 
@@ -11,7 +11,7 @@ Zagadnienia:
 
 ## Komendy w linuxie
 
-Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linuxie trzeba znać w nim komendy. Niektóre komendy są proste i będziemy ich używać niemal ciągle podczas konfiguracji systemu z linuxem a niektóre rzadziej jeśli mamy zrobić jakąś konkretną rzecz.
+Jeśli nie mamy skonfigurowanego pod siebie środowiska, to aby coś zrobić w linuxie trzeba znać w nim komendy. Niektóre komendy są proste i będziemy ich używać niemal ciągle podczas konfiguracji systemu z linuxem a niektóre rzadziej, jeśli mamy zrobić jakąś konkretną rzecz.
 
 ## Podstawowe Polecenia
 
@@ -23,7 +23,7 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
 
     man ls - wyświetla manual komendy
     ls --help - wyświetla pomoc dla jakiejś komendy 
-    ls -h - robi to samo co powyższa komenda ( skrócony zapis )
+    ls -h - robi to samo co powyższa komenda (skrócony zapis)
  
     sudo apt update – aktualizacja listy dostępnych pakietów i ich wersji w repozytoriach, co pozwala systemowi sprawdzić dostępność nowszych wydań.
     sudo apt upgrade – ulepszenie wszystkich pakietów oraz bibliotek w systemie na nowszą wersję bez usuwania aktualnie zainstalowanych programów.
@@ -84,9 +84,9 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
     tar -cvf moje_pliki.tar foto1.jpg notatka.txt dane.csv     -     tworzy nieskompresowane archiwum o nazwie moje_pliki.tar
     tar -cvf kopia_projektow.tar projekty/                     -     tworzy archiwum z całego folderu. 
 
-    tar -czvf archiwum.tar.gz folder_do_spakowania/            -     tworzy archiwum.tar.gz ( skompresowane przez flagę -z )
+    tar -czvf archiwum.tar.gz folder_do_spakowania/            -     tworzy archiwum.tar.gz (skompresowane przez flagę -z)
     
-    tar -xzf archiwum.tar.gz                                   - rozpakowywuje skompresowane archiwum
+    tar -xzf archiwum.tar.gz                                   - rozpakowuje skompresowane archiwum
     tar -xf plik.tar                                           - rozpakowuje nieskompresowane archiwum 
     
 
@@ -184,7 +184,7 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
 
 
     su - użytkownik - przełączanie na innego użytkownika
-    sudo -u użytkownik komenda - wykonanie komendy jako inny użytkown
+    sudo -u użytkownik komenda - wykonanie komendy jako inny użytkownik
 
     ifconfig - wyświetlenie/konfiguracja interfejsów sieciowych
     ifconfig -a - wszystkie interfejsy (także nieaktywne)
@@ -202,7 +202,7 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
     
     ping -c 4 google.com - ping z ograniczoną liczbą pakietów
     traceroute adres - śledzenie trasy do hosta\
-    mtr google.com - polecenie ping , traceroute w jednym ( każdy element ścieżki ) 
+    mtr google.com - polecenie ping, traceroute w jednym (każdy element ścieżki) 
     nslookup domena - zapytanie DNS
     dig domena - zaawansowane zapytania DNS
     host domena - proste zapytania DNS
@@ -302,16 +302,16 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
     Tab - autouzupełnianie
     Ctrl+R - wyszukiwanie w historii komend
     !! - powtórzenie ostatniej komendy
-    !n - wykonanie n-tej komendy z histori
+    !n - wykonanie n-tej komendy z historii
 
 
 
-    --- Zarządzanei dyskami / partycjami 
+    --- Zarządzanie dyskami / partycjami 
 
 
 
     sudo fdisk dysk           - edycja partycji dysku 
-    sudo mkfs dysk -t system  - formatuje partycje do danego systemu plików
+    sudo mkfs dysk -t system  - formatuje partycję do danego systemu plików
     sudo mount dysk folder    - mountuje dysk USB w folderze
     
 
@@ -406,7 +406,7 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
 
 
         hostnamectl - informacje o systemie (systemd)
-        uptime - czas działania systemu i obciążen
+        uptime - czas działania systemu i obciążeń
         uname -a - wyświetla kompletne informacje o jądrze (kernel), nazwie hosta i architekturze
         lsb_release -a - czytelne informacje o dystrybucji (np. Ubuntu 22.04)
         sudo nano /etc/lsb-release - podgląd pliku konfiguracyjnego wersji systemu
@@ -432,11 +432,11 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
 
 
   
-    --- Firewall ( linux, usługi ) --- 
+    --- Firewall (linux, usługi) --- 
 
 
 
-    TODO: Dodać jak robić reguły na linuxie dla usług ( firewall )
+    TODO: Dodać jak robić reguły na linuxie dla usług (firewall)
 
 
 
@@ -445,9 +445,9 @@ Jeśli nie mamy skonfigurowanego pod nas środowiska to aby coś zrobić w linux
     
 
 ## Linux Jako Klient, któremu świadczone są usługi
-Wszystko w linuxie da się zrobić przez CLI, nie potrzeba GUI lecz czasami kiedy sprawdzamy czy nasz server działa lub kiedy go testujemy to GUI się przydaję - szczególnie do serverów [ ftp , samba , Apache ] ( rzeczy takie jak DHCP, NAT, SSH, DNS będą sprawdzane przez CLI i będą omówione w sekci związanej z Linux Serverem lub Windows Serverem zależnie od usługi )
+Wszystko w linuxie da się zrobić przez CLI, nie potrzeba GUI, lecz czasami kiedy sprawdzamy, czy nasz server działa lub kiedy go testujemy, to GUI się przydaję - szczególnie do serverów [ftp, samba, Apache] (rzeczy takie jak DHCP, NAT, SSH, DNS będą sprawdzane przez CLI i będą omówione w sekci związanej z Linux Serverem lub Windows Serverem zależnie od usługi)
 
-> Zagadnienia te będą trochę krócej omówione w sekcji 'Ubuntu-Server' oraz 'Windows-Server' a więć jeśli wie się o co chodzi nie trzeba czytać tego modułu 
+> Zagadnienia te będą trochę krócej omówione w sekcji 'Ubuntu-Server' oraz 'Windows-Server' a więc jeśli wie się o co chodzi nie trzeba czytać tego modułu 
 
 ### Jakie usługi może świadczyć server clientowi, który jest na linuxie.
 - DHCP
@@ -469,15 +469,15 @@ aby otrzymać adres DHCP na Ubuntu należy zmienić nasze ustawienia karty sieci
 <img width="102" height="33" alt="image" src="https://github.com/user-attachments/assets/ae37e219-b2ce-4845-b251-46774387b7ea" />
 Wchodzimy w 3 ikonki w prawym górnym rogu
 <img width="414" height="465" alt="image" src="https://github.com/user-attachments/assets/9517910e-9264-4652-b3bd-ec93422b334a" />
-Następnie w zakładke Wired i klikamy Wired Settings
+Następnie w zakładkę Wired i klikamy Wired Settings
 <img width="570" height="334" alt="image" src="https://github.com/user-attachments/assets/787f6f52-ac0b-498c-86d3-e66a6fb4048d" />
 Następnie klikamy w górną ikonke ustawień
 <img width="762" height="587" alt="image" src="https://github.com/user-attachments/assets/bd152b57-f4b4-4878-a1f7-5afa763b16ce" />
-przechodzimy do sekcji IPv4 i ustawiamy metode otzymywania dresu IP na DHCP
+przechodzimy do sekcji IPv4 i ustawiamy metodę otzymywania adresu IP na DHCP
 <img width="105" height="49" alt="image" src="https://github.com/user-attachments/assets/134a11ca-4884-414a-8d29-a68d0c4a3f21" />
 Na końcu klikamy 'Apply'
 
-Teraz przez to, że nasz adres IP jest otrzymywany przez server DHCP nasz klient powinien znaleść go w sieci i otrzymać od niego adres.
+Teraz przez to, że nasz adres IP jest otrzymywany przez server DHCP nasz klient powinien znaleźć go w sieci i otrzymać od niego adres.
 
 To czy otrzymaliśmy adres IP z zakresu lub dzierżawy, którą ustaliliśmy na serverze DHCP pokaże nam komenda 'ip a'
 <img width="828" height="588" alt="image" src="https://github.com/user-attachments/assets/e3b7e48b-ff16-4a09-aedb-efcf6627b54d" />
@@ -488,12 +488,12 @@ Jako klient chcemy mieć możliwość korzystania z internetu. Aby to zrobić tr
 
 Służy do tego usługa routingu 
 
-jako klient nie mamy zabardzo sposobu dzięki, któremu możemy otrzymać dostęp do tej usługi - jedynym sposobem jest ustawienie naszego adresu IP bramy domyślnej w komputerze na interfejs LANowy naszego servera. ( w sytuacji kiedy komputer jest bezpośrednio lub przez switcha podłączony do servera ) dzięki temu wszystkie zapytania, które będą wychodzić do internetu muszą przejść przez nasz server. Co oznacza, że jeśli na serverze skonfigurowana jest skonfigurowana obsługa routingu, będziemy mogli rozmawiać z światem zewnętrznym. 
+jako klient nie mamy za bardzo sposobu dzięki, któremu możemy otrzymać dostęp do tej usługi - jedynym sposobem jest ustawienie naszego adresu IP bramy domyślnej w komputerze na interfejs LANowy naszego servera. (w sytuacji kiedy komputer jest bezpośrednio lub przez switcha podłączony do servera) dzięki temu wszystkie zapytania, które będą wychodzić do internetu muszą przejść przez nasz server. Co oznacza, że jeśli na serverze skonfigurowana jest obsługa routingu, będziemy mogli rozmawiać z światem zewnętrznym. 
 
 #### <strong>DNS</strong>
-DNS - Domains Name System jest to protokół, który służy do zamiany adresów IP na nazwy domenowe i odwrotnie 
+DNS - Domain Name System jest to protokół, który służy do zamiany adresów IP na nazwy domenowe i odwrotnie 
 
-Aby połączyć się do servera DNS i otrzymywać od niego adresy IP trzeba się upewnić, że ustawiliś my go jako nasz server DNS w ustawieniach karty sieciowej. Co oznacza ,że robimy to samo co przy serverze DHCP jedynie zmieniamy Adres servera DNS na server DNS w naszej lokalnej podsieci 
+Aby połączyć się do servera DNS i otrzymywać od niego adresy IP trzeba się upewnić, że ustawiliśmy go jako nasz server DNS w ustawieniach karty sieciowej. Co oznacza, że robimy to samo co przy serverze DHCP jedynie zmieniamy Adres servera DNS na server DNS w naszej lokalnej podsieci 
 
 Zakładając, że nasz server DNS będzie pod adresem 192.168.0.1 nasza konfiguracja będzie wyglądała następująco
 <img width="756" height="499" alt="image" src="https://github.com/user-attachments/assets/daccfcfa-7be7-4427-a65e-9b934f13773e" />
@@ -501,25 +501,25 @@ Zakładając, że nasz server DNS będzie pod adresem 192.168.0.1 nasza konfigur
 
 #### <strong>Samba</strong>
 
-Dzięki Sambie możemy udostępniać pliki oraz na nich pracować co sprawia, że mamy do nich łatwą dostępnosć w sieci
+Dzięki Sambie możemy udostępniać pliki oraz na nich pracować co sprawia, że mamy do nich łatwą dostępność w sieci
 
 Aby połączyć się do servera Samba ( podobnie jak do serva FTP należy najpierw wejść do 'Eksploratora plików'
 <img width="71" height="69" alt="image" src="https://github.com/user-attachments/assets/f5c1fadf-34ef-4f6b-afb4-00e92c7dbc1b" />
 <img width="900" height="552" alt="image" src="https://github.com/user-attachments/assets/6effa5ca-4913-45b6-90ea-81066710c0e1" />
-Po zescrollowaniu na dół widzimy Zakładke 'Other Locations' - ( po polsku będzie inaczej na INF02 ) 
+Po zescrollowaniu na dół widzimy zakładkę 'Other Locations' - (po polsku będzie inaczej na INF02) 
 <img width="895" height="549" alt="image" src="https://github.com/user-attachments/assets/b76d1e65-0501-4b2e-8e41-24810cdb1d1a" />
-po kliknięciu tej zakładki pojawia się nam okienko w, którym można następnie połączyć się z serverem na, którym wystawiane są nasze pliki.
+po kliknięciu tej zakładki pojawia się nam okienko, w którym można następnie połączyć się z serverem na, którym wystawiane są nasze pliki.
 <img width="705" height="51" alt="image" src="https://github.com/user-attachments/assets/75c76876-84ab-4039-a034-56611d24fa08" />
 Aby to zrobić należy wpisać w pasku na dole adres Servera z, którym chcemy się połączyć.
 
-<strong>czyli należy poprostu wpisać na dole w pasku nazwę usługi a następnie adres IP czyli:   'Usługa'://'Adres IP' </strong>
+<strong>czyli należy po prostu wpisać na dole w pasku nazwę usługi a następnie adres IP czyli:   'Usługa'://'Adres IP' </strong>
 <img width="906" height="617" alt="image" src="https://github.com/user-attachments/assets/bcdc1d76-4e9d-4fc7-894c-04a33eed309d" />
 Jeśli server jest skonfigurowany będą widoczne zasoby, które tam umieściliśmy 
 
 
 #### <strong>FTP</strong>
 
-Dzięki FTP ( File Transfer Protocol ) - możemy pobierać oraz wysyłać pliki. Jedyną różnicą między FTP a sambą jest to, że Samba skupia się na wygodzie i faktycznym jej użyciu w firmach i korporacjach a FTP służy bardziej tylko jako miejsce z, którego można pobierać jakieś np. Pakiety lub aplikacje 
+Dzięki FTP (File Transfer Protocol) - możemy pobierać oraz wysyłać pliki. Jedyną różnicą między FTP a sambą jest to, że Samba skupia się na wygodzie i faktycznym jej użyciu w firmach i korporacjach a FTP służy bardziej tylko jako miejsce z, którego można pobierać jakieś np. Pakiety lub aplikacje 
 
 Aby połączyć się z serverem FTP jedyne co musimy zmienić w naszym 'pasku wyszukiwania' to nazwa usługi - w tym przypadku na ftp:// 
 
@@ -533,17 +533,17 @@ Jeśli server został prawidłowo skonfigurowany będziemy mogli zobaczyć na ni
 
 myśle, że każdy wie jak dostać się do strony internetowej. Wystarczy wyszukać jej nazwę a nastepnie przeglądarka wypluje nam wyniki podobne do tego co wyszukaliśmy.
 
-Jeśli chcemi się połączyć z naszą przeglądarką WWW należy poprostu w przeglądarce wpisać jej adres IP i opjonalnie numer portu na, którym jest ona wystawiona 
+Jeśli chcemy się połączyć z naszą przeglądarką WWW należy po prostu w przeglądarce wpisać jej adres IP i opjonalnie numer portu na, którym jest ona wystawiona 
 <img width="964" height="238" alt="image" src="https://github.com/user-attachments/assets/93f1bc1e-cc37-411c-8ede-46d5aad50e72" />
 
-Aby zmienic port przy wyszukiwaniu jakiejś strony wystarczy po adresie IP napisać dwukropek i port na, którym wystawiliśmy wcześniej naszą stronę
+Aby zmienić port przy wyszukiwaniu jakiejś strony wystarczy po adresie IP napisać dwukropek i port na, którym wystawiliśmy wcześniej naszą stronę
 <img width="193" height="33" alt="image" src="https://github.com/user-attachments/assets/33591b44-dd58-4eb6-801a-93e1b42574ab" />
 
 #### <strong>SSH</strong>
 
-SSH ( Secure Shell ) - jest protokołem komunikacjnym, który pozawala nam na uzyskanie stabilnej szyfrowanej powłoki z systemem, który chcemy skonfigurować. 
+SSH (Secure Shell) - jest protokołem komunikacyjnym, który pozawala nam na uzyskanie stabilnej szyfrowanej powłoki z systemem, który chcemy skonfigurować. 
 
-Aby dostać się do servera, który ma wystawioną usługe SSH jedyne co należy zrobić to wpisać w terminalu Linuxowym / Windowsowym komende
+Aby dostać się do servera, który ma wystawioną usługę SSH jedyne co należy zrobić to wpisać w terminalu Linuxowym / Windowsowym komendę
 
 ssh Host@IP
 
@@ -555,7 +555,7 @@ dzięki tej komendzie, jeśli server SSH jest skonfigurowany prawidłowo i wpisa
 
 
 ## Komendy na linuxie na egzaminach INF02
-Naszczęście nie każdy egzamin ma linuxa, może czasami być Windows i Linux a czasami Windows i Windows itd.. Naszczęście będzie raczej więcej Windowsa bo wiele usług, które są na windowsie poprostu potrzebują klienta, który też ma Windowsa 
+Na szczęście nie każdy egzamin ma linuxa, może czasami być Windows i Linux a czasami Windows i Windows itd.. Na szczęście będzie raczej więcej Windowsa bo wiele usług, które są na windowsie po prostu potrzebują klienta, który też ma Windowsa 
 
 # Zadania z diagnostyką na linuxie 
 <img width="712" height="459" alt="image" src="https://github.com/user-attachments/assets/2bb45027-072c-49ba-a5e2-500c54452d1a" />
