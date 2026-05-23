@@ -544,15 +544,80 @@ Tworzymy trzech użytkowników oraz dodajemy ich do grup.
 <img width="515" height="212" alt="image" src="https://github.com/user-attachments/assets/c130a4e2-45cd-47ee-9748-30855a3428b1" />
 
 Tworzymy strukturę folderów
+
 <img width="802" height="36" alt="image" src="https://github.com/user-attachments/assets/41e6189f-9fa7-4458-a114-f0b0a4ef1f70" />
 
 <img width="304" height="170" alt="image" src="https://github.com/user-attachments/assets/a818621c-f6d3-4e1b-ba2a-5511614c37a8" />
 
 Nadajemy uprawnienia strukturze folderów.
 
+<img width="660" height="162" alt="image" src="https://github.com/user-attachments/assets/c5b19428-6e45-448d-ace0-06e3f3185e82" />
 
+<img width="651" height="13" alt="image" src="https://github.com/user-attachments/assets/147f75e1-16aa-4d80-8963-9b1626817c80" />
 
+<img width="477" height="18" alt="image" src="https://github.com/user-attachments/assets/93c11f01-b979-4f14-97fd-107a87618c64" />
 
+<img width="628" height="116" alt="image" src="https://github.com/user-attachments/assets/5b22bbec-07d2-44be-8652-0261798bc000" />
+
+# krok2. - instalacja samby
+
+> Jeśli ktoś robi to jako powtórka wraz ze mną niech wpiszę najpierw sudo apt update && sudo apt upgrade aby nie było problemów z pobieraniem pakietu !
+
+<img width="614" height="132" alt="image" src="https://github.com/user-attachments/assets/2f6dd2e6-cb93-464e-a6e9-b45bb7e80a0e" />
+
+<img width="1125" height="341" alt="image" src="https://github.com/user-attachments/assets/4b567179-d1cf-4178-ba79-96b6da56fb60" />
+
+# krok3. - Konfiguracja samby
+
+Następnie tworzymy hasła dla naszych użytkowników równocześnie dodając ich do samby
+
+<img width="551" height="214" alt="image" src="https://github.com/user-attachments/assets/42446b7d-ad64-4356-a4cf-8ec8387b7a57" />
+
+Następnie edytujemy plik /etc/samba/smb.conf edytorem nano
+
+Pierwsze co robimy to zmieniamy 'Server string' - czyli nazwę servera na jakomkolwiek inną nazwę
+
+<img width="743" height="752" alt="image" src="https://github.com/user-attachments/assets/c49d1567-35f8-4197-b5fd-001514716a2e" />
+
+Następnie scrollujemy na dół i konfigurujemy faktyczne foldery servera.
+
+<img width="399" height="539" alt="image" src="https://github.com/user-attachments/assets/7045f9f1-a4d5-4d32-be3f-15d5fd114f9f" />
+
+wyjaśnienie ustawień:
+
+```
+[nazwa_udziału] (np. [publiczny_plac])
+To nagłówek sekcji. Określa nazwę folderu sieciowego, jaką użytkownicy zobaczą na swoich komputerach
+
+path = /srv/samba/...
+Wskazuje dokładną, fizyczną ścieżkę do katalogu na dysku Twojego Ubuntu Server, który ma zostać udostępniony.
+
+omment = ...
+Krótki opis lub komentarz widoczny dla użytkowników sieciowych po najechaniu myszką na folder. Pomaga zorientować się, do czego służy dany udział.
+
+browseable = yes
+Decyduje o widoczności. Ustawienie yes sprawia, że folder jest widoczny na liście sieciowej po wpisaniu adresu IP serwera (np. \\192.168.1.X). Gdybyś dał no, udział stałby się "ukryty" i aby do niego wejść, trzeba by wpisać pełną ścieżkę z ręki.
+
+writable = yes oraz read only = no
+Oba te wpisy oznaczają dokładnie to samo: pozwalają na zapisywanie i modyfikowanie plików w tym udziale. Wystarczyłoby użyć tylko jednego z nich (Samba domyślnie traktuje je jako synonimy), ale posiadanie obu w niczym nie przeszkadza – po prostu podwójnie upewniasz system, że folder ma być edytowalny.
+
+guest ok = yes
+Włącza dostęp bez logowania. Każdy użytkownik w sieci (nawet anonimowy gość, bez podawania loginów i haseł) może wejść do tego folderu. Domyślnie taki użytkownik jest mapowany w systemie jako nobody.
+
+valid users = ...
+To kluczowa linijka ograniczająca dostęp (zabezpieczenie). Wskazuje, kto ma prawo wejść do folderu:
+
+harry_pracownik – dostęp ma wyłącznie ten konkretny użytkownik (musi podać swoje hasło Samby).
+
+@szkola – znak @ informuje Sambę, że chodzi o całą grupę systemową w Linuksie. Każdy użytkownik należący do grupy szkola uzyska dostęp po zalogowaniu.
+
+```
+
+# Krok4. - Test działania 
+
+<img width="557" height="189" alt="image" src="https://github.com/user-attachments/assets/1dd90375-5339-4154-9043-cf96ca4ed5c8" />
+
+po wpisaniu na kliencie poprawnej lokalizacji widzimy, że foldery istnieją i można się do nich zalogować !
 
 # FTP 
 
