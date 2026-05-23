@@ -222,7 +222,53 @@ RAID 4
 
 • Mechanizm: Striping blokowy + Dedykowana parzystość.
 
+<img width="874" height="683" alt="image" src="https://github.com/user-attachments/assets/cd37a0d6-0bce-4401-955a-6d5648a7913d" />
+
+
+<img width="879" height="467" alt="image" src="https://github.com/user-attachments/assets/a1b70df0-9447-4738-95e3-b4ec51507326" />
+
+<img width="870" height="518" alt="image" src="https://github.com/user-attachments/assets/ef54ee93-787e-471a-8acd-1f78e40419b3" />
+
+
+Testy statyczne (często nazywane testami ciągłości lub mapy połączeń) sprawdzają wyłącznie mechaniczny i elektryczny stan okablowania bez przesyłania przez nie sygnałów wysokiej częstotliwości.
+
+17. Do ilu maksymalnie GB pamięci RAM może uzyskać dostęp 32-bitowa wersja systemu Windows? 4 GB
 
 
 
 
+
+
+23. Jaką ilość rzeczywistych danych można przesłać w czasie 1 s przez łącze synchroniczne o przepustowości 512 kbps, bez sprzętowej i programowej kompresji?
+Pomyłka! Poprawna odpowiedź to A (twoja odpowiedź: D)
+A. Około 55 kB
+B. Ponad 500 kB
+C. Około 5 kB
+D. Ponad 64 kB
+
+ODP A
+
+
+1. Szeregowy vs. Równoległy (Jak płyną dane?)
+
+Różnica polega na tym, ile "pasów ruchu" mają dane.
+
+    Transmisja Szeregowa (Serial): Bity są przesyłane jeden po drugim, w jednej linii (jeden pas ruchu). Na rysunku widzisz długą kolejkę bitów ustawionych gęsiego – to właśnie typowy obraz transmisji szeregowej.
+
+    Transmisja Równoległa (Parallel): Wiele bitów jest przesyłanych jednocześnie przez kilka oddzielnych przewodów (wiele pasów ruchu). Gdyby to była transmisja równoległa, na rysunku widziałbyś kilka rzędów bitów ułożonych jeden nad drugim.
+
+2. Asynchroniczny vs. Synchroniczny (Jak się dogadują?)
+
+Tutaj chodzi o to, jak odbiorca wie, kiedy zacząć czytać dane.
+Asynchroniczny (widoczny na rysunku)
+
+W tej transmisji nadawca i odbiorca nie mają wspólnego "zegara". Dane są wysyłane w małych paczkach (np. bajtach) w dowolnych odstępach czasu. Aby odbiorca wiedział, że nadchodzi paczka, nadawca dodaje specjalne ramki:
+
+    Bit startu: "Uwaga, nadaję!".
+
+    Bit stopu: "Koniec paczki".
+
+Na Twoim rysunku wyraźnie widać podpisy "Bit startu" i "Bit stopu". To jest absolutny znak rozpoznawczy transmisji asynchronicznej.
+Synchroniczny
+
+Tutaj nadawca i odbiorca pracują pod dyktando wspólnego sygnału zegarowego (taktowania). Dane płyną w ciągłym strumieniu bez bitów startu/stopu. Jest to szybsze, ale wymaga precyzyjnej synchronizacji urządzeń.
