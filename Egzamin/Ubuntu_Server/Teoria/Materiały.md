@@ -514,6 +514,46 @@ Na końcu można jeszcze sobie zedytować naszą stronkę jak chcemy bo wkońcu 
 
 # Samba
 
+Samba to pakiet oprogramowania, który pozwala serwerowi Ubuntu działać jako uniwersalny serwer plików i drukarek w środowisku sieciowym mieszanym, łącząc klientów z systemami Linux, Windows oraz macOS. Poprzez wykorzystanie standardowego protokołu SMB (Server Message Block), zapewnia on, że wszystkie te różne systemy operacyjne mogą płynnie odczytywać, zapisywać i udostępniać pliki sieciowe tak, jakby były one przechowywane lokalnie.
+<br>
+<strong>Szybki overview co będziemy robić i jaki jest nasz cel:</strong>
+<br>
+Naszym celem jest stworzenie struktury plików, która będzie zawierała foldery gdzie każdy folder jest pod kontrolą innego konta lub grupy. Dzięki temu będziemy mieli dostęp do zasobu tylko wtedy gdy konto przez, które się zalogujemy będzie miało do niego dostęp.
+
+
+Komendy, które będą nam potrzebne do skonfigurowania samby
+```
+sudo apt install samba -y
+sudo systemctl status samba
+sudo systemctl start samba
+sudo systemctl restart samba
+sudo smbpasswd -a [Nazwa_Konta]
+
+```
+Pliki, które będą nam potrzebne do skonfigurowania Samby
+```
+/etc/samba/smb.conf
+```
+
+# krok1. - Przygotowania pod instalacje Samby.
+
+Abyśmy mogli zainstalować sambe i ją skonfigurować najpierw powinniśmy stworzyć strukture folderów, uprawnień
+
+Tworzymy trzech użytkowników oraz dodajemy ich do grup.
+
+<img width="515" height="212" alt="image" src="https://github.com/user-attachments/assets/c130a4e2-45cd-47ee-9748-30855a3428b1" />
+
+Tworzymy strukturę folderów
+<img width="802" height="36" alt="image" src="https://github.com/user-attachments/assets/41e6189f-9fa7-4458-a114-f0b0a4ef1f70" />
+
+<img width="304" height="170" alt="image" src="https://github.com/user-attachments/assets/a818621c-f6d3-4e1b-ba2a-5511614c37a8" />
+
+Nadajemy uprawnienia strukturze folderów.
+
+
+
+
+
 # FTP 
 
 Komendy, które będą nam potrzebne
