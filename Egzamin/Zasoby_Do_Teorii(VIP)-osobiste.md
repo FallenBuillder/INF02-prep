@@ -272,3 +272,76 @@ Na Twoim rysunku wyraźnie widać podpisy "Bit startu" i "Bit stopu". To jest ab
 Synchroniczny
 
 Tutaj nadawca i odbiorca pracują pod dyktando wspólnego sygnału zegarowego (taktowania). Dane płyną w ciągłym strumieniu bez bitów startu/stopu. Jest to szybsze, ale wymaga precyzyjnej synchronizacji urządzeń.
+
+
+<img width="672" height="487" alt="image" src="https://github.com/user-attachments/assets/bf12dbf7-6759-423d-bb46-cc269d623824" />
+
+FDDI (ang. Fiber Distributed Data Interface) 100Mb/s - światłowód
+
+
+
+
+
+
+
+
+
+
+
+. Dlaczego Full Duplex?
+
+To jest łatwiejsza część. W przeciwieństwie do starego PCI, gdzie wszystkie urządzenia "krzyczały" na jednej wspólnej szynie, PCIe opiera się na połączeniach punkt-punkt.
+
+    Każda linia (Lane) w PCIe składa się z dwóch par przewodów: jedna do wysyłania, druga do odbierania.
+
+    Dzięki temu dane mogą płynąć w obu kierunkach jednocześnie. To właśnie nazywamy Full duplex.
+
+2. Dlaczego Asynchroniczna? (Klucz do błędu)
+
+Większość osób wybiera "synchroniczną", bo kojarzy PCIe z bardzo szybkim taktowaniem (zegarem). Jednak w terminologii egzaminacyjnej i technicznej PCIe jest uznawane za magistralę asynchroniczną z następujących powodów:
+
+    Brak dedykowanej linii zegara: W tradycyjnych magistralach synchronicznych masz osobny przewód, który "tyka" i mówi wszystkim: "teraz czytamy bit!". W PCIe nie ma jednego wspólnego kabla z zegarem dla wszystkich danych.
+
+    Zegar wbudowany w dane (Embedded Clock): PCIe przesyła sygnał zegarowy wewnątrz samego strumienia danych. Odbiorca musi sam "odzyskać" taktowanie z płynących bitów.
+
+    Niezależność pakietów: Dane są przesyłane w formie pakietów, które nie muszą być idealnie zgrane z co do jednego cyklu zegara procesora w taki sposób, jak to miało miejsce w starych technologiach.
+
+
+
+
+
+
+
+
+
+yp drukarki	Materiał eksploatacyjny	Sposób działania
+Igłowa	Taśma barwiąca	Igły uderzają przez taśmę w papier.
+Atramentowa	Tusz / Pigment	Mikro-krople płynu są wystrzeliwane z dysz.
+Laserowa	Toner	Drobny proszek jest przyciągany do bębna i zgrzewany z papierem.
+Termiczna	Papier termoczuły	Głowica grzeje specjalny papier (jak w kasach fiskalnych).
+
+
+
+
+
+
+
+
+
+
+
+Głowica drukarki igłowej działa na zasadzie uderzeń. Wewnątrz niej znajdują się igły, a każda z nich jest sterowana przez mały elektromagnes.
+
+    Gdy prąd płynie przez cewkę elektromagnesu, powstaje pole magnetyczne.
+
+    Pole to przyciąga kotwicę, która gwałtownie wypycha igłę w stronę taśmy i papieru.
+
+    Sprężyna powrotna cofa igłę, gdy prąd przestaje płynąć.
+
+
+
+
+Energy Star - emisja prądu
+
+TCO - ergonomia i takie te 
+
