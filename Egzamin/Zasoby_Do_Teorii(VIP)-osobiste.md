@@ -484,4 +484,6 @@ BD – To ogólny skrót od samej technologii Blu-ray Disc.
 
 
 
+jak dizałają / co robią / jakie komponenty mają wszystkie monitory np. Plasmowe , LDC ,OLED , CRT
+
 
