@@ -345,3 +345,8 @@ Energy Star - emisja prądu
 
 TCO - ergonomia i takie te 
 
+
+7. W metodzie dostępu do nośnika CSMA/CD (Carrier Sense Multiple Access with Collision Detection) stacja, która zamierza rozpocząć nadawanie, nasłuchuje czy w sieci odbywa się ruch, a następnie
+Pomyłka! Poprawna odpowiedź to A (twoja odpowiedź: D)
+A. po wykryciu ruchu w sieci czeka aż nośnik będzie wolny
+
