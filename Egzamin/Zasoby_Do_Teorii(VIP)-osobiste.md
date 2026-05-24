@@ -471,3 +471,17 @@ Zapamiętaj ten schemat:
 | 802.3x     | Full-Duplex/Flow Control| N/A           | N/A          | Logic/PAUSE     |
 
 > **Note on 802.3x:** This standard manages traffic flow. It introduces the "PAUSE" frame mechanism, allowing a receiver to temporarily halt a sender to prevent data loss when buffers are full.
+
+
+
+BD-R (Recordable) – Płyta jednokrotnego zapisu. Dane można na niej zapisać raz, po czym staje się ona nośnikiem tylko do odczytu.
+
+BD-RE (Rewritable) – Płyta wielokrotnego zapisu. Pozwala na wielokrotne kasowanie i nagrywanie nowych danych.
+
+BD-ROM (Read-Only Memory) – Płyta tylko do odczytu, tłoczona fabrycznie (np. z filmami lub grami na konsole). Nie można na niej nagrywać danych w domowych warunkach.
+
+BD – To ogólny skrót od samej technologii Blu-ray Disc.
+
+
+
+
