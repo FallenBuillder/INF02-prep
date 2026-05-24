@@ -350,3 +350,69 @@ TCO - ergonomia i takie te
 Pomyłka! Poprawna odpowiedź to A (twoja odpowiedź: D)
 A. po wykryciu ruchu w sieci czeka aż nośnik będzie wolny
 
+
+
+Hierarchia Norm Okablowania Strukturalnego
+
+Podstawą wszystkiego jest norma ogólna, z której wynikają normy szczegółowe dla konkretnych typów budynków.
+I. Norma Matka (Wymagania Ogólne)
+
+    EN 50173-1 (PN-EN 50173-1)
+
+        To fundament. Określa klasy (A, B, C, D, E, EA, F, FA) i kategorie (5e, 6, 6A, 7 itd.).
+
+        Definiuje strukturę hierarchiczną sieci: Okablowanie Pionowe (Szkieletowe) oraz Okablowanie Poziome.
+
+II. Normy Budynkowe (Zastosowania Szczegółowe)
+
+W zależności od tego, gdzie kładziemy kable, wybieramy odpowiedni "aneks" do normy 50173:
+
+    EN 50173-2 – Biurowce (najczęstszy przypadek).
+
+    EN 50173-3 – Przemysł (hale, fabryki – tam gdzie są zakłócenia elektromagnetyczne).
+
+    EN 50173-4 – Domy mieszkalne.
+
+    EN 50173-5 – Centra danych (serwerownie).
+
+III. Normy Wykonawcze (Jak pracować?)
+
+Gdy już wiemy, co zaprojektować (50173), musimy wiedzieć, jak to fizycznie zainstalować. Tu wchodzi seria EN 50174:
+
+    EN 50174-1: Specyfikacja i zapewnienie jakości
+
+        Zasady odbioru instalacji, dokumentacja, kontrola jakości.
+
+    EN 50174-2: Instalacja wewnątrz budynków
+
+        To tu są wytyczne dotyczące okablowania poziomego i pionowego.
+
+        Jak montować korytka, jak ciągnąć kable w ścianach.
+
+    EN 50174-3: Instalacja na zewnątrz budynków
+
+        Kanalizacja teletechniczna, kable między budynkami.
+
+IV. Normy Uzupełniające (Bezpieczeństwo i Infrastruktura)
+
+Normy te działają obok powyższych i dotyczą specyficznych aspektów fizycznych:
+
+    EN 50310 – Uziemienie i wyrównywanie potencjałów. Wszystkie szafy RACK i ekrany kabli (FTP/STP) muszą być podpięte zgodnie z tą normą.
+
+    ISO/IEC 11801 – Międzynarodowy odpowiednik europejskiej serii 50173. Jeśli widzisz ten numer, pamiętaj, że to "to samo", tylko na skalę światową.
+
+Słowniczek pojęć z norm (Ważne!)
+
+    Okablowanie Poziome (Horizontal Cabling):
+    Łączy punkt rozdzielczy (szafę RACK na piętrze) z gniazdkami użytkowników. Norma 50174-2 mówi, że nie może być dłuższe niż 90 metrów (plus 10m na kable krosowe).
+
+    Okablowanie Pionowe / Szkieletowe (Backbone Cabling):
+    Łączy główne punkty rozdzielcze (np. między piętrami lub budynkami). Tu zazwyczaj stosuje się światłowody lub skrętkę wyższej kategorii.
+
+Zapamiętaj ten schemat:
+
+    50173 = Teoria i parametry (Co kupić? Jaką prędkość osiągniemy?).
+
+    50174 = Praktyka i budowa (Jak kłaść kable? Jak zarządzać budową?).
+
+    50310 = Prąd i bezpieczeństwo (Uziemienie).
