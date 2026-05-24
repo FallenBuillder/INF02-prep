@@ -464,7 +464,7 @@ Zapamiętaj ten schemat:
 | 802.3u     | 100BASE-TX              | 100 Mbps      | 100m         | Cat 5 UTP       |
 | 802.3ab    | 1000BASE-T              | 1 Gbps        | 100m         | Cat 5e/6 UTP    |
 | 802.3z     | 1000BASE-LX             | 1 Gbps        | 5 km         | SM Fiber        |
-| 802.3ae    | 10GBASE-SR              | 10 Gbps       | 300m         | MM Fiber        |
+| 802.3ae    | 10GBASE-SR              | 10 Gbps       | 300m/400m    | MM Fiber        |
 | 802.3an    | 10GBASE-T               | 10 Gbps       | 100m         | Cat 6a/7 UTP    |
 | 802.3ba    | 40G/100G                | 40/100 Gbps   | Varies       | Fiber/Backplane |
 | 802.3bs    | 200G/400G               | 200/400 Gbps  | Varies       | Fiber           |
