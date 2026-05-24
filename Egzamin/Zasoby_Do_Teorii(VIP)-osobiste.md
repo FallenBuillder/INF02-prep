@@ -416,3 +416,58 @@ Zapamiętaj ten schemat:
     50174 = Praktyka i budowa (Jak kłaść kable? Jak zarządzać budową?).
 
     50310 = Prąd i bezpieczeństwo (Uziemienie).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# IEEE 802.3 Ethernet Standards Reference
+
+| Standard   | Designation             | Max Speed     | Max Length   | Media Type      |
+|:-----------|:------------------------|:--------------|:-------------|:----------------|
+| 802.3i     | 10BASE-T                | 10 Mbps       | 100m         | Cat 3/5 UTP     |
+| 802.3u     | 100BASE-TX              | 100 Mbps      | 100m         | Cat 5 UTP       |
+| 802.3ab    | 1000BASE-T              | 1 Gbps        | 100m         | Cat 5e/6 UTP    |
+| 802.3z     | 1000BASE-LX             | 1 Gbps        | 5 km         | SM Fiber        |
+| 802.3ae    | 10GBASE-SR              | 10 Gbps       | 300m         | MM Fiber        |
+| 802.3an    | 10GBASE-T               | 10 Gbps       | 100m         | Cat 6a/7 UTP    |
+| 802.3ba    | 40G/100G                | 40/100 Gbps   | Varies       | Fiber/Backplane |
+| 802.3bs    | 200G/400G               | 200/400 Gbps  | Varies       | Fiber           |
+| 802.3x     | Full-Duplex/Flow Control| N/A           | N/A          | Logic/PAUSE     |
+
+> **Note on 802.3x:** This standard manages traffic flow. It introduces the "PAUSE" frame mechanism, allowing a receiver to temporarily halt a sender to prevent data loss when buffers are full.
