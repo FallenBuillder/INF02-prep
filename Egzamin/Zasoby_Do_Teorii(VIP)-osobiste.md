@@ -490,6 +490,9 @@ jak dizałają / co robią / jakie komponenty mają wszystkie monitory np. Plasm
 
 plotery ! tnące solwentowe , itd 
 
+Za pomocą polecenia dxdiag wywołanego z wiersza poleceń systemu Windows można
+A. sprawdzić parametry karty graficznej. 
+
 
 
 
