@@ -503,3 +503,5 @@ A. sprawdzić parametry karty graficznej.
 
 <img width="732" height="435" alt="image" src="https://github.com/user-attachments/assets/c0d1dc0a-d903-4c17-9232-cd581d89b1f9" />
 
+
+http://www.pwsz.legnica.edu.pl/~dudajan/AKw08.pdf
