@@ -493,6 +493,12 @@ plotery ! tnące solwentowe , itd
 Za pomocą polecenia dxdiag wywołanego z wiersza poleceń systemu Windows można
 A. sprawdzić parametry karty graficznej. 
 
+<img width="653" height="192" alt="image" src="https://github.com/user-attachments/assets/dc368fe5-3fd0-4777-bc83-e9031bb21a3c" />
 
+<img width="631" height="331" alt="image" src="https://github.com/user-attachments/assets/f436ed99-0039-4cab-a607-64cdff4968b5" />
+
+<img width="661" height="287" alt="image" src="https://github.com/user-attachments/assets/26b71cce-f551-4bd8-9e97-dd92936059da" />
+
+<img width="675" height="302" alt="image" src="https://github.com/user-attachments/assets/353a0b48-2cc7-4674-a0f8-990a3b54b0cc" />
 
 
