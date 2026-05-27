@@ -2,38 +2,72 @@
 Montaż okablowania sieciowego
     Rozpoznawanie urządzeń sieciowych na diagramach
 
-
 Eksploatacja: Windows Client
-    Diagnostyka podzespołów (CPU-Z, GPU-Z, systeminfo, Menedżer urządzeń) i zapis w tabeli
     Wykonywanie kosztorysów wykonanej pracy
-    Konfiguracja kart sieciowych (IP, brama, DNS, maska)
-    Mapowanie dysków sieciowych
     Zarządzanie uprawnieniami folderów we właściwościach
-    Obsługa wiersza poleceń (tworzenie kont, katalogów)
-    Diagnostyka sieciowa (ping, tracert, netsh, netstat)
-    Korzystanie z narzędzi na nośnikach USB
+
 Eksploatacja: Linux Client
-    Diagnostyka podzespołów i dokumentacja wyników
-    Wykonywanie kosztorysów pracy
+    Wykonywanie kosztorysów pracy ( Print screen na linuxie ) 
     Konfiguracja kart sieciowych (IP, brama, DNS, maska)
-    Zarządzanie kontami i katalogami z poziomu terminala
-    Diagnostyka sieciowa (ping, traceroute, ip)
     Obsługa programów z nośników zewnętrznych
-Eksploatacja: Linux Server (Ubuntu Server)
-    Diagnostyka sprzętowa i sporządzanie dokumentacji
-    Wykonywanie kosztorysów
-    Zarządzanie interfejsami (ip link set, ip addr)
-    Pełna konfiguracja sieci poprzez pliki .yaml (Netplan)
-    Konfiguracja i testowanie usług:
-        Routing (iptables)
-        DHCP (dhcpd)
-        DNS (bind/dnsmasq)
-        Serwer WWW (Apache2)
-        Serwer FTP (vsftpd)
-        Dostęp zdalny (SSH/openssh)
-        Udostępnianie plików (Samba/smbd)
-        Konfiguracja NAT
+
 Inne umiejętności praktyczne
     Konfiguracja i obsługa drukarek sieciowych różnych marek
-    Montaż podzespołów komputerowych (RAM, karta graficzna itp.)
-    Organizacja i sprzątanie stanowiska pracy po zakończeniu zadań
+
+Windows Server
+    Wszystko.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Egzamin Teoretyczny - Powtórka materiałów. ( przedstawione jako zagadnienia ) 
+
+- Skanery
+- Drukarki
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
