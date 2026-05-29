@@ -484,3 +484,7 @@ Kodowanie korekcyjne stosowane głównie w RAID 2.
     RAID 10 (1+0): Najpierw robimy lustra (bezpieczeństwo), a potem łączymy je w pasek (szybkość).
 
     RAID 50 / 60: Dzielimy dyski na grupy (podmacierze RAID 5 lub 6), a następnie łączymy te grupy w jeden wielki, szybki wolumin za pomocą Stripingu (RAID 0). Dzięki temu odbudowa macierzy po awarii jest znacznie szybsza niż przy jednym ogromnym RAID 5/6.
+
+
+<img width="988" height="300" alt="image" src="https://github.com/user-attachments/assets/5ca5bc38-f6c5-4ea5-8f0b-ef72f224edbb" />
+
