@@ -136,94 +136,7 @@ D. NAND – iloczyn logiczny z negacją (NOT + AND).
 
 <img width="760" height="290" alt="image" src="https://github.com/user-attachments/assets/b99e9321-c10b-4e9c-8aa8-e8c716bcd1fb" />
 
-Przegląd Poziomów RAID
-Kompletne zestawienie standardów RAID z uwzględnieniem konfiguracji dyskowych oraz mechanizmów działania.
-
-Podstawowe Typy RAID
-RAID 0 (Striping)
-
-• Liczba dysków: Min. 2 / Maks. teoretycznie brak (ograniczenie kontrolera).
-
-• Działanie: Dieli dane na bloki i zapisuje je naprzemiennie na wszystkich dyskach. Brak jakiejkolwiek nadmiarowości — awaria jednego dysku niszczy wszystkie dane.
-
-• Mechanizm: Striping (paskowanie).
-
-RAID 1 (Mirroring)
-
-• Liczba dysków: Min. 2 / Maks. teoretycznie brak.
-
-• Działanie: Dokładna kopia tych samych danych jest zapisywana na każdym dysku. Zapewnia wysokie bezpieczeństwo kosztem pojemności.
-
-• Mechanizm: Mirroring (lustrzane odbicie).
-
-RAID 5 (Striping z rozproszoną parzystością)
-
-• Liczba dysków: Min. 3 / Maks. zazwyczaj 32 (zależy od kontrolera).
-
-• Działanie: Dane i informacje o parzystości są rozproszone na wszystkich dyskach. Pozwala na awarię dokładnie jednego dysku bez utraty danych.
-
-• Mechanizm: Striping + Rozproszona parzystość.
-
-RAID 6 (Striping z podwójną rozproszoną parzystością)
-
-• Liczba dysków: Min. 4 / Maks. zazwyczaj 32.
-
-• Działanie: Podobnie do RAID 5, ale wylicza dwa różne bloki parzystości i zapisuje je na dyskach. Odporny na jednoczesną awarię do dwóch dysków.
-
-• Mechanizm: Striping + Podwójna rozproszona parzystość.
-
-Złożone Poziomy RAID (Hybrydowe)
-RAID 10 (lub 1+0)
-
-• Liczba dysków: Min. 4 (musi być liczba parzysta) / Maks. ograniczenie sprzętowe.
-
-• Działanie: Łączy zalety prędkości i bezpieczeństwa. Tworzy macierz RAID 0 z kilku połączonych w lustro macierzy RAID 1. Odporny na awarię po jednym dysku w każdej sekcji lustrzanej.
-
-• Mechanizm: Mirroring + Striping.
-
-RAID 50 (lub 5+0)
-
-• Liczba dysków: Min. 6 / Maks. ograniczenie sprzętowe.
-
-• Działanie: Konfiguracja paskowana (RAID 0) składająca się z wielu podmacierzy RAID 5. Łączy wysoką wydajność z ochroną danych właściwą dla RAID 5.
-
-• Mechanizm: Parzystość + Striping.
-
-RAID 60 (lub 6+0)
-
-• Liczba dysków: Min. 8 / Maks. ograniczenie sprzętowe.
-
-• Działanie: Połączenie paskowania (RAID 0) z podmacierzami RAID 6. Oferuje bardzo wysoką niezawodność, pozwalając na awarię do dwóch dysków w każdej podmacierzy RAID 6.
-
-• Mechanizm: Podwójna parzystość + Striping.
-
-Inne Rzadziej Stosowane Typy
-RAID 2
-
-• Liczba dysków: Min. 3.
-
-• Działanie: Paskowanie na poziomie bitów z użyciem kodu Hamminga do korekcji błędów (ECC). Przestarzały, współczesne dyski mają ECC wbudowane.
-
-• Mechanizm: Striping bitowy + Kod Hamminga.
-
-RAID 3
-
-• Liczba dysków: Min. 3.
-
-• Działanie: Paskowanie na poziomie bajtów z jednym dedykowanym dyskiem na informacje o parzystości. Wymaga synchronizacji wrzecion dysków.
-
-• Mechanizm: Striping bajtowy + Dedykowana parzystość.
-
-RAID 4
-
-• Liczba dysków: Min. 3.
-
-• Działanie: Identycznie jak RAID 3, ale paskowanie odbywa się na poziomie bloków, a nie bajtów. Jeden dysk jest dedykowany dla parzystości, co tworzy "wąskie gardło" przy zapisie.
-
-• Mechanizm: Striping blokowy + Dedykowana parzystość.
-
 <img width="874" height="683" alt="image" src="https://github.com/user-attachments/assets/cd37a0d6-0bce-4401-955a-6d5648a7913d" />
-
 
 <img width="879" height="467" alt="image" src="https://github.com/user-attachments/assets/a1b70df0-9447-4738-95e3-b4ec51507326" />
 
@@ -505,3 +418,71 @@ A. sprawdzić parametry karty graficznej.
 
 
 http://www.pwsz.legnica.edu.pl/~dudajan/AKw08.pdf
+
+
+Kompletne Zestawienie Poziomów RAID
+Poziom RAID	Min. liczba dysków	Mechanizm (Cechy)	Odporność na awarie
+RAID 0	2	Striping	Brak (awaria 1 dysku niszczy wszystko)
+RAID 1	2	Mirroring	Wysoka (n-1 dysków)
+RAID 2	3	Striping (bitowy) + ECC	Niska (1 dysk)
+RAID 3	3	Striping (bajtowy) + Parzystość	Niska (1 dysk)
+RAID 4	3	Striping (blokowy) + Parzystość	Niska (1 dysk)
+RAID 5	3	Striping + Parzystość rozproszona	Średnia (1 dysk)
+RAID 6	4	Striping + Podwójna parzystość	Wysoka (2 dyski)
+RAID 10 (1+0)	4	Mirroring + Striping	Wysoka (min. 1 dysk w każdej parze)
+RAID 50 (5+0)	6	RAID 5 + Striping	Średnia/Wysoka (min. 1 na każdą podgrupę)
+RAID 60 (6+0)	8	RAID 6 + Striping	Bardzo wysoka (min. 2 na każdą podgrupę)
+Wyjaśnienie wszystkich cech i mechanizmów
+1. Striping (Paskowanie)
+
+Dzielenie danych na fragmenty i zapisywanie ich równolegle na wielu dyskach.
+
+    Jak to działa: Plik nie trafia na jeden dysk, ale jest "szatkowany" na części, które lądują na wszystkich dyskach macierzy jednocześnie.
+
+    Zaleta: Ogromny wzrost prędkości odczytu i zapisu.
+
+    Wada: Brak bezpieczeństwa.
+
+2. Mirroring (Lustrzane odbicie)
+
+Tworzenie dokładnej, identycznej kopii danych na innym dysku.
+
+    Jak to działa: Każdy bit zapisany na dysku A jest automatycznie zapisywany na dysku B.
+
+    Zaleta: Bardzo wysokie bezpieczeństwo i szybki odczyt.
+
+    Wada: Tracisz 50% całkowitej pojemności dysków.
+
+3. Parzystość (Parity)
+
+Zaawansowana metoda matematyczna (operacja logiczna XOR) pozwalająca na odtworzenie danych.
+
+    Jak to działa: System nie kopiuje całego pliku, ale oblicza specjalną sumę kontrolną. Jeśli jeden dysk padnie, system "odejmuje" dane z działających dysków od sumy kontrolnej, aby odzyskać brakujące bajty.
+
+    Parzystość dedykowana (RAID 3 i 4): Sumy kontrolne są na jednym konkretnym dysku.
+
+    Parzystość rozproszona (RAID 5 i 6): Sumy kontrolne są rozsiane po wszystkich dyskach, co zapobiega przeciążeniu jednego nośnika.
+
+4. ECC (Error Correction Code)
+
+Kodowanie korekcyjne stosowane głównie w RAID 2.
+
+    Jak to działa: Wykorzystuje kod Hamminga do wykrywania i naprawiania błędów "w locie" na poziomie bitów.
+
+    Dlaczego rzadkie: Dzisiejsze dyski twarde mają własne, wbudowane mechanizmy korekcji błędów, więc dublowanie tego na poziomie RAID stało się nieefektywne.
+
+5. Striping bitowy vs bajtowy vs blokowy
+
+    Bitowy (RAID 2): Dzieli dane na poziomie pojedynczych bitów.
+
+    Bajtowy (RAID 3): Dzieli dane na poziomie bajtów. Wymaga synchronizacji obrotowej dysków.
+
+    Blokowy (RAID 4, 5, 6): Dzieli dane na większe paski (bloki, np. 64KB). Jest to najbardziej wydajne rozwiązanie dla nowoczesnych systemów plików.
+
+6. Mechanizmy hybrydowe (Zagnieżdżone)
+
+Łączenie dwóch różnych typów RAID w jedną strukturę.
+
+    RAID 10 (1+0): Najpierw robimy lustra (bezpieczeństwo), a potem łączymy je w pasek (szybkość).
+
+    RAID 50 / 60: Dzielimy dyski na grupy (podmacierze RAID 5 lub 6), a następnie łączymy te grupy w jeden wielki, szybki wolumin za pomocą Stripingu (RAID 0). Dzięki temu odbudowa macierzy po awarii jest znacznie szybsza niż przy jednym ogromnym RAID 5/6.
