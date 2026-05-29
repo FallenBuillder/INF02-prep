@@ -420,20 +420,18 @@ A. sprawdzić parametry karty graficznej.
 http://www.pwsz.legnica.edu.pl/~dudajan/AKw08.pdf
 
 
-Kompletne Zestawienie Poziomów RAID
-Poziom RAID	Min. liczba dysków	Mechanizm (Cechy)	Odporność na awarie
-RAID 0	2	Striping	Brak (awaria 1 dysku niszczy wszystko)
-RAID 1	2	Mirroring	Wysoka (n-1 dysków)
-RAID 2	3	Striping (bitowy) + ECC	Niska (1 dysk)
-RAID 3	3	Striping (bajtowy) + Parzystość	Niska (1 dysk)
-RAID 4	3	Striping (blokowy) + Parzystość	Niska (1 dysk)
-RAID 5	3	Striping + Parzystość rozproszona	Średnia (1 dysk)
-RAID 6	4	Striping + Podwójna parzystość	Wysoka (2 dyski)
-RAID 10 (1+0)	4	Mirroring + Striping	Wysoka (min. 1 dysk w każdej parze)
-RAID 50 (5+0)	6	RAID 5 + Striping	Średnia/Wysoka (min. 1 na każdą podgrupę)
-RAID 60 (6+0)	8	RAID 6 + Striping	Bardzo wysoka (min. 2 na każdą podgrupę)
-Wyjaśnienie wszystkich cech i mechanizmów
-1. Striping (Paskowanie)
+| Poziom RAID | Min. liczba dysków | Mechanizm (Cechy) | Odporność na awarie |
+| :--- | :---: | :--- | :--- |
+| **RAID 0** | 2 | Striping | **Brak** (awaria 1 dysku niszczy dane) |
+| **RAID 1** | 2 | Mirroring | Wysoka (n-1 dysków) |
+| **RAID 2** | 3 | Striping (bitowy) + ECC | Niska (1 dysk) |
+| **RAID 3** | 3 | Striping (bajtowy) + Parzystość | Niska (1 dysk) |
+| **RAID 4** | 3 | Striping (blokowy) + Parzystość | Niska (1 dysk) |
+| **RAID 5** | 3 | Striping + Parzystość rozproszona | Średnia (1 dysk) |
+| **RAID 6** | 4 | Striping + Podwójna parzystość | Wysoka (2 dyski) |
+| **RAID 10 (1+0)** | 4 | Mirroring + Striping | Wysoka (min. 1 dysk w każdej parze) |
+| **RAID 50 (5+0)** | 6 | RAID 5 + Striping | Średnia/Wysoka (min. 1 na podgrupę) |
+| **RAID 60 (6+0)** | 8 | RAID 6 + Striping | Bardzo wysoka (min. 2 na podgrupę) |
 
 Dzielenie danych na fragmenty i zapisywanie ich równolegle na wielu dyskach.
 
