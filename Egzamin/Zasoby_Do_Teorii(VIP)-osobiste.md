@@ -488,3 +488,5 @@ Kodowanie korekcyjne stosowane głównie w RAID 2.
 
 <img width="988" height="300" alt="image" src="https://github.com/user-attachments/assets/5ca5bc38-f6c5-4ea5-8f0b-ef72f224edbb" />
 
+
+https://sala73.pl/
