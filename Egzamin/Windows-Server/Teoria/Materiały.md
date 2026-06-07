@@ -100,8 +100,29 @@ opcją 'zaloguj do' możemy zmienić do jakiego komputera użytkownik może się
 
 
 
+Tworzenie jednostek organizacyjnych 
 
+<img width="1022" height="840" alt="image" src="https://github.com/user-attachments/assets/2ac4714e-1370-46c1-b883-c1c283afa03a" />
 
+<img width="435" height="376" alt="image" src="https://github.com/user-attachments/assets/4529741b-6071-4204-945c-440d5666901f" />
+
+<img width="788" height="593" alt="image" src="https://github.com/user-attachments/assets/0ff0e21a-1517-4c7e-b947-fb2f5c9e677a" />
+
+<img width="319" height="330" alt="image" src="https://github.com/user-attachments/assets/d36a6ae5-c1d2-4561-b1d9-292b22340da1" />
+
+<img width="376" height="160" alt="image" src="https://github.com/user-attachments/assets/42df2438-bbf5-4c59-8af8-914f979ca42d" />
+
+Nie możemy przenieść obiektu A do obiektu B ponieważ nie mamy uprawnień.
+
+<img width="352" height="370" alt="image" src="https://github.com/user-attachments/assets/439a2a96-bbb1-4540-a992-bf32fc7e6381" />
+
+<img width="552" height="485" alt="image" src="https://github.com/user-attachments/assets/2f84bf48-955a-4169-89b3-7d4607a4c155" />
+
+<img width="402" height="468" alt="image" src="https://github.com/user-attachments/assets/29e87cc4-e7da-4d21-88ca-3c007b71e1fd" />
+
+<img width="756" height="527" alt="image" src="https://github.com/user-attachments/assets/c3995ad7-9e4a-4cfb-b7d2-f47599861c3d" />
+
+<img width="188" height="51" alt="image" src="https://github.com/user-attachments/assets/729a693e-d6b8-47e2-89b9-fb666aaacf92" />
 
 
 
@@ -116,6 +137,14 @@ Dodawanie, usuwanie użytkowników w AD przez powershella
 <img width="775" height="411" alt="image" src="https://github.com/user-attachments/assets/f7b03b17-8970-4a3c-9a9d-f566a07c5ed0" />
 
 <img width="819" height="80" alt="image" src="https://github.com/user-attachments/assets/aacab235-9ad1-44dd-b149-d6f10acb6fb2" />
+
+Tworzenie, usuwanie jednostek organizacyjnych przez powershella 
+
+<img width="732" height="66" alt="image" src="https://github.com/user-attachments/assets/c524ff92-2971-463e-80a6-63a9cedf6db9" />
+
+<img width="762" height="83" alt="image" src="https://github.com/user-attachments/assets/0ebdad68-08de-40a1-ab01-3d419039c8cd" />
+
+<img width="1002" height="86" alt="image" src="https://github.com/user-attachments/assets/3a8e7538-5a46-4102-b315-740e7f2a825b" />
 
 
 
