@@ -2,7 +2,7 @@
 
 Windows Server.
 
-## Active Directory
+## Active Directory - Instalacja
 
 <img width="223" height="42" alt="image" src="https://github.com/user-attachments/assets/3f56e75a-c5ef-4566-b0f9-c05c32b5e6eb" />
 
@@ -19,4 +19,103 @@ Najlepiej kliknąć na guzik 'Pomiń tę stronę domyślnie' aby przśpieszyć c
 <img width="828" height="595" alt="image" src="https://github.com/user-attachments/assets/17d17695-5197-40e3-9283-bc2ab1600d67" />
 
 <img width="415" height="456" alt="image" src="https://github.com/user-attachments/assets/fa94b853-dbd1-41ec-bdfe-9bb8340b0086" />
+
+<img width="786" height="557" alt="image" src="https://github.com/user-attachments/assets/3c556700-e98f-4a97-a440-54b052bc1bde" />
+
+Tutaj nic nie robimy..
+
+<img width="780" height="557" alt="image" src="https://github.com/user-attachments/assets/0872bf98-227d-4f94-8ea5-f62a103a1aad" />
+
+<img width="782" height="557" alt="image" src="https://github.com/user-attachments/assets/df8c91f9-7bd2-49dd-8596-0650c7e58464" />
+
+<img width="793" height="559" alt="image" src="https://github.com/user-attachments/assets/a684b30b-d43d-4db3-83dd-e9f08ba15384" />
+
+<img width="787" height="560" alt="image" src="https://github.com/user-attachments/assets/27109895-3853-4f43-8e3c-ce7abdc4c4d3" />
+
+<img width="57" height="56" alt="image" src="https://github.com/user-attachments/assets/2c49f51b-a958-4fa5-b6a4-65eb10052af6" />
+
+Klikamy w flagę
+
+<img width="374" height="349" alt="image" src="https://github.com/user-attachments/assets/6dbad82b-5993-46c2-92c1-177cb3e23695" />
+
+Następnie klikamy guzik 'Podnieś poziom tego serwera do poziomu kontrolera domeny' 
+
+<img width="764" height="565" alt="image" src="https://github.com/user-attachments/assets/142c54a8-e82d-4fee-b9fc-7c0b2fdef8b5" />
+
+<img width="766" height="560" alt="image" src="https://github.com/user-attachments/assets/a4b1ee94-a1a3-481f-b101-f7dc6c4d9aa6" />
+
+<img width="762" height="556" alt="image" src="https://github.com/user-attachments/assets/f493fa10-db82-4faa-8beb-c81bfc7689a0" />
+
+Tutaj klikamy dalej i nie przejmujemy się błędem..
+
+<img width="1023" height="848" alt="image" src="https://github.com/user-attachments/assets/8137261f-e506-4df1-85c7-d7ec5dd44a37" />
+
+<img width="761" height="560" alt="image" src="https://github.com/user-attachments/assets/50a3573e-7b84-43e7-a2fe-e3c5d89dec0a" />
+
+<img width="762" height="560" alt="image" src="https://github.com/user-attachments/assets/b9dddaff-e88b-4fd9-9c52-04a5f3096b7c" />
+
+<img width="764" height="560" alt="image" src="https://github.com/user-attachments/assets/eee0e865-9572-47ac-b607-3dbc1321309a" />
+
+<img width="762" height="559" alt="image" src="https://github.com/user-attachments/assets/68fd3646-807c-4783-bd24-36f2609cd064" />
+
+Instalacja AD trochę potrwa..
+
+<img width="766" height="556" alt="image" src="https://github.com/user-attachments/assets/901041ab-258c-406f-82ae-4d109cb384f1" />
+
+<img width="1033" height="820" alt="image" src="https://github.com/user-attachments/assets/1a5df7d1-3c5c-495d-b040-54804abca979" />
+
+<img width="758" height="525" alt="image" src="https://github.com/user-attachments/assets/1e5e718e-ab86-45f6-a23c-014ab646ce6f" />
+
+## Active Directory - Konfiguracja użytkowników, kont, grup
+
+<img width="758" height="563" alt="image" src="https://github.com/user-attachments/assets/f60a02a0-d012-4a3d-a677-a594bf6078f9" />
+
+<img width="441" height="378" alt="image" src="https://github.com/user-attachments/assets/e8f07949-fcba-4045-8b7a-6dd0a6efe4d4" />
+
+<img width="437" height="378" alt="image" src="https://github.com/user-attachments/assets/d52f184f-d6c6-47f8-926f-fe3610ca23ad" />
+
+Po kliknięciu 'Zakończ' tworzenie konta jest zakończone.
+
+<img width="420" height="532" alt="image" src="https://github.com/user-attachments/assets/47b41703-04ef-4640-b41c-63706b18f60e" />
+
+Po wykonaniu prawoklika na koncie i wejściu do zakłądki 'Konto' możemy zmienićtakie rzeczy jak 'Hasło nigdy nie wygasa' lub 'Użytkownik nie może zmienić hasła'
+
+<img width="417" height="531" alt="image" src="https://github.com/user-attachments/assets/25511b6e-e68b-447e-b084-320f13721cbe" />
+
+<img width="426" height="68" alt="image" src="https://github.com/user-attachments/assets/f4b3c143-050f-4da5-8599-a4eb080e707b" />
+
+<img width="367" height="79" alt="image" src="https://github.com/user-attachments/assets/50f6bf3a-e45f-4ae7-b267-44e994282474" />
+
+możemy także zmienić date wygasania konta w tej zakładce.
+
+<img width="641" height="564" alt="image" src="https://github.com/user-attachments/assets/90957476-f10b-498e-a1ef-1c0a881b3f6d" />
+
+możemy także zmienić godziny logowania w, których konto jest aktywne.
+
+<img width="649" height="516" alt="image" src="https://github.com/user-attachments/assets/c14c2b3d-3a70-4d50-a53a-5997d84b19ef" />
+
+<img width="373" height="422" alt="image" src="https://github.com/user-attachments/assets/8b7ac48e-64a2-48b5-95e6-9dcda05fd2d6" />
+
+opcją 'zaloguj do' możemy zmienić do jakiego komputera użytkownik może się tylko zalogować 
+
+
+
+
+
+
+
+
+
+
+
+
+Dodawanie, usuwanie użytkowników w AD przez powershella 
+
+<img width="1002" height="81" alt="image" src="https://github.com/user-attachments/assets/829dd822-6de7-4dc6-95f8-f66e9c248c9c" />
+
+<img width="775" height="411" alt="image" src="https://github.com/user-attachments/assets/f7b03b17-8970-4a3c-9a9d-f566a07c5ed0" />
+
+<img width="819" height="80" alt="image" src="https://github.com/user-attachments/assets/aacab235-9ad1-44dd-b149-d6f10acb6fb2" />
+
+
 
