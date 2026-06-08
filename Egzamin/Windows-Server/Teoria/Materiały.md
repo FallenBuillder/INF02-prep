@@ -148,3 +148,46 @@ Tworzenie, usuwanie jednostek organizacyjnych przez powershella
 
 
 
+
+
+
+Przyłączanie klientów do domeny
+
+<img width="1022" height="769" alt="image" src="https://github.com/user-attachments/assets/f560a00e-8fbd-40db-bfdd-f62c02a0157a" />
+
+<img width="439" height="381" alt="image" src="https://github.com/user-attachments/assets/da168bed-3604-4dfe-be5e-eff3d21b63cc" />
+
+<img width="454" height="248" alt="image" src="https://github.com/user-attachments/assets/c894b734-14cc-44d0-b130-cc508e5903c2" />
+
+<img width="664" height="327" alt="image" src="https://github.com/user-attachments/assets/f5933197-054a-48e7-98fa-1a6aad641506" />
+
+<img width="553" height="569" alt="image" src="https://github.com/user-attachments/assets/ab5ccc11-0547-4b41-8860-76969fec1afb" />
+
+Jak widać po wejściu do zakładki Właściwości -> Zabezpieczenia harry ma uprawnienia do naszego nowo stworzonego obiektu
+
+
+
+
+Po upewnieniu się, że oba urządzenie są ze sobą w jednej sieci możemy teraz dodać naszego klienta do domeny.
+
+<img width="795" height="627" alt="image" src="https://github.com/user-attachments/assets/371d3bb7-d016-4db8-ba3a-b33cf1c14a6d" />
+
+<img width="796" height="623" alt="image" src="https://github.com/user-attachments/assets/d1674657-922b-4baa-af1b-be6e289a6883" />
+
+<img width="793" height="623" alt="image" src="https://github.com/user-attachments/assets/ffa358a0-b669-48de-ace4-c3e9c3c00ce1" />
+
+<img width="413" height="464" alt="image" src="https://github.com/user-attachments/assets/abe205ba-599a-48af-875a-ae302c9d16ec" />
+
+<img width="319" height="383" alt="image" src="https://github.com/user-attachments/assets/0097b3ae-0d93-4088-b656-65da7b85529e" />
+
+<img width="320" height="387" alt="image" src="https://github.com/user-attachments/assets/8ce887ab-2a71-4d86-821a-59f51568481e" />
+
+<img width="873" height="536" alt="image" src="https://github.com/user-attachments/assets/15a8d9d1-7c5a-481a-abf8-fce95792785e" />
+
+<img width="453" height="328" alt="image" src="https://github.com/user-attachments/assets/9bb70047-593d-4d92-b237-57f40d21db22" />
+
+
+
+
+
+
