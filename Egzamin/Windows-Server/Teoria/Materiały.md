@@ -11,7 +11,7 @@ Notatka raczej nie będzie skończona a więc proszę popatrzeć na [zse.rzeszow
 <br>
 <img width="223" height="42" alt="image" src="https://github.com/user-attachments/assets/3f56e75a-c5ef-4566-b0f9-c05c32b5e6eb" />
 <br>
-<img width="223" height="42" alt="image" src="https://github.com/user-attachments/assets/591b859d-d615-480f-855c-6ac96adc2e77" />
+<img width="792" height="564" alt="image" src="https://github.com/user-attachments/assets/2edbf1c9-60cb-44ea-9539-827194a5bc06" />
 <br>
 Najlepiej kliknąć na guzik 'Pomiń tę stronę domyślnie' aby przśpieszyć cały proces ale nie trzeba tego robić
 <br>
