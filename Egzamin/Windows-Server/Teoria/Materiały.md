@@ -2,6 +2,11 @@
 
 Windows Server.
 
+Notatka raczej nie będzie skończona a więc proszę popatrzeć na [zse.rzeszow.pl](https://zse.rzeszow.pl/windows/lista-cwiczen) aby nauczyć się WindowsServera.
+
+
+
+
 ## Active Directory - Instalacja
 
 <img width="223" height="42" alt="image" src="https://github.com/user-attachments/assets/3f56e75a-c5ef-4566-b0f9-c05c32b5e6eb" />
@@ -178,13 +183,8 @@ Po upewnieniu się, że oba urządzenie są ze sobą w jednej sieci możemy tera
 
 <img width="413" height="464" alt="image" src="https://github.com/user-attachments/assets/abe205ba-599a-48af-875a-ae302c9d16ec" />
 
-<img width="319" height="383" alt="image" src="https://github.com/user-attachments/assets/0097b3ae-0d93-4088-b656-65da7b85529e" />
+<img width="323" height="391" alt="image" src="https://github.com/user-attachments/assets/99ace0f8-e95d-4d49-ab40-fd7a7c6add62" />
 
-<img width="320" height="387" alt="image" src="https://github.com/user-attachments/assets/8ce887ab-2a71-4d86-821a-59f51568481e" />
-
-<img width="873" height="536" alt="image" src="https://github.com/user-attachments/assets/15a8d9d1-7c5a-481a-abf8-fce95792785e" />
-
-<img width="453" height="328" alt="image" src="https://github.com/user-attachments/assets/9bb70047-593d-4d92-b237-57f40d21db22" />
 
 
 
