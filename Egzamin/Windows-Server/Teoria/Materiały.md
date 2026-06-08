@@ -2,7 +2,7 @@
 
 Windows Server.
 
-Notatka raczej nie będzie skończona a więc proszę popatrzeć na [zse.rzeszow.pl](https://zse.rzeszow.pl/windows/lista-cwiczen) aby nauczyć się WindowsServera.
+Notatka raczej nie będzie skończona a więc proszę popatrzeć na [zse.rzeszow.pl](https://zse.rzeszow.pl/windows/lista-cwiczen) aby nauczyć się Windows Servera.
 
 
 <br>
