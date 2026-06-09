@@ -400,6 +400,8 @@ Zaawansowana konsola zarządzania Zaporą Windows, która pozwala na tworzenie p
 
 Po wejściu tutaj można zmienić stany wszystkich profilów zapory ( na egzaminie może być zadanie aby wyłączyć wszystkie profile zapory aby przeszedł ping ) 
 
+> UWAGA na niektórych egzaminach INF02 nie pozwala się na wyłączenie zapory - w tym przypadku musimy dodać regułe przychodzącą, która pozwoli nam na to aby pakiet dotarł do naszego komputera 
+
 <img width="395" height="471" alt="image" src="https://github.com/user-attachments/assets/42ce591b-d1b5-41bd-abe7-da77eb534427" />
 
 
