@@ -433,7 +433,7 @@ Narzędzie umożliwiające zarządzanie wszystkimi zasobami udostępnionymi w si
 
 **<strong>rsop.msc</strong>** — Pokazuje, jakie zasady grupy faktycznie działają na użytkowniku.
 
-/<img width="834" height="542" alt="image" src="https://github.com/user-attachments/assets/d8c7adf3-ab30-4fba-9270-369177b87e07" />
+> TODO: Dodać zdjęcie rsop.msc
 
 Kompletnie bezuzyteczny - pozwala sprawdzić, jakie konkretnie zasady grupy (GPO) są aktualnie zastosowane do danego użytkownika i komputera
 
