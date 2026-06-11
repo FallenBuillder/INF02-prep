@@ -4,7 +4,7 @@
 
 Wszystkie materiały teoretyczne, zadania są zawarte w folderze 'Egzamin' 
 
-### Aby zobaczyc alternatywne materiał stworzone przez innych można zobaczyc do nich linki w folderze 'Alternatywy'
+### Aby zobaczyc alternatywne materiały stworzone przez innych do nauki na egzamin praktyczny / teoretyczny można zobaczyć do nich linki w folderze 'Alternatywy'
 
 ### Przykładowa Struktura Folderów wygląda Następująco
 ```
