@@ -30,7 +30,7 @@ Lista rzeczy do zrobienia:
 - Skrypty wsadowe, systemowe 100%
 - Zagadnienia powtórkowe, podstawowe związane z sieciami 100%
 - Konfiguracja Clienta-Windows 100% ( pliki .cpl nie są omówione )
-- Konfiguracja Servera-Windows 20% ( nie będzie robione proszę sprawdzić (https://zse.rzeszow.pl/windows/lista-cwiczen)[tą stronkę] )
+- Konfiguracja Servera-Windows 20% ( nie będzie robione proszę sprawdzić [tą stronkę](https://zse.rzeszow.pl/windows/lista-cwiczen) )
 - Sekcja skupiona na przewodzikach, zadaniach praktycznych/fizycznych 100%
 - Egzaminy 100%
 
