@@ -23,14 +23,14 @@ Zadania powtórkowe będą stworzone pod koniec pracy nad egzaminem Praktycznym!
 *** 
 
 Lista rzeczy do zrobienia:
-- Konfiguracja Switcha 95%
+- Konfiguracja Switcha 100% ( trunki przez CLI nie są omówione )
 - Konfiguracja Routera 100%
 - Konfiguracja Clienta-Linux 100%
-- Konfiguracja Servera-Linux 85%
+- Konfiguracja Servera-Linux 100%
 - Skrypty wsadowe, systemowe 100%
 - Zagadnienia powtórkowe, podstawowe związane z sieciami 100%
-- Konfiguracja Clienta-Windows 90%
-- Konfiguracja Servera-Windows 0%
+- Konfiguracja Clienta-Windows 100% ( pliki .cpl nie są omówione )
+- Konfiguracja Servera-Windows 20% ( nie będzie robione proszę sprawdzić (https://zse.rzeszow.pl/windows/lista-cwiczen)[tą stronkę] )
 - Sekcja skupiona na przewodzikach, zadaniach praktycznych/fizycznych 100%
 - Egzaminy 100%
 
