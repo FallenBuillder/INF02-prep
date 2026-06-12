@@ -1,3 +1,4 @@
+[inf02_2026_cze_a1 (2).pdf](https://github.com/user-attachments/files/28893433/inf02_2026_cze_a1.2.pdf)
 
 <img width="632" height="886" alt="image" src="https://github.com/user-attachments/assets/4a7088d1-8574-4a70-a13b-d8295731b314" />
 
