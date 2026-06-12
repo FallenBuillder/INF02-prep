@@ -6,6 +6,8 @@ Wszystkie materiały teoretyczne, zadania są zawarte w folderze 'Egzamin'
 
 ### Aby zobaczyc alternatywne materiały stworzone przez innych do nauki na egzamin praktyczny / teoretyczny można zobaczyć do nich linki w folderze 'Alternatywy'
 
+Egzaminy z tej sesji ( lato 2026 są w folderze EGZAMINY_2026 ) 
+
 ### Przykładowa Struktura Folderów wygląda Następująco
 ```
 Egzamin
