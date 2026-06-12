@@ -2,6 +2,11 @@
 
 <img width="937" height="625" alt="image" src="https://github.com/user-attachments/assets/9ce0d8fe-eff2-46c0-8888-5d37c8dab329" />
 
+
+<img width="632" height="886" alt="image" src="https://github.com/user-attachments/assets/4a7088d1-8574-4a70-a13b-d8295731b314" />
+<img width="625" height="937" alt="image (1)" src="https://github.com/user-attachments/assets/aee16eb9-25b7-46a6-85c1-227d8009bd64" />
+
+
 ### Nie ma zdjęcia 3 strony 
 
 Zad 1 wsadź dysk twardy do komputera
