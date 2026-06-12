@@ -1,5 +1,8 @@
 <img width="886" height="632" alt="image" src="https://github.com/user-attachments/assets/795daea9-fb64-47d7-8eff-12db2d762ef0" />
+
 <img width="937" height="625" alt="image" src="https://github.com/user-attachments/assets/9ce0d8fe-eff2-46c0-8888-5d37c8dab329" />
+
+## Nie ma 3 strony 
 
 Zad 1 wsadź dysk twardy do komputera
 
