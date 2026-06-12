@@ -790,10 +790,21 @@ sudo systemctl start ssh              - Sprawia, że usługa włącza się po re
 ssh highsec@192.168.10.10 -p 22       - Komenda służąca do połączenia się do servera wystawiającego uśługę SSH      highsec - użytkownik na serverze   @      192.168.10.10 - adres IP servera   -p 22    -  port na, którym jest server ( niewymagane ) 
 
 
+# man 5.
 
+man 5 vsftpd.conf
 
+man 5 smb.conf
 
+man 5 named.conf
 
+man 5 resolved.conf
+
+man 5 dhcpd.conf
+
+man 5 apache2.conf
+
+man 5 sshd_config
 
 
 
