@@ -806,8 +806,7 @@ man 5 apache2.conf
 
 man 5 sshd_config
 
-
-
+man 5 netplan 
 
 
 
