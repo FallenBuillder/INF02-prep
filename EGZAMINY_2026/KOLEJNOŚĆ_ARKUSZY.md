@@ -6,8 +6,8 @@
 | **Dzień 2** | 08:00 | Arkusz 2 |
 | | 12:30 | Arkusz 2 |
 | | 17:00 | Arkusz 2 |
-| **Dzień 3** | 08:00 | Arkusz - |
-| | 12:30 | Arkusz - |
+| **Dzień 3** | 08:00 | Arkusz 3 |
+| | 12:30 | Arkusz 3 |
 | | 17:00 | Arkusz - |
 | **Dzień 4** | 08:00 | Arkusz - |
 | | 12:30 | Arkusz - |
