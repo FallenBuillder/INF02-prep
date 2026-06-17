@@ -15,7 +15,7 @@
 | **Dzień 5** | 08:00 | Arkusz 6 |
 | | 12:30 | Arkusz 6 |
 | | 17:00 | Arkusz 7 |
-| **Dzień 6** | 08:00 | Arkusz - |
+| **Dzień 6** | 08:00 | Arkusz 8 |
 | | 12:30 | Arkusz - |
 | | 17:00 | Arkusz - |
 | **Dzień 7** | 08:00 | Arkusz - |
